@@ -1,6 +1,7 @@
 baseurl: '/'
 permalink: pretty
 title: 'Солопова Оксана'
+url: "https://ttm-help.ru"
 
 logo:
   mobile: "images/logo/logo-mobile.png"
@@ -24,7 +25,8 @@ sass:
   precision: 10
 
 plugins:
-  - jekyll-environment-variables
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - "*.iml"
