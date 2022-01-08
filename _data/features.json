@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Как проходит консультация",
+    "description": "New clients receive an obligation free consultation.",
+    "link": "#consultation-block",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Что включает в себя терапия",
+    "description": "All members of our team are certified accountants.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Договор-оферта",
+    "description": "We stay up to date on the latest changes to the tax code.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

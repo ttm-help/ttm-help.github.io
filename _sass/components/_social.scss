@@ -1,0 +1,19 @@
+.social {
+  display: block;
+  a {
+    color: $white;
+    font-family: $font-family-title;
+    font-size: large;
+    padding: 10px;
+    display: inline-block;
+    &:hover {
+      opacity: 0.8;
+      text-decoration: none;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+}

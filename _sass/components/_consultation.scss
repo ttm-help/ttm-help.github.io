@@ -1,0 +1,41 @@
+
+.step-block {
+  position: relative;
+
+  width: 50%;
+  height: 300px;
+
+  z-index: 0;
+  margin: auto;
+  padding-left: 15px;
+
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+.step-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  z-index: -1;
+  overflow: hidden;
+
+  font-size: 200px;
+  font-weight: 700;
+  color: $white-offset;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}

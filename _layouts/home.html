@@ -1,0 +1,142 @@
+---
+layout: default
+bodyClass: "page-home"
+---
+
+<div class="intro">
+    <div class="desktop-mode pl-10 pt-0 ">
+        <div class="row row-cols-2">
+            <div class="col-5">
+                <img alt="{{ page.title }}"
+                     src="images/illustrations/main-photo.jpeg"/>
+            </div>
+
+            <div class="col-7 pt-1" style="flex-direction: column">
+                <h1 class="pt-9">Солопова Оксана - психотерапевт</h1>
+                <div>
+                    <h2>Занимаюсь исследованиями в области трихотилломании в России</h2>
+                    <h2>Консультация и личная терапия</h2>
+                </div>
+                <div>
+                    <a href="https://t.me/ttm_help_ru">
+                        <img alt="ttm_help_ru" width="21px" height="21px" src="images/social/telegram-black.png"/>
+                        <span>Телеграмм канал помощи при ТТМ</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mobile-mode pl-0 " style="color: white;  text-align: center;">
+        <div class="row row-cols-1 pl-0 ">
+            <div class="col">
+                <img alt="{{ page.title }}"
+                     src="images/illustrations/main-photo-mobile.jpeg"/>
+            </div>
+
+            <div class="col pt-1">
+                <span style="font-size: larger">Солопова Оксана - психотерапевт</span>
+                <span>
+                    Занимаюсь исследованиями в области трихотилломании в России
+                </span>
+            </div>
+            <div class="col pt-1">
+                <span>Консультация и личная терапия</span>
+            </div>
+            <div class="col pt-1">
+                <a href="https://t.me/ttm_help_ru">
+                    <img alt="ttm_help_ru" width="21px" height="21px" src="images/social/telegram.png"/>
+                    <span>Телеграмм канал помощи при ТТМ</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% if site.data.features %}
+<div class="strip strip-grey">
+    <div class="container pt-6 pb-6">
+        <h1 class="custom-header">Основные вопросы</h1>
+
+        <div class="row justify-content-center">
+            {% for feature in site.data.features %}
+            <div class="col-12 col-md-6 col-lg-4 mb-2">
+                <div class="feature">
+                    {% if feature.image %}
+                    <div class="feature-image"><img alt="{{ feature.title }} logo"
+                                                    src="{{ feature.image.url | relative_url }}"
+                                                    width="{{ feature.image.width }}"
+                                                    height="{{ feature.image.height }}"/></div>
+                    {% endif %}
+                    {% if feature.link %}
+                    <a href="{{ feature.link }}">
+                        <h2>{{ feature.title }}</h2>
+                    </a>
+                    {% else %}
+                    <h2>{{ feature.title }}</h2>
+                    {% endif %}
+                    <div class="feature-content">{{ feature.description }}</div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
+<div class="strip strip" id="consultation-block">
+    <div class="container pt-6 pb-6">
+        <h1 class="custom-header">Как проходит консультация</h1>
+        {% include consultation.html %}
+    </div>
+</div>
+
+
+<div class="strip strip-grey">
+    <div class="container pt-3 pb-3">
+        <h1 class="custom-header">Отзывы клиентов (анонимные)</h1>
+        {% include feedback-slideshow.html %}
+    </div>
+</div>
+
+<div class="strip">
+    <div class="container pt-3 pb-3 call-form">
+        <h1 class="custom-header">Записаться на консультацию</h1>
+        <div class="row justify-content-start">
+            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+                {% if page.show_call_box %}
+                {% include call.html show_button=true %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="strip strip-grey">
+    <div class="container pt-3 pb-3 pb-md-10">
+        <h1 class="custom-header">Записи из блога</h1>
+
+        <div class="row justify-content-start">
+            {% for post in site.posts %}
+            <div class="col-12 col-md-4 mb-1">
+                <div class="service service-summary">
+                    <div class="service-content">
+                        <h2 class="service-title">
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        </h2>
+                        <p>{{ post.content | markdownify | strip_html | truncate: 100 }}</p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <a class="button button-primary" href="{{ "/posts" | relative_url }}">Смотреть все статьи</a>
+            </div>
+        </div>
+    </div>
+</div>

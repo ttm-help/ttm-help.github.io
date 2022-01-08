@@ -1,0 +1,72 @@
+---
+---
+
+// Colors
+$primary: #f36a5d;
+$primary-dark: #222629;
+$secondary: #87c232;
+$black: #2f2f41;
+$white: #ffffff;
+$white-offset: #e9e9e7;
+$steel: #5c5a5a;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: Helvetica, Arial, sans-serif, -apple-system;
+$font-family-heading: 'Yanone Kaffeesatz', sans-serif, -apple-system;
+$font-family-title: 'Cormorant', sans-serif, -apple-system;
+
+// Footer
+$footer-background-color: #474a4f;
+$footer-text-color: $white;
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
+
+// Bootstrap
+@import "bootstrap-variables";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-grid";
+// @import 'bootstrap/bootstrap'; // Uncomment this line to import the entire Bootstrap library
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/sub-footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/buttons";
+@import "components/call";
+@import "components/content";
+@import "components/intro";
+@import "components/intro-image";
+@import "components/strip";
+@import "components/feature";
+@import "components/social";
+@import "components/slideshow";
+@import "components/consultation";
+@import "components/hamburger";
+
+// Pages
+@import "pages/page-home";
+@import "pages/page-post";
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}
