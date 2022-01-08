@@ -1,13 +1,13 @@
 main:
   - name: "Материалы"
-    url: "/posts/"
+    url: "/posts"
     weight: 2
   - name: "Отзывы"
-    url: "/feedback/"
+    url: "/feedback"
     weight: 3
   - name: "О обо мне"
-    url: "/about/"
+    url: "/about"
     weight: 4
   - name: "Записаться на консультацию"
-    url: "/contact/"
+    url: "/contact"
     weight: 5
