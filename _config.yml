@@ -1,7 +1,9 @@
 baseurl: '/'
 permalink: pretty
-title: 'Солопова Оксана'
+title: Солопова Оксана
 url: "https://ttm-help.ru"
+description: психотерапия трихотилломании
+
 
 logo:
   mobile: "images/logo/logo-mobile.png"
