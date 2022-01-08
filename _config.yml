@@ -3,7 +3,7 @@ permalink: pretty
 title: Солопова Оксана
 url: "https://ttm-help.ru"
 description: психотерапия трихотилломании
-
+permalink: /:slug.html
 
 logo:
   mobile: "images/logo/logo-mobile.png"
