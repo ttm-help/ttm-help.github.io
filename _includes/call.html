@@ -13,6 +13,11 @@
             <a href="mailto:{{ .site.data.contact.email }}?subject=консультация">{{ site.data.contact.email }}</a>
         </div>
         {% endif %}
+        {% if site.data.contact.whatsapp %}
+        <div class="call-phone mt-1">
+            <a href="{{ .site.data.contact.whatsapp }}"><strong>Написать мне в WhatsApp</strong></a>
+        </div>
+        {% endif %}
     </div>
     {% if include.show_button %}
     <div class="call-box-bottom">
