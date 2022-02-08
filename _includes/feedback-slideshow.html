@@ -1,9 +1,15 @@
 <div class="slider">
     <i>
         {% for item in site.data.feedback.images %}
-        <input checked type="radio" name="s"
-               style="background-image: url('{{ item | relative_url }}');"
-        >
+            {% if forloop.first == true %}
+            <input checked="checked" type="radio" name="s"
+                   style="background-image: url('{{ item | relative_url }}');"
+            >
+            {% else %}
+            <input type="radio" name="s"
+                   style="background-image: url('{{ item | relative_url }}');"
+            >
+            {% endif %}
         {% endfor %}
     </i>
 </div>

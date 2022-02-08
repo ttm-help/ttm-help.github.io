@@ -5,7 +5,7 @@ main:
   - name: "Отзывы"
     url: "/feedback"
     weight: 3
-  - name: "О обо мне"
+  - name: "Обо мне"
     url: "/about"
     weight: 4
   - name: "Записаться на консультацию"

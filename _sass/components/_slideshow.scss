@@ -4,13 +4,16 @@
     display: block;
 
     width: 30%;
-    min-width: 350px;
+    min-width: 400px;
     height: 20%;
     min-height: 600px;
 
     overflow: hidden;
     border-radius: 5px;
     margin: auto;
+
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   i:before, i:after {
@@ -28,6 +31,8 @@
     justify-content: center;
     align-items: center;
     pointer-events: none;
+
+    margin-left: 0;
   }
 
   i:after {
@@ -55,6 +60,9 @@
     transform: translateX(100%);
     transition: transform ease-in-out 400ms;
     z-index: 1;
+
+    padding-right: 50px;
+    margin-left: 10px;
   }
 
   input:focus {
