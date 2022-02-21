@@ -17,8 +17,8 @@ bodyClass: page-about
 Библиотерапия в работе с детьми (ФГБНУ ПИРАО).  
 Professional Coach (IICA ICF ICF).  
 Professional coaching of groups and companies (IICA ICF ICF).  
-НЛП-практик. 
-
+НЛП-практик.
+EFT Emotional Freedom Technique: Hair Pulling & Skin Picking
 ## Опыт работы:   
 С 2012 год - корпоративный психолог.  
 С 2016 года - интеллект психолог (работа с детьми и взрослыми); преподавание.  
