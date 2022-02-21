@@ -32,6 +32,7 @@
     <meta property="og:description" content="{{ page.description }}"/>
     {% endif %}
 
+	{% include google-analytics.html %}
 </head>
 
 <body class='page {{layout.bodyClass}}'>
@@ -42,6 +43,5 @@
 </div>
 {% include footer.html %}
 <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
-{% include google-analytics.html %}
 </body>
 </html>
