@@ -24,7 +24,7 @@
     <meta property="og:title" content="{{ page.title }}"/>
     {% endif %}
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="{{ url }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
     {% if page.image %}
     <meta property="og:image" content="{{ page.image | absolute_url }}"/>
     {% endif %}
