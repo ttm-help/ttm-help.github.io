@@ -1,11 +1,6 @@
 [
   {
-    "name": "сообщество вконтакте",
-    "link": "https://vk.com/ttm.help",
-    "image": "images/social/vk.png"
-  },
-  {
-    "name": "группа помощи",
+    "name": "группа помощи в Telegram",
     "link": "https://t.me/ttm_help_ru",
     "image": "images/social/telegram.png"
   }
