@@ -2,6 +2,7 @@
 layout: post
 title: "ТТМ как неэффективная адаптация"
 ---
+<img src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg" />
 
 
 Можно разделить любое поведение человека на адаптивное и дезадаптивное.
@@ -17,3 +18,7 @@ title: "ТТМ как неэффективная адаптация"
 Для другого это счастье побыть дома одному, он только отдохнет и наберется сил.
 
 Возможно для нашего мозга когда-то ТТМ выполнила свою полезную функцию, например, позволила сбросить напряжение, однако потом это переросло в привычку, сейчас не работает и является дезадаптивным.
+
+<sub><sup>
+Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/s/photos/adaptation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub>
