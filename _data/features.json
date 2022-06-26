@@ -12,7 +12,7 @@
   {
     "title": "Стоимость",
     "description": "Диагностическая консультация и терапия",
-    "link": "/price.html",
+    "link": "#price-and-contact",
     "image": {
       "url": "images/features/noun_The Process_1885341.svg",
       "width": 80,
