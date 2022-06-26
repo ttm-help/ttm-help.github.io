@@ -1,5 +1,5 @@
 ---
-title: Солопова Оксана
+title: Коновалова Оксана
 layout: home
 description: психотерапия, тревожные мысли, трихотилломания
 intro_image: "images/illustrations/main-photo.jpeg"
