@@ -2,6 +2,8 @@
 layout: post
 title: "Самопомощь при ТТМ"
 ---
+<img src="/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" style="height:500px" />
+<br/>
 
 
 В вопросе самопомощи при ТТМ важно понимать, что существует несколько уровней организации психики - здоровый, невротик, пограничник и психотик. Для лучшего понимания есть отличная метафора с домом. 
@@ -44,3 +46,7 @@ title: "Самопомощь при ТТМ"
 Человек может сделать это сам, не исключая работу с психотерапевтом или психиатром. Ведь подобная работа также является одним из инструментов в борьбе с ТТМ наряду с книгами, курсами и т.п.
 
 Если мы говорим о пограничном уровне, то, к сожалению, методы самопомощи скорее всего не помогут. Таким пациентам рекомендована работа со специалистом, который будет методично восстанавливать сферы, необходимые для счастливой жизни без ТТМ.
+
+<sub><sup>
+Photo by <a href="https://unsplash.com/@withluke?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Luke Stackpoole</a> on <a href="https://unsplash.com/s/photos/house?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub>
