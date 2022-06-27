@@ -1,5 +1,5 @@
 ---
-title: Коновалова Оксана
+title: Терапия трихотилломании
 layout: home
 description: психотерапия, тревожные мысли, трихотилломания
 intro_image: "images/illustrations/main-photo.jpeg"
