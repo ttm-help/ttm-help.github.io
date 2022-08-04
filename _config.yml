@@ -1,8 +1,8 @@
 baseurl: ''
 permalink: pretty
 title: Психотерапия трихотилломании и помощь при ТТМ
-url: "https://ttm-help.ru"
 description: Коновалова Оксана - психотерапевт в области трихотилломании
+url: "https://ttm-help.ru"
 permalink: /:slug.html
 
 logo:
