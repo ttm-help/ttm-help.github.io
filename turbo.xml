@@ -22,7 +22,25 @@ layout: null
                 <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
                 <turbo:content>
                     <![CDATA[
-                        {{ post.content }}
+                        <header>
+                            <h1>
+                                {% if page.title %}
+                                    {{page.title}}
+                                {% else %}
+                                    {{ site.title | escape }}
+                                {% endif %}
+                            </h1>
+
+                            <menu>
+                                <a href="{{ site.url }}/posts">Материалы</a>
+                                <a href="{{ site.url }}/feedback">Отзывы</a>
+                                <a href="{{ site.url }}/about">Обо мне</a>
+                                <a href="{{ site.url }}/contact">Записаться на консультацию</a>
+                            </menu>
+                        </header>
+                        <body>
+                            {{ post.content }}
+                        </body>
                 ]]>
                 </turbo:content>
             </item>
