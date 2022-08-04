@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "Самопомощь при ТТМ"
+description: "Подробный разбор способов самопомощи при ТТМ"
 ---
-<img src="/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" style="height:500px" />
+<img 
+    src="/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" 
+    alt="самопомощь при ТТМ"
+    style="height:500px" />
 <br/>
 
 

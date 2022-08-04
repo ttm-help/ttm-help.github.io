@@ -2,7 +2,11 @@
 layout: post
 title: "ТТМ как неэффективная адаптация"
 ---
-<img src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg" />
+<img 
+    src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"     
+    style="height:400px"
+    alt="ТТМ как неэффективная адаптация"
+/>
 
 
 Можно разделить любое поведение человека на адаптивное и дезадаптивное.

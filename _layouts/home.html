@@ -12,7 +12,7 @@ bodyClass: "page-home"
             </div>
 
             <div class="col-6 pt-1" style="flex-direction: column">
-                <h1 class="pt-9">Психотерапевт</h1>
+                <h1 class="pt-9">Терапия при ТТМ</h1>
                 <div>
                     <h2>Помогаю избавиться от тревожных мыслей, расстройств, навязчивых состояний, неврозов, трихотилломании,
                         дерматилломании</h2>
@@ -20,8 +20,10 @@ bodyClass: "page-home"
                 <div class="pt-5">
                     <h2>Сайт и канал только начали свою работу, присоединяйтесь!</h2>
                     <a href="https://t.me/ttm_help_ru">
-                        <img alt="ttm_help_ru" class="messenger-icon" src="/images/social/telegram-black.png"/>
-                        <span>Телеграмм канал помощи при ТТМ</span>
+                        <img alt="telegram канал"
+                             title="telegram канал помощи при ТТМ"
+                             class="messenger-icon" src="/images/social/telegram-black.png"/>
+                        <span>Телеграм канал помощи при ТТМ</span>
                     </a>
                 </div>
             </div>
@@ -36,7 +38,7 @@ bodyClass: "page-home"
             </div>
 
             <div class="col pt-6">
-                <span style="font-size: larger">Психотерапевт</span>
+                <span style="font-size: larger">Терапия при ТТМ</span>
             </div>
             <div class="col pt-1">
                 <span>Помогаю избавиться от тревожных мыслей, расстройств, навязчивых состояний, неврозов, трихотилломании, дерматилломании</span>
@@ -45,9 +47,13 @@ bodyClass: "page-home"
                 <div class="row">
                     <span>Сайт и канал только начали свою работу, присоединяйтесь!</span>
                 </div>
+            </div>
+            <div class="col pt-3">
                 <a href="https://t.me/ttm_help_ru">
-                    <img alt="ttm_help_ru" class="messenger-icon" src="/images/social/telegram.png"/>
-                    <span>Телеграмм канал помощи при ТТМ</span>
+                    <img alt="телеграм канал ttm_help_ru"
+                         title="Телеграм канал помощи при ТТМ"
+                         class="messenger-icon" src="/images/social/telegram.png"/>
+                    <span>Телеграм канал помощи при ТТМ</span>
                 </a>
             </div>
         </div>
@@ -57,24 +63,26 @@ bodyClass: "page-home"
 {% if site.data.features %}
 <div class="strip strip-grey">
     <div class="container pt-6 pb-6">
-        <h1 class="custom-header">Основные вопросы</h1>
+        <h2 class="custom-header">Основные вопросы</h2>
 
         <div class="row justify-content-center">
             {% for feature in site.data.features %}
             <div class="col-12 col-md-6 col-lg-4 mb-2">
                 <div class="feature">
                     {% if feature.image %}
-                    <div class="feature-image"><img alt="{{ feature.title }} logo"
-                                                    src="{{ feature.image.url | relative_url }}"
-                                                    width="{{ feature.image.width }}"
-                                                    height="{{ feature.image.height }}"/></div>
+                        <div class="feature-image">
+                            <img alt="{{ feature.title }} logo"
+                                                        src="{{ feature.image.url | relative_url }}"
+                                                        width="{{ feature.image.width }}"
+                                                        height="{{ feature.image.height }}"/>
+                        </div>
                     {% endif %}
                     {% if feature.link %}
-                    <a href="{{ feature.link }}">
-                        <h2>{{ feature.title }}</h2>
-                    </a>
+                        <a href="{{ feature.link }}">
+                            <h3>{{ feature.title }}</h3>
+                        </a>
                     {% else %}
-                    <h2>{{ feature.title }}</h2>
+                        <h3>{{ feature.title }}</h3>
                     {% endif %}
                     <div class="feature-content">{{ feature.description }}</div>
                 </div>
@@ -89,7 +97,7 @@ bodyClass: "page-home"
 
 <div class="strip strip" id="consultation-block">
     <div class="container pt-6 pb-6">
-        <h1 class="custom-header">Как проходит терапия</h1>
+        <h2 class="custom-header">Как проходит терапия?</h2>
         <div class="mb-2">
             <div class="mb-1">
                 Перед терапией я всегда провожу диагностическую консультацию. Это позволяет:
@@ -110,8 +118,7 @@ bodyClass: "page-home"
             </ul>
             <div class="mt-1">
                 <strong>ТТМ</strong> - комплексная проблема, она включает и травмы психики и работу с тревожностью и
-                многие
-                другие вещи, как например, стыд, вина, тяжелые отношения с близкими и окружающими, сепарация,
+                многие другие вещи, как например, стыд, вина, тяжелые отношения с близкими и окружающими, сепарация,
                 которые мы будем прорабатывать на терапии.
             </div>
         </div>
@@ -147,7 +154,7 @@ bodyClass: "page-home"
                     </ul>
                 </div>
                 <div class="mt-1">
-                    <strong>Что получаете:</strong> инструменты для решения проблемы ТТМ, поддержку психотерапевта
+                    <strong>Вы получите:</strong> инструменты для решения проблемы ТТМ, поддержку психотерапевта
                 </div>
             </div>
         </div>
@@ -157,14 +164,14 @@ bodyClass: "page-home"
 
 <div class="strip strip-grey">
     <div class="container pt-3 pb-3">
-        <h1 class="custom-header">Отзывы клиентов (анонимные)</h1>
+        <h2 class="custom-header">Отзывы клиентов (анонимные)</h2>
         {% include feedback-slideshow.html %}
     </div>
 </div>
 
 <div class="strip" id="price-and-contact">
     <div class="container pt-3 pb-3 call-form">
-        <h1 class="custom-header">Стоимость и запись на консультацию</h1>
+        <h2 class="custom-header">Стоимость и запись на консультацию</h2>
         <div class="row justify-content-start">
             <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
                 Стоимость диагностической консультации <strong>5 000₽</strong> <br/>
@@ -172,7 +179,7 @@ bodyClass: "page-home"
             </div>
             <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
                 {% if page.show_call_box %}
-                {% include call.html show_button=true %}
+                    {% include call.html show_button=true %}
                 {% endif %}
             </div>
         </div>
@@ -182,16 +189,16 @@ bodyClass: "page-home"
 
 <div class="strip strip-grey">
     <div class="container pt-3 pb-3 pb-md-10">
-        <h1 class="custom-header">Записи из блога</h1>
+        <h2 class="custom-header">Записи из блога</h2>
 
         <div class="row justify-content-start">
             {% for post in site.posts %}
             <div class="col-12 col-md-4 mb-1">
                 <div class="service service-summary">
                     <div class="service-content">
-                        <h2 class="service-title">
+                        <h3 class="service-title">
                             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                        </h2>
+                        </h3>
                         <p>{{ post.content | markdownify | strip_html | truncate: 100 }}</p>
                     </div>
                 </div>
