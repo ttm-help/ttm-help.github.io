@@ -120,7 +120,7 @@ bodyClass: "page-home"
 
 
 <div class="strip strip" id="consultation-block">
-    <div class="container pt-6 pb-6">
+    <div class="container pt-6 pb-1">
         <h2 class="custom-header">Как проходит терапия?</h2>
         <div class="mb-2">
             <div class="mb-1">
@@ -146,41 +146,40 @@ bodyClass: "page-home"
                 которые мы будем прорабатывать на терапии.
             </div>
         </div>
+    </div>
 
-        {% include consultation.html %}
+    {% include consultation.html %}
 
+    <div class="mt-2 container">
         <div>
-            <div class="mt-1">
-                <div>
-                    <h3> Диагностическая консультация включает в себя:</h3>
-                    <ul>
-                        <li>заполнение специальных опросных форм и тестов,</li>
-                        <li>анализ полученных данных,</li>
-                        <li>онлайн сессию, на которой происходит уточнение необходимой информации (Проводится вне
-                            зависимости от того, пойдете ли в терапию).
-                        </li>
-                    </ul>
-                </div>
-                <div class="mt-1">
-                    <strong>Что получаете:</strong> план лечения
-                </div>
-            </div>
-            <div class="mt-1">
-                <div>
-                    <h3>Терапия включает в себя:</h3>
-                    <ul>
-                        <li>онлайн сессии с проработкой проблемы,</li>
-                        <li>упражнения для работы между сессиями,</li>
-                        <li>дополнительный материал в формате текста, аудио и видео записей по прорабатываемой
-                            проблематике,
-                            сопровождение психотерапевта в личном чате между сессиями
-                        </li>
-                    </ul>
-                </div>
-                <div class="mt-1">
-                    <strong>Вы получите:</strong> инструменты для решения проблемы ТТМ, поддержку психотерапевта
-                </div>
-            </div>
+            <h3>Диагностическая консультация включает в себя:</h3>
+            <ul class="ml-2">
+                <li>заполнение специальных опросных форм и тестов,</li>
+                <li>анализ полученных данных,</li>
+                <li>онлайн сессию, на которой происходит уточнение необходимой информации (Проводится вне
+                    зависимости от того, пойдете ли в терапию).
+                </li>
+            </ul>
+        </div>
+        <div class="mt-1">
+            <strong>Что получаете:</strong> план лечения
+        </div>
+    </div>
+
+    <div class="mt-3 container">
+        <div>
+            <h3>Терапия включает в себя:</h3>
+            <ul class="ml-2">
+                <li>онлайн сессии с проработкой проблемы,</li>
+                <li>упражнения для работы между сессиями,</li>
+                <li>дополнительный материал в формате текста, аудио и видео записей по прорабатываемой
+                    проблематике,
+                    сопровождение психотерапевта в личном чате между сессиями
+                </li>
+            </ul>
+        </div>
+        <div class="mt-1 mb-2">
+            <strong>Вы получите:</strong> инструменты для решения проблемы ТТМ, поддержку психотерапевта
         </div>
     </div>
 </div>
@@ -194,26 +193,25 @@ bodyClass: "page-home"
 </div>
 
 <div class="strip" id="price-and-contact">
-    <div class="container pt-3 pb-3 call-form">
+    <div class="container pt-3 pb-2">
         <h2 class="custom-header">Стоимость и запись на консультацию</h2>
-        <div class="row justify-content-start">
-            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        <div class="mb-1">
+            Стоимость диагностической консультации:
+        </div>
+        <ul class="ml-2">
+            <li><strong>5 000₽</strong></li>
+            <li>Для участников <a href="https://t.me/ttm_help_ru">группы помощи</a> в телеграм: <strong>2500₽</strong>
+            </li>
+        </ul>
+        <div class="mt-1 mb-1">
+            Оплата терапии осуществляется блоками по 4 сессии - <strong>20 000₽</strong> (из расчета 5 000₽ за 1
+            сессию 60 минут)
+        </div>
 
-                Стоимость диагностической консультации: <br/>
-                <ul>
-                    <li><strong>5 000₽</strong></li>
-                    <li>Для участников <a href="https://t.me/ttm_help_ru">группы помощи</a> в телеграм: <strong>2
-                        500₽</strong></li>
-                </ul>
-                <br/>
-                Оплата терапии осуществляется блоками по 4 сессии - <strong>20 000₽</strong> (из расчета 5 000₽ за 1
-                сессию 60 минут)
-            </div>
-            <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-                {% if page.show_call_box %}
-                {% include call.html show_button=true %}
-                {% endif %}
-            </div>
+        <div>
+            {% if page.show_call_box %}
+            {% include call.html show_button=true %}
+            {% endif %}
         </div>
     </div>
 </div>
@@ -225,7 +223,7 @@ bodyClass: "page-home"
 
         <div class="row justify-content-start">
             {% for post in site.posts %}
-            <div class="col-12 col-md-4 mb-1">
+            <div class="col-12 col-md-4">
                 <div class="service service-summary">
                     <div class="service-content">
                         <h3 class="service-title">
