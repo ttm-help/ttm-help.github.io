@@ -4,7 +4,7 @@ layout: default
 bodyClass: "page-contact"
 ---
 
-<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+<div class="desktop-mode container pb-6 pt-6 pt-md-10 pb-md-10">
     <div class="row justify-content-start">
         <div class="col-12 col-md-8">
             <div class="service service-single">
@@ -24,4 +24,11 @@ bodyClass: "page-contact"
             </div>
         </div>
     </div>
+</div>
+<div class="mobile-mode container">
+    {% for item in site.data.feedback.images %}
+        <div class="pt-1 pb-1">
+            <img src="{{ item | relative_url }}" alt="">
+        </div>
+    {% endfor %}
 </div>
