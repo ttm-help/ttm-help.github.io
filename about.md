@@ -2,7 +2,6 @@
 title: Образование и опыт
 layout: page
 description: "Страница с описанием моего опыта и образования"
-bodyClass: page-about
 ---
 
 ## Обо мне
@@ -32,7 +31,12 @@ bodyClass: page-about
 - Групповая терапия для детей и подростков - обучение эмоциональному интеллекту, навыкам здоровой психики, группа не более 5 человек, обратная связь для родителей; стоимость 15 000 руб. в месяц (из расчета 4 сессии по 3 000 для детей, плюс обратная связь для родителей)
 
 Начало любой терапии предваряется диагностической консультацией, где мы знакомимся и намечаем план лечения. 
- 
+
+## Опыт работы:
+С 2012 год - корпоративный психолог.  
+С 2016 года - интеллект психолог (работа с детьми и взрослыми); преподавание.  
+С 2018 года - индивидуальная терапия, консультирование, коучинг.
+
 ## Образование:   
 Юридический психолог (ФГБОУ ВПО СГЮА).  
 Когнитивно-поведенческая психотерапия (АНО ДПО АПС).  
@@ -42,8 +46,46 @@ Professional Coach (IICA ICF ICF).
 Professional coaching of groups and companies (IICA ICF ICF).  
 НЛП-практик.  
 EFT Emotional Freedom Technique: Hair Pulling & Skin Picking
-## Опыт работы:   
-С 2012 год - корпоративный психолог.  
-С 2016 года - интеллект психолог (работа с детьми и взрослыми); преподавание.  
-С 2018 года - индивидуальная терапия, консультирование, коучинг.   
 
+<ul class="gallery filter">
+    <li>
+        <a href="images/certificates/0.jpg">
+            <img src="images/certificates/0.jpg" alt="когнитивно-поведенческая терапия">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/1.png">
+            <img src="images/certificates/1.png" alt="диплом юридический психолог">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/2.png">
+            <img src="images/certificates/2.png" alt="психологическое консультирование родителей">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/3.png">
+            <img src="images/certificates/3.png" alt="библиотерапия в работе в детьми">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/4.jpg">
+            <img src="images/certificates/4.jpg" alt="сертификат по коучингу">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/5.jpg">
+            <img src="images/certificates/5.jpg" alt="сертификат искусство психотерапии">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/6.jpg">
+            <img src="images/certificates/6.jpg" alt="искусство речи">
+        </a>
+    </li>
+    <li>
+        <a href="images/certificates/7.png">
+            <img src="images/certificates/7.png" alt="техника эмоциональной свободы">
+        </a>
+    </li>
+</ul>
