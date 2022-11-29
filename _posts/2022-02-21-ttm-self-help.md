@@ -5,8 +5,7 @@ description: "Подробный разбор способов самопомо�
 ---
 <img 
     src="/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" 
-    alt="самопомощь при ТТМ"
-    style="height:500px" />
+    alt="самопомощь при ТТМ"/>
 <br/>
 
 

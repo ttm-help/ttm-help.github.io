@@ -6,9 +6,12 @@ category: "Самодиагностика"
 ---
 <img 
     src="/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg" 
-    style="height:400px"
     alt="Связь астении и ттм"
+    class="mb-0"
 />
+<sub><sup>
+Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/s/photos/abc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub>
 
 Приветствую!  
 
@@ -42,9 +45,5 @@ __ТТМ__ - комплексная проблема. Поэтому прежд�
 - назревают сильнейшие внутренние конфликты очень сильно и подогреваются постоянно, например, детей, мужа люблю, но раздражают, постоянная жизнь из внутреннего конфликта
 - могут подключаться увлечения сигаретами, наркотиками
 - попытки увести мысли, которые не прекращаются, но это не помогает, человек по итогу полностью обессилен, может терять ощущения
-
-<sub><sup>
-Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/s/photos/abc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sup></sub>
 
   

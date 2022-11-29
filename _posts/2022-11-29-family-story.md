@@ -13,7 +13,11 @@ category: "Самодиагностика"
 <img
     src="/assets/img/heredity.jpeg"
     alt="Наследственность и ттм"
+    class="mb-0"
 />
+<sub><sup>
+Photo by <a href="https://unsplash.com/@kelli_mcclintock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelli McClintock</a> on <a href="https://unsplash.com/s/photos/family?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sup></sub>
 
 Одна из вещей, которые известны о психических расстройствах, это то, что они часто возникают не одни, а на фоне друг друга. 
 ТТМ иногда проявляется вместе с депрессией, тревогой и обсессивно-компульсивным расстройством (ОКР), 
@@ -45,9 +49,3 @@ category: "Самодиагностика"
 для человека, а не просто для расстройства, важно подойти к решению вопроса с ТТМ комплексно, выяснить, 
 существуют ли какие-либо сопутствующие наследственные заболевания, установить приоритет лечения (ТТМ может быть не первой в очереди), 
 выяснить какие копинг-стратегии применяет пациент и т.д.
-
-
-
-<sub><sup>
-Photo by <a href="https://unsplash.com/@kelli_mcclintock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelli McClintock</a> on <a href="https://unsplash.com/s/photos/family?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sup></sub>

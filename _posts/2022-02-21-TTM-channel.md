@@ -5,7 +5,6 @@ description: "Реклама группы сайта в телеграм"
 ---
 <img 
     src="/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg" 
-    style="height:400px"
     alt="телеграм группа помощи при ТТМ"
 />
 <br/>
