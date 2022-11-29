@@ -1,5 +1,5 @@
 main:
-  - name: "Материалы"
+  - name: "Блог"
     url: "/posts"
     weight: 2
   - name: "Отзывы"

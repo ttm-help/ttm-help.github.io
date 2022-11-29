@@ -1,7 +1,7 @@
 ---
 title: Отзывы
 layout: feedback
-description: Отзывы
+description: "Отзывы клиентов"
 permalink: "/feedback/"
 ---
 

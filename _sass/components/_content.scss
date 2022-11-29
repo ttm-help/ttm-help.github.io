@@ -19,9 +19,12 @@
   }
 
   p {
-    font-family: $font-family-base;
-    line-height: 1.26;
-    color: $steel;
+    font-family: $font-family-sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    color: $primary-dark;
   }
 
   h1 {
@@ -69,9 +72,13 @@
 
   li {
     margin-bottom: 5px;
-    line-height: 1.36;
     margin-left: 20px;
-    color: $steel;
+    font-family: $font-family-sans-serif;
+    color: $primary-dark;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
   }
 
   hr {
