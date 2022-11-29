@@ -22,6 +22,7 @@
   {
     "title": "Договор-оферта",
     "description": "Обязателен для ознакомления",
+    "link": "assets/docs/oferta.pdf",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",
       "width": 80,
