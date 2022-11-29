@@ -1,4 +1,7 @@
 main:
+  - name: "FAQ"
+    url: "/faq"
+    weight: 1
   - name: "Блог"
     url: "/posts"
     weight: 2

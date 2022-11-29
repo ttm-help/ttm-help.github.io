@@ -1,0 +1,40 @@
+.faq {
+  font-family: $font-family-sans-serif;
+
+  .collapsible {
+    background-color: white;
+    color: $primary-dark;
+
+    cursor: pointer;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 1.3em;
+    font-weight: 500;
+
+    border: none;
+  }
+
+  .collapsible:after {
+    content: '➕';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+
+  .active:after {
+    content: "➖";
+  }
+
+  .faq-block {
+    max-height: 0;
+    font-weight: 300;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+}
+

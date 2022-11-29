@@ -36,11 +36,11 @@
 
 <body class='page {{layout.bodyClass}}'>
     {% include main-menu-mobile.html %}
-        <div id="wrapper" class="wrapper">
-            {% include header.html headerClass='header-extra' %}
-            {{content}}
-        </div>
+    <div id="wrapper" class="wrapper">
+        {% include header.html headerClass='header-extra' %}
+        {{content}}
+    </div>
     {% include footer.html %}
-<script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/mobile-menu.js' | relative_url }}"></script>
 </body>
 </html>
