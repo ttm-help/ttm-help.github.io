@@ -9,7 +9,7 @@ description: "Реклама группы сайта в телеграм"
     class="mb-0"
 />
 <sup><sub>
-Photo by <a href="https://unsplash.com/@mariyan_rajesh?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">mariyan rajesh</a> on <a href="https://unsplash.com/s/photos/telegram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@mariyan_rajesh">mariyan rajesh</a> on Unsplash
 </sub></sup>
 
 

@@ -16,7 +16,7 @@ category: "Самодиагностика"
     class="mb-0"
 />
 <sup><sub>
-Photo by <a href="https://unsplash.com/@kelli_mcclintock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelli McClintock</a> on <a href="https://unsplash.com/s/photos/family?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@kelli_mcclintock">Kelli McClintock</a> on Unsplash
 </sub></sup>
 
 Одна из вещей, которые известны о психических расстройствах, это то, что они часто возникают не одни, а на фоне друг друга. 

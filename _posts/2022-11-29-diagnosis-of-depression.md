@@ -33,7 +33,7 @@ category: "Самодиагностика"
     class="mb-0"
 />
 <sup><sub>
-Photo by <a href="https://unsplash.com/@simmerdownjpg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jackson Simmer</a> on <a href="https://unsplash.com/s/photos/depression?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@simmerdownjpg">Jackson Simmer</a> on Unsplash
 </sub></sup>
 
 Если человек находится в таком состоянии длительное время - от 3 лет, это считается затяжной депрессией,

@@ -17,7 +17,7 @@ description: "Лечение трихотилломании (ттм)"
     alt="Групповая терапия"
 />
 <sup><sub>
-    Photo by <a href="https://unsplash.com/@voneciacarswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vonecia Carswell</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> <br/>
+    Photo by <a href="https://unsplash.com/@voneciacarswell">Vonecia Carswell</a> on Unsplash
 </sub></sup>
 
 
@@ -50,7 +50,7 @@ description: "Лечение трихотилломании (ттм)"
     class="mb-0"
 />
 <sup><sub>
-    Photo by <a href="https://unsplash.com/@hannahbusing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hannah Busing</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    Photo by <a href="https://unsplash.com/@hannahbusing">Hannah Busing</a> on Unsplash
 </sub></sup>
 
 ### Сколько стоит?

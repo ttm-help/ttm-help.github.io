@@ -8,7 +8,7 @@ title: "ТТМ как неэффективная адаптация"
     class="mb-0"
 />
 <sup><sub>
-Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/s/photos/adaptation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+Photo by <a href="https://unsplash.com/@choys_">Conny Schneider</a> on Unsplash
 </sub></sup>
 
 
