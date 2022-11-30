@@ -3,22 +3,21 @@
         <div class="row">
             <div class="col-12">
                 <div class="footer-inner">
-                    <div>
-                        <h2 class="footer-title">
-                            КОНОВАЛОВА ОКСАНА
-                        </h2>
-                        <span class="footer-title">когнитивно-поведенческий психотерапевт</span>
-                    </div>
+                    <a href="/" class="footer-title">
+                        <span>КОНОВАЛОВА ОКСАНА</span>
+                        <span class="footer-title-small">когнитивно-поведенческий психотерапевт</span>
+                    </a>
+
                     {% if site.data.social %}
-                        {% include social.html %}
+                    {% include social.html %}
                     {% endif %}
 
                     <div class="footer-title footer-title-small">
+                        <a href="/assets/docs/user-agreement.pdf">
+                            <span>пользовательское соглашение</span>
+                        </a>
                         <a href="/assets/docs/privacy-policy.pdf">
                             <span>политика конфиденциальности</span>
-                        </a>
-                        <a href="/assets/docs/user-agreement.pdf">
-                            <span>пользовательское соглашение</span> <br/>
                         </a>
                     </div>
                 </div>
