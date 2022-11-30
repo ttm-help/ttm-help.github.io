@@ -49,9 +49,9 @@ description: "Лечение трихотилломании (ттм)"
     alt="Групповая терапия"
     class="mb-0"
 />
-<sub class="mt-0" style="font-size: 0.5em;">
+<sup><sub>
     Photo by <a href="https://unsplash.com/@hannahbusing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hannah Busing</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sub>
+</sub></sup>
 
 ### Сколько стоит?
 Групповая психотерапия **для взрослых** стоит 10 000₽ (десять тысяч) рублей в месяц за блок из 4 сессий из 
