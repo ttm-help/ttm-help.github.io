@@ -9,9 +9,9 @@ category: "Самодиагностика"
     alt="Связь астении и ттм"
     class="mb-0"
 />
-<sub><sup>
+<sup><sub>
 Photo by <a href="https://unsplash.com/@rubaitulazad?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rubaitul Azad</a> on <a href="https://unsplash.com/s/photos/abc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sup></sub>
+</sub></sup>
 
 Приветствую!  
 

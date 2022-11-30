@@ -7,9 +7,9 @@ title: "ТТМ как неэффективная адаптация"
     alt="ТТМ как неэффективная адаптация"
     class="mb-0"
 />
-<sub><sup>
+<sup><sub>
 Photo by <a href="https://unsplash.com/@choys_?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Conny Schneider</a> on <a href="https://unsplash.com/s/photos/adaptation?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sup></sub>
+</sub></sup>
 
 
 Можно разделить любое поведение человека на адаптивное и дезадаптивное.

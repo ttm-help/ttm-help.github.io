@@ -30,7 +30,11 @@ category: "Самодиагностика"
 <img
     src="/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
     alt="Связь депрессии и ттм"
+    class="mb-0"
 />
+<sup><sub>
+Photo by <a href="https://unsplash.com/@simmerdownjpg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jackson Simmer</a> on <a href="https://unsplash.com/s/photos/depression?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+</sub></sup>
 
 Если человек находится в таком состоянии длительное время - от 3 лет, это считается затяжной депрессией,
 тяжелой. Часто люди теряют социальные контакты, близость. Чувство вины здесь становится огромным. 
@@ -81,7 +85,4 @@ category: "Самодиагностика"
 Т.е. если раньше человек мог себя сдерживать и приводить в состояние относительного равновесия, то теперь не может. 
 Периоды могут быть разные, но в основном до года. И далее человек входит в депрессивное состояние.
 
-<sub><sup>
-Photo by <a href="https://unsplash.com/@simmerdownjpg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jackson Simmer</a> on <a href="https://unsplash.com/s/photos/depression?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sup></sub>
 

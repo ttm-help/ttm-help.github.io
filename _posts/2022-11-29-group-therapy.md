@@ -16,9 +16,9 @@ description: "Лечение трихотилломании (ттм)"
     class="mb-0"
     alt="Групповая терапия"
 />
-<sub><sub>
+<sup><sub>
     Photo by <a href="https://unsplash.com/@voneciacarswell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vonecia Carswell</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> <br/>
-</sub></sub>
+</sub></sup>
 
 
 Это форма психотерапии, при которой специально сформированная группа людей - психотерапевтическая группа, 

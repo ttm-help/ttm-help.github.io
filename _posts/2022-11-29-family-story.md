@@ -15,9 +15,9 @@ category: "Самодиагностика"
     alt="Наследственность и ттм"
     class="mb-0"
 />
-<sub><sup>
+<sup><sub>
 Photo by <a href="https://unsplash.com/@kelli_mcclintock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kelli McClintock</a> on <a href="https://unsplash.com/s/photos/family?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-</sup></sub>
+</sub></sup>
 
 Одна из вещей, которые известны о психических расстройствах, это то, что они часто возникают не одни, а на фоне друг друга. 
 ТТМ иногда проявляется вместе с депрессией, тревогой и обсессивно-компульсивным расстройством (ОКР), 
