@@ -7,9 +7,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
 
-    width: auto;
-    height: 100%;
-    max-height: 400px;
+    max-width: 100%;
+    height: auto;
+
+    @include media-breakpoint-up(md) {
+      max-height: 400px;
+    }
   }
 
   strong {
