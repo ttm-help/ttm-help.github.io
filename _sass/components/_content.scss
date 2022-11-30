@@ -125,11 +125,7 @@
 
 .custom-header {
   color: $primary !important;
-
-  font-size: xx-large;
-  @include media-breakpoint-up(md) {
-    font-size: xxx-large;
-  }
+  font-size: xx-large !important;
 }
 
 .desktop-mode {

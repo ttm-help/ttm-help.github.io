@@ -92,10 +92,11 @@ bodyClass: "page-home"
     </div>
 </div>
 
-{% if site.data.features %}
 <div class="strip strip-grey">
-    <div class="container pt-6 pb-6">
-        <h2 class="custom-header">Основные вопросы</h2>
+    <div class="container pt-1 pb-6">
+        <div class="content">
+            <h2 class="custom-header">Основные вопросы</h2>
+        </div>
 
         <div class="row justify-content-center">
             {% for feature in site.data.features %}
@@ -124,10 +125,9 @@ bodyClass: "page-home"
         </div>
     </div>
 </div>
-{% endif %}
 
 
-<div class="strip content container pt-3" id="consultation-block">
+<div class="strip content container pt-1" id="consultation-block">
     <h2 class="custom-header">Как проходит терапия?</h2>
     <p class="mb-1">
         Перед терапией я всегда провожу диагностическую консультацию. Это позволяет:
@@ -150,42 +150,42 @@ bodyClass: "page-home"
         многие другие вещи, как например, стыд, вина, тяжелые отношения с близкими и окружающими, сепарация,
         которые мы будем прорабатывать на терапии.
     </p>
+
+    {% include consultation.html %}
+
+    <div class="mt-2 content container">
+        <h3>Диагностическая консультация включает в себя:</h3>
+        <ul class="ml-2">
+            <li>заполнение специальных опросных форм и тестов,</li>
+            <li>анализ полученных данных,</li>
+            <li>онлайн сессию, на которой происходит уточнение необходимой информации (Проводится вне
+                зависимости от того, пойдете ли в терапию).
+            </li>
+        </ul>
+        <p class="mt-1">
+            <strong>Что получаете:</strong> план лечения
+        </p>
+    </div>
+
+    <div class="mt-3 mb-5 content container">
+        <h3>Терапия включает в себя:</h3>
+        <ul class="ml-2">
+            <li>онлайн сессии с проработкой проблемы,</li>
+            <li>упражнения для работы между сессиями,</li>
+            <li>дополнительный материал в формате текста, аудио и видео записей по прорабатываемой
+                проблематике,
+                сопровождение психотерапевта в личном чате между сессиями
+            </li>
+        </ul>
+        <p class="mt-1 mb-2">
+            <strong>Вы получите:</strong> инструменты для решения проблемы ТТМ, поддержку психотерапевта
+        </p>
+    </div>
 </div>
 
-{% include consultation.html %}
 
-<div class="mt-2 content container">
-    <h3>Диагностическая консультация включает в себя:</h3>
-    <ul class="ml-2">
-        <li>заполнение специальных опросных форм и тестов,</li>
-        <li>анализ полученных данных,</li>
-        <li>онлайн сессию, на которой происходит уточнение необходимой информации (Проводится вне
-            зависимости от того, пойдете ли в терапию).
-        </li>
-    </ul>
-    <p class="mt-1">
-        <strong>Что получаете:</strong> план лечения
-    </p>
-</div>
-
-<div class="mt-3 mb-5 content container">
-    <h3>Терапия включает в себя:</h3>
-    <ul class="ml-2">
-        <li>онлайн сессии с проработкой проблемы,</li>
-        <li>упражнения для работы между сессиями,</li>
-        <li>дополнительный материал в формате текста, аудио и видео записей по прорабатываемой
-            проблематике,
-            сопровождение психотерапевта в личном чате между сессиями
-        </li>
-    </ul>
-    <p class="mt-1 mb-2">
-        <strong>Вы получите:</strong> инструменты для решения проблемы ТТМ, поддержку психотерапевта
-    </p>
-</div>
-
-
-<div class="strip strip-grey">
-    <div class="container pt-3 pb-3">
+<div class="strip strip-grey content">
+    <div class="container pt-1 pb-3">
         <h2 class="custom-header">Отзывы клиентов (анонимные)</h2>
         {% include feedback-slideshow.html %}
     </div>
