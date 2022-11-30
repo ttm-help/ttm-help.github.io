@@ -1,9 +1,7 @@
 .intro {
   display: flex;
-  height: 80vh;
+  height: auto;
 
-  //justify-content: flex-start;
-  //align-items: center;
   flex-direction: column;
   background-color: $primary-dark;
 
