@@ -22,5 +22,11 @@
                 <a href="{{ .site.data.contact.whatsapp }}"><strong>или в WhatsApp</strong></a>
             </div>
         {% endif %}
+
+        {% if site.data.contact.feedback_form %}
+        <div class="call-phone mt-1">
+            <a href="{{ .site.data.contact.feedback_form }}"><strong>или через форму «Обратной связи»</strong></a>
+        </div>
+        {% endif %}
     </div>
 </div>

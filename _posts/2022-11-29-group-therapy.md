@@ -79,10 +79,3 @@ description: "Лечение трихотилломании (ттм)"
 - Поддерживающее окружение.
 
 
-<div class="pt-1">
-    <a href="/contact"
-       class="button"
-       style="background-color: #f36a5d; display: block; text-align: center">
-        Записаться на консультацию
-    </a>
-</div>
