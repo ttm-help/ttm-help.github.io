@@ -21,23 +21,23 @@
         {% if page.category %}
             <meta property="article:section" content="{{ page.category }}">
         {% endif %}
-        {% if page.image %}
-            <meta property="og:image" content="{{site.url}}{{ page.image }}">
-        {% endif %}
-    {% elsif page.layout == "about" %}
+    {% elsif page.is_about == "true" %}
         <meta property="og:type" content="profile">
-        <meta property="og:image" content="{{site.url}}/images/illustrations/main-photo.jpeg">
         <meta property="profile:first_name" content="Оксана">
         <meta property="profile:last_name" content="Коновалова">
     {% else %}
         <meta property="og:type" content="website">
-        <meta property="og:image" content="{{site.url}}/images/illustrations/main-photo.jpeg">
     {% endif %}
     <meta property="og:url" content="{{site.url}}{{page.url}}" />
     {% if page.description %}
         <meta name="description" property="og:description" content="{{ page.description }}">
     {% else %}
         <meta name="description" property="og:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+        <meta property="og:image" content="{{site.url}}{{ page.image }}">
+    {% else %}
+        <meta property="og:image" content="{{site.url}}/images/illustrations/main-photo.jpeg">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 

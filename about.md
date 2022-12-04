@@ -1,7 +1,8 @@
 ---
 title: Образование и опыт
-layout: about
+layout: page
 description: "Страница с описанием моего опыта и образования"
+is_about: "true"
 ---
 
 ## Обо мне
