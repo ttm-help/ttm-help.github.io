@@ -2,6 +2,7 @@
 layout: post
 title: "Канал помощи при ТТМ"
 description: "Реклама группы сайта в телеграм"
+image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
 ---
 <img 
     src="/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg" 

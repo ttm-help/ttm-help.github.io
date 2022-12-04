@@ -3,6 +3,7 @@ layout: post
 title: "Самодиагностика. Астения"
 description: "Связь астении и трихотилломании (ттм)"
 category: "Самодиагностика"
+image: "/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg"
 ---
 <img 
     src="/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg" 

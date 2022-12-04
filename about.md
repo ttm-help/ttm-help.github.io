@@ -1,6 +1,6 @@
 ---
 title: Образование и опыт
-layout: page
+layout: about
 description: "Страница с описанием моего опыта и образования"
 ---
 
