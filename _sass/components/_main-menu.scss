@@ -31,7 +31,7 @@
         > a {
           font-weight: bold;
           text-decoration: underline;
-          text-decoration-color: $secondary;
+          text-decoration-color: $primary;
 
           &:hover {
             text-decoration: none;
@@ -41,8 +41,8 @@
       }
 
       &:last-child {
-        background-color: $secondary;
-        border: 0 solid $secondary;
+        background-color: $primary;
+        border: 0 solid $primary;
         border-radius: 5px;
       }
     }
