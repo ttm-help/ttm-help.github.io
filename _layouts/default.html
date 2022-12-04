@@ -64,14 +64,11 @@
                 "@type": "WebPage",
                 "@id": "{{site.url}}{{page.url}}"
             },
-            "image": {
-                {% if page.image %}
-                    "url": "{{site.url}}{{ page.image }}",
-                {% else %}
-                    "url": "{{site.url}}/images/illustrations/main-photo.jpeg",
-                {% endif %}
-                "@type": "imageObject"
-            },
+            {% if page.image %}
+                "image": "{{site.url}}{{ page.image }}",
+            {% else %}
+                "image": "{{site.url}}/images/illustrations/main-photo.jpeg",
+            {% endif %}
             "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
             "url": "{{site.url}}{{page.url}}"
         }

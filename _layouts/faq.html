@@ -4,100 +4,140 @@ layout: default
 <div class="container mt-2 mb-5">
     <div class="col-12">
         <div class="row">
-            <div class="faq">
+            <div class="faq" itemscope itemtype="https://schema.org/FAQPage">
                 <h1>Нужны ответы? Найдите их здесь</h1>
-                <button class="collapsible">
-                    Какой у вас опыт/образование?
-                </button>
-                <div class="faq-block">
-                    Вы можете узнать обо мне на <a href="{{'/about' | relative_url }}">
-                    этой странице</a>.
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Какой у вас опыт/образование?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Вы можете узнать обо мне на <a href="{{'/about' | relative_url }}">
+                            этой странице</a>.
+                        </div>
+                    </div>
+                </div>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Сколько стоит диагностическая консультация?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Диагностическая консультация стоит <strong>5 000₽</strong> (пять тысяч) рублей,
+                            но для участников <a href="https://t.me/+Iofg2iERjAlmMTQy">группы помощи при ТТМ</a>
+                            <strong>2 500₽</strong> (две тысячи пятьсот) рублей
+                        </div>
+                    </div>
+                </div>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Сколько стоит терапия?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Терапия оплачивается блоками по 4 сессии.<br/><br/>
+                            Стоимость индивидуальность терапии: <br/>
+                            <ul>
+                                <li>
+                                    <strong>20 000₽.</strong> Оплата терапии осуществляется блоками по 4 сессии, из
+                                    расчета
+                                    5 000₽ за 1 сессию
+                                    60 минут
+                                </li>
+                            </ul>
+                            <br/>
+                            Стоимость групповой терапии:<br/><br/>
+                            <ul>
+                                <li>
+                                    <strong>10 000₽</strong> в месяц за блок из 4 сессий из расчета 2500₽ за сессию
+                                    <strong>для
+                                        взрослых</strong>
+                                </li>
+                                <li>
+                                    <strong>12 000₽</strong> в месяц за блок из 4 сессий из расчета 3000₽ за сессию
+                                    <strong>для
+                                        детей и подростков</strong>.
+                                    Блок включает отдельный чат для родителей с моей обратной связью
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Сколько времени займет терапия?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            У каждого человека по-разному, в зависимости от того, какой у вас уровень организации
+                            психики,
+                            проходили ли вы психотерапию ранее, степень выраженности симптоматики ТТМ, сопутствующие
+                            заболевания или вопросы, которые необходимо решить. В среднем 6-12 месяцев.
+                        </div>
+                    </div>
+                </div>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Где проходит терапия?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Я работаю онлайн по всему миру в видеоформате, сессии в основном проходят в ZOOM, Google
+                            meet и т.д.
+                        </div>
+                    </div>
+                </div>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Что необходимо на сессию?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Хороший интернет. Также мне необходимо будет видеть вас желательно до пояса/груди.
+                        </div>
+                    </div>
+                </div>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Как подготовиться к диагностической консультации?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Заполнить анкету и, если понадобится, пройти тесты.
+                        </div>
+                    </div>
                 </div>
 
-                <button class="collapsible">
-                    Сколько стоит диагностическая консультация?
-                </button>
-                <div class="faq-block">
-                    Диагностическая консультация стоит 5 000₽ (пять тысяч) рублей, но для участников группы помощи при
-                    ТТМ 2 500₽ (две тысячи пятьсот) рублей
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Возможно ли вылечиться?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Возможно.
+                        </div>
+                    </div>
                 </div>
-                <button class="collapsible">
-                    Сколько стоит терапия?
-                </button>
-                <div class="faq-block">
-                    Терапия оплачивается блоками по 4 сессии.<br/><br/>
-                    Стоимость индивидуальность терапии: <br/>
-                    <ul>
-                        <li>
-                            <strong>20 000₽.</strong> Оплата терапии осуществляется блоками по 4 сессии, из расчета
-                            5 000₽ за 1 сессию
-                            60 минут
-                        </li>
-                    </ul>
-                    <br/><br/>
-
-                    Стоимость групповой терапии:<br/><br/>
-                    <ul>
-                        <li>
-                            <strong>10 000₽</strong> в месяц за блок из 4 сессий из расчета 2500₽ за сессию <strong>для
-                            взрослых</strong>
-                        </li>
-                        <li>
-                            <strong>12 000₽</strong> в месяц за блок из 4 сессий из расчета 3000₽ за сессию <strong>для
-                            детей и подростков</strong>.
-                            Блок включает отдельный чат для родителей с моей обратной связью
-                        </li>
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Были ли успешные случаи?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Конечно!
+                        </div>
+                    </div>
                 </div>
-                <button class="collapsible">
-                    Сколько времени займет терапия?
-                </button>
-                <div class="faq-block">
-                    У каждого человека по-разному, в зависимости от того, какой у вас уровень организации психики,
-                    проходили ли вы психотерапию ранее, степень выраженности симптоматики ТТМ, сопутствующие заболевания
-                    или вопросы, которые необходимо решить. В среднем 6-12 месяцев.
-                </div>
-
-                <button class="collapsible">
-                    Где проходит терапия?
-                </button>
-                <div class="faq-block">
-                    Я работаю онлайн по всему миру в видеоформате, сессии в основном проходят в ZOOM, Google meet и т.д.
-                </div>
-
-                <button class="collapsible">
-                    Что необходимо на сессию?
-                </button>
-                <div class="faq-block">
-                    Хороший интернет. Также мне необходимо будет видеть вас желательно до пояса/груди.
-                </div>
-
-                <button class="collapsible">
-                    Как подготовиться к диагностической консультации?
-                </button>
-                <div class="faq-block">
-                    Заполнить анкету и, если понадобится, пройти тесты.
-                </div>
-
-                <button class="collapsible">
-                    Возможно ли вылечиться?
-                </button>
-                <div class="faq-block">
-                    Возможно.
-                </div>
-
-                <button class="collapsible">
-                    Были ли успешные случаи?
-                </button>
-                <div class="faq-block">
-                    Конечно!
-                </div>
-
-                <button class="collapsible">
-                    Как с вами связаться?
-                </button>
-                <div class="faq-block">
-                    Связаться со мной вы можете при помощи контактов на <a href="{{'/contact' | relative_url }}">этой
-                    странице</a>.
+                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                    <button class="collapsible" itemprop="name">
+                        Как с вами связаться?
+                    </button>
+                    <div class="faq-block" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                        <div itemprop="text">
+                            Связаться со мной вы можете при помощи контактов
+                            на <a href="{{'/contact' | relative_url }}">этой странице</a>.
+                        </div>
+                    </div>
                 </div>
 
             </div>
