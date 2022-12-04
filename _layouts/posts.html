@@ -5,7 +5,7 @@ bodyClass: "page-posts"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% assign weighted_posts = site.posts | sort: "weight" %}
+    {% assign weighted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in weighted_posts %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
