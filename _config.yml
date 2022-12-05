@@ -6,7 +6,7 @@ url: "https://ttm-help.ru"
 permalink: /:slug.html
 
 logo:
-  mobile: "images/logo/mobile-logo.png"
+  mobile: "assets/images/logo/mobile-logo.png"
   mobile_height: "32px"
   mobile_width: "32px"
 

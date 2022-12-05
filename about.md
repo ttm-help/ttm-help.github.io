@@ -58,48 +58,48 @@ EFT Emotional Freedom Technique: Hair Pulling & Skin Picking
 
 <ul class="gallery filter">
     <li>
-        <a href="images/certificates/0.jpg">
-            <img src="images/certificates/0.jpg" alt="когнитивно-поведенческая терапия">
+        <a href="assets/images/certificates/0.jpg">
+            <img src="assets/images/certificates/0.jpg" alt="когнитивно-поведенческая терапия">
         </a>
     </li>
     <li>
-        <a href="images/certificates/1.png">
-            <img src="images/certificates/1.png" alt="диплом юридический психолог">
+        <a href="assets/images/certificates/1.png">
+            <img src="assets/images/certificates/1.png" alt="диплом юридический психолог">
         </a>
     </li>
     <li>
-        <a href="images/certificates/2.png">
-            <img src="images/certificates/2.png" alt="психологическое консультирование родителей">
+        <a href="assets/images/certificates/2.png">
+            <img src="assets/images/certificates/2.png" alt="психологическое консультирование родителей">
         </a>
     </li>
     <li>
-        <a href="images/certificates/3.png">
-            <img src="images/certificates/3.png" alt="библиотерапия в работе в детьми">
+        <a href="assets/images/certificates/3.png">
+            <img src="assets/images/certificates/3.png" alt="библиотерапия в работе в детьми">
         </a>
     </li>
     <li>
-        <a href="images/certificates/4.jpg">
-            <img src="images/certificates/4.jpg" alt="сертификат по коучингу">
+        <a href="assets/images/certificates/4.jpg">
+            <img src="assets/images/certificates/4.jpg" alt="сертификат по коучингу">
         </a>
     </li>
     <li>
-        <a href="images/certificates/5.jpg">
-            <img src="images/certificates/5.jpg" alt="сертификат искусство психотерапии">
+        <a href="assets/images/certificates/5.jpg">
+            <img src="assets/images/certificates/5.jpg" alt="сертификат искусство психотерапии">
         </a>
     </li>
     <li>
-        <a href="images/certificates/6.jpg">
-            <img src="images/certificates/6.jpg" alt="искусство речи">
+        <a href="assets/images/certificates/6.jpg">
+            <img src="assets/images/certificates/6.jpg" alt="искусство речи">
         </a>
     </li>
     <li>
-        <a href="images/certificates/7.png">
-            <img src="images/certificates/7.png" alt="техника эмоциональной свободы">
+        <a href="assets/images/certificates/7.png">
+            <img src="assets/images/certificates/7.png" alt="техника эмоциональной свободы">
         </a>
     </li>
     <li>
-        <a href="images/certificates/8.jpg">
-            <img src="images/certificates/8.jpg" alt="сертификат ACT">
+        <a href="assets/images/certificates/8.jpg">
+            <img src="assets/images/certificates/8.jpg" alt="сертификат ACT">
         </a>
     </li>
 </ul>

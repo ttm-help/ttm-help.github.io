@@ -37,7 +37,7 @@
     {% if page.image %}
         <meta property="og:image" content="{{site.url}}{{ page.image }}">
     {% else %}
-        <meta property="og:image" content="{{site.url}}/images/illustrations/main-photo.jpeg">
+        <meta property="og:image" content="{{site.url}}/assets/images/illustrations/main-photo.jpeg">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -67,22 +67,21 @@
             {% if page.image %}
                 "image": "{{site.url}}{{ page.image }}",
             {% else %}
-                "image": "{{site.url}}/images/illustrations/main-photo.jpeg",
+                "image": "{{site.url}}/assets/images/illustrations/main-photo.jpeg",
             {% endif %}
             "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
             "url": "{{site.url}}{{page.url}}"
         }
     </script>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/logo/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/logo/favicon-32x32.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/apple-touch-icon.png">
 
     <!-- Google Fonts CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
 
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
