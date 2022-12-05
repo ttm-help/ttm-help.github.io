@@ -17,7 +17,7 @@
 
   strong {
     font-weight: bold;
-    display: inline-block;
+    display: inline;
   }
 
   em {
@@ -84,7 +84,9 @@
     line-height: 1.2;
     font-size: 18px;
     font-weight: 400;
-    text-align: justify;
+    @include media-breakpoint-up(md) {
+      text-align: justify;
+    }
   }
 
   hr {
