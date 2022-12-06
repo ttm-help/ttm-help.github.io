@@ -23,8 +23,8 @@ sass:
   style: compressed # possible values: nested expanded compact compressed
   precision: 10
 
-plugins:
-  - jekyll-last-modified-at
+#plugins:
+#  - jekyll-last-modified-at
 
 exclude:
   - "*.iml"
