@@ -24,8 +24,6 @@ sass:
   precision: 10
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-last-modified-at
 
 exclude:
