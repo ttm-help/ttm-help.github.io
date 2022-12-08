@@ -44,7 +44,7 @@ image: "/assets/img/groups-and-societies.jpg"
     class="mb-0"
 />
 <sup><sub>
-Photo by <a href="https://unsplash.com/@mathiasjensen">Mathias Jensen</a> on Unsplash</a>
+Photo by <a href="https://unsplash.com/@mathiasjensen">Mathias Jensen</a> on Unsplash
 </sub></sup>
 
 
