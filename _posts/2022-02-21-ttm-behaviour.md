@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "ТТМ как неэффективная адаптация"
+title: "ТТМ, как неэффективная адаптация"
+description: "Трихотилломания (ттм), как борьба с тревожностью"
 image: "/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"
 ---
 <img 
