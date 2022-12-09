@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru"
+      prefix="og: https://ogp.me/ns#
+              article: https://ogp.me/ns/article#
+              profile: https://ogp.me/ns/article#">
 
 <head>
     <meta charset="utf-8">
@@ -37,7 +40,7 @@
     {% if page.image %}
         <meta property="og:image" content="{{site.url}}{{ page.image }}">
     {% else %}
-        <meta property="og:image" content="{{site.url}}/assets/images/illustrations/main-photo.jpeg">
+        <meta property="og:image" content="{{site.url}}/assets/images/illustrations/main-photo.webp">
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
