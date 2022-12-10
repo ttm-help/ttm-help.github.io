@@ -19,6 +19,18 @@
     }
   }
 
+  img[alt$=">"] {
+    float: right;
+  }
+
+  img[alt$="<"] {
+    float: left;
+  }
+
+  img[alt$="><"] {
+    float: none !important;
+  }
+
   strong {
     font-weight: bold;
     display: inline;
