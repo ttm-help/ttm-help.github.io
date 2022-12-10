@@ -71,7 +71,9 @@ is_about: "true"
 Professional Coach (IICA ICF ICF).  
 Professional coaching of groups and companies (IICA ICF ICF).  
 НЛП-практик.  
-EFT Emotional Freedom Technique: Hair Pulling & Skin Picking
+EFT Emotional Freedom Technique: Hair Pulling & Skin Picking  
+Irvin Yalom and the Art of Psychotherapy (Newpsy education)  
+ACT in Action by Steven C.Hayes (Newpsy education)  
 
 <ul class="gallery filter">
     <li>

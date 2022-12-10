@@ -3,6 +3,7 @@ layout: post
 title: "ТТМ, как неэффективная адаптация"
 description: "Трихотилломания (ттм), как борьба с тревожностью"
 image: "/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"
+category: "Трихотилломания - это"
 ---
 <img 
     src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"     
@@ -12,7 +13,6 @@ image: "/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"
 <sup><sub>
 Photo by <a href="https://unsplash.com/@choys_">Conny Schneider</a> on Unsplash
 </sub></sup>
-
 
 Можно разделить любое поведение человека на **адаптивное** и **дезадаптивное**.
 

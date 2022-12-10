@@ -3,6 +3,7 @@ layout: post
 title: "Канал помощи при ТТМ"
 description: "Реклама группы сайта в телеграм"
 image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
+category: "Психотерапия ТТМ"
 ---
 <img 
     src="/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg" 
@@ -13,8 +14,7 @@ image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
 Photo by <a href="https://unsplash.com/@mariyan_rajesh">mariyan rajesh on Unsplash</a>
 </sub></sup>
 
-
-Переходите в телеграм группу, если вы хотите
+Переходите в [телеграм канал](https://t.me/ttm_help_ru), если вы хотите
 
 - Получать актуальную информацию о ТТМ
 - Растить в себе уверенность

@@ -3,6 +3,7 @@ layout: post
 title: "Самопомощь при ТТМ"
 description: "Подробный разбор способов самопомощи при ТТМ"
 image: "/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg"
+category: "Лечение ТТМ"
 ---
 <img 
     src="/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" 

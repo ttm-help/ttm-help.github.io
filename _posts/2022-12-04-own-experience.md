@@ -3,6 +3,7 @@ layout: post
 title: "Мой опыт борьбы с трихотилломанией (ТТМ)"
 description: "Мой путь лечения от трихотилломании (ТТМ), мои ошибки и провалы"
 image: "/assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash.jpg"
+category: "Личный опыт"
 ---
 <img 
     src="/assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash.jpg" 
