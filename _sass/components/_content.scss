@@ -1,7 +1,7 @@
 .content {
   a {
     text-decoration: none;
-    display: inline-block;
+    display: inline;
   }
 
   img {
@@ -50,24 +50,24 @@
 
   h1 {
     font-family: $font-family-base;
-    font-size: 34px;
+    font-size: calc(max(2.5vh, 34px));
     line-height: 1.26;
     font-weight: normal;
-    margin-top: 30px;
+    margin-top: 1vh;
     margin-bottom: 20px;
   }
 
   h2 {
     font-family: $font-family-base;
-    font-size: 26px;
+    font-size: calc(max(2.3vw, 26px));
     font-weight: normal;
     line-height: 1.4;
-    margin-top: 30px;
+    margin-top: 2vh
   }
 
   h3 {
     font-family: $font-family-base;
-    font-size: 20px;
+    font-size: calc(max(1.7vw, 20px));
     line-height: 1.4;
     font-weight: normal;
     margin-top: 30px;
@@ -137,12 +137,15 @@
     padding: 0 1em;
     color: $steel;
     border-left: .25em solid $secondary;
+
+    p {
+      text-align: left;
+    }
   }
 }
 
 .custom-header {
   color: $primary !important;
-  font-size: xx-large !important;
 }
 
 .desktop-mode {

@@ -1,17 +1,17 @@
 <div class='header' id="navbar">
     <div class="container">
-        <div class="logo">
+        <div class="logo-mobile mobile-mode">
             <a href="{{ site.url | relative_url }}">
-                <pre class="custom-title">Коновалова</pre>
-                <pre class="custom-title custom-title-disable"> Оксана</pre>
-            </a>
-        </div>
-        <div class="logo-mobile">
-            <a href="{{ site.url | relative_url }}">
-                <img width="{{ site.logo.mobile_width }}"
-                     height="{{ site.logo.mobile_height }}"
+                <img width="40px"
+                     height="40px"
                      alt="{{ site.title }}"
                      src="{{ site.logo.mobile | relative_url }}"/></a>
+        </div>
+        <div class="logo desktop-mode pr-1">
+            <a href="{{ site.url | relative_url }}">
+                <span class="custom-title">Коновалова</span>
+                <span class="custom-title custom-title-disable ml-0">Оксана</span>
+            </a>
         </div>
         {% include main-menu.html %}
         {% include hamburger.html %}

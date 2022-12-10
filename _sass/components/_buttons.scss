@@ -1,12 +1,12 @@
 .button {
   white-space: nowrap;
   display: inline-block;
-  height: 40px;
+  height: auto;
   line-height: 40px;
-  padding: 0 14px;
+  padding: 0 10px;
   background: $primary;
   border-radius: 4px;
-  font-size: 14px;
+  font-size: 1.7vh;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -29,5 +29,5 @@
 
 .button-post {
   display: block;
-  text-align: center
+  text-align: center;
 }

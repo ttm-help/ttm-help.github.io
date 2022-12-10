@@ -1,16 +1,11 @@
 main:
   - name: "FAQ"
     url: "/faq"
-    weight: 1
   - name: "Блог"
     url: "/posts"
-    weight: 2
   - name: "Отзывы"
     url: "/feedback"
-    weight: 3
   - name: "Обо мне"
     url: "/about"
-    weight: 4
   - name: "Записаться на консультацию"
     url: "/contact"
-    weight: 5

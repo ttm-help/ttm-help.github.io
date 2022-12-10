@@ -1,6 +1,10 @@
 // Hamburger
 // ==================================================
 .hamburger {
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+
   padding: $hamburger-padding-y $hamburger-padding-x;
   display: inline-block;
   cursor: pointer;

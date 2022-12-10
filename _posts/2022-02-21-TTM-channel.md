@@ -10,7 +10,7 @@ image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
     class="mb-0"
 />
 <sup><sub>
-Photo by <a href="https://unsplash.com/@mariyan_rajesh">mariyan rajesh on Unsplash
+Photo by <a href="https://unsplash.com/@mariyan_rajesh">mariyan rajesh on Unsplash</a>
 </sub></sup>
 
 
