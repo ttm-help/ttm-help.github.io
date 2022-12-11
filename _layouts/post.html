@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="container pb-6 pt-md-5 pt-1 pb-md-10">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
+    <div class="col justify-content-start">
+        <div class="col-12 col-md-8 row">
             <div class="content">
                 <h1>{{page.title}}</h1>
                 <div>{{content}}</div>
@@ -15,6 +15,24 @@ layout: default
                         Записаться на консультацию
                     </a>
                 </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="row">
+                <h3>Похожие статьи</h3>
+            </div>
+            <div class="row">
+                {% assign sorted_posts = site.categories[page.category] | sort: 'date' | reverse  %}
+                {% for post in sorted_posts limit:4 %}
+                    {% if post.url != page.url %}
+                        <div class="col-md-3">
+                            <a href="{{ post.url }}">
+                                <img src="{{post.image}}" alt="{{post.title}}" style="width: 100%; aspect-ratio: 900/600;"/>
+                                <h4 style="text-align: left; padding: 10px">{{ post.title }}</h4>
+                            </a>
+                        </div>
+                    {% endif %}
+                {% endfor %}
             </div>
         </div>
     </div>

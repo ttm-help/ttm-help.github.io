@@ -2,7 +2,7 @@
 layout: post
 title: "New! Групповая терапия"
 description: "Лечение трихотилломании (ттм)"
-image: "/assets/img/group-therapy-2.jpeg"
+image: "/assets/img/group-therapy-2.png"
 category: "Психотерапия ТТМ"
 ---
 
@@ -14,7 +14,7 @@ category: "Психотерапия ТТМ"
 ### Что такое групповая терапия?
 
 <img
-    src="/assets/img/group-therapy-2.jpeg"     
+    src="/assets/img/group-therapy-2.png"     
     class="mb-0"
     alt="Групповая терапия"
 />
@@ -47,7 +47,7 @@ category: "Психотерапия ТТМ"
 Можно, тогда процесс выздоровления будет еще более эффективным и быстрым, тк вы получаете обратную связь сразу из двух источников - от психотерапевта и группы
 
 <img
-    src="/assets/img/group-therapy-1.jpeg"
+    src="/assets/img/group-therapy-1.png"
     alt="Групповая терапия"
     class="mb-0"
 />
