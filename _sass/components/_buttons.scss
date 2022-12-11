@@ -6,7 +6,6 @@
   padding: 0 10px;
   background: $primary;
   border-radius: 4px;
-  font-size: 1.7vh;
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.025em;
@@ -14,6 +13,11 @@
   text-decoration: none;
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
+
+  font-size: 3.7vw;
+  @include media-breakpoint-up(md) {
+    font-size: 1.7vh;
+  }
 
   &:hover {
     color: #ffffff;

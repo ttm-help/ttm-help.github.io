@@ -20,11 +20,15 @@
   }
 
   img[alt$=">"] {
-    float: right;
+    @include media-breakpoint-up(md) {
+      float: right;
+    }
   }
 
   img[alt$="<"] {
-    float: left;
+    @include media-breakpoint-up(md) {
+      float: left;
+    }
   }
 
   img[alt$="><"] {
@@ -56,13 +60,12 @@
     line-height: 1.5;
     font-size: 18px;
     font-weight: 400;
-    text-align: justify;
     color: $primary-dark;
   }
 
   h1 {
     font-family: $font-family-base;
-    font-size: calc(max(2.5vh, 34px));
+    font-size: calc(max(2.5vh, 30px));
     line-height: 1.26;
     font-weight: normal;
     margin-top: 1vh;
