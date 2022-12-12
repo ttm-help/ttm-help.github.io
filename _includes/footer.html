@@ -1,27 +1,37 @@
 <div class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="footer-inner">
-                    <a href="/" class="footer-title">
-                        <span>КОНОВАЛОВА ОКСАНА</span>
-                        <span class="footer-title-small">когнитивно-поведенческий психотерапевт</span>
-                    </a>
-
-                    {% if site.data.social %}
-                    {% include social.html %}
-                    {% endif %}
-
-                    <div class="footer-title footer-title-small">
-                        <a href="/assets/docs/user-agreement.pdf">
-                            <span>пользовательское соглашение</span>
-                        </a>
-                        <a href="/assets/docs/privacy-policy.pdf">
-                            <span>политика конфиденциальности</span>
-                        </a>
+    <div class="container" style="color: white !important;">
+        <div class="row pt-2 pb-2">
+            <div class="row">
+                <div class="d-block mr-2 ml-3">
+                    <img width="60px"
+                         height="60px"
+                         alt="{{ site.title }}"
+                         src="{{ site.logo.mobile | relative_url }}"/>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div style="font-size: calc(max(1.5vh, 12px))">
+                        <div class="row">КОНОВАЛОВА ОКСАНА</div>
+                        <div class="row">когнитивно-поведенческий психотерапевт</div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="row p-1 col-12" style="
+                                    font-size: smaller;
+                                    border-color: white;
+                                    border-top: solid 1px">
+
+            <div class="d-inline-block mr-1">
+                <span>© {{ site.time | date: '%Y' }}</span>
+                <a href="/">ttm-help.ru</a>
+            </div>
+            <a class="d-inline mr-1" href="/assets/docs/privacy-policy.pdf">
+                <span>️политика конфиденциальности</span>
+            </a>
+            <a class="d-inline" href="/assets/docs/user-agreement.pdf">
+                <span>пользовательское соглашение</span>
+            </a>
         </div>
     </div>
 </div>
