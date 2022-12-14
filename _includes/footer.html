@@ -4,10 +4,12 @@
             <div class="col-12 col-md-6">
                 <div class="row align-items-center">
                     <div class="col-auto mt-1">
-                        <img width="60px"
-                             height="60px"
-                             alt="{{ site.title }}"
-                             src="{{ site.logo.mobile | relative_url }}"/>
+                        <a href="/">
+                            <img width="60px"
+                                 height="60px"
+                                 alt="{{ site.title }}"
+                                 src="{{ site.logo.mobile | relative_url }}"/>
+                        </a>
                     </div>
                     <div class="col-auto mt-1">
                         <div class="row">
@@ -41,8 +43,7 @@
                                 border-color: white;
                                 border-top: solid 1px">
             <div class="col-sm-2 pt-1">
-                <span>© {{ site.time | date: '%Y' }}</span>
-                <a href="/">ttm-help.ru</a>
+                <span>© {{ site.time | date: '%Y' }} ttm-help.ru</span>
             </div>
             <div class="col-sm-3 pt-1">
                 <a class="d-inline mr-1" href="/assets/docs/privacy-policy.pdf">
