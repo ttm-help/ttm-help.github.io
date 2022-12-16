@@ -10,7 +10,7 @@ category: "Лечение ТТМ"
     src="/assets/img/justin-luebke-BkkVcWUgwEk-unsplash.jpg"
     alt="Эмоциональное избегание и трихотилломания"
     class="mb-0"
-/>
+>
 <sup><sub>
 Photo by <a href="https://unsplash.com/@jluebke">Justin Luebke</a> on Unsplash
 </sub></sup>
@@ -67,7 +67,7 @@ Photo by <a href="https://unsplash.com/@jluebke">Justin Luebke</a> on Unsplash
     src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash.jpg"
     alt="Эмоциональное избегание и трихотилломания"
     class="mb-0"
-/>
+>
 <sup><sub>
 Photo by <a href="https://unsplash.com/@josephgruenthal">Joseph Frank</a> on Unsplash
 </sub></sup>

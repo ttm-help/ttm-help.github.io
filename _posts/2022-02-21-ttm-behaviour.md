@@ -9,7 +9,7 @@ category: "Трихотилломания - это"
     src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"     
     alt="ТТМ как неэффективная адаптация"
     class="mb-0"
-/>
+>
 <sup><sub>
 Photo by <a href="https://unsplash.com/@choys_">Conny Schneider</a> on Unsplash
 </sub></sup>

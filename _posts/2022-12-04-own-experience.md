@@ -9,7 +9,7 @@ category: "Личный опыт"
     src="/assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash.jpg" 
     alt="личный опыт борьбы с трихотилломанией"
     class="mb-0"
-/>
+>
 <sup><sub>
 Photo by <a href="https://unsplash.com/@aldyrkhanov">Artur Aldyrkhanov</a> on Unsplash
 </sub></sup>
