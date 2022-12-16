@@ -31,8 +31,7 @@ image: "/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
 <img
     src="/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
     alt="Связь депрессии и ттм"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@simmerdownjpg">Jackson Simmer</a> on Unsplash
 </sub></sup>

@@ -18,8 +18,7 @@ image: "/assets/img/heredity.png"
 <img
     src="/assets/img/heredity.png"
     alt="Наследственность и ттм"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@kelli_mcclintock">Kelli McClintock</a> on Unsplash
 </sub></sup>

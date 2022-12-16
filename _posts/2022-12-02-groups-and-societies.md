@@ -42,8 +42,7 @@ category: "Лечение ТТМ"
 <img
     src="/assets/img/groups-and-societies.jpg"
     alt="Биосоциальность и открытость в группах помощи, сообществах ТТМ"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@mathiasjensen">Mathias Jensen</a> on Unsplash
 </sub></sup>

@@ -16,8 +16,7 @@ category: "Психотерапия ТТМ"
 <img
     src="/assets/img/group-therapy-2.png"     
     class="mb-0"
-    alt="Групповая терапия"
->
+    alt="Групповая терапия">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@voneciacarswell">Vonecia Carswell</a> on Unsplash
 </sub></sup>
@@ -49,8 +48,7 @@ Photo by <a href="https://unsplash.com/@voneciacarswell">Vonecia Carswell</a> on
 <img
     src="/assets/img/group-therapy-1.png"
     alt="Групповая терапия"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@hannahbusing">Hannah Busing</a> on Unsplash
 </sub></sup>

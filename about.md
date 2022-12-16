@@ -13,8 +13,7 @@ image: "/assets/images/illustrations/about-photo.jpg"
     src="/assets/images/illustrations/about-photo.jpg"
     alt=">"
     style="height:100%"
-    class="ml-3 mb-3 mt-0"
->
+    class="ml-3 mb-3 mt-0">
 
 Добро пожаловать на мой сайт, посвященный трихотилломании!  
 

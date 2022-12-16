@@ -8,8 +8,7 @@ category: "Родителям"
 <img 
     src="/assets/img/child.png" 
     alt="Детская трихотилломания у ребенка (ттм)"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@caleb_woods">Caleb Woods</a> on Unsplash
 </sub></sup>

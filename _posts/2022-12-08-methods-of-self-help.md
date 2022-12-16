@@ -28,8 +28,7 @@ image: "/assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg"
 <img
     src="/assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg"
     alt="Методы самопомощи при трихотилломании (ТТМ)"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@taiamint">Taisiia Stupak</a> on Unsplash
 </sub></sup>

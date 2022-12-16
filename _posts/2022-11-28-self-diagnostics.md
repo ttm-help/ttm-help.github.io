@@ -8,8 +8,7 @@ image: "/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg"
 <img 
     src="/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg" 
     alt="Связь астении и ттм"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@rubaitulazad">Rubaitul Azad</a> on Unsplash
 </sub></sup>

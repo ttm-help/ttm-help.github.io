@@ -8,8 +8,7 @@ category: "Трихотилломания - это"
 <img 
     src="/assets/img/rod-long-89bQBucvJdw-unsplash.jpg" 
     alt="Новости - я тревожусь, что делать?"
-    class="mb-0"
->
+    class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@rodlong">Rod Long</a> on Unsplash
 </sub></sup>
