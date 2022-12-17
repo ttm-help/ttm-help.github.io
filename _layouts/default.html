@@ -14,7 +14,9 @@
         <title>{{ site.title | escape }}</title>
         <meta property="og:title" content="{{ site.title | escape }}">
     {% endif %}
-    {% if page.url == nil or page.url == '' or page.url == '/' or page.url contains ".html"  %}
+    {% if page.url contains ".html" %}
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    {% elsif page.url == nil or page.url == '' or page.url == '/'  %}
         <link rel="canonical" href="{{ site.url }}" >
     {% else %}
         <link rel="canonical" href="{{ site.url }}{{ page.url }}.html" />
