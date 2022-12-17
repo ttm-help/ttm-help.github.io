@@ -14,7 +14,15 @@
         <title>{{ site.title | escape }}</title>
         <meta property="og:title" content="{{ site.title | escape }}">
     {% endif %}
-
+    {% if page.url == nil or page.url == '' or page.url == '/'  %}
+        <link rel="canonical" href="{{ site.url }}" />
+    {% else %}
+        <link rel="canonical" href="{{ site.url }}{{ page.url }}.html" />
+    {% endif %}
+    {% if page.keywords %}
+        <meta name="keywords" content="{{ page.keywords }}">
+    {% endif %}
+    <meta name="author" content="Оксана Коновалова">
 
     <meta property="og:site_name" content="{{ site.title }}">
     {% if page.layout == "post" %}

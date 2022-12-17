@@ -14,18 +14,18 @@
         {% endif %}
         {% if site.data.contact.telegram %}
             <div class="call-phone mt-1">
-                <a href="{{ .site.data.contact.telegram }}" rel=nofollow ><strong>Написать мне в Telegram</strong></a>
+                Написать мне в <a href="{{ .site.data.contact.telegram }}" rel=nofollow ><strong>Telegram</strong></a>
             </div>
         {% endif %}
         {% if site.data.contact.whatsapp %}
             <div class="call-phone mt-1">
-                <a href="{{ .site.data.contact.whatsapp }}" rel=nofollow ><strong>или в WhatsApp</strong></a>
+                или в <a href="{{ .site.data.contact.whatsapp }}" rel=nofollow ><strong>WhatsApp</strong></a>
             </div>
         {% endif %}
 
         {% if site.data.contact.feedback_form %}
         <div class="call-phone mt-1">
-            <a href="{{ .site.data.contact.feedback_form }}"><strong>или заполните форму на сайте</strong></a>
+            или заполните <a href="{{ .site.data.contact.feedback_form }}"><strong>форму на сайте</strong></a>
         </div>
         {% endif %}
     </div>
