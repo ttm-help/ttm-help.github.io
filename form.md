@@ -5,7 +5,7 @@ description: "Вопросы и ответы"
 date: 2022-12-13
 ---
 
-Доброго времени! Оставьте свои контакты, и я свяжусь с вами
+Оставьте свои контакты, и я свяжусь с вами
 
 <div class="embedsocial-forms-iframe" data-ref="b0a4c2a8a56e4c2bcaf8127f721700e464fa7981" 
     data-widget="true"
