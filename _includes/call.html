@@ -8,8 +8,9 @@
         {% endif %}
         {% if site.data.contact.email %}
             <div class="call-email">
-                <strong>Почта: </strong>
-                <a href="mailto:{{ .site.data.contact.email }}?subject=консультация">{{ site.data.contact.email }}</a>
+                 Почта:
+                <a style="color: #f36a5d; font-weight: bold"
+                        href="mailto:{{ .site.data.contact.email }}?subject=консультация"> {{ site.data.contact.email }}</a>
             </div>
         {% endif %}
         {% if site.data.contact.telegram %}
