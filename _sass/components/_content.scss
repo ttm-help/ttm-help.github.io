@@ -67,26 +67,26 @@
 
   h1 {
     font-family: $font-family-base;
-    font-size: calc(max(2.5vh, 30px));
+    font-size: 32px;
     line-height: 1.26;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 1vh;
     margin-bottom: 20px;
   }
 
   h2 {
     font-family: $font-family-base;
-    font-size: calc(max(2.3vw, 26px));
-    font-weight: normal;
+    font-size: 26px;
+    font-weight: bold;
     line-height: 1.4;
     margin-top: 2vh
   }
 
   h3 {
     font-family: $font-family-base;
-    font-size: calc(max(1.7vw, 20px));
+    font-size: 20px;
     line-height: 1.4;
-    font-weight: normal;
+    font-weight: bold;
     margin-top: 30px;
   }
 
