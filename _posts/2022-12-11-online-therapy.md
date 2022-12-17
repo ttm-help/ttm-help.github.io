@@ -11,7 +11,7 @@ category: "Психотерапия ТТМ"
     alt="Эффективна ли онлайн терапия?"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@samich_18">Samantha Borges</a> on Unsplash
+Photo by <a href="https://unsplash.com/@samich_18" rel=nofollow>Samantha Borges</a> on Unsplash
 </sub></sup>
 
 Очень часто (хотя после коронавируса уже реже) пациенты задаются вопросом - а 

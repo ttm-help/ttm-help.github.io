@@ -44,7 +44,7 @@ category: "Лечение ТТМ"
     alt="Биосоциальность и открытость в группах помощи, сообществах ТТМ"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@mathiasjensen">Mathias Jensen</a> on Unsplash
+Photo by <a href="https://unsplash.com/@mathiasjensen" rel=nofollow>Mathias Jensen</a> on Unsplash
 </sub></sup>
 
 

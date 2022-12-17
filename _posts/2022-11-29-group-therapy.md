@@ -18,7 +18,7 @@ category: "Психотерапия ТТМ"
     class="mb-0"
     alt="Групповая терапия">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@voneciacarswell">Vonecia Carswell</a> on Unsplash
+Photo by <a href="https://unsplash.com/@voneciacarswell" rel=nofollow>Vonecia Carswell</a> on Unsplash
 </sub></sup>
 
 
@@ -50,7 +50,7 @@ Photo by <a href="https://unsplash.com/@voneciacarswell">Vonecia Carswell</a> on
     alt="Групповая терапия"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@hannahbusing">Hannah Busing</a> on Unsplash
+Photo by <a href="https://unsplash.com/@hannahbusing" rel=nofollow>Hannah Busing</a> on Unsplash
 </sub></sup>
 
 ### Сколько стоит?

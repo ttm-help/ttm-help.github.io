@@ -33,7 +33,7 @@ image: "/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
     alt="Связь депрессии и ттм"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@simmerdownjpg">Jackson Simmer</a> on Unsplash
+Photo by <a href="https://unsplash.com/@simmerdownjpg" rel=nofollow >Jackson Simmer</a> on Unsplash
 </sub></sup>
 
 Если человек находится в таком состоянии длительное время - от 3 лет, это считается затяжной депрессией,

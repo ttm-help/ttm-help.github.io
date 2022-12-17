@@ -10,7 +10,7 @@ category: "Личный опыт"
     alt="личный опыт борьбы с трихотилломанией"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@aldyrkhanov">Artur Aldyrkhanov</a> on Unsplash
+Photo by <a href="https://unsplash.com/@aldyrkhanov" rel=nofollow>Artur Aldyrkhanov</a> on Unsplash
 </sub></sup>
 
 Когда меня спрашивают о том, как я смогла справиться с ТТМ я не очень люблю отвечать. 
