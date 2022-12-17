@@ -1,9 +1,10 @@
 <div class="scrolling-wrapper-flexbox">
-    {% for item in site.data.feedback.images %}
+    {% assign image = site.data.feedback.image %}
+    {% for item in image %}
         <div class="card">
             <img
-                    src="{{ item | relative_url }}"
-                    alt="feedback">
+                    src="{{ item.url | relative_url }}"
+                    alt="{{ item.alt }}">
         </div>
     {% endfor %}
 </div>

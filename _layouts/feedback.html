@@ -12,13 +12,14 @@ layout: default
             </p>
             <div>
                 <ul class="gallery filter">
-                    {% for item in site.data.feedback.images %}
-                    <li>
-                        <a href="{{ item | relative_url }}">
-                            <img src="{{ item | relative_url }}"
-                                 alt="">
-                        </a>
-                    </li>
+                    {% assign image = site.data.feedback.image %}
+                    {% for item in image %}
+                        <li>
+                            <a href="{{ item.url | relative_url }}">
+                                <img src="{{ item.url | relative_url }}"
+                                     alt="{{ item.alt }}">
+                            </a>
+                        </li>
                     {% endfor %}
                 </ul>
 

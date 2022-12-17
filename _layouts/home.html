@@ -7,7 +7,7 @@ bodyClass: "page-home"
     <div class="desktop-mode strip">
         <div class="row row-cols-2 align-items-center mt-3 mt-lg-0">
             <div class="col-6">
-                <img alt="{{ page.title }}"
+                <img alt="{{ site.title }}"
                      class="intro-image"
                      src="/assets/images/illustrations/main-photo.webp">
             </div>
@@ -20,8 +20,8 @@ bodyClass: "page-home"
                         </div>
                         <div class="row">
                             <p style="font-size: 3vh">
-                                Помогаю избавиться от тревожных мыслей, расстройств, навязчивых состояний, неврозов,
-                                ТТМ, дерматилломании
+                                Помогаю избавиться от ТТМ, тревожных мыслей, расстройств, навязчивых состояний, неврозов,
+                                дерматилломании
                             </p>
                         </div>
                         <div class="row">
@@ -40,7 +40,7 @@ bodyClass: "page-home"
                             </a>
                         </div>
                         <div class="row mt-3">
-                            <a href="/group-therapy"
+                            <a href="/group-therapy.html"
                                class="button button-shadow"
                                style="background-color: #f36a5d;">
                                 NEW! Групповая терапия ТТМ
@@ -55,7 +55,7 @@ bodyClass: "page-home"
     <div class="mobile-mode pl-0 " style="color: white;  text-align: center;">
         <div class="row row-cols-1 pl-0 ">
             <div class="col">
-                <img alt="{{ page.title }}"
+                <img alt="{{ site.title }}"
                      width="533"
                      height="389"
                      style="
@@ -117,7 +117,7 @@ bodyClass: "page-home"
                 <div class="feature">
                     {% if feature.image %}
                     <div class="feature-image">
-                        <img alt="{{ feature.title }} logo"
+                        <img alt="{{ feature.title }}"
                              src="{{ feature.image.url | relative_url }}"
                              width="{{ feature.image.width }}"
                              height="{{ feature.image.height }}">
@@ -198,7 +198,7 @@ bodyClass: "page-home"
 <div class="strip strip-grey pt-1 pb-3">
     <div class="container">
         <div class="content">
-            <h2 class="custom-header">Отзывы клиентов (анонимные)</h2>
+            <h2 class="custom-header">Отзывы моих клиентов (анонимные)</h2>
         </div>
         {% include feedback-slideshow.html %}
     </div>
