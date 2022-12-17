@@ -1,8 +1,18 @@
 [
   {
-    "title": "Как проходит терапия",
-    "description": "Подготовка, диагностическая консультация",
-    "link": "#consultation-block",
+    "title": "Что такое трихотилломания?",
+    "description": "Диагностические критерии, симптомы",
+    "link": "#trich-def-block",
+    "image": {
+      "url": "assets/images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Лечение трихотилломании",
+    "description": "Психотерапия, медикаменты, диагностическая консультация",
+    "link": "#therapy-block",
     "image": {
       "url": "assets/images/features/noun_branding_1885335.svg",
       "width": 80,
