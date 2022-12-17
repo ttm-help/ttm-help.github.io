@@ -16,12 +16,12 @@ bodyClass: "page-home"
                 <div class="row">
                     <div class="col">
                         <div class="row">
-                            <h1>Терапия при ТТМ</h1>
+                            <h1>Терапия при трихотилломании</h1>
                         </div>
                         <div class="row">
                             <p style="font-size: 3vh">
                                 Помогаю избавиться от тревожных мыслей, расстройств, навязчивых состояний, неврозов,
-                                трихотилломании, дерматилломании
+                                ТТМ, дерматилломании
                             </p>
                         </div>
                         <div class="row">
@@ -122,11 +122,9 @@ bodyClass: "page-home"
                     </div>
                     {% endif %}
                     {% if feature.link %}
-                    <a href="{{ feature.link }}">
-                        <h3>{{ feature.title }}</h3>
-                    </a>
-                    {% else %}
-                    <h3>{{ feature.title }}</h3>
+                        <a href="{{ feature.link }}">
+                            <span>{{ feature.title }}</span>
+                        </a>
                     {% endif %}
                     <div class="feature-content content">{{ feature.description }}</div>
                 </div>
@@ -139,7 +137,7 @@ bodyClass: "page-home"
 
 
 <div class="strip content container pt-1 pb-3" id="consultation-block">
-    <h2 class="custom-header">Как проходит терапия?</h2>
+    <h2 class="custom-header">Как проходит терапия ТТМ?</h2>
     <p class="mb-1">
         Перед терапией я всегда провожу диагностическую консультацию. Это позволяет:
     <ul class="ml-2">
@@ -157,7 +155,7 @@ bodyClass: "page-home"
         </li>
     </ul>
     <p class="mt-1">
-        <strong>ТТМ</strong> - комплексная проблема, она включает и травмы психики и работу с тревожностью и
+        <strong>Трихотилломания (ТТМ)</strong> - комплексная проблема, она включает и травмы психики и работу с тревожностью и
         многие другие вещи, как например, стыд, вина, тяжелые отношения с близкими и окружающими, сепарация,
         которые мы будем прорабатывать на терапии.
     </p>
@@ -165,11 +163,11 @@ bodyClass: "page-home"
     {% include consultation.html %}
 
     <div class="mt-2 content container">
-        <h3>Диагностическая консультация включает в себя:</h3>
+        <p style="font-size: larger" class="mb-1">Диагностическая консультация включает в себя:</p>
         <ul class="ml-2">
             <li>заполнение специальных опросных форм и тестов,</li>
             <li>анализ полученных данных,</li>
-            <li>онлайн сессию, на которой происходит уточнение необходимой информации (Проводится вне
+            <li>онлайн сессию, на которой происходит уточнение необходимой информации (проводится вне
                 зависимости от того, пойдете ли в терапию).
             </li>
         </ul>
@@ -179,7 +177,7 @@ bodyClass: "page-home"
     </div>
 
     <div class="mt-3 mb-5 content container">
-        <h3>Терапия включает в себя:</h3>
+        <p style="font-size: larger" class="mb-1">Терапия включает в себя:</p>
         <ul class="ml-2">
             <li>онлайн сессии с проработкой проблемы,</li>
             <li>упражнения для работы между сессиями,</li>
