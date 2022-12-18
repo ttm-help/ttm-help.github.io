@@ -19,7 +19,9 @@ layout: default
         </div>
         <div class="mt-4">
             {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4  %}
-            {% if sorted_posts and sorted_posts.size > 0 %}
+            {% if sorted_posts and sorted_posts.size < 4 %}
+               {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4  %}
+            {% endif %}
             <div class="row">
                 <h3>Похожие статьи</h3>
             </div>
@@ -35,7 +37,6 @@ layout: default
                             </a>
                         </div>
                     {% endfor %}
-                {% endif -%}
             </div>
         </div>
     </div>
