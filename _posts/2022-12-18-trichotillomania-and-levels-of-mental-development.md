@@ -5,13 +5,6 @@ description: ""
 image: "/assets/img/daniel-thiele-EWv_1Y9x6RE-unsplash.jpg"
 category: "Лечение ТТМ"
 ---
-<img 
-    src="/assets/img/daniel-thiele-EWv_1Y9x6RE-unsplash.jpg" 
-    alt="Трихотилломания и пограничный уровень развития психики"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@dlrmco" rel=nofollow> Daniel Thiele</a> on Unsplash
-</sub></sup>
 
 Напомню, что у нас есть условно 4 уровня организации психики, и если располагать их от 
 менее здорового к здоровому, то это *психотик*, *пограничник*, *невротик*, *здоровый*. Более подробно о них я писала в статье 
@@ -48,6 +41,14 @@ Photo by <a href="https://unsplash.com/@dlrmco" rel=nofollow> Daniel Thiele</a> 
 - Навыки перенесения стресса;
 - Навыки индивидуации;
 - Навыки сознательного восприятия и наблюдения себя, событий и окружающего мира.
+
+<img
+    src="/assets/img/daniel-thiele-EWv_1Y9x6RE-unsplash.jpg"
+    alt="Трихотилломания и пограничный уровень развития психики"
+    class="mb-0">
+<sup><sub>
+Photo by <a href="https://unsplash.com/@dlrmco" rel=nofollow> Daniel Thiele</a> on Unsplash
+</sub></sup>
 
 Остановимся на каждом чуть более подробно.
 
