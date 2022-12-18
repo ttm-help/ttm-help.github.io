@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "ТТМ, как неэффективная адаптация"
+title: "Трихотилломания, как неэффективная адаптация"
 description: "Трихотилломания (ттм), как борьба с тревожностью"
 image: "/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"
 category: "Трихотилломания - это"
 ---
 <img 
     src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"     
-    alt="ТТМ как неэффективная адаптация"
+    alt="трихотилломания, как неэффективная адаптация"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@choys_" rel=nofollow >Conny Schneider</a> on Unsplash
