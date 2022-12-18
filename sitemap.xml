@@ -115,12 +115,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://ttm-help.ru/404.html</loc>
-        <lastmod>2022-12-10</lastmod>
-        <priority>0.1</priority>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
         <loc>https://ttm-help.ru/form.html</loc>
         <lastmod>2022-12-13</lastmod>
         <priority>0.1</priority>
