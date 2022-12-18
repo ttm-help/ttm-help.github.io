@@ -23,13 +23,13 @@
             </div>
             <div class="col-12 col-md-6 social">
                 <div class="row justify-content-end mt-1">
-                    <div class="col-12 col-md-8 col-lg-5">
+                    <div class="col-12  col-md-10 col-lg-8">
                         {% for item in site.data.social %}
                         <a href="{{ item.link }}"
                            rel=nofollow
                            class="d-block"
                            target="blank">
-                            <img class="messenger-icon"
+                            <img class="messenger-icon d-inline-block"
                                  src="{{ item.image | relative_url }}"
                                  alt="{{ item.name }}">
                             <span class="d-inline-block">{{ item.name }}</span>

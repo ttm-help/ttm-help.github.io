@@ -1,6 +1,6 @@
 const body = document.querySelector('body');
 const menuTrigger = document.querySelector('#toggle-main-menu-mobile');
-const menuContainer = document.querySelector('#main-menu-mobile');
+const menuContainer = document.querySelector('#main-mobile');
 
 menuTrigger.onclick = function () {
     menuContainer.classList.toggle('open');

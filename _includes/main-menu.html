@@ -1,5 +1,5 @@
-<div id="main-menu" class="main-menu desktop-mode">
-    <ul class="row align-items-center">
+<div id="main-menu" class="main-menu main-menu-mobile">
+    <ul>
         {% assign mainmenu = site.data.menus.main %}
         {% for item in mainmenu %}
             <li class="{% if item.url == page.url %}active{% endif %}">
