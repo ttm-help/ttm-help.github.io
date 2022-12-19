@@ -61,7 +61,7 @@
             "author": {
                 "@type": "Person",
                 "name": "Коновалова Оксана",
-                "url": "{{site.url}}/about"
+                "url": "{{site.url}}/about.html"
             },
             {% if page.title %}
                 "headline": "{{ page.title }}",
@@ -75,7 +75,14 @@
             {% endif %}
             "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "{{site.url}}{{page.url}}"
+                "@id":
+                {% if page.url contains ".html" %}
+                    "{{ site.url }}{{ page.url }}",
+                {% elsif page.url == nil or page.url == '' or page.url == '/'  %}
+                    "{{ site.url }}",
+                {% else %}
+                    "{{ site.url }}{{ page.url }}.html",
+                {% endif %}
             },
             {% if page.image %}
                 "image": "{{site.url}}{{ page.image }}",
@@ -108,14 +115,24 @@
                         "@type": "ListItem",
                         "position": 3,
                         "name": "{{page.title}}",
-                        "item": "{{site.url}}{{page.url}}"
+                        "item":
+                        {% if page.url contains ".html" %}
+                            "{{ site.url }}{{ page.url }}"
+                        {% else %}
+                            "{{ site.url }}{{ page.url }}.html"
+                        {% endif %}
                     }
                 {% elsif page.layout != "home" %}
                     ,{
                         "@type": "ListItem",
                         "position": 2,
                         "name": "{{page.title}}",
-                        "item": "{{site.url}}{{page.url}}"
+                        "item":
+                        {% if page.url contains ".html" %}
+                            "{{ site.url }}{{ page.url }}"
+                        {% else %}
+                            "{{ site.url }}{{ page.url }}.html"
+                        {% endif %}
                     }
                 {% endif %}
             ]
