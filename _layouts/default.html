@@ -90,7 +90,13 @@
                 "image": "{{site.url}}/assets/images/illustrations/main-photo.jpeg",
             {% endif %}
             "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-            "url": "{{site.url}}{{page.url}}"
+            "url":  {% if page.url contains ".html" %}
+                        "{{ site.url }}{{ page.url }}"
+                    {% elsif page.url == nil or page.url == '' or page.url == '/'  %}
+                        "{{ site.url }}"
+                    {% else %}
+                        "{{ site.url }}{{ page.url }}.html"
+                    {% endif %}
         }
     </script>
 
