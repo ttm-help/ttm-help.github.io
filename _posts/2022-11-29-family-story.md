@@ -20,7 +20,7 @@ image: "/assets/img/heredity.png"
     alt="Наследственность и трихотилломания"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel=nofollow >Kelli McClintock</a> on Unsplash
+Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel="nofollow" >Kelli McClintock</a> on Unsplash
 </sub></sup>
 
 Одна из вещей, которые известны о психических расстройствах, это то, что они часто возникают не одни, а на фоне друг друга.

@@ -10,7 +10,7 @@ category: "Лечение ТТМ"
     alt="самопомощь при ТТМ"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@withluke" rel=nofollow>Luke Stackpoole</a> on Unsplash
+Photo by <a href="https://unsplash.com/@withluke" rel="nofollow">Luke Stackpoole</a> on Unsplash
 </sub></sup>
 
 

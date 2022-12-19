@@ -11,7 +11,7 @@ category: "Лечение ТТМ"
     alt="Эмоциональное избегание и трихотилломания"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@jluebke" rel=nofollow>Justin Luebke</a> on Unsplash
+Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a> on Unsplash
 </sub></sup>
 
 **Избегание** - это наш выход из ситуации, когда мы просто не хотим что-то делать. 
@@ -67,7 +67,7 @@ Photo by <a href="https://unsplash.com/@jluebke" rel=nofollow>Justin Luebke</a> 
     alt="Эмоциональное избегание и трихотилломания"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@josephgruenthal" rel=nofollow>Joseph Frank</a> on Unsplash
+Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash
 </sub></sup>
 
 ### Как разорвать цикл?

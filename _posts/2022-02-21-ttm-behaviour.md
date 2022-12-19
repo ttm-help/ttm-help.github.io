@@ -10,7 +10,7 @@ category: "Трихотилломания - это"
     alt="трихотилломания, как неэффективная адаптация"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@choys_" rel=nofollow >Conny Schneider</a> on Unsplash
+Photo by <a href="https://unsplash.com/@choys_" rel="nofollow" >Conny Schneider</a> on Unsplash
 </sub></sup>
 
 Можно разделить любое поведение человека на **адаптивное** и **дезадаптивное**.

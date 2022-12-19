@@ -47,7 +47,7 @@ category: "Лечение ТТМ"
     alt="Трихотилломания и пограничный уровень развития психики"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@dlrmco" rel=nofollow> Daniel Thiele</a> on Unsplash
+Photo by <a href="https://unsplash.com/@dlrmco" rel="nofollow"> Daniel Thiele</a> on Unsplash
 </sub></sup>
 
 Остановимся на каждом чуть более подробно.

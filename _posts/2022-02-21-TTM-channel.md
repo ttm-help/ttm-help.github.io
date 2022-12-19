@@ -10,7 +10,7 @@ category: "Психотерапия ТТМ"
     alt="телеграм группа помощи при трихотилломании"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel=nofollow >mariyan rajesh on Unsplash</a>
+Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel="nofollow" >mariyan rajesh on Unsplash</a>
 </sub></sup>
 
 Переходите в [телеграм канал](https://t.me/ttm_help_ru), если вы хотите

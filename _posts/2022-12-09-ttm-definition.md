@@ -10,7 +10,7 @@ category: "Трихотилломания - это"
     alt="Новости - я тревожусь, что делать?"
     class="mb-0">
 <sup><sub>
-Photo by <a href="https://unsplash.com/@rodlong" rel=nofollow>Rod Long</a> on Unsplash
+Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash
 </sub></sup>
 
 **Трихотилломания** — это повторяющееся расстройство, сфокусированное на теле (*BFRB*), 
