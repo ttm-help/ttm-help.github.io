@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Трихотилломания и пограничный уровень развития психики"
-description: ""
+description: "Навыки которые необходимо сформировать для лечения трихотилломании"
 image: "/assets/img/daniel-thiele-EWv_1Y9x6RE-unsplash.jpg"
 category: "Лечение ТТМ"
 ---
