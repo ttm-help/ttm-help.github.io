@@ -77,11 +77,11 @@
                 "@type": "WebPage",
                 "@id":
                 {% if page.url contains ".html" %}
-                    "{{ site.url }}{{ page.url }}",
+                    "{{ site.url }}{{ page.url }}"
                 {% elsif page.url == nil or page.url == '' or page.url == '/'  %}
-                    "{{ site.url }}",
+                    "{{ site.url }}"
                 {% else %}
-                    "{{ site.url }}{{ page.url }}.html",
+                    "{{ site.url }}{{ page.url }}.html"
                 {% endif %}
             },
             {% if page.image %}
