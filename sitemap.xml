@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    <url>
+        <loc>https://ttm-help.ru/trichotillomania-and-values.html</loc>
+        <lastmod>2022-12-20</lastmod>
+        <priority>0.5</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>https://ttm-help.ru/trichotillomania-and-levels-of-mental-development.html</loc>
+        <lastmod>2022-12-19</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
     <url>
         <loc>https://ttm-help.ru/trans.html</loc>
         <lastmod>2022-12-19</lastmod>
@@ -123,13 +137,13 @@
     <url>
         <loc>https://ttm-help.ru/about.html</loc>
         <lastmod>2022-12-19</lastmod>
-        <priority>1.0</priority>
+        <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://ttm-help.ru/contact.html</loc>
         <lastmod>2022-12-19</lastmod>
-        <priority>1.0</priority>
+        <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
@@ -141,7 +155,7 @@
     <url>
         <loc>https://ttm-help.ru/feedback.html</loc>
         <lastmod>2022-12-19</lastmod>
-        <priority>1.0</priority>
+        <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
@@ -152,12 +166,6 @@
     </url>
     <url>
         <loc>https://ttm-help.ru/posts.html</loc>
-        <lastmod>2022-12-19</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://ttm-help.ru/trichotillomania-and-levels-of-mental-development.html</loc>
         <lastmod>2022-12-19</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
