@@ -23,7 +23,7 @@ layout: default
                {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4  %}
             {% endif %}
             <div class="row">
-                <h3>Похожие статьи</h3>
+                <span class="weight-bold mb-1" style="font-size: x-large">Похожие статьи</span>
             </div>
             <div class="row">
                     {% for post in sorted_posts %}

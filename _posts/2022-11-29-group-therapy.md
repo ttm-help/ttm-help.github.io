@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "New! Групповая терапия"
-description: "Лечение трихотилломании (ттм)"
+title: "New! Групповая терапия трихотилломании"
+description: "Групповая психотерапия при трихотилломании"
 image: "/assets/img/group-therapy-2.png"
 category: "Психотерапия ТТМ"
 ---
