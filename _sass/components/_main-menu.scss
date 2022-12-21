@@ -58,7 +58,7 @@
   }
 }
 
-@include media-breakpoint-down(md) {
+@include media-breakpoint-down(sm) {
   .main-menu-mobile {
     position: fixed;
     background: $steel;

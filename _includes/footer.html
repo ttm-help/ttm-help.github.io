@@ -1,7 +1,7 @@
 <div class="footer">
     <div class="container" style="color: white !important;">
         <div class="row mb-1">
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-4">
                 <div class="row align-items-center">
                     <div class="col-auto mt-1">
                         <a href="/">
@@ -21,13 +21,27 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 social">
-                <div class="row justify-content-end mt-1">
-                    <div class="col-12  col-md-10 col-lg-8">
+            <div class="col-12 col-md-4 social">
+                <div class="row justify-content-start mt-2">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        {% assign mainmenu = site.data.menus.main %}
+                        <ul class="ml-2">
+                            {% for item in mainmenu %}
+                            <li class="{% if item.url == page.url %}active{% endif %}">
+                                <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 social">
+                <div class="row justify-content-start mt-1">
+                    <div class="col-12 col-md-10 col-lg-10">
                         {% for item in site.data.social %}
                         <a href="{{ item.link }}"
+                           class="d-inline-block"
                            rel="nofollow"
-                           class="d-block"
                            target="blank">
                             <img class="messenger-icon d-inline-block"
                                  src="{{ item.image | relative_url }}"
