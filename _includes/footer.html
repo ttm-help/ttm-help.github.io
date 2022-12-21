@@ -22,12 +22,12 @@
                 </div>
             </div>
             <div class="col-12 col-md-4 social">
-                <div class="row justify-content-start mt-2">
+                <div class="row justify-content-start mt-1">
                     <div class="col-12 col-md-10 col-lg-8">
                         {% assign mainmenu = site.data.menus.main %}
                         <ul class="ml-2">
                             {% for item in mainmenu %}
-                            <li class="{% if item.url == page.url %}active{% endif %}">
+                            <li style="margin-top: 5px; margin-bottom: 5px">
                                 <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
                             </li>
                             {% endfor %}
