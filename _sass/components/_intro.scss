@@ -1,5 +1,10 @@
 .intro {
+
   @include media-breakpoint-up(md) {
+    height: 50vh;
+  }
+
+  @include media-breakpoint-up(lg) {
     height: 90vh;
   }
 
