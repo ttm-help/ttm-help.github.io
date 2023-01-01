@@ -3,6 +3,12 @@
 
 
     <url>
+        <loc>https://ttm-help.ru/self-efficiency.html</loc>
+        <lastmod>2023-01-01</lastmod>
+        <priority>0.5</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
         <loc>https://ttm-help.ru/reputation-and-trichotillomania.html</loc>
         <lastmod>2022-12-30</lastmod>
         <priority>0.5</priority>
@@ -52,31 +58,31 @@
     </url>
     <url>
         <loc>https://ttm-help.ru/ttm-definition.html</loc>
-        <lastmod>2022-12-19</lastmod>
+        <lastmod>2023-01-01</lastmod>
         <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://ttm-help.ru/own-experience.html</loc>
-        <lastmod>2022-12-19</lastmod>
+        <lastmod>2023-01-01</lastmod>
         <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://ttm-help.ru/methods-of-self-help.html</loc>
-        <lastmod>2022-12-19</lastmod>
+        <lastmod>2023-01-01</lastmod>
         <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://ttm-help.ru/groups-and-societies.html</loc>
-        <lastmod>2022-12-19</lastmod>
+        <lastmod>2023-01-01</lastmod>
         <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>https://ttm-help.ru/group-therapy.html</loc>
-        <lastmod>2022-12-19</lastmod>
+        <lastmod>2023-01-01</lastmod>
         <priority>0.5</priority>
         <changefreq>weekly</changefreq>
     </url>
@@ -136,7 +142,7 @@
     </url>
     <url>
         <loc>https://ttm-help.ru/ttm-channel.html</loc>
-        <lastmod>2022-12-19</lastmod>
+        <lastmod>2023-01-01</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
