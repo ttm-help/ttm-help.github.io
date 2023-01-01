@@ -4,7 +4,7 @@
               article: https://ogp.me/ns/article#
               profile: https://ogp.me/ns/profile#">
 
-<head>
+  <head>
     <meta charset="utf-8">
     <meta property="og:locale" content="ru_RU">
 
@@ -147,13 +147,13 @@
     <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>
 
 	{% include google-analytics.html %}
-</head>
+  </head>
 
-<body class='page {{layout.bodyClass}}'>
+  <body class='page {{layout.bodyClass}}'>
     <div id="wrapper" class="wrapper">
         {% include header.html %}
         {{content}}
     </div>
     {% include footer.html %}
-</body>
+  </body>
 </html>

@@ -1,0 +1,21 @@
+.mobile-footer-menu {
+
+  position: sticky;
+  bottom: 0;
+
+  height: 50px;
+  background: $white;
+
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  @include media-breakpoint-up(md) {
+    display: none;
+    height: auto;
+    img {
+      display: none;
+    }
+  }
+}

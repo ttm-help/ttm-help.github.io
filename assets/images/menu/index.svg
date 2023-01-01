@@ -1,0 +1,11 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <line fill="none" stroke="#000000" stroke-width="2" x1="0" y1="0.93749" x2="39.99934" y2="0.93749" id="svg_5" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000000" stroke-width="2" x1="0" y1="38.99957" x2="39.99934" y2="38.99957" id="svg_6" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000000" stroke-width="2" x1="0.93749" y1="0.25" x2="0.93749" y2="40.25" id="svg_7" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <line fill="none" stroke="#000000" stroke-width="2" x1="38.99957" y1="0.93749" x2="38.99957" y2="40.93749" id="svg_9" stroke-linejoin="undefined" stroke-linecap="undefined"/>
+  <text fill="#000000" stroke="#000000" stroke-width="0" x="4.93723" y="28.56252" id="svg_15" font-size="27" font-family="Noto Sans JP" text-anchor="start" xml:space="preserve">Th</text>
+ </g>
+
+</svg>
