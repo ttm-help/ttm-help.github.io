@@ -14,9 +14,9 @@
   -webkit-transition: all 0.15s ease;
   transition: all 0.15s ease;
 
-  font-size: 3.7vw;
+  font-size: calc(min(3.7vw, 12px));
   @include media-breakpoint-up(md) {
-    font-size: calc(min(1.7vw, 1.7vh));
+    font-size: calc(max(min(1.7vw, 1.7vh), 12px));
   }
 
   &:hover {

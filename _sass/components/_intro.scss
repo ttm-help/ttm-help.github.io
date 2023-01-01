@@ -1,11 +1,11 @@
 .intro {
 
   @include media-breakpoint-up(md) {
-    height: 50vh;
+    height: calc(max(718px, 50vh));
   }
 
   @include media-breakpoint-up(lg) {
-    height: 90vh;
+    height: calc(max(718px, 90vh));
   }
 
   .h-100 {
