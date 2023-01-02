@@ -30,9 +30,7 @@ Photo by <a href="https://unsplash.com/@samich_18" rel="nofollow">Samantha Borge
 > то есть общению с психологом в его кабинете, но в ряде случаев превосходит ее. Касается это того, что клиент получает 
 > помощь психотерапевта и находится при этом в комфортном для себя месте, которое он сам выбрал. Это позволяет клиенту 
 > настроиться на результат и не думать об отвлекающих факторах.
-> -- <cite>[Candice Luo, Nitika Sanger, Nikhita Singhal, Kaitlin Pattrick, Ieta Shams. Hamnah Shahid et al.][1]</cite>
-
-[1]: https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(20)30186-3/fulltext
+> -- <cite><a href="https://www.thelancet.com/journals/eclinm/article/PIIS2589-5370(20)30186-3/fulltext" rel="nofollow">Candice Luo, Nitika Sanger, Nikhita Singhal, Kaitlin Pattrick, Ieta Shams. Hamnah Shahid et al.</a></cite>
 
 От себя добавлю, что если помимо трихотилломании вы страдаете иными серьезными психическими заболеваниями, 
 склонны к суициду и т д, то в данной ситуации речь может идти о помощи другого специалиста - психиатра. 

@@ -1,7 +1,7 @@
 ---
-title: Отзывы
+title: Отзывы клиентов
 layout: feedback
-description: "Отзывы клиентов"
+description: "Анонимные отзывы моих клиентов"
 permalink: "/feedback"
 date: 2022-12-10
 ---
