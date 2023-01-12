@@ -9,11 +9,14 @@ image: "/assets/images/illustrations/about-photo.jpg"
 
 ## Обо мне
 
-<img
-    src="/assets/images/illustrations/about-photo.jpg"
-    alt=">"
-    style="height:100%"
-    class="ml-3 mb-3 mt-0">
+<picture class="ml-3 mb-3 mt-0">
+    <source media="(min-width:720px)"
+            srcset="/assets/images/illustrations/about-photo.jpg">
+    <img src="/assets/images/illustrations/about-photo-mobile.jpg"
+         alt=">"
+         title="{{ site.description }}"
+         style="height:100%">
+</picture>
 
 Добро пожаловать на мой сайт, посвященный трихотилломании!  
 
