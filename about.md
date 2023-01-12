@@ -9,7 +9,7 @@ image: "/assets/images/illustrations/about-photo.jpg"
 
 ## Обо мне
 
-<picture class="ml-3 mb-3 mt-0">
+<picture class="ml-sm-3 mb-sm-3 mt-sm-0">
     <source media="(min-width:720px)"
             srcset="/assets/images/illustrations/about-photo.jpg">
     <img src="/assets/images/illustrations/about-photo-mobile.jpg"
