@@ -109,8 +109,11 @@
   }
 
   li {
-    margin-bottom: 5px;
     margin-left: 20px;
+    margin-bottom: 15px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 5px;
+    }
     font-family: $font-family-base;
     color: $primary-dark;
     line-height: 1.2;
