@@ -66,7 +66,23 @@
                 "author": {
                     "@type": "Person",
                     "name": "Коновалова Оксана",
-                    "url": "{{site.url}}/about.html"
+                    "givenName": "Оксана",
+                    "familyName": "Коновалова",
+                    "jobTitle": "Психотерапевт",
+                    "image": "{{site.url}}/assets/images/illustrations/about-photo.jpg",
+                    "url": "{{site.url}}/about.html",
+                    "email": "mailto:{{site.data.contact.email}}"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": {{ site.title | jsonify }},
+                    "url": "{{ site.url }}",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "width": 32,
+                        "height": 32,
+                        "url": "{{ site.url }}/assets/images/logo/favicon-32x32.png"
+                    }
                 },
                 {% if page.title %}
                     "headline": "{{ page.title }}",
@@ -82,11 +98,14 @@
                     "@type": "WebPage",
                     "@id": "{{ canonical_link }}"
                 },
-                {% if page.image %}
-                    "image": "{{site.url}}{{ page.image }}",
-                {% else %}
-                    "image": "{{site.url}}/assets/images/illustrations/main-photo.jpeg",
-                {% endif %}
+                "image": {
+                    "@type": "ImageObject",
+                    {% if page.image %}
+                        "url": "{{site.url}}{{ page.image }}"
+                    {% else %}
+                        "url": "{{site.url}}/assets/images/illustrations/main-photo.jpeg"
+                    {% endif %}
+                },
                 "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
                 "url":  "{{ canonical_link }}"
             }
