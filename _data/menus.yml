@@ -1,4 +1,6 @@
 main:
+  - name: "Тест"
+    url: "/test.html"
   - name: "FAQ"
     url: "/faq.html"
   - name: "Блог"
