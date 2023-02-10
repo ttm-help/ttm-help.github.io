@@ -11,11 +11,12 @@ image: "/assets/images/illustrations/about-photo.jpg"
 
 <picture class="ml-sm-3 mb-sm-3 mt-sm-0">
     <source media="(min-width:720px)"
-            srcset="/assets/images/illustrations/about-photo.jpg">
-    <img src="/assets/images/illustrations/about-photo-mobile.jpg"
-         alt=">"
+            width="1008" height="1280"
+            srcset="/assets/images/illustrations/about-photo.webp">
+    <img src="/assets/images/illustrations/about-photo-mobile.webp"
+         alt=">" width="1000" height="739"
          title="{{ site.description }}"
-         style="height:100%">
+         style="width:50%">
 </picture>
 
 Добро пожаловать на мой сайт, посвященный трихотилломании!  
@@ -81,47 +82,47 @@ ACT in Action by Steven C.Hayes (Newpsy education)
 <ul class="gallery filter">
     <li>
         <a href="assets/images/certificates/0.webp">
-            <img src="assets/images/certificates/0.webp" alt="когнитивно-поведенческая терапия">
+            <img src="assets/images/certificates/0.webp" alt="когнитивно-поведенческая терапия" width="1280" height="960">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/1.webp">
-            <img src="assets/images/certificates/1.webp" alt="диплом юридический психолог">
+            <img src="assets/images/certificates/1.webp" alt="диплом юридический психолог" height="1294" width="1796">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/2.webp">
-            <img src="assets/images/certificates/2.webp" alt="психологическое консультирование родителей">
+            <img src="assets/images/certificates/2.webp" alt="психологическое консультирование родителей" width="1734" height="1206">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/3.webp">
-            <img src="assets/images/certificates/3.webp" alt="библиотерапия в работе в детьми">
+            <img src="assets/images/certificates/3.webp" alt="библиотерапия в работе в детьми" height="1258" width="1744">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/4.webp">
-            <img src="assets/images/certificates/4.webp" alt="сертификат по коучингу">
+            <img src="assets/images/certificates/4.webp" alt="сертификат по коучингу" width="1280" height="960">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/5.webp">
-            <img src="assets/images/certificates/5.webp" alt="сертификат искусство психотерапии">
+            <img src="assets/images/certificates/5.webp" alt="сертификат искусство психотерапии" width="905" height="1280">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/6.webp">
-            <img src="assets/images/certificates/6.webp" alt="искусство речи">
+            <img src="assets/images/certificates/6.webp" alt="искусство речи" height="1280" width="960">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/7.webp">
-            <img src="assets/images/certificates/7.webp" alt="техника эмоциональной свободы">
+            <img src="assets/images/certificates/7.webp" alt="техника эмоциональной свободы" width="1972" height="1406">
         </a>
     </li>
     <li>
         <a href="assets/images/certificates/8.webp">
-            <img src="assets/images/certificates/8.webp" alt="сертификат ACT">
+            <img src="assets/images/certificates/8.webp" alt="сертификат ACT" height="1280" width="905">
         </a>
     </li>
 </ul>
