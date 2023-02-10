@@ -1,15 +1,29 @@
 image:
   - url: "/assets/images/feedbacks/1.webp"
     alt: "Отзыв клиента которому я помогла в избавлении от трихотилломании"
+    height: 1191
+    width: 828
   - url: "/assets/images/feedbacks/2.webp"
     alt: "Впечатление клиента от пройденной терапии от ТТМ"
+    height: 717
+    width: 828
   - url: "/assets/images/feedbacks/3.webp"
     alt: "Результаты клиента избавившегося от трихотилломании"
+    height: 570
+    width: 828
   - url: "/assets/images/feedbacks/4.webp"
     alt: "Еще один отзыв клиента боровшегося с трихотилломанией"
+    height: 1004
+    width: 828
   - url: "/assets/images/feedbacks/5.webp"
     alt: "Продолжение отзыва"
+    height: 960
+    width: 578
   - url: "/assets/images/feedbacks/6.webp"
     alt: "Результаты терапевтической сессии лечения ТТМ"
+    height: 503
+    width: 828
   - url: "/assets/images/feedbacks/7.webp"
     alt: "Отзыв моей клиентки после успешной терапии трихотилломании"
+    height: 430
+    width: 828

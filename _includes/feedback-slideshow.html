@@ -4,6 +4,7 @@
         <div class="card">
             <img
                     src="{{ item.url | relative_url }}"
+                    width="{{ item.width }}" height="{{ item.height }}"
                     alt="{{ item.alt }}">
         </div>
     {% endfor %}
