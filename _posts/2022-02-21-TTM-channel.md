@@ -8,6 +8,7 @@ category: "Психотерапия ТТМ"
 <img 
     src="/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg" 
     alt="телеграм группа помощи при трихотилломании"
+    width="533" height="400"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel="nofollow" >mariyan rajesh on Unsplash</a>

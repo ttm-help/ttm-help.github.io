@@ -8,6 +8,7 @@ category: "Трихотилломания - это"
 <img 
     src="/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"     
     alt="трихотилломания, как неэффективная адаптация"
+    width="750" height="500"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@choys_" rel="nofollow" >Conny Schneider</a> on Unsplash
