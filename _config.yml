@@ -20,9 +20,11 @@ sass:
   indentWidth: 4
   style: compressed # possible values: nested expanded compact compressed
   precision: 10
+  sourcemap: always
 
 plugins:
   - jekyll-feed
+  - jekyll-sass-converter
 
 exclude:
   - "*.iml"
