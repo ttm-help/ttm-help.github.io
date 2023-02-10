@@ -16,7 +16,7 @@ image: "/assets/images/illustrations/about-photo.jpg"
     <img src="/assets/images/illustrations/about-photo-mobile.webp"
          alt=">" width="1000" height="739"
          title="{{ site.description }}"
-         style="width:50%">
+         style="width:50%; min-width: 300px">
 </picture>
 
 Добро пожаловать на мой сайт, посвященный трихотилломании!  
