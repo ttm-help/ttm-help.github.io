@@ -4,7 +4,7 @@ layout: page
 description: "Страница с описанием моего опыта и образования"
 is_about: "true"
 date: 2022-12-10
-image: "/assets/images/illustrations/about-photo.jpg"
+image: "/assets/images/illustrations/about-photo-mobile.webp"
 ---
 
 ## Обо мне
