@@ -52,7 +52,8 @@ image: "/assets/images/illustrations/about-photo-mobile.webp"
 Начало любой терапии предваряется диагностической консультацией, где мы знакомимся и намечаем план лечения.
 
 ## Мои публикации:
-- <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" rel="nofollow">Статья для врачей трихологов в «Вестнике Трихологии»</a>.
+- Коновалова О.В. Трихотилломания: // Вестник Трихологии - интернет журнал союза трихологов. 2023. 
+  URL: <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" rel="nofollow">http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php</a>.
 
 ## Опыт работы:
 
