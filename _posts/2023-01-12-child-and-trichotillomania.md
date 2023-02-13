@@ -8,6 +8,7 @@ category: "Родителям"
 <img
     src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
     alt="Что нельзя делать когда у ребенка трихотилломания?"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash

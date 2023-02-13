@@ -8,6 +8,7 @@ category: "Личный опыт: мой и моих пациентов"
 <img 
     src="/assets/img/taylor-hernandez-NK-N6coeI5Y-unsplash.jpg" 
     alt="По следам группы поддержки при трихотилломании. Часть 2"
+    width="1000" height="668"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/es/@taylormae" rel="nofollow" >taylor hernandez</a> on Unsplash

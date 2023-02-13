@@ -42,6 +42,7 @@ category: "Лечение ТТМ"
 <img
     src="/assets/img/groups-and-societies.jpg"
     alt="Биосоциальность и открытость в группах помощи, сообществах страдающих трихотилломанией (ТТМ)"
+    width="800" height="503"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@mathiasjensen" rel="nofollow">Mathias Jensen</a> on Unsplash

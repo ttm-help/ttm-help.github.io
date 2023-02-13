@@ -43,6 +43,7 @@ category: "Трихотилломания - это"
 <img
     src="/assets/img/taisiia-stupak-mWABE4JCUHI-unsplash.jpg"
     alt="Симптомы трихотилломании"
+    width="630" height="565"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash
@@ -130,6 +131,7 @@ Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stup
 <img
     src="/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash.jpg"
     alt="Что такое трихотилломания?"
+    width="633" height="497"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash
@@ -181,6 +183,7 @@ NSSI представляет собой сознательное решение
 <img
     src="/assets/img/jayson-hinrichsen-QGHC9aF2OwQ-unsplash.jpg"
     alt="Как избавиться от трихотилломании?"
+    width="638" height="772"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash

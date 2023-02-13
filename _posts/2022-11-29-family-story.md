@@ -18,6 +18,7 @@ image: "/assets/img/heredity.png"
 <img
     src="/assets/img/heredity.png"
     alt="Наследственность и трихотилломания"
+    width="1000" height="630"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel="nofollow" >Kelli McClintock</a> on Unsplash

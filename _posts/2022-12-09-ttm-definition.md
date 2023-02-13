@@ -8,6 +8,7 @@ category: "Трихотилломания - это"
 <img 
     src="/assets/img/rod-long-89bQBucvJdw-unsplash.jpg" 
     alt="Трихотилломания - это"
+    width="1000" height="671"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash

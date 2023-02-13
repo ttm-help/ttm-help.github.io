@@ -9,6 +9,7 @@ category: "Психотерапия ТТМ"
 <img 
     src="/assets/img/clay-banks-LjqARJaJotc-unsplash.jpg" 
     alt="Группа поддержки людей, страдающих трихотилломанией"
+    width="640" height="480"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@claybanks" rel="nofollow">Clay Banks</a> on Unsplash
@@ -59,6 +60,7 @@ Photo by <a href="https://unsplash.com/@claybanks" rel="nofollow">Clay Banks</a>
 <img
     src="/assets/img/chris-montgomery-smgTvepind4-unsplash.jpg"
     alt="Онлайн терапии"
+    width="640" height="480"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@cwmonty" rel="nofollow">Chris Montgomery</a> on Unsplash

@@ -8,6 +8,7 @@ category: "Лечение ТТМ"
 <img 
     src="/assets/img/smit-patel-JMmTloWmvSI-unsplash.jpg" 
     alt="Трихотилломания и ценности"
+    width="640" height="422"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@wallsbysmit" rel="nofollow">Smit Patel</a> on Unsplash

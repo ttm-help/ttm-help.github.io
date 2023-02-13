@@ -8,6 +8,7 @@ category: "Личный опыт: мой и моих пациентов"
 <img 
     src="/assets/img/support-group.jpg" 
     alt="По следам группы поддержки трихотилломании (ТТМ)"
+    width="1000" height="668"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@windows" rel="nofollow">Windows</a> on Unsplash

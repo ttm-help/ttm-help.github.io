@@ -9,6 +9,7 @@ category: "Лечение ТТМ"
 <img 
     src="/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg" 
     alt="Предупреждение врача-дерматолога, трихолога"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne</a> on Unsplash
@@ -55,6 +56,7 @@ Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne
 <img
     src="/assets/img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
     alt="Предупреждение врача-дерматолога, трихолога"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash

@@ -8,6 +8,7 @@ category: "Лечение ТТМ"
 <img 
     src="/assets/img/thomas-mowe-l1q_SzH5dKs-unsplash.jpg" 
     alt="Внутренняя репутация и трихотилломания (ТТМ)"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</a> on Unsplash
@@ -66,6 +67,7 @@ Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</
 <img
     src="/assets/img/sander-sammy-G1l_DRxm6UA-unsplash.jpg"
     alt="позиция проигравшего и победителя в борьбе с трихотилломанией"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash

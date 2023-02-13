@@ -15,6 +15,7 @@ category: "Лечение ТТМ"
 <img
     src="/assets/img/wojciech-celinski-lMlEt1l9QAo-unsplash.jpg"
     alt="Самоэффективность: сила мысли - я думаю, что могу!"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash
@@ -103,6 +104,7 @@ Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celińsk
 <img
     src="/assets/img/susan-flynn-7rpwyZhkmNg-unsplash.jpg"
     alt="Самоэффективность и ее роль в предотвращении рецидивов"
+    width="640" height="593"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash

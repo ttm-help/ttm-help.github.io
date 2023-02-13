@@ -11,6 +11,7 @@ category: "Психотерапия ТТМ"
 <img
     src="/assets/img/group-therapy-2.png"     
     class="mb-0"
+    width="1000" height="668"
     alt="Групповая терапия">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash
@@ -44,6 +45,7 @@ Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia 
 <img
     src="/assets/img/group-therapy-1.png"
     alt="Групповая терапия"
+    width="1000" height="668"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busing</a> on Unsplash
@@ -56,7 +58,7 @@ Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busi
 В группе от 3 до 5 человек плюс психотерапевт.
 
 ### Как проходит групповая терапия?
-В видеоформате, сессии в основном проходят в ZOOM, Google Meet и т.д.б длительностью от 1 ч 20 мин до 1 ч 30 мин.
+В видеоформате, сессии в основном проходят в ZOOM, Google Meet и т.д. длительностью от 1 ч 20 мин до 1 ч 30 мин.
 
 ### Как можно записаться на групповую терапию?
 Заполнить анкету и, если понадобится, пройти тесты.

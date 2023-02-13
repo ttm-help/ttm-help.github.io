@@ -9,6 +9,7 @@ category: "Психотерапия ТТМ"
 <img 
     src="/assets/img/samantha-borges-EeS69TTPQ18-unsplash.jpg" 
     alt="Эффективна ли онлайн терапия?"
+    width="640" height="427"
     class="mb-0">
 <sup><sub>
 Photo by <a href="https://unsplash.com/@samich_18" rel="nofollow">Samantha Borges</a> on Unsplash
