@@ -24,6 +24,18 @@ image:
     height: 503
     width: 828
   - url: "/assets/images/feedbacks/7.webp"
-    alt: "Отзыв моей клиентки после успешной терапии трихотилломании"
+    alt: "Отзыв моего клиента после успешной терапии трихотилломании"
     height: 430
+    width: 828
+  - url: "/assets/images/feedbacks/8.webp"
+    alt: "Отзыв клиента после групповой терапии"
+    height: 725
+    width: 828
+  - url: "/assets/images/feedbacks/9.webp"
+    alt: "Отзыв клиента после встречи группы поддержки"
+    height: 950
+    width: 828
+  - url: "/assets/images/feedbacks/10.webp"
+    alt: "Еще один отзыв клиента"
+    height: 763
     width: 828
