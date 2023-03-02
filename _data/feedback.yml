@@ -4,7 +4,7 @@ image:
     height: 1191
     width: 828
   - url: "/assets/images/feedbacks/2.webp"
-    alt: "Впечатление клиента от пройденной терапии от ТТМ"
+    alt: "Впечатление клиента от пройденной терапии ТТМ"
     height: 717
     width: 828
   - url: "/assets/images/feedbacks/3.webp"
@@ -12,15 +12,15 @@ image:
     height: 570
     width: 828
   - url: "/assets/images/feedbacks/4.webp"
-    alt: "Еще один отзыв клиента боровшегося с трихотилломанией"
+    alt: "Еще один отзыв клиента победившего трихотилломанию"
     height: 1004
     width: 828
   - url: "/assets/images/feedbacks/5.webp"
-    alt: "Продолжение отзыва"
+    alt: "Результаты терапевтической сессии лечения ТТМ"
     height: 960
     width: 578
   - url: "/assets/images/feedbacks/6.webp"
-    alt: "Результаты терапевтической сессии лечения ТТМ"
+    alt: "Продолжение отзыва"
     height: 503
     width: 828
   - url: "/assets/images/feedbacks/7.webp"
@@ -36,6 +36,6 @@ image:
     height: 950
     width: 828
   - url: "/assets/images/feedbacks/10.webp"
-    alt: "Еще один отзыв клиента"
+    alt: "Еще один отзыв клиента после консультации со мной"
     height: 763
     width: 828

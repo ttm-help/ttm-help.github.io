@@ -5,6 +5,7 @@
             <img
                     src="{{ item.url | relative_url }}"
                     width="{{ item.width }}" height="{{ item.height }}"
+                    title="{{ item.alt }}"
                     alt="{{ item.alt }}">
         </div>
     {% endfor %}

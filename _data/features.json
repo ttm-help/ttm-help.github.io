@@ -5,6 +5,7 @@
     "link": "#trich-def-block",
     "image": {
       "url": "assets/images/features/noun_The Process_1885341.svg",
+      "description": "Блок с информацией о трихотилломании",
       "width": 80,
       "height": 80
     }
@@ -15,6 +16,7 @@
     "link": "#therapy-block",
     "image": {
       "url": "assets/images/features/noun_branding_1885335.svg",
+      "description": "Информация о том, как проходит лечение",
       "width": 80,
       "height": 80
     }
@@ -25,6 +27,7 @@
     "link": "#price-and-contact",
     "image": {
       "url": "assets/images/features/noun_The Process_1885341.svg",
+      "description": "Информация о стоимости терапии и диагностической консультации",
       "width": 80,
       "height": 80
     }
@@ -35,6 +38,7 @@
     "link": "assets/docs/oferta.pdf",
     "image": {
       "url": "assets/images/features/noun_3d modeling_1885342.svg",
+      "description": "Договор-оферта об оказании услуг",
       "width": 80,
       "height": 80
     }

@@ -4,10 +4,11 @@
             <div class="col-12 col-md-4">
                 <div class="row align-items-center">
                     <div class="col-auto mt-1">
-                        <a href="/" aria-label="сайт о лечении трихотилломании">
+                        <a href="/" aria-label="Сайт о лечении трихотилломании">
                             <img width="60"
                                  height="60"
                                  alt="{{ site.title }}"
+                                 title="Перейти на страницу сайта о ТТМ"
                                  src="{{ site.logo.mobile | relative_url }}">
                         </a>
                     </div>
@@ -45,6 +46,7 @@
                            target="blank">
                             <img class="messenger-icon d-inline-block"
                                  src="{{ item.image | relative_url }}"
+                                 title="{{ item.description }}"
                                  alt="{{ item.name }}">
                             <span class="d-inline-block">{{ item.name }}</span>
                         </a>
@@ -79,8 +81,8 @@
         <img src="/assets/images/menu/index.svg"
              width="26" height="26"
              class="mb-2 mt-1"
-             title="Вернуться на главную"
-             alt="сайт лечение трихотилломании">
+             title="Вернуться на главную страницу сайта"
+             alt="Сайт лечение трихотилломании">
     </a>
     <a href="https://t.me/ttm_help_ru"
        aria-label="группа помощи в телеграм"
@@ -88,16 +90,16 @@
         <img src="/assets/images/menu/telegram.svg"
              width="26" height="26"
              class="mb-2 mt-1"
-             title="Группа помощи"
-             alt="группа помощи при трихотилломании в телеграм">
+             title="Перейти в группа помощи в телеграм"
+             alt="Группа помощи при трихотилломании в телеграм">
     </a>
     <a href="/contact.html"
        aria-label="страница с контактами">
         <img src="/assets/images/menu/write.svg"
              width="26" height="26"
              class="mb-2 mt-1"
-             title="Консультацию"
-             alt="записаться на консультацию">
+             title="Перейти на страницу с контактными данными"
+             alt="Записаться на консультацию">
     </a>
     <a href="/faq.html"
        aria-label="страница с часто задаваемыми вопросами и ответы на них">
@@ -105,6 +107,6 @@
              width="26" height="26"
              class="mb-2 mt-1"
              title="FAQ"
-             alt="часто задаваемые вопросы">
+             alt="Часто задаваемые вопросы">
     </a>
 </div>
