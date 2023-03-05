@@ -1,8 +1,98 @@
 ---
 title: Отзывы клиентов
-layout: feedback
+layout: default
 description: "Анонимные отзывы моих клиентов"
 permalink: "/feedback"
 date: 2022-12-10
 ---
 
+<div class="container pb-6 pt-2">
+    <div class="row justify-content-start">
+        <div class="col-md-12 col-sm-1">
+            <p>
+                Здесь вы можете ознакомиться с анонимными отзывами моих клиентов
+            </p>
+            <div>
+                <ul id="image-container" class="gallery filter">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+
+const IMAGES = {{ site.data.feedback.image | jsonify }};
+console.log("size=" + IMAGES.length);
+
+const cardContainer = document.getElementById("image-container");
+const cardLimit = IMAGES.length;
+const cardIncrease = 12;
+const pageCount = Math.ceil(cardLimit / cardIncrease);
+let currentPage = 1;
+
+let throttleTimer;
+const throttle = (callback, time) => {
+  if (throttleTimer) return;
+
+  throttleTimer = true;
+
+  setTimeout(() => {
+    callback();
+    throttleTimer = false;
+  }, time);
+};
+
+const createCard = (index) => {
+
+  const cardTag = document.createElement("li");
+  const linkTag = document.createElement("a");
+  const imageUrl = IMAGES[index].url;
+  const imageAlt = IMAGES[index].alt;
+  linkTag.href = imageUrl;
+  const imgTag = document.createElement("img");
+  imgTag.src = imageUrl;
+  imgTag.title = imageAlt;
+  imgTag.alt = imageAlt;
+
+  linkTag.appendChild(imgTag);
+  cardTag.appendChild(linkTag);
+  cardContainer.appendChild(cardTag);
+};
+
+const addCards = (pageIndex) => {
+  currentPage = pageIndex;
+
+  const startRange = (pageIndex - 1) * cardIncrease;
+  const endRange = currentPage === pageCount ? cardLimit : pageIndex * cardIncrease;
+
+  for (let i = startRange + 1; i <= endRange; i++) {
+    createCard(i);
+  }
+};
+
+const handleInfiniteScroll = () => {
+    
+  throttle(() => {
+    const endOfPage = window.scrollY + window.innerHeight + 2 >= document.body.offsetHeight * 0.75;
+    if (endOfPage) {
+      addCards(currentPage + 1);
+    }
+
+    if (currentPage === pageCount) {
+      removeInfiniteScroll();
+    }
+  }, 1000);
+};
+
+const removeInfiniteScroll = () => {
+  window.removeEventListener("scroll", handleInfiniteScroll);
+};
+
+window.onload = function () {
+  addCards(currentPage);
+};
+
+window.addEventListener("scroll", handleInfiniteScroll);
+</script>
