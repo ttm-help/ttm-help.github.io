@@ -2,7 +2,6 @@
 title: Отзывы клиентов
 layout: default
 description: "Анонимные отзывы моих клиентов"
-permalink: "/feedback"
 date: 2022-12-10
 ---
 
