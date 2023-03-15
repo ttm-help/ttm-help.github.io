@@ -18,7 +18,7 @@ $link-hover-decoration: underline;
 
 // Fonts
 $font-family-base: Helvetica, Arial, sans-serif, -apple-system;
-$font-family-heading: 'Yanone Kaffeesatz', sans-serif, -apple-system;
+$font-family-heading: 'Aftika', sans-serif, -apple-system;
 
 // Footer
 $footer-background-color: #474a4f;
@@ -63,11 +63,11 @@ $sub-footer-text-color: $white;
 @include media-breakpoint-up(md) {
   @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Yanone Kaffeesatz';
+    font-family: 'Aftika';
     font-style: normal;
     font-weight: 400;
-    src: url('/assets/fonts/yanone-kaffeesatz-v24-cyrillic-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-    url('/assets/fonts/yanone-kaffeesatz-v24-cyrillic-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('/assets/fonts/aftika-bold.otf') format('opentype'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url('/assets/fonts/aftika-bold.otf') format('opentype'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
 }
 
