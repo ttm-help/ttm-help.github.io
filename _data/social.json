@@ -1,8 +1,14 @@
 [
   {
-    "name": "Группа помощи при трихотилломании",
+    "name": "Telegram канал",
     "description": "Телеграм группа посвященная трихотилломании и о том как с нею бороться",
     "link": "https://t.me/ttm_help_ru",
     "image": "assets/images/social/telegram.svg"
+  },
+  {
+    "name": "YouTube канал",
+    "description": "ttm help - YouTube канал с полезными видео материалами о трихотилломании",
+    "link": "https://www.youtube.com/@ttm-help",
+    "image": "assets/images/social/youtube.svg"
   }
 ]
