@@ -5,12 +5,13 @@ description: "Интервью с пациентов страдавшим три
 image: "/assets/img/interview-thumbnail.png"
 category: "Личный опыт: мой и моих пациентов"
 ---
-
-<iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/HUt5DaaKcj4" title="YouTube video player" 
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
-        web-share" allowfullscreen>
-</iframe>
+<div class="video-container">
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/HUt5DaaKcj4" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+            web-share" allowfullscreen>
+    </iframe>
+</div>
 
 Всем доброго времени! Меня зовут Оксана Коновалова я психотерапевт и специализируюсь на работе 
 с людьми страдающими трихотилломанией. В этом видео мы посмотрим интервью с моей пациенткой. 
