@@ -1,0 +1,58 @@
+.pic-ctn {
+  position: relative;
+  width: 100%;
+  height: calc(min(200px, 30vh));
+  margin-top: 5px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+}
+
+
+.pic {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+
+  width: 100%;
+  border-radius: .25rem;
+  aspect-ratio: 16/9;
+
+  animation: display 65s infinite;
+}
+
+.pic-ctn a:nth-of-type(2) .pic {
+  animation-delay: 15s;
+}
+
+.pic-ctn a:nth-of-type(3) .pic {
+  animation-delay: 30s;
+}
+
+.pic-ctn a:nth-of-type(4) .pic {
+  animation-delay: 45s;
+}
+
+.pic-ctn a:nth-of-type(5) .pic {
+  animation-delay: 60s;
+}

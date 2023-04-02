@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="container pb-5 pt-md-5 pt-1 pb-md-4">
-    <div class="col justify-content-start">
-        <div class="col-12 col-md-8 row">
+    <div class="row">
+        <div class="col-12 col-md-8 mb-3">
             <div class="content">
                 <h1>{{page.title}}</h1>
                 <div>{{content}}</div>
@@ -17,29 +17,52 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="mt-4">
-            {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4  %}
-            {% if sorted_posts and sorted_posts.size < 4 %}
-               {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4  %}
+        <div class="col-md-3 pt-1">
+            <div class="row col">
+                <span class="weight-bold mb-1" style="font-size: x-large">
+                    Видео с <a href="https://youtube.com/@ttm-help" rel="nofollow">Youtube</a>
+                </span>
+            </div>
+            {% assign video_count = 5 %}
+            {% assign last_videos = site.tags['youtube'] | sample:video_count %}
+            {% assign remaining_size = video_count | minus: last_videos.size %}
+            {% if remaining_size != 0 %}
+                {% for i in (0..remaining_size) %}
+                    {% assign last_videos = last_videos | unshift: last_videos[i] %}
+                {% endfor %}
             {% endif %}
-            <div class="row">
-                <span class="weight-bold mb-1" style="font-size: x-large">Похожие статьи</span>
+
+            <div class="pic-ctn row">
+                {% for video_post in last_videos %}
+                <a href="{{ video_post.url }}">
+                    <img src="{{ video_post.image }}" alt="{{ video_post.title }}" class="pic ml-2">
+                </a>
+                {% endfor %}
             </div>
-            <div class="row">
-                    {% for post in sorted_posts %}
-                        <div class="col-md-3">
-                            <a href="{{ post.url }}">
-                                <img src="{{post.image}}"
-                                     alt="{{post.title}}"
-                                     title="{{post.description}}"
-                                     style="width: 100%;
+        </div>
+    </div>
+    <div class="row col mt-4">
+        {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
+        {% if sorted_posts and sorted_posts.size < 4 %}
+            {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
+        {% endif %}
+        <div class="row col">
+            <span class="weight-bold mb-1" style="font-size: x-large">Похожие статьи</span>
+        </div>
+        <div class="row">
+            {% for post in sorted_posts %}
+                <div class="col-md-3 content">
+                    <a href="{{ post.url }}">
+                        <img src="{{post.image}}"
+                             alt="{{post.title}}"
+                             title="{{post.description}}"
+                             style="width: 100%;
                                             border-radius: .25rem ;
-                                            aspect-ratio: 900/600;">
-                                <p class="pt-1">{{ post.title | smartify }}</p>
-                            </a>
-                        </div>
-                    {% endfor %}
-            </div>
+                                            aspect-ratio: 9/6;">
+                        <p class="pt-1">{{ post.title | smartify }}</p>
+                    </a>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </div>
