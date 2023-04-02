@@ -5,7 +5,7 @@ description: "Интервью с пациентов страдавшим три
 image: "/assets/img/interview-thumbnail.png"
 category: "Личный опыт: мой и моих пациентов"
 ---
-<div class="video-container">
+<div class="video-container mb-3">
     <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/HUt5DaaKcj4" title="YouTube video player" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
@@ -13,7 +13,8 @@ category: "Личный опыт: мой и моих пациентов"
     </iframe>
 </div>
 
-Всем доброго времени! Меня зовут Оксана Коновалова я психотерапевт и специализируюсь на работе 
+Всем доброго времени!   
+Меня зовут Оксана Коновалова я психотерапевт и специализируюсь на работе 
 с людьми страдающими трихотилломанией. В этом видео мы посмотрим интервью с моей пациенткой. 
 Ее зовут Виктория она нам расскажет что ей помогло справиться с трихотилломанией, 
 что позволило не возвращаться к этому снова и снова, какие из использованных методов сработали, а какие нет.
