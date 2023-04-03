@@ -7,7 +7,7 @@
 
 @keyframes display {
   0% {
-    transform: translateX(200px);
+    transform: translateX(50px);
     opacity: 0;
   }
   10% {
@@ -19,11 +19,11 @@
     opacity: 1;
   }
   30% {
-    transform: translateX(-100px);
+    transform: translateX(-50px);
     opacity: 0;
   }
   100% {
-    transform: translateX(-150px);
+    transform: translateX(-100px);
     opacity: 0;
   }
 }
@@ -34,9 +34,10 @@
   top: 0;
   opacity: 0;
 
-  width: 100%;
+  width: 300px;
+  height: auto;
   border-radius: .25rem;
-  aspect-ratio: 16/9;
+  aspect-ratio: 9/6;
 
   animation: display 65s infinite;
 }
