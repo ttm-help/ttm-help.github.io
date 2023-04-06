@@ -28,20 +28,21 @@
     {% if page.keywords %}
         <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
-    <meta name="author" content="Оксана Коновалова">
+    {% assign names = site.author | split: " " %}
+    <meta name="author" content="{{ site.author }}">
 
     <meta property="og:site_name" content="{{ site.title }}">
     {% if page.layout == "post" %}
         <meta property="og:type" content="article">
-        <meta property="article:author" content="Коновалова Оксана">
+        <meta property="article:author" content="{{ site.author }}">
         <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
         {% if page.category %}
             <meta property="article:section" content="{{ page.category }}">
         {% endif %}
     {% elsif page.is_about == "true" %}
         <meta property="og:type" content="profile">
-        <meta property="profile:first_name" content="Оксана">
-        <meta property="profile:last_name" content="Коновалова">
+        <meta property="profile:first_name" content="{{ names[0] }}">
+        <meta property="profile:last_name" content="{{ names[1] }}">
     {% else %}
         <meta property="og:type" content="website">
     {% endif %}
@@ -65,9 +66,9 @@
                 "@type": "BlogPosting",
                 "author": {
                     "@type": "Person",
-                    "name": "Коновалова Оксана",
-                    "givenName": "Оксана",
-                    "familyName": "Коновалова",
+                    "name": "{{ site.author }}",
+                    "givenName": "{{ names[0] }}",
+                    "familyName": "{{ names[1] }}",
                     "jobTitle": "Психотерапевт",
                     "image": "{{site.url}}/assets/images/illustrations/about-photo.webp",
                     "url": "{{site.url}}/about.html",
@@ -81,7 +82,7 @@
                         "@type": "ImageObject",
                         "width": 32,
                         "height": 32,
-                        "url": "{{ site.url }}/assets/images/logo/favicon-32x32.png"
+                        "url": "{{ site.url }}/assets/images/logo/favicon-144x144.png"
                     },
                     "sameAs": [
                         {% for item in site.data.social %}

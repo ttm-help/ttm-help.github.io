@@ -1,10 +1,11 @@
 baseurl: ''
 permalink: pretty
-title: Лечение трихотилломании и помощь при ТТМ
+title: TTM HELP - Лечение трихотилломании и помощь при ТТМ
 description: "Коновалова Оксана - психотерапевт. Лечение трихотилломании (ТТМ),
 дерматилломании, тревожных мыслей, неврозов  и навязчивых состояний"
 url: "https://ttm-help.ru"
 permalink: /:slug.html
+author: Оксана Коновалова
 
 logo:
   mobile: "assets/images/logo/mobile-logo.svg"
