@@ -1,13 +1,4 @@
 .intro {
-
-  @include media-breakpoint-up(md) {
-    height: calc(max(718px, 50vh));
-  }
-
-  @include media-breakpoint-up(lg) {
-    height: calc(max(718px, 90vh));
-  }
-
   .h-100 {
     height: 100%
   }

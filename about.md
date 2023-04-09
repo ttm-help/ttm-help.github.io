@@ -121,4 +121,9 @@ ACT in Action by Steven C.Hayes (Newpsy education)
             <img src="assets/images/certificates/8.webp" alt="сертификат ACT" height="1280" width="905">
         </a>
     </li>
+    <li>
+        <a href="assets/images/certificates/9.jpg">
+            <img src="assets/images/certificates/9.jpg" alt="сертификат групповая терапия" height="1280" width="905">
+        </a>
+    </li>
 </ul>
