@@ -7,8 +7,7 @@ category: "Личный опыт: мой и моих пациентов"
 tags: ["youtube"]
 ---
 <div class="video-container mb-3">
-    <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/HUt5DaaKcj4" title="YouTube video player" 
+    <iframe src="https://www.youtube.com/embed/HUt5DaaKcj4" title="YouTube video player" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
             web-share" allowfullscreen>
     </iframe>
