@@ -1,7 +1,7 @@
 ---
 layout: home
 date: 2022-12-10
-image: "/assets/images/illustrations/main-photo.webp"
+image: "/assets/images/logo/ttm-help-logo.jpg"
 keywords: "лечение трихотилломании, тревожных мыслей, расстройств, навязчивых состояний, неврозов,
 ТТМ, дерматилломании, терапия, психотерапевт, психотерапия"
 ---
