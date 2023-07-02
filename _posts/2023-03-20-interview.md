@@ -4,7 +4,7 @@ title: "Трихотилломания - моя суперспособность
 description: "Интервью с пациентов страдавшим трихотилломанией после окончания терапии"
 image: "/assets/img/interview-thumbnail.png"
 category: "Личный опыт: мой и моих пациентов"
-tags: ["youtube"]
+tags: ["youtube", "interview"]
 ---
 <div class="video-container mb-3">
     <iframe src="https://www.youtube.com/embed/HUt5DaaKcj4" 
