@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 Disallow: /assets/docs/
-Disallow: /assets/images/feedbacks/
 Sitemap: https://ttm-help.ru/sitemap.xml
