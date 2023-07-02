@@ -9,7 +9,7 @@ date: 2022-12-10
     <div class="row justify-content-start">
         <div class="col-md-12 col-sm-1">
             <h2>
-                Видео интервью с моими пациентами
+                Видео-интервью с моими пациентами
             </h2>
 
 
@@ -31,7 +31,7 @@ date: 2022-12-10
             </div>
             
             <h2>
-                Тестовые отзывы о проделанной работе
+                Отзывы после совместной работы
             </h2>
             <div>
                 <ul id="image-container" class="gallery filter">
