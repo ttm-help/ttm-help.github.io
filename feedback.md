@@ -8,9 +8,31 @@ date: 2022-12-10
 <div class="container pb-6 pt-2">
     <div class="row justify-content-start">
         <div class="col-md-12 col-sm-1">
-            <p>
-                Здесь вы можете ознакомиться с анонимными отзывами моих клиентов
-            </p>
+            <h2>
+                Видео интервью с моими пациентами
+            </h2>
+
+
+            {% assign videos = site.tags['interview'] %}
+            <div class="row">
+                {% for video in videos %}
+                    <div class="col-md-3 content">
+                        <a href="{{ video.url }}">
+                            <img src="{{video.image}}"
+                                alt="{{video.title}}"
+                                title="{{post.description}}"
+                                style="width: 100%;
+                                                border-radius: .25rem ;
+                                                aspect-ratio: 9/6;">
+                            <p class="pt-1">{{ post.title | smartify }}</p>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+            
+            <h2>
+                Тестовые отзывы о проделанной работе
+            </h2>
             <div>
                 <ul id="image-container" class="gallery filter">
                 </ul>
