@@ -3,45 +3,12 @@ layout: default
 ---
 
 <div class="container pb-5 pt-md-5 pt-1 pb-md-4">
-    <div class="row">
-        <div class="col-12 col-md-8 mb-3">
-            <div class="content">
-                <h1 class="mb-1">{{page.title}}</h1>
-                <div class="mb-2">
-                    <mark>{% include article-info.html %}</mark>
-                </div>
-                <div>{{content}}</div>
-
-                <div class="pt-1">
-                    <a href="/contact.html"
-                       class="button button-shadow button-post d-block">
-                        Записаться на консультацию
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-3 pt-1">
-            <div class="row col">
-                <span class="weight-bold mb-1" style="font-size: x-large">
-                    Видео с <a href="https://youtube.com/@ttm-help" rel="nofollow">Youtube</a>
-                </span>
-            </div>
-            {% assign video_count = 5 %}
-            {% assign last_videos = site.tags['youtube'] | sample:video_count %}
-            {% assign remaining_size = video_count | minus: last_videos.size %}
-            {% if remaining_size != 0 %}
-                {% for i in (0..remaining_size) %}
-                    {% assign last_videos = last_videos | unshift: last_videos[i] %}
-                {% endfor %}
-            {% endif %}
-
-            <div class="pic-ctn row">
-                {% for video_post in last_videos %}
-                <a href="{{ video_post.url }}">
-                    <img src="{{ video_post.image }}" alt="{{ video_post.title }}" class="pic ml-2">
-                </a>
-                {% endfor %}
-            </div>
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+          <div class="service service-single">
+            <h1 class="title">{{page.title}}</h1>
+            <div class="content">{{content}}</div>
+          </div>
         </div>
     </div>
     <div class="row col mt-4">
