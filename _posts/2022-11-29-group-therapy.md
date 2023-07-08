@@ -2,14 +2,14 @@
 layout: post
 title: "New! Групповая терапия трихотилломании"
 description: "Групповая психотерапия при трихотилломании"
-image: "/assets/img/group-therapy-2.png"
+image: "/assets/img/group-therapy-2.jpg"
 category: "Психотерапия ТТМ"
 ---
 
 ### Что такое групповая терапия?
 
 <img
-    src="/assets/img/group-therapy-2.png"     
+    src="/assets/img/group-therapy-2.jpg"     
     class="mb-0"
     width="1000" height="668"
     alt="Групповая терапия">
@@ -43,7 +43,7 @@ Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia 
 обратную связь сразу из двух источников - от психотерапевта и группы.
 
 <img
-    src="/assets/img/group-therapy-1.png"
+    src="/assets/img/group-therapy-1.jpg"
     alt="Групповая терапия"
     width="1000" height="668"
     class="mb-0">

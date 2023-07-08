@@ -2,11 +2,11 @@
 layout: post
 title: "Помощь родителям при трихотилломании у ребенка"
 description: "Детская трихотилломания(ТТМ) у ребенка"
-image: "/assets/img/child.png"
+image: "/assets/img/child.jpg"
 category: "Родителям"
 ---
 <img 
-    src="/assets/img/child.png" 
+    src="/assets/img/child.jpg" 
     alt="Детская трихотилломания у ребенка (ттм)"
     width="1000" height="635"
     class="mb-0">
