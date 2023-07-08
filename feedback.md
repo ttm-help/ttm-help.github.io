@@ -45,7 +45,6 @@ date: 2022-12-10
 <script>
 
 const IMAGES = {{ site.data.feedback.image | jsonify }};
-console.log("size=" + IMAGES.length);
 
 const cardContainer = document.getElementById("image-container");
 const cardLimit = IMAGES.length;

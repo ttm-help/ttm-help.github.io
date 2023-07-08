@@ -40,6 +40,22 @@ image:
     height: 763
     width: 828
   - url: "/assets/images/feedbacks/11.jpg"
+    height: 386
+    width: 696
     alt: "Отзыв родителя ребенка который был у меня на терапии"
   - url: "/assets/images/feedbacks/12.jpg"
     alt: "Еще один отзыв родителя ребенка который был у меня на терапии"
+    height: 512
+    width: 693
+  - url: "/assets/images/feedbacks/13.jpg"
+    alt: "История Виктории"
+    height: 1364
+    width: 698
+  - url: "/assets/images/feedbacks/14.jpg"
+    alt: "История Екатерины"
+    height: 958
+    width: 698
+  - url: "/assets/images/feedbacks/15.jpg"
+    alt: "Отзыв моей пациентки"
+    height: 939
+    width: 828
