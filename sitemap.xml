@@ -218,7 +218,12 @@
     </url>
     <url>
         <loc>https://ttm-help.ru/</loc>
-        <lastmod>2023-04-27</lastmod>
+        <lastmod>2023-06-24</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+     <url>
+        <loc>https://ttm-help.ru/test.html</loc>
+        <lastmod>2023-06-24</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
