@@ -11,15 +11,14 @@ keywords: "лечение трихотилломании, тревожных м�
     <div class="intro">
         <div class="row">
             <div class="col-md-6" style="margin-bottom: auto; margin-top: auto">
-                <div class="mt-2 mb-2 d-block">
-                    <div class="video-container mt-2 mb-2 d-block">
-                        <div data-youcover data-height="100%" 
-                             data-src='https://www.youtube.com/embed/CUeag1asp08?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
-                             data-allowfullscreen
-                             data-loading='lazy'
-                             data-frameborder='0'
-                             data-allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'>
-                        </div>
+                <div class="video-container mt-2 mb-2 d-block">
+                    <div 
+                        data-youcover data-height="100%" 
+                        data-src='https://www.youtube.com/embed/CUeag1asp08?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
+                        data-allowfullscreen
+                        data-loading='lazy'
+                        data-frameborder='0'
+                        data-allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'>
                     </div>
                 </div>
             </div>
@@ -80,6 +79,7 @@ keywords: "лечение трихотилломании, тревожных м�
     </div>
 </div>
 
+
 <div class="strip strip-grey pt-1 pb-3">
     <div class="container">
         <div class="content">
@@ -88,27 +88,28 @@ keywords: "лечение трихотилломании, тревожных м�
 
         <div class="row justify-content-center">
             {% for feature in site.data.features %}
-            <div class="col-12 col-md-6 col-lg-3 mb-2">
-                <div class="feature">
-                    {% if feature.image %}
-                    <div class="feature-image">
-                        <img alt="{{ feature.title }}"
-                             src="{{ feature.image.url | relative_url }}"
-                             title="{{ feature.image.description }}"
-                             width="{{ feature.image.width }}"
-                             height="{{ feature.image.height }}">
+                <div class="col-12 col-md-6 col-lg-3 mb-2">
+                    <div class="feature">
+                        {% if feature.image %}
+                            <div class="feature-image">
+                                <img alt="{{ feature.title }}"
+                                    src="{{ feature.image.url | relative_url }}"
+                                    title="{{ feature.image.description }}"
+                                    width="{{ feature.image.width }}"
+                                    height="{{ feature.image.height }}">
+                            </div>
+                        {% endif %}
+                        {% if feature.link %}
+                            <a href="{{ feature.link }}">
+                                <span>{{ feature.title }}</span>
+                            </a>
+                        {% endif %}
+                        <div class="feature-content mt-1">
+                            {{ feature.description }}
+                        </div>
                     </div>
-                    {% endif %}
-                    {% if feature.link %}
-                    <a href="{{ feature.link }}">
-                        <span>{{ feature.title }}</span>
-                    </a>
-                    {% endif %}
-                    <div class="feature-content mt-1">{{ feature.description }}</div>
                 </div>
-            </div>
             {% endfor %}
-
         </div>
     </div>
 </div>
@@ -207,7 +208,6 @@ keywords: "лечение трихотилломании, тревожных м�
             Лечение трихотилломании осуществляется только с помощью психотерапии.
         </p>
         <p>
-        <p>
             Основной метод, который используют психотерапевты для
             <b>лечения трихотилломании</b> - это когнитивно-поведенческая психотерапия.
         </p>
@@ -300,7 +300,6 @@ keywords: "лечение трихотилломании, тревожных м�
         </div>
     </div>
 </div>
-
 
 <div class="strip strip-grey pt-1 pb-3">
     <div class="container">

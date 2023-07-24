@@ -33,9 +33,7 @@ date: 2022-12-10
             <h2>
                 Отзывы после совместной работы
             </h2>
-            <div>
-                <ul id="image-container" class="gallery filter">
-                </ul>
+            <div class="row" id="image-container">
             </div>
         </div>
     </div>
@@ -50,7 +48,7 @@ const cardContainer = document.getElementById("image-container");
 const cardLimit = IMAGES.length;
 const cardIncrease = 12;
 const pageCount = Math.ceil(cardLimit / cardIncrease);
-let currentPage = 1;
+let currentPage = 0;
 
 let throttleTimer;
 const throttle = (callback, time) => {
@@ -65,8 +63,13 @@ const throttle = (callback, time) => {
 };
 
 const createCard = (index) => {
+  if(IMAGES.length <= index){
+      return;
+  }
 
-  const cardTag = document.createElement("li");
+  const cardTag = document.createElement("div");
+  cardTag.className += "col-md-3 content";
+
   const linkTag = document.createElement("a");
   const imageUrl = IMAGES[index].url;
   const imageAlt = IMAGES[index].alt;
@@ -110,9 +113,10 @@ const removeInfiniteScroll = () => {
   window.removeEventListener("scroll", handleInfiniteScroll);
 };
 
-window.onload = function () {
-  addCards(currentPage);
-};
+window.addEventListener("load", function(){
+    console.log("i am here");
+    addCards(currentPage + 1);
+    window.addEventListener("scroll", handleInfiniteScroll);
+});
 
-window.addEventListener("scroll", handleInfiniteScroll);
 </script>

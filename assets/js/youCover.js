@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener("load", function(){
     var youCover = function(el, attributes){
         const $el         = $(el), data = $el.data();
         const coverUrl    = "https://i3.ytimg.com/vi/%yid%/maxresdefault.jpg";
@@ -53,4 +53,4 @@ window.onload = function(){
         });
     };
     $("[data-youcover]").youCover();
-}
+});
