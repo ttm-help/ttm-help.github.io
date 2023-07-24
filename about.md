@@ -71,55 +71,55 @@ EFT Emotional Freedom Technique: Hair Pulling & Skin Picking
 Irvin Yalom and the Art of Psychotherapy (Newpsy education)  
 ACT in Action by Steven C.Hayes (Newpsy education)  
 
-<ul class="gallery filter">
-    <li>
+<div class="row">
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/0.jpg">
             <img src="assets/images/certificates/0.jpg" alt="когнитивно-поведенческая терапия" width="1280" height="960">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/1.jpg">
             <img src="assets/images/certificates/1.jpg" alt="диплом юридический психолог" height="1294" width="1796">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/2.jpg">
             <img src="assets/images/certificates/2.jpg" alt="психологическое консультирование родителей" width="1734" height="1206">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/3.jpg">
             <img src="assets/images/certificates/3.jpg" alt="библиотерапия в работе в детьми" height="1258" width="1744">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/4.jpg">
             <img src="assets/images/certificates/4.jpg" alt="сертификат по коучингу" width="1280" height="960">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/5.jpg">
             <img src="assets/images/certificates/5.jpg" alt="сертификат искусство психотерапии" width="905" height="1280">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/6.jpg">
             <img src="assets/images/certificates/6.jpg" alt="искусство речи" height="1280" width="960">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/7.jpg">
-            <img src="assets/images/certificates/7.jpg" alt="техника эмоциональной свободы" width="1972" height="1406">
+                <img src="assets/images/certificates/7.jpg" alt="техника эмоциональной свободы" width="1972" height="1406">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/8.jpg">
             <img src="assets/images/certificates/8.jpg" alt="сертификат ACT" height="1280" width="905">
         </a>
-    </li>
-    <li>
+    </div>
+    <div class="col-md-3 content">
         <a href="assets/images/certificates/9.jpg">
             <img src="assets/images/certificates/9.jpg" alt="сертификат групповая терапия" height="1280" width="905">
         </a>
-    </li>
-</ul>
+    </div>
+</div>
