@@ -1,44 +1,38 @@
 ---
 title: Отзывы клиентов
-layout: default
+layout: page
 description: "Анонимные отзывы моих клиентов"
 date: 2022-12-10
 ---
 
-<div class="container pb-6 pt-2">
-    <div class="row justify-content-start">
-        <div class="col-md-12 col-sm-1">
-            <h2>
-                Видео-интервью с моими пациентами
-            </h2>
+
+<h2>
+    Видео-интервью с моими пациентами
+</h2>
 
 
-            {% assign videos = site.tags['interview'] %}
-            <div class="row">
-                {% for video in videos %}
-                    <div class="col-md-3 content">
-                        <a href="{{ video.url }}">
-                            <img src="{{video.image}}"
-                                alt="{{video.title}}"
-                                title="{{post.description}}"
-                                style="width: 100%;
-                                                border-radius: .25rem ;
-                                                aspect-ratio: 9/6;">
-                            <p class="pt-1">{{ post.title | smartify }}</p>
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
-            
-            <h2>
-                Отзывы после совместной работы
-            </h2>
-            <div class="row" id="image-container">
-            </div>
+{% assign videos = site.tags['interview'] %}
+<div class="row">
+    {% for video in videos %}
+        <div class="col-md-5">
+            <a href="{{ video.url }}">
+                <img src="{{video.image}}"
+                    alt="{{video.title}}"
+                    title="{{post.description}}"
+                    style="width: 100%;
+                            border-radius: .25rem ;
+                            aspect-ratio: 9/6;">
+                <p class="pt-1">{{ post.title | smartify }}</p>
+            </a>
         </div>
-    </div>
+    {% endfor %}
 </div>
-
+        
+<h2>
+    Отзывы после совместной работы
+</h2>
+<div class="row" id="image-container">
+</div>
 
 <script>
 
@@ -68,7 +62,7 @@ const createCard = (index) => {
   }
 
   const cardTag = document.createElement("div");
-  cardTag.className += "col-md-4 content";
+  cardTag.className += "col-md-4";
 
   const linkTag = document.createElement("a");
   const imageUrl = IMAGES[index].url;
