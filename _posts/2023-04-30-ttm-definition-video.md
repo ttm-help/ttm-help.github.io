@@ -8,12 +8,13 @@ tags: [ "youtube" ]
 ---
 
 <div class="video-container mb-3">
-    <iframe src="https://www.youtube.com/embed/vRTqJ2ZTH8Y" 
-            title="YouTube video player"
-            loading="lazy"
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
-            web-share" allowfullscreen>
-    </iframe>
+    <div data-youcover data-width="100%" 
+        data-src='https://www.youtube.com/embed/vRTqJ2ZTH8Y?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
+        data-allowfullscreen
+        data-loading='lazy'
+        data-frameborder='0'
+        data-allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'>
+    </div>
 </div>
 
 На стресс и тревожные события все реагируют по-разному, у кого-то потеют

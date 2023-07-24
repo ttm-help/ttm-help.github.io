@@ -12,8 +12,6 @@
     height: auto;
 
     @include media-breakpoint-up(md) {
-      max-width: 40vw;
-
       margin-left: auto;
       margin-right: auto;
     }
