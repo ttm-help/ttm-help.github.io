@@ -1,7 +1,7 @@
 window.addEventListener("load", function(){
     var youCover = function(el, attributes){
         const $el         = $(el), data = $el.data();
-        const coverUrl    = "https://i3.ytimg.com/vi/%yid%/maxresdefault.jpg";
+        const coverUrl    = "https://i3.ytimg.com/vi/%yid%/hq720.jpg";
         const $wrapper    = $("<a href='#'></a>");
         const $iframe     = $("<iframe />");
         const $cover      = $('<img id="youtube-cover" alt="видео для просмотра" class="pt-1" style="z-index: 1"/>');
