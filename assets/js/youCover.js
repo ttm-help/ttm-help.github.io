@@ -2,9 +2,9 @@ window.addEventListener("load", function(){
     var youCover = function(el, attributes){
         const $el         = $(el), data = $el.data();
         const coverUrl    = "https://i3.ytimg.com/vi/%yid%/maxresdefault.jpg";
-        const $wrapper    = $("<a href='javascript:void(0);'></a>");
+        const $wrapper    = $("<a href='#'></a>");
         const $iframe     = $("<iframe />");
-        const $cover      = $('<img id="youtube-cover" class="pt-1" style="z-index: 1"/>');
+        const $cover      = $('<img id="youtube-cover" alt="видео для просмотра" class="pt-1" style="z-index: 1"/>');
 
         attributes = $.extend( {}, attributes, data);
         $wrapper.addClass(attributes.wrapperclass);
@@ -17,7 +17,7 @@ window.addEventListener("load", function(){
 
         const coverImage  = coverUrl.replace("%yid%", youtube_parser(attributes.src));
         $cover.attr('src', coverImage);
-        const $button = $('<img id="youtube-button" src="/assets/images/logo/youtube-button.png"/>');
+        const $button = $('<img id="youtube-button" alt="воспроизвести" src="/assets/images/logo/youtube-button.png"/>');
         $wrapper.append($cover);
         $wrapper.append($button);
 
