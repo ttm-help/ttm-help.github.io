@@ -68,7 +68,7 @@ const createCard = (index) => {
   }
 
   const cardTag = document.createElement("div");
-  cardTag.className += "col-md-3 content";
+  cardTag.className += "col-md-4 content";
 
   const linkTag = document.createElement("a");
   const imageUrl = IMAGES[index].url;
