@@ -307,23 +307,7 @@ keywords: "лечение трихотилломании, тревожных м�
             <h2 class="custom-header">
                 <a href="/feedback.html">Отзывы моих клиентов</a>
             </h2>
-
-            {% assign videos = site.tags['interview'] %}
-            <div class="row">
-                {% for video in videos %}
-                    <div class="col-md-3">
-                        <a href="{{ video.url }}">
-                            <img src="{{video.image}}"
-                                alt="{{video.title}}"
-                                title="{{post.description}}"
-                                style="width: 100%;
-                                        border-radius: .25rem ;
-                                        aspect-ratio: 9/6;">
-                            <p class="pt-1">{{ post.title | smartify }}</p>
-                        </a>
-                    </div>
-                {% endfor %}
-            </div>
+            {% include feedback-slideshow.html %}
         </div>
     </div>
 </div>
