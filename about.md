@@ -122,4 +122,9 @@ ACT in Action by Steven C.Hayes (Newpsy education)
             <img src="assets/images/certificates/9.jpg" alt="сертификат групповая терапия" height="1280" width="905">
         </a>
     </div>
+    <div class="col-md-3 content">
+        <a href="assets/images/certificates/10.jpeg">
+            <img src="assets/images/certificates/10.jpeg" alt="сертификат типы организации личности" height="1522" width="1070">
+        </a>
+    </div>
 </div>
