@@ -157,7 +157,7 @@
                             "name": "{{page.title}}",
                             "item": "{{ canonical_link }}"
                         }
-                    {% elsif page.layout != "home" %}
+                    {% elsif page.url != "/" %}
                         ,{
                             "@type": "ListItem",
                             "position": 2,
