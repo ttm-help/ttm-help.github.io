@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<rss
+	    xmlns:yandex="http://news.yandex.ru"
+	    xmlns:media="http://search.yahoo.com/mrss/"
+	    xmlns:turbo="http://turbo.yandex.ru"
+	    version="2.0"
+	>
+	<channel>
+		<item turbo="false">
+			<link>https://ttm-help.ru/group-therapy.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/abc.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/relapse.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/support-for-parents.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/self-diagnostics.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/ttm-self-help.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/anxirty.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/diagnosis-of-depression.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/ttm-channel.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/ttm-behaviour.html</link>
+		</item>
+		<item turbo="false">
+			<link>https://ttm-help.ru/family-story.html</link>
+		</item>
+
+	</channel>
+</rss>
