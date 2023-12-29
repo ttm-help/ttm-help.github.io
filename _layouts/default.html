@@ -189,7 +189,7 @@
 
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
     <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>
-	{% include google-analytics.html %}
+	{% include analytics-counters.html %}
   </head>
 
   <body class='page {{layout.bodyClass}}'>
@@ -200,24 +200,6 @@
     <script src="{{ '/assets/js/jquery.slim.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
 
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript" >
-        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-        ym(89698971, "init", {
-            clickmap:true,
-            trackLinks:true,
-            accurateTrackBounce:true,
-            webvisor:true
-        });
-    </script>
-    <script src="/assets/js/youCover.js"></script>
-    <noscript><div><img src="https://mc.yandex.ru/watch/89698971" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-    <!-- /Yandex.Metrika counter -->
 
     {% include footer.html %}
   </body>
