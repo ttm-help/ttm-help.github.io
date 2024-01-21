@@ -104,27 +104,22 @@ ACT in Action by Steven C.Hayes (Newpsy education)
     </div>
     <div class="col-md-3 content">
         <a href="assets/images/certificates/6.jpg">
-            <img src="assets/images/certificates/6.jpg" alt="искусство речи" height="1280" width="960">
+                <img src="assets/images/certificates/6.jpg" alt="техника эмоциональной свободы" width="1972" height="1406">
         </a>
     </div>
     <div class="col-md-3 content">
         <a href="assets/images/certificates/7.jpg">
-                <img src="assets/images/certificates/7.jpg" alt="техника эмоциональной свободы" width="1972" height="1406">
+            <img src="assets/images/certificates/7.jpg" alt="сертификат ACT" height="1280" width="905">
         </a>
     </div>
     <div class="col-md-3 content">
         <a href="assets/images/certificates/8.jpg">
-            <img src="assets/images/certificates/8.jpg" alt="сертификат ACT" height="1280" width="905">
+            <img src="assets/images/certificates/8.jpg" alt="сертификат групповая терапия" height="1280" width="905">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/9.jpg">
-            <img src="assets/images/certificates/9.jpg" alt="сертификат групповая терапия" height="1280" width="905">
-        </a>
-    </div>
-    <div class="col-md-3 content">
-        <a href="assets/images/certificates/10.jpeg">
-            <img src="assets/images/certificates/10.jpeg" alt="сертификат типы организации личности" height="1522" width="1070">
+        <a href="assets/images/certificates/9.jpeg">
+            <img src="assets/images/certificates/9.jpeg" alt="сертификат типы организации личности" height="1522" width="1070">
         </a>
     </div>
 </div>
