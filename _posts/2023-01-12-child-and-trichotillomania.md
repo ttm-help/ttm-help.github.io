@@ -35,7 +35,7 @@ Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podil
   <div class="card">
     <div class="card-header" id="hidden-1">
       <h2 class="mb-0 mt-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapseOne">
           Подумайте и откройте ответ - проверьте, совпадает ли
         </button>
       </h2>
@@ -60,7 +60,7 @@ Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podil
   <div class="card">
     <div class="card-header" id="hidden-2">
       <h2 class="mb-0 mt-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-2" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapseOne">
             Проверьте результат
         </button>
       </h2>
@@ -97,7 +97,7 @@ Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russo
   <div class="card">
     <div class="card-header" id="hidden-3">
       <h2 class="mb-0 mt-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-3" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-3" aria-expanded="true" aria-controls="collapseOne">
             Давайте представим себя на месте Машеньки теперь. Как вам? Поощущайте пару секунд
             и переходите к описанию - сошлось ли?
         </button>
@@ -119,7 +119,7 @@ Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russo
   <div class="card">
     <div class="card-header" id="hidden-4">
       <h2 class="mb-0 mt-0">
-        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse-4" aria-expanded="true" aria-controls="collapseOne">
+        <button class="btn btn-link btn-block text-left" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-4" aria-expanded="true" aria-controls="collapseOne">
             Ну а теперь давайте подумаем, принесет ли данная стратегия тот результат, который мы как родители,
             хотим достичь? И проверим ответ
         </button>
