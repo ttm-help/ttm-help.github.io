@@ -189,7 +189,10 @@
 
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
     <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>
-	{% include analytics-counters.html %}
+    <script src="{{ '/assets/js/jquery-3.7.1.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
+
+    {% include analytics-counters.html %}
   </head>
 
   <body class='page {{layout.bodyClass}}'>
@@ -197,9 +200,6 @@
         {% include header.html %}
         {{content}}
     </div>
-    <script src="{{ '/assets/js/jquery.slim.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
-
 
     {% include footer.html %}
   </body>
