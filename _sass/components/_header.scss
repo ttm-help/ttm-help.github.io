@@ -9,7 +9,7 @@
   padding: 10px 0;
 
 
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(xl) {
     z-index: 5;
     top: 0;
     position: sticky;

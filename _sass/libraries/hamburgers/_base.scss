@@ -1,7 +1,7 @@
 // Hamburger
 // ==================================================
 .hamburger {
-  @include media-breakpoint-up(md) {
+  @include media-breakpoint-up(xl) {
     display: none;
   }
 

@@ -8,10 +8,10 @@ keywords: >-
 ---
 
 <div class="container">
-    <div class="intro">
-        <div class="row">
-            <div class="col-md-6" style="margin-bottom: auto; margin-top: auto">
-                <div class="video-container mt-2 mb-2 d-block">
+    <div class="intro mb-10">
+        <div class="row mt-2 mb-4">
+            <div class="col">
+                <div class="video-container">
                     <div 
                         data-youcover data-height="100%" 
                         data-src='https://www.youtube.com/embed/CUeag1asp08?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
@@ -22,57 +22,57 @@ keywords: >-
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="col d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <h1 class="mt-1">
-                            Лечение трихотилломании
-                        </h1>
-                        <p style="font-size: large">
-                            Меня зовут <span style="font-weight: bold">Коновалова Оксана</span>, я <a
-                                href="/about.html">дипломированный психотерапевт</a>,
-                            практикую уже более 8 лет и специализируюсь на работе с пациентами, страдающими ТТМ.
-                        </p>
-                        <p style="font-size: large">
-                            Я сама страдала трихотилломанией с 3 лет и знаю, как работать с
-                            ней изнутри и больше к ней не возвращаться.
-                        </p>
-                        <p style="font-size: large">
-                            Я создала свою систему которая помогает моим пациентам
-                            не только <span style="font-weight: bolder">избавиться от трихотилломании</span>, но и
-                            решить другие проблемы,
-                            связанные с тревожностью, депрессией, прокрастинацией, стыдом, страхами и т.д.
-                            т.к. ТТМ является комплексным вопросом.
-                        </p>
-                        <p style="font-size: large">
-                            У моих пациентов есть успешный опыт борьбы с трихотилломанией и 
-                            на моем <a href="https://www.youtube.com/playlist?list=PLqa51zNV3dR3UPs3YxOZHw9s79waifotq" rel="nofollow">YouTube канале</a> 
-                            можно посмотреть интервью с некоторыми из них.
-                        </p>
-                        <p style="font-size: large">
-                            Записывайтесь на <a href="/contact.html">диагностическую консультацию</a>, если вам
-                            необходима профессиональная
-                            помощь.
-                        </p>
-                        <p style="font-size: large">
-                            Так же подписывайтесь на <a href="https://t.me/ttm_help_ru" rel="nofollow">телеграм
-                            канал</a>,
-                            где можно получить доступ к серии моих видео об ошибках мышления людей страдающих ТТМ.
-                        </p>
-                    </div>
-                    <div class="row mb-3">
-                        <a href="https://t.me/ttm_help_ru"
-                           rel="nofollow"
-                           class="button button-shadow"
-                           style="background-color: #56bcec">
-                            <img alt="Телеграм канал при трихотилломании (ТТМ)"
-                                 title="Телеграм канал посвященный трихотилломании и о том, как с нею бороться"
-                                 width="21"
-                                 height="21"
-                                 class="messenger-icon mr-1" src="/assets/images/social/telegram.svg">
-                            <span>Подписаться на телеграм канал</span>
-                        </a>
-                    </div>
+        </div>
+        <div class="row mt-1">
+            <h1 class="custom-header">Лечение трихотилломании</h1>
+        </div>
+        <div class="row content">
+            <p>
+                Меня зовут <span style="font-weight: bold">Коновалова Оксана</span>, я <a
+                    href="/about.html">дипломированный психотерапевт</a>,
+                практикую уже более 8 лет и специализируюсь на работе с пациентами, страдающими ТТМ.
+            </p>
+            <p>
+                Я сама страдала трихотилломанией с 3 лет и знаю, как работать с
+                ней изнутри и больше к ней не возвращаться.
+            </p>
+            <p>
+                Я создала свою систему которая помогает моим пациентам
+                не только <span style="font-weight: bolder">избавиться от трихотилломании</span>, но и
+                решить другие проблемы,
+                связанные с тревожностью, депрессией, прокрастинацией, стыдом, страхами и т.д.
+                т.к. ТТМ является комплексным вопросом.
+            </p>
+            <p>
+                У моих пациентов есть успешный опыт борьбы с трихотилломанией и 
+                на моем <a href="https://www.youtube.com/playlist?list=PLqa51zNV3dR3UPs3YxOZHw9s79waifotq" rel="nofollow">YouTube канале </a> 
+                можно посмотреть интервью с некоторыми из них.
+            </p>
+            <p>
+                Записывайтесь на <a href="/contact.html">диагностическую консультацию</a>, если вам
+                необходима профессиональная
+                помощь.
+            </p>
+            <p>
+                Так же подписывайтесь на <a href="https://t.me/ttm_help_ru" rel="nofollow">телеграм
+                канал</a>,
+                где можно получить доступ к серии моих видео об ошибках мышления людей страдающих ТТМ.
+            </p>
+        </div>
+        <div class="row mt-3">
+            <div class="col-mb-3">
+                <div class="d-flex justify-content-center">
+                    <a href="https://t.me/ttm_help_ru"
+                       rel="nofollow"
+                       class="button button-shadow"
+                       style="background-color: #56bcec">
+                        <img alt="Телеграм канал при трихотилломании (ТТМ)"
+                             title="Телеграм канал посвященный трихотилломании и о том, как с нею бороться"
+                             width="21"
+                             height="21"
+                             class="messenger-icon mr-1" src="/assets/images/social/telegram.svg">
+                        <span>Подписаться на телеграм канал</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -112,6 +112,7 @@ keywords: >-
             {% endfor %}
         </div>
     </div>
+
 </div>
 
 
@@ -299,6 +300,7 @@ keywords: >-
             </p>
         </div>
     </div>
+
 </div>
 
 <div class="strip strip-grey pt-1 pb-3">

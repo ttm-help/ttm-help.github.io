@@ -1,7 +1,7 @@
 main:
   - name: "Тест"
     url: "/test.html"
-  - name: "FAQ"
+  - name: "Вопросы"
     url: "/faq.html"
   - name: "Блог"
     url: "/posts.html"

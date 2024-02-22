@@ -1,4 +1,4 @@
-@include media-breakpoint-up(md) {
+@include media-breakpoint-up(xl) {
   .main-menu {
     align-content: center;
     display: flex;
@@ -21,7 +21,7 @@
           margin-right: 10px;
 
           color: $white;
-          font-size: 1.3vw;
+          font-size: $lead-font-size;
           font-family: $font-family-base;
 
 
@@ -58,7 +58,7 @@
   }
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(xl) {
   .main-menu-mobile {
     position: fixed;
     background: $steel;
