@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col" style="color: white !important;">
             <div class="row mb-1">
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-4 mb-1">
                     <div class="row align-items-center">
                         <div class="col-auto mt-1">
                             <a href="/" aria-label="Сайт о лечении трихотилломании">
@@ -24,10 +24,10 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-4 social">
-                    <div class="row mt-1">
+                    <div class="row">
                         <div class="col mt-1">
                             {% assign mainmenu = site.data.menus.main %}
-                           <ul style="padding-left: 1em">
+                           <ul style="padding-left: 1.3rem">
                                {% for item in mainmenu %}
                                <li class="pb-1">
                                    <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
