@@ -25,17 +25,15 @@
                 </div>
                 <div class="col-12 col-md-4 social">
                     <div class="row mt-1">
-                        <div class="col-12">
+                        <div class="col mt-1">
                             {% assign mainmenu = site.data.menus.main %}
-                            <div class="m-1">
-                               <ul>
-                                   {% for item in mainmenu %}
-                                   <li class="pb-1">
-                                       <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-                                   </li>
-                                   {% endfor %}
-                               </ul>
-                            </div>
+                           <ul style="padding-left: 1em">
+                               {% for item in mainmenu %}
+                               <li class="pb-1">
+                                   <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                               </li>
+                               {% endfor %}
+                           </ul>
                         </div>
                     </div>
                 </div>
