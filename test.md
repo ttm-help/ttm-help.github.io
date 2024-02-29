@@ -10,15 +10,13 @@ image: "/assets/img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg"
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         Чтобы продолжить, выберите вариант ответа
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn" style="background-color: #f36a5d; color: white" data-dismiss="modal">Понятно</button>
+        <button type="button" class="btn" style="background-color: #f36a5d; color: white"  data-bs-dismiss="modal">Понятно</button>
       </div>
     </div>
   </div>
@@ -32,5 +30,4 @@ image: "/assets/img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg"
     <a href='#' style="color: white">Далее</a>
 </div>
 
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
 <script type='text/javascript' src='/assets/js/jsquiz.js'></script>

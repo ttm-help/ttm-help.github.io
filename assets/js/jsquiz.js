@@ -1,24 +1,37 @@
 (function () {
     const QUESTIONS = [
         {
-            text: "Данная шкала трихотилломании была разработана в Массачусетском медицинском центре " +
-                "(The Massachusetts General Hospital). Она используется для отслеживания своего состояния.<br>" +
-                "Его можно проходить неоднократно. <br>" +
-                "Результат на сайте покажет общее количество баллов. На психотерапии же мы используем более глубокий " +
-                "анализ - отдельно смотрим на интенсивность побуждений и на фактическое выдергивание волос, " +
-                "а также рассматриваем чувство вины в контексте последствий и его влияния на очередные приступы трихотилломании.<br><br>" +
-                "" +
-                "<blockquote>" +
-                "<a href='https://pubmed.ncbi.nlm.nih.gov/8657844/' rel=\"nofollow\">" +
-                "Keuthen NJ, O’Sullivan RL, Ricciardi JN, et al. The Massachusetts General Hospital (MGH) " +
-                "Hairpulling Scale: 1. Development and Factor Analyses. Psychother Psychosomat 1995; 64: 141–145" +
-                "</a></blockquote>"
+            text: `<p>
+                Данная шкала трихотилломании была разработана в <b>Массачусетском медицинском центре
+                (The Massachusetts General Hospital)</b>. Она используется для отслеживания своего состояния.
+                </p>
+                <p>
+                Его можно проходить <u>неоднократно</u>.
+                </p>
+                <p>
+                Результат на сайте покажет общее количество баллов. На психотерапии же мы используем более глубокий
+                анализ - отдельно смотрим на интенсивность побуждений и на фактическое выдергивание волос,
+                а также рассматриваем чувство вины в контексте последствий и его влияния на очередные приступы трихотилломании.
+                <blockquote>
+                 <a href='https://pubmed.ncbi.nlm.nih.gov/8657844/' rel="nofollow">
+                Keuthen NJ, O’Sullivan RL, Ricciardi JN, et al. The Massachusetts General Hospital (MGH)
+                Hairpulling Scale: 1. Development and Factor Analyses. Psychother Psychosomat 1995; 64: 141–145
+                </a></blockquote>
+                </p>
+                `
         },
         {
-            text: "Для каждого вопроса выберите одно утверждение из группы, " +
-                "которое лучше всего описывает ваше поведение и/или чувства на прошлой неделе.<br> " +
-                "Если у вас были спады и усиления симптомов, попробуйте оценить среднее значение за последнюю неделю.<br> " +
-                "Обязательно прочитайте все утверждения в каждой группе, прежде чем сделать свой выбор."
+            text: `<p>
+            Для каждого вопроса выберите одно утверждение из группы,
+            которое лучше всего описывает ваше поведение и/или чувства на прошлой неделе.
+            </p>
+            <p>
+            Если у вас были спады и усиления симптомов, попробуйте оценить среднее значение за последнюю неделю.
+            </p>
+            <p>
+            <u>Обязательно</u> прочитайте все утверждения в каждой группе, прежде чем сделать свой выбор.
+            </p>
+            `
         },
         {
             title: "Частота позывов",
@@ -254,7 +267,7 @@
             id: 'question'
         });
 
-        const header = $(`<h2>${QUESTIONS[index].title}</h2>`);
+        const header = $(`<h4>${QUESTIONS[index].title}</h4>`);
         qElement.append(header);
 
         const question = $('<p>').append(QUESTIONS[index].question);
@@ -271,12 +284,14 @@
         let item;
         let input = '';
         for (let i = 0; i < QUESTIONS[index].choices.length; i++) {
-            item = $('<li style="list-style: none; padding-top: 10px">');
-
-            input = `<input type="radio" id="input-${i}" name="answer" value="${QUESTIONS[index].choices[i].score}" >`;
-            input += `<label for="input-${i}" class="d-inline pl-1">${QUESTIONS[index].choices[i].text}</label>`;
-            item.append(input);
+            item = $('<li class="list-unstyled mt-1">');
             radioList.append(item);
+            nestedBlock = $('<div class="form-check">');
+            item.append(nestedBlock);
+
+            input = `<input class="form-check-input" type="radio" id="input-${i}" name="answer" value="${QUESTIONS[index].choices[i].score}" >`;
+            input += `<label class="form-check-label" for="input-${i}" class="d-inline pl-1">${QUESTIONS[index].choices[i].text}</label>`;
+            nestedBlock.append(input);
         }
         return radioList;
     }
