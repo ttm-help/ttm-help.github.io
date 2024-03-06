@@ -68,14 +68,10 @@ image: "/assets/img/anita-jankovic-m5oFzzrcKwc-unsplash.jpg"
 Необходимо научиться отпускать.
 
 
-<img
-    src="/assets/img/anita-jankovic-m5oFzzrcKwc-unsplash.jpg"
-    alt="Трихотилломания и прошлое"
-    width="640" height="480"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/es/@dslr_newb" rel="nofollow">Anita Jankovic</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+alt="Трихотилломания и прошлое"
+capture='Photo by <a href="https://unsplash.com/es/@dslr_newb" rel="nofollow">Anita Jankovic</a> on Unsplash'
+%}
 
 **Можно ли действительно научиться отпускать прошлое?** Да, и вот как:
 

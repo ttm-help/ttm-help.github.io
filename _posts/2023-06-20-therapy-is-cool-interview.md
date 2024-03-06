@@ -7,15 +7,9 @@ category: "Личный опыт: мой и моих пациентов"
 tags: ["youtube", "interview"]
 ---
 
-<div class="video-container mb-3">
-    <div data-youcover data-width="100%" 
-        data-src='https://www.youtube.com/embed/_hKjbcJTpJQ?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
-        data-allowfullscreen
-        data-loading='lazy'
-        data-frameborder='0'
-        data-allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'>
-    </div>
-</div>
+{% include video-block.html
+url='https://www.youtube.com/embed/_hKjbcJTpJQ'
+%}
 
 **Оксана:**   
 Всем доброго времени!   

@@ -2,17 +2,14 @@
 layout: post
 title: "Что нельзя делать когда у ребенка трихотилломания?"
 description: "Стратегии поведения родителей при трихотилломании ребенка"
-image: "/assets/img/rubaitul-azad-DKam98nckxQ-unsplash.jpg"
+image: "/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
 category: "Родителям"
 ---
-<img
-    src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
-    alt="Что нельзя делать когда у ребенка трихотилломания?"
-    width="640" height="427"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
+alt="Что нельзя делать когда у ребенка трихотилломания?"
+capture='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash'
+%}
 
 Давайте предположим, что условная Машенька 8 лет ходит уже во второй класс, что-то случается в школе,
 что отражается о приобретенные девочкой психические травмы до 6-ти лет, и провоцирует приступ трихотилломании.
@@ -76,13 +73,11 @@ Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podil
   </div>
 </div>
 
-<img
-    src="/assets/img/bekah-russom-Y8QTiWuzYSs-unsplash.jpg"
-    alt="Стратегии поведения родителей при трихотилломании ребенка"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/bekah-russom-Y8QTiWuzYSs-unsplash.jpg"
+alt="Стратегии поведения родителей при трихотилломании ребенка"
+capture='Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash'
+%}
 
 ### Действие второе. Гиперконтроль.
 

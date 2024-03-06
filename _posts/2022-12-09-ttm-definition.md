@@ -5,14 +5,11 @@ description: "В этой статье я расскажу, как проявл�
 image: "/assets/img/rod-long-89bQBucvJdw-unsplash.jpg"
 category: "Трихотилломания - это"
 ---
-<img 
-    src="/assets/img/rod-long-89bQBucvJdw-unsplash.jpg" 
-    alt="Трихотилломания - это"
-    width="1000" height="671"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash
-</sub></sup>
+
+
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash'
+%}
 
 **Трихотилломания** — это повторяющееся расстройство, сфокусированное на теле (*BFRB*), 
 характеризующееся компульсивным выдергиванием волос. По старым исследованиям данное расстройство затрагивает около 2% населения

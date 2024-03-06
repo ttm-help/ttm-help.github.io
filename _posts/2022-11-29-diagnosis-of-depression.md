@@ -28,14 +28,9 @@ image: "/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
   на ухаживания за собой, одежду и закрываются
 - могут периодически играть - надевать маску, но не долго, так как маски носить энерго затратно, а сил нет
 
-<img
-    src="/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
-    alt="Связь депрессии и трихотилломании"
-    width="800" height="571"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@simmerdownjpg" rel="nofollow" >Jackson Simmer</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@simmerdownjpg" rel="nofollow" >Jackson Simmer</a> on Unsplash'
+%}
 
 Если человек находится в таком состоянии длительное время - от 3 лет, это считается затяжной депрессией,
 тяжелой. Часто люди теряют социальные контакты, близость. Чувство вины здесь становится огромным. 

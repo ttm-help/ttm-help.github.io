@@ -42,14 +42,9 @@ category: "Лечение ТТМ"
 - Навыки индивидуации;
 - Навыки сознательного восприятия и наблюдения себя, событий и окружающего мира.
 
-<img
-    src="/assets/img/daniel-thiele-EWv_1Y9x6RE-unsplash.jpg"
-    alt="Трихотилломания и пограничный уровень развития психики"
-    width="1000" height="693"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@dlrmco" rel="nofollow"> Daniel Thiele</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@dlrmco" rel="nofollow"> Daniel Thiele</a> on Unsplash'
+%}
 
 Остановимся на каждом чуть более подробно.
 

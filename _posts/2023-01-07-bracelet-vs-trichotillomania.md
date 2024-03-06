@@ -6,11 +6,10 @@ image: "/assets/img/61XKgxST7uL.jpg"
 category: "Лечение ТТМ"
 ---
 
-<img 
-    src="/assets/img/61XKgxST7uL.jpg" 
-    alt="Браслет Habitaware Keen"
-    width="400" height="400"
-    class="mb-0">
+{% include image-block.html
+src="/assets/img/61XKgxST7uL.jpg"
+alt="Браслет Habitaware Keen"
+%}
 
 Я полагаю, что для многих это будет новая информация, потому что я сама узнала о данном браслете не сразу.
 В комплект входит сам браслет и приложение к нему, которое скачивается на телефон.
@@ -41,14 +40,11 @@ category: "Лечение ТТМ"
 
 Стоимость браслета в России, например, по состоянию на начало января 2023 года составляет 25 000 рублей.
 
-<img
-    src="/assets/img/milada-vigerova-iQWvVYMtv1k-unsplash.jpg"
-    alt="Плюсы и минусы работы браслета от трихотилломании"
-    width="640" height="436"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/ja/@milada_vigerova" rel="nofollow">Milada Vigerova</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/milada-vigerova-iQWvVYMtv1k-unsplash.jpg"
+alt="Плюсы и минусы работы браслета от трихотилломании"
+capture='Photo by <a href="https://unsplash.com/ja/@milada_vigerova" rel="nofollow">Milada Vigerova</a> on Unsplash'
+%}
 
 Итак мое мнение о браслете.  
 **➖** Я не выношу, когда трихотилломанию называют привычкой. Это психическое заболевание, которое указано и МКБ, 

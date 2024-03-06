@@ -39,14 +39,9 @@ category: "Лечение ТТМ"
 Может появиться потребность в вовлечении не только тех, кто в группе, но и других людей, которые, возможно, еще не в ней. 
 Эта трансформация от социальной связи к некой назовем это адвокации и является концепцией, известной как **биосолидарность**.  
 
-<img
-    src="/assets/img/groups-and-societies.jpg"
-    alt="Биосоциальность и открытость в группах помощи, сообществах страдающих трихотилломанией (ТТМ)"
-    width="800" height="503"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@mathiasjensen" rel="nofollow">Mathias Jensen</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@mathiasjensen" rel="nofollow">Mathias Jensen</a> on Unsplash'
+%}
 
 
 Это явление наблюдается в медицинских и психиатрических сообществах на протяжении многих лет. 

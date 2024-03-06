@@ -12,14 +12,11 @@ category: "Лечение ТТМ"
 основе и так и не получают результата?  
 Первым не просто повезло. Они думают, что могут.
 
-<img
-    src="/assets/img/wojciech-celinski-lMlEt1l9QAo-unsplash.jpg"
-    alt="Самоэффективность: сила мысли - я думаю, что могу!"
-    width="640" height="427"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/wojciech-celinski-lMlEt1l9QAo-unsplash.jpg"
+alt="Самоэффективность: сила мысли - я думаю, что могу!"
+capture='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash'
+%}
 
 Не секрет, что как вы думаете о себе и о своей способности что-то делать, сильно влияет на эти самые ваши действия.
 Эта концепция, известна как самоэффективность. Она может мотивировать вас к изменениям, а может и загнать в тупик.
@@ -101,17 +98,14 @@ Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celińsk
 риска рецидивов. Результаты исследования подтверждают эффективность практики осознанности для повышения 
 самоэффективности и ее роль в предотвращении рецидивов.  
 
-<img
-    src="/assets/img/susan-flynn-7rpwyZhkmNg-unsplash.jpg"
-    alt="Самоэффективность и ее роль в предотвращении рецидивов"
-    width="640" height="593"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/susan-flynn-7rpwyZhkmNg-unsplash.jpg"
+alt="Самоэффективность и ее роль в предотвращении рецидивов"
+capture='Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash'
+%}
 
-Повышение самоэффективности может быть полезным и в других сферах жизни, а также при других расстройствах.  
-Повышение самоэффективности может помочь вам справляться с трудностями с большей уверенностью и решимостью.
+- Повышение самоэффективности может быть полезным и в других сферах жизни, а также при других расстройствах.  
+- Повышение самоэффективности может помочь вам справляться с трудностями с большей уверенностью и решимостью.
 
 Хорошая новость заключается в том, что самоэффективность — это психологический навык, который вы можете 
 развивать и укреплять. Есть вещи, которые вы можете сделать, чтобы начать восстанавливать свою самоэффективность 

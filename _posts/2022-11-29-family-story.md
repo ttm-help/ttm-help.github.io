@@ -15,14 +15,9 @@ image: "/assets/img/heredity.jpg"
 То же самое верно и для некоторых проблем с психическим здоровьем. И даже если у вас нет в семейном анамнезе именно того, 
 по поводу чего вы обращаетесь к врачу, история вашей семьи может дать важные подсказки, которые помогут вам в лечении.
 
-<img
-    src="/assets/img/heredity.jpg"
-    alt="Наследственность и трихотилломания"
-    width="1000" height="630"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel="nofollow" >Kelli McClintock</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel="nofollow" >Kelli McClintock</a> on Unsplash'
+%}
 
 Одна из вещей, которые известны о психических расстройствах, это то, что они часто возникают не одни, а на фоне друг друга.
 Трихотилломания иногда проявляется вместе с депрессией, тревогой и обсессивно-компульсивным расстройством (ОКР), 

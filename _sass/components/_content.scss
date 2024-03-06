@@ -19,36 +19,9 @@
     border-radius: .25rem;
   }
 
-  img[alt$=">"] {
-    @include media-breakpoint-up(md) {
-      float: right;
-    }
-  }
-
-  img[alt$="<"] {
-    @include media-breakpoint-up(md) {
-      float: left;
-    }
-  }
-
-  img[alt$="><"] {
-    float: none !important;
-  }
-
   strong {
     font-weight: bold;
     display: inline;
-  }
-
-  sup {
-    display: block;
-    width: 100%;
-
-    sub {
-      display: block;
-      width: 100%;
-      text-align: center;
-    }
   }
 
   em {

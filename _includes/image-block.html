@@ -1,0 +1,16 @@
+<figure class="figure">
+    <img
+            {% if include.src %}
+                src="{{ include.src }}"
+            {% else %}
+                src="{{ page.image }}"
+            {% endif %}
+
+            class="figure-img img-fluid rounded"
+            alt="{{ page.title }}">
+    {% if include.capture %}
+        <figcaption class="figure-caption">
+            {{ include.capture }}
+        </figcaption>
+    {% endif %}
+</figure>

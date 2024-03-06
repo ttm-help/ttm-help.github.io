@@ -11,16 +11,9 @@ keywords: >-
     <div class="intro mb-10">
         <div class="row mt-2 mb-4">
             <div class="col">
-                <div class="video-container">
-                    <div 
-                        data-youcover data-height="100%" 
-                        data-src='https://www.youtube.com/embed/CUeag1asp08?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
-                        data-allowfullscreen
-                        data-loading='lazy'
-                        data-frameborder='0'
-                        data-allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'>
-                    </div>
-                </div>
+                {% include video-block.html
+                    url='https://www.youtube.com/embed/CUeag1asp08'
+                %}
             </div>
         </div>
         <div class="row mt-1">

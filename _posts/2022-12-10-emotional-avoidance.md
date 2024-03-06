@@ -6,14 +6,9 @@ image: "/assets/img/justin-luebke-BkkVcWUgwEk-unsplash.jpg"
 category: "Лечение ТТМ"
 ---
 
-<img
-    src="/assets/img/justin-luebke-BkkVcWUgwEk-unsplash.jpg"
-    alt="Эмоциональное избегание и трихотилломания"
-    width="1000" height="667"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a> on Unsplash'
+%}
 
 **Избегание** - это наш выход из ситуации, когда мы просто не хотим что-то делать. 
 На самом деле избегание является одним из защитных механизмов психики.
@@ -63,14 +58,10 @@ Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a
 облегчения смешанного с удовлетворением, подкрепляя такое поведение, после чего оно становится системой. 
 Вы также можете испытывать чувства вины и стыда, которые дают новый круг данному процессу.
 
-<img
-    src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash.jpg"
-    alt="Эмоциональное избегание и трихотилломания"
-    width="1000" height="667"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash.jpg"
+capture='Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash'
+%}
 
 ### Как разорвать цикл?
 

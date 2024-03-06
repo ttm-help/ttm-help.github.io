@@ -25,14 +25,9 @@ image: "/assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg"
 *HRT* состоит из разделов, каждый из которых сосредоточен на каком-либо одном аспекте поведения с целью облегчения 
 его изменения. В случае вырывание волос целью является сокращение или прекращение поведения, связанного с этим.
 
-<img
-    src="/assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg"
-    alt="Методы самопомощи при трихотилломании (ТТМ)"
-    width="996" height="698"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
+%}
 
 
 Среди указанных разделов - **повышение осведомленности**, которое состоит из методов, 

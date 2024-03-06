@@ -8,14 +8,9 @@ category: "Психотерапия ТТМ"
 
 ### Что такое групповая терапия?
 
-<img
-    src="/assets/img/group-therapy-2.jpg"     
-    class="mb-0"
-    width="1000" height="668"
-    alt="Групповая терапия">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash'
+%}
 
 
 Это форма психотерапии, при которой специально сформированная группа людей - психотерапевтическая группа, 
@@ -42,14 +37,9 @@ Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia 
 Можно, тогда процесс выздоровления будет еще более эффективным и быстрым, т.к. вы получаете 
 обратную связь сразу из двух источников - от психотерапевта и группы.
 
-<img
-    src="/assets/img/group-therapy-1.jpg"
-    alt="Групповая терапия"
-    width="1000" height="668"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busing</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busing</a> on Unsplash'
+%}
 
 ### Сколько стоит?
 Со стоимостью можно ознакомиться на [этой странице](/contact.html).

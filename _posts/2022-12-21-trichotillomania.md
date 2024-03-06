@@ -40,14 +40,11 @@ category: "Трихотилломания - это"
 Реже развивается у взрослых.  
 У женщин трихотилломания проявляется чаще, чем у мужчин.
 
-<img
-    src="/assets/img/taisiia-stupak-mWABE4JCUHI-unsplash.jpg"
-    alt="Симптомы трихотилломании"
-    width="630" height="565"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/taisiia-stupak-mWABE4JCUHI-unsplash.jpg"
+alt="Симптомы трихотилломании"
+capture='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
+%}
 
 
 ## Симптомы трихотилломании
@@ -128,14 +125,11 @@ Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stup
   удается справиться с этим поведением, запускается цикл стыда и вины который вызывает серьезный стресс. 
 
 
-<img
-    src="/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash.jpg"
-    alt="Что такое трихотилломания?"
-    width="633" height="497"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+alt='Что такое трихотилломания?'
+src='/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash.jpg'
+capture='Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash'
+%}
 
 
 ## Ошибочная диагностика трихотилломании
@@ -180,14 +174,11 @@ NSSI представляет собой сознательное решение
 наркотиков или алкоголя, чтобы справиться с негативными эмоциями. 
 
 
-<img
-    src="/assets/img/jayson-hinrichsen-QGHC9aF2OwQ-unsplash.jpg"
-    alt="Как избавиться от трихотилломании?"
-    width="638" height="772"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+alt='Как избавиться от трихотилломании?'
+src='/assets/img/jayson-hinrichsen-QGHC9aF2OwQ-unsplash.jpg'
+capture='Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash'
+%}
 
 ## Как избавиться от трихотилломании?
 Лечение трихотилломании включает в себя обучение управлению побуждениями и поведением, связанным с ней. 

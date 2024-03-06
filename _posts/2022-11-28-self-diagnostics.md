@@ -5,14 +5,10 @@ description: "Связь астении и трихотилломании (ТТ�
 category: "Самодиагностика"
 image: "/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg"
 ---
-<img 
-    src="/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg" 
-    alt="Связь астении и трихотилломании (ттм)"
-    width="900" height="676"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@rubaitulazad" rel="nofollow" >Rubaitul Azad</a> on Unsplash
-</sub></sup>
+
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@rubaitulazad" rel="nofollow" >Rubaitul Azad</a> on Unsplash'
+%}
 
 Приветствую!  
 

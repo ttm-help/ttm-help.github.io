@@ -6,15 +6,12 @@ description: "Адаптивное и дезадаптивное поведен�
 image: "/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg"
 category: "Лечение ТТМ"
 ---
-<img 
-    src="/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg" 
-    alt="Предупреждение врача-дерматолога, трихолога"
-    width="640" height="427"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne</a> on Unsplash
-</sub></sup>
 
+{% include image-block.html
+src="/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg"
+alt="Предупреждение врача-дерматолога, трихолога"
+capture='Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne</a> on Unsplash'
+%}
 
 >На сайте Вестник трихологии (интернет-журнал союза трихологов) для специалистов была опубликована 
 <a href="http://www.trichology.pro/articles/vracham-spetsialistam/trikhotillomaniya-u-vzroslogo-patsienta-klinicheskiy-sluchay.php" rel="nofollow">статья-предупреждение</a> 
@@ -53,14 +50,11 @@ Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne
 например, скрученные волосы.  
 Таких людей направляют на психотерапию и разъясняют, что трихотилломания лечится только у психотерапевта.
 
-<img
-    src="/assets/img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
-    alt="Предупреждение врача-дерматолога, трихолога"
-    width="640" height="427"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+src="/assets/img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
+alt="Предупреждение врача-дерматолога, трихолога"
+capture='Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash'
+%}
 
 
 <div class="card mb-4 mt-3">

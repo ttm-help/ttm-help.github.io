@@ -5,14 +5,10 @@ description: "Самомотивация к лечению трихотилло�
 image: "/assets/img/smit-patel-JMmTloWmvSI-unsplash.jpg"
 category: "Лечение ТТМ"
 ---
-<img 
-    src="/assets/img/smit-patel-JMmTloWmvSI-unsplash.jpg" 
-    alt="Трихотилломания и ценности"
-    width="640" height="422"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@wallsbysmit" rel="nofollow">Smit Patel</a> on Unsplash
-</sub></sup>
+
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@wallsbysmit" rel="nofollow">Smit Patel</a> on Unsplash'
+%}
 
 
 Ценность - это наивысшая значимость для человека, важность. Ценности - это наш компас, который указывает в каком направлении двигаться.

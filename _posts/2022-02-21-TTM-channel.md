@@ -5,14 +5,10 @@ description: "Реклама группы сайта в телеграм"
 image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
 category: "Психотерапия ТТМ"
 ---
-<img 
-    src="/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg" 
-    alt="телеграм группа помощи при трихотилломании"
-    width="533" height="400"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel="nofollow" >mariyan rajesh on Unsplash</a>
-</sub></sup>
+
+{% include image-block.html
+    capture='Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel="nofollow" >mariyan rajesh on Unsplash</a>'
+%}
 
 Переходите в <a href="https://t.me/ttm_help_ru" rel="nofollow">телеграм канал</a>, если вы хотите
 

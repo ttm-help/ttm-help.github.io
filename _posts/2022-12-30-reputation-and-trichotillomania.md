@@ -64,14 +64,10 @@ Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</
 Поэтому ваша задача начать видеть плюсы, обращать на них внимание, фактически вести им учет. Особенно это касается 
 тех людей, которые склонны обесценивать себя и свой опыт. 
 
-<img
-    src="/assets/img/sander-sammy-G1l_DRxm6UA-unsplash.jpg"
-    alt="позиция проигравшего и победителя в борьбе с трихотилломанией"
-    width="640" height="427"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash
-</sub></sup>
+{% include image-block.html
+alt='позиция проигравшего и победителя в борьбе с трихотилломанией'
+capture='Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash'
+%}
 
 Начинать нужно с самых маленьких плюсов, с мелочей. Как только вы начнете это делать, вы почувствуете бОльшую 
 уверенность в себе, бОльшую ответственность за себя, свою жизнь. И что не менее важно - ваша внутренняя 

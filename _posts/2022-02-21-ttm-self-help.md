@@ -5,15 +5,10 @@ description: "Подробный разбор способов самопомо�
 image: "/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg"
 category: "Лечение ТТМ"
 ---
-<img 
-    src="/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg" 
-    alt="самопомощь при ТТМ"
-    width="400" height="500"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@withluke" rel="nofollow">Luke Stackpoole</a> on Unsplash
-</sub></sup>
 
+{% include image-block.html
+    capture='Photo by <a href="https://unsplash.com/@withluke" rel="nofollow">Luke Stackpoole</a> on Unsplash'
+%}
 
 В вопросе самопомощи при трихотилломании важно понимать, что существует несколько уровней организации психики - здоровый, невротик, пограничник и психотик. Для лучшего понимания есть отличная метафора с домом. 
 

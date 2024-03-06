@@ -5,14 +5,10 @@ description: "Мой путь лечения от трихотилломании
 image: "/assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash.jpg"
 category: "Личный опыт: мой и моих пациентов"
 ---
-<img 
-    src="/assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash.jpg" 
-    alt="личный опыт борьбы с трихотилломанией"
-    width="1000" height="667"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@aldyrkhanov" rel="nofollow">Artur Aldyrkhanov</a> on Unsplash
-</sub></sup>
+
+{% include image-block.html
+capture='Photo by <a href="https://unsplash.com/@aldyrkhanov" rel="nofollow">Artur Aldyrkhanov</a> on Unsplash'
+%}
 
 Когда меня спрашивают о том, как я смогла справиться с трихотилломанией я не очень люблю отвечать. 
 Причина в том, что мой опыт вам не поможет, это мой опыт, у вас будет свой.
