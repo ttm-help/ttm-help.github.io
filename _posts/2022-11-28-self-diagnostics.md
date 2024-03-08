@@ -7,7 +7,7 @@ image: "/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@rubaitulazad" rel="nofollow" >Rubaitul Azad</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@rubaitulazad" rel="nofollow" >Rubaitul Azad</a> on Unsplash'
 %}
 
 Приветствую!  

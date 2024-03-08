@@ -7,7 +7,7 @@ category: "Лечение ТТМ"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a> on Unsplash'
 %}
 
 **Избегание** - это наш выход из ситуации, когда мы просто не хотим что-то делать. 
@@ -60,7 +60,7 @@ capture='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin 
 
 {% include image-block.html
 src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash.jpg"
-capture='Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash'
 %}
 
 ### Как разорвать цикл?

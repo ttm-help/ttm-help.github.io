@@ -43,7 +43,7 @@ alt="Браслет Habitaware Keen"
 {% include image-block.html
 src="/assets/img/milada-vigerova-iQWvVYMtv1k-unsplash.jpg"
 alt="Плюсы и минусы работы браслета от трихотилломании"
-capture='Photo by <a href="https://unsplash.com/ja/@milada_vigerova" rel="nofollow">Milada Vigerova</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/ja/@milada_vigerova" rel="nofollow">Milada Vigerova</a> on Unsplash'
 %}
 
 Итак мое мнение о браслете.  

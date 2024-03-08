@@ -8,7 +8,7 @@ category: "Трихотилломания - это"
 
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash'
 %}
 
 **Трихотилломания** — это повторяющееся расстройство, сфокусированное на теле (*BFRB*), 

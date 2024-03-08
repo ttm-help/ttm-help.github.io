@@ -26,7 +26,7 @@ image: "/assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg"
 его изменения. В случае вырывание волос целью является сокращение или прекращение поведения, связанного с этим.
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
 %}
 
 

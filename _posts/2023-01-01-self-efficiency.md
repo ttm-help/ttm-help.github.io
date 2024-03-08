@@ -15,7 +15,7 @@ category: "Лечение ТТМ"
 {% include image-block.html
 src="/assets/img/wojciech-celinski-lMlEt1l9QAo-unsplash.jpg"
 alt="Самоэффективность: сила мысли - я думаю, что могу!"
-capture='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash'
 %}
 
 Не секрет, что как вы думаете о себе и о своей способности что-то делать, сильно влияет на эти самые ваши действия.
@@ -101,7 +101,7 @@ capture='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech
 {% include image-block.html
 src="/assets/img/susan-flynn-7rpwyZhkmNg-unsplash.jpg"
 alt="Самоэффективность и ее роль в предотвращении рецидивов"
-capture='Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash'
 %}
 
 - Повышение самоэффективности может быть полезным и в других сферах жизни, а также при других расстройствах.  

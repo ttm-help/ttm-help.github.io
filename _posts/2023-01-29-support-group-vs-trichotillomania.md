@@ -7,7 +7,7 @@ category: "Личный опыт: мой и моих пациентов"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@windows" rel="nofollow">Windows</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@windows" rel="nofollow">Windows</a> on Unsplash'
 %}
 
 > В данной серии статей собраны вопросы, темы, которые поднимались на встречах группы поддержки.

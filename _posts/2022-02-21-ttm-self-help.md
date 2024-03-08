@@ -7,7 +7,7 @@ category: "Лечение ТТМ"
 ---
 
 {% include image-block.html
-    capture='Photo by <a href="https://unsplash.com/@withluke" rel="nofollow">Luke Stackpoole</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@withluke" rel="nofollow">Luke Stackpoole</a> on Unsplash'
 %}
 
 В вопросе самопомощи при трихотилломании важно понимать, что существует несколько уровней организации психики - здоровый, невротик, пограничник и психотик. Для лучшего понимания есть отличная метафора с домом. 

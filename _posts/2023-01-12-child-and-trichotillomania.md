@@ -8,7 +8,7 @@ category: "Родителям"
 {% include image-block.html
 src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
 alt="Что нельзя делать когда у ребенка трихотилломания?"
-capture='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash'
 %}
 
 Давайте предположим, что условная Машенька 8 лет ходит уже во второй класс, что-то случается в школе,
@@ -76,7 +76,7 @@ capture='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andri
 {% include image-block.html
 src="/assets/img/bekah-russom-Y8QTiWuzYSs-unsplash.jpg"
 alt="Стратегии поведения родителей при трихотилломании ребенка"
-capture='Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash'
 %}
 
 ### Действие второе. Гиперконтроль.

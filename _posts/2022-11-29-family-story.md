@@ -16,7 +16,7 @@ image: "/assets/img/heredity.jpg"
 по поводу чего вы обращаетесь к врачу, история вашей семьи может дать важные подсказки, которые помогут вам в лечении.
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel="nofollow" >Kelli McClintock</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@kelli_mcclintock" rel="nofollow" >Kelli McClintock</a> on Unsplash'
 %}
 
 Одна из вещей, которые известны о психических расстройствах, это то, что они часто возникают не одни, а на фоне друг друга.

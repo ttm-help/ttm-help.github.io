@@ -66,7 +66,7 @@ Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</
 
 {% include image-block.html
 alt='позиция проигравшего и победителя в борьбе с трихотилломанией'
-capture='Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash'
 %}
 
 Начинать нужно с самых маленьких плюсов, с мелочей. Как только вы начнете это делать, вы почувствуете бОльшую 

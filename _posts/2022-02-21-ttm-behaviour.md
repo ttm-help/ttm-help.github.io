@@ -7,7 +7,7 @@ category: "Трихотилломания - это"
 ---
 
 {% include image-block.html
-    capture='Photo by <a href="https://unsplash.com/@choys_" rel="nofollow" >Conny Schneider</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@choys_" rel="nofollow" >Conny Schneider</a> on Unsplash'
 %}
 
 Можно разделить любое поведение человека на **адаптивное** и **дезадаптивное**.

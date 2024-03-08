@@ -40,7 +40,7 @@ category: "Лечение ТТМ"
 Эта трансформация от социальной связи к некой назовем это адвокации и является концепцией, известной как **биосолидарность**.  
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@mathiasjensen" rel="nofollow">Mathias Jensen</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@mathiasjensen" rel="nofollow">Mathias Jensen</a> on Unsplash'
 %}
 
 

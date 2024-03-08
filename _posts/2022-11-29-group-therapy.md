@@ -9,7 +9,8 @@ category: "Психотерапия ТТМ"
 ### Что такое групповая терапия?
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash'
+src="/assets/img/group-therapy-1.jpg"
+caption='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash'
 %}
 
 
@@ -38,7 +39,8 @@ capture='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow"
 обратную связь сразу из двух источников - от психотерапевта и группы.
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busing</a> on Unsplash'
+src="/assets/img/group-therapy-2.jpg"
+caption='Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busing</a> on Unsplash'
 %}
 
 ### Сколько стоит?

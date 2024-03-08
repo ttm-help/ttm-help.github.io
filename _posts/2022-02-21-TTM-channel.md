@@ -7,7 +7,7 @@ category: "Психотерапия ТТМ"
 ---
 
 {% include image-block.html
-    capture='Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel="nofollow" >mariyan rajesh on Unsplash</a>'
+caption='Photo by <a href="https://unsplash.com/@mariyan_rajesh" rel="nofollow" >mariyan rajesh on Unsplash</a>'
 %}
 
 Переходите в <a href="https://t.me/ttm_help_ru" rel="nofollow">телеграм канал</a>, если вы хотите

@@ -7,7 +7,7 @@ category: "Лечение ТТМ"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@wallsbysmit" rel="nofollow">Smit Patel</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@wallsbysmit" rel="nofollow">Smit Patel</a> on Unsplash'
 %}
 
 

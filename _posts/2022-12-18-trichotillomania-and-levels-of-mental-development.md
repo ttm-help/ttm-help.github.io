@@ -43,7 +43,7 @@ category: "Лечение ТТМ"
 - Навыки сознательного восприятия и наблюдения себя, событий и окружающего мира.
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@dlrmco" rel="nofollow"> Daniel Thiele</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@dlrmco" rel="nofollow"> Daniel Thiele</a> on Unsplash'
 %}
 
 Остановимся на каждом чуть более подробно.

@@ -70,7 +70,7 @@ image: "/assets/img/anita-jankovic-m5oFzzrcKwc-unsplash.jpg"
 
 {% include image-block.html
 alt="Трихотилломания и прошлое"
-capture='Photo by <a href="https://unsplash.com/es/@dslr_newb" rel="nofollow">Anita Jankovic</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/es/@dslr_newb" rel="nofollow">Anita Jankovic</a> on Unsplash'
 %}
 
 **Можно ли действительно научиться отпускать прошлое?** Да, и вот как:

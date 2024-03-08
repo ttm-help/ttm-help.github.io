@@ -8,7 +8,7 @@ category: "Психотерапия ТТМ"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@samich_18" rel="nofollow">Samantha Borges</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@samich_18" rel="nofollow">Samantha Borges</a> on Unsplash'
 %}
 
 Очень часто (хотя после коронавируса уже реже) пациенты задаются вопросом - а 

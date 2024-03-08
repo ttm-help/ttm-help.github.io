@@ -7,7 +7,7 @@ category: "Личный опыт: мой и моих пациентов"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/es/@taylormae" rel="nofollow" >taylor hernandez</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/es/@taylormae" rel="nofollow" >taylor hernandez</a> on Unsplash'
 %}
 
 > В данной серии статей собраны вопросы, темы, которые поднимались на встречах группы поддержки.

@@ -10,7 +10,7 @@ category: "Лечение ТТМ"
 {% include image-block.html
 src="/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg"
 alt="Предупреждение врача-дерматолога, трихолога"
-capture='Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne</a> on Unsplash'
 %}
 
 >На сайте Вестник трихологии (интернет-журнал союза трихологов) для специалистов была опубликована 
@@ -53,7 +53,7 @@ capture='Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rac
 {% include image-block.html
 src="/assets/img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
 alt="Предупреждение врача-дерматолога, трихолога"
-capture='Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash'
 %}
 
 

@@ -45,7 +45,7 @@ category: "Лечение ТТМ"
 ## Разорвите круг стыда
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/es/@jeremyperkins" rel="nofollow">Jeremy Perkins</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/es/@jeremyperkins" rel="nofollow">Jeremy Perkins</a> on Unsplash'
 %}
 
 Это правда, что мы не знаем реакции конкретного человека, когда вы расскажете ему о ттм или он сам узнает, 

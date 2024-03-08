@@ -29,7 +29,7 @@ image: "/assets/img/jackson-simmer-QgJYBOID-9A-unsplash.jpg"
 - могут периодически играть - надевать маску, но не долго, так как маски носить энерго затратно, а сил нет
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@simmerdownjpg" rel="nofollow" >Jackson Simmer</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@simmerdownjpg" rel="nofollow" >Jackson Simmer</a> on Unsplash'
 %}
 
 Если человек находится в таком состоянии длительное время - от 3 лет, это считается затяжной депрессией,

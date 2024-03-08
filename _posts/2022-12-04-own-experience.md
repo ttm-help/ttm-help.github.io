@@ -7,7 +7,7 @@ category: "Личный опыт: мой и моих пациентов"
 ---
 
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@aldyrkhanov" rel="nofollow">Artur Aldyrkhanov</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@aldyrkhanov" rel="nofollow">Artur Aldyrkhanov</a> on Unsplash'
 %}
 
 Когда меня спрашивают о том, как я смогла справиться с трихотилломанией я не очень люблю отвечать. 

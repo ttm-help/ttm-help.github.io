@@ -43,7 +43,7 @@ category: "Трихотилломания - это"
 {% include image-block.html
 src="/assets/img/taisiia-stupak-mWABE4JCUHI-unsplash.jpg"
 alt="Симптомы трихотилломании"
-capture='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
 %}
 
 
@@ -128,7 +128,7 @@ capture='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Tai
 {% include image-block.html
 alt='Что такое трихотилломания?'
 src='/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash.jpg'
-capture='Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash'
 %}
 
 
@@ -177,7 +177,7 @@ NSSI представляет собой сознательное решение
 {% include image-block.html
 alt='Как избавиться от трихотилломании?'
 src='/assets/img/jayson-hinrichsen-QGHC9aF2OwQ-unsplash.jpg'
-capture='Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash'
 %}
 
 ## Как избавиться от трихотилломании?

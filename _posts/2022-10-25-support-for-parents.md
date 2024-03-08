@@ -6,7 +6,7 @@ image: "/assets/img/child.jpg"
 category: "Родителям"
 ---
 {% include image-block.html
-capture='Photo by <a href="https://unsplash.com/@caleb_woods" rel="nofollow" >Caleb Woods</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@caleb_woods" rel="nofollow" >Caleb Woods</a> on Unsplash'
 %}
 
 Быть родителем для ребенка с трихотилломанией может иметь дополнительные факторы.
