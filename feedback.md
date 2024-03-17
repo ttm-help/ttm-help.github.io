@@ -13,7 +13,7 @@ date: 2022-12-10
             </h2>
             {% assign videos = site.tags['interview'] %}
             {% for video in videos %}
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <a href="{{ video.url }}">
                         <img src="{{video.image}}"
                             alt="{{video.title}}"
