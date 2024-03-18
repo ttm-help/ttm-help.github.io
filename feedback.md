@@ -16,8 +16,8 @@ date: 2022-12-10
                 <div class="col-md-4">
                     <a href="{{ video.url }}">
                         <img src="{{video.image}}"
-                            alt="{{video.title}}"
-                            title="{{video.description}}"
+                            alt="{{video.description}}"
+                            title="{{video.title}}"
                             style="width: 100%;
                                     border-radius: .25rem ;
                                     aspect-ratio: 9/6;">
