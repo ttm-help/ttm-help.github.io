@@ -17,7 +17,7 @@ date: 2022-12-10
                     <a href="{{ video.url }}">
                         <img src="{{video.image}}"
                             alt="{{video.title}}"
-                            title="{{post.description}}"
+                            title="{{video.description}}"
                             style="width: 100%;
                                     border-radius: .25rem ;
                                     aspect-ratio: 9/6;">
