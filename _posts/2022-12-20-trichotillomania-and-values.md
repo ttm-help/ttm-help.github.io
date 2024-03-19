@@ -3,7 +3,7 @@ layout: post
 title: "Трихотилломания и ценности"
 description: "Самомотивация к лечению трихотилломании, о ценности и боли как двух сторонах одной медали"
 image: "/assets/img/smit-patel-JMmTloWmvSI-unsplash.jpg"
-category: "Лечение ТТМ"
+category: "Лечение"
 ---
 
 {% include image-block.html

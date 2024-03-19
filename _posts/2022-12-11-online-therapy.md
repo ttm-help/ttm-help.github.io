@@ -4,7 +4,7 @@ title: "Эффективна ли онлайн терапия?"
 description: "Возможно ли лечение трихотилломании онлайн? 
 В этой статье разбирается когда подобный способ применим и разбирается его эффективность"
 image: "/assets/img/samantha-borges-EeS69TTPQ18-unsplash.jpg"
-category: "Психотерапия ТТМ"
+category: "Психотерапия"
 ---
 
 {% include image-block.html

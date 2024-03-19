@@ -2,7 +2,7 @@
 layout: post
 title: "О чём нам говорит трихотилломания?"
 description: "О каких проблемах нам может рассказать трихотилломания"
-category: "Лечение ТТМ"
+category: "Лечение"
 image: "/assets/img/lesly-juarez-1AhGNGKuhR0-unsplash.jpg"
 ---
 

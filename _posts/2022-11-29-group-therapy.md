@@ -3,7 +3,7 @@ layout: post
 title: "New! Групповая терапия трихотилломании"
 description: "Групповая психотерапия при трихотилломании"
 image: "/assets/img/group-therapy-2.jpg"
-category: "Психотерапия ТТМ"
+category: "Психотерапия"
 ---
 
 ### Что такое групповая терапия?
