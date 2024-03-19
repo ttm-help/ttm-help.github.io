@@ -1,0 +1,13 @@
+list:
+  - name: "Психотерапия"
+    url: "/categories//therapy.html"
+  - name: "Трихотилломания"
+    url: "/categories/trichotillomania.html"
+  - name: "Лечение"
+    url: "/categories/treatment.html"
+  - name: "Родителям"
+    url: "/categories//parents.html"
+  - name: "Самодиагностика"
+    url: "/categories//self-diagnosis.html"
+  - name: "Личный опыт"
+    url: "/categories/experience.html"
