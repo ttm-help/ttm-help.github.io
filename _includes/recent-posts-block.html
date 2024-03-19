@@ -1,6 +1,6 @@
 <div class="col-xl-7">
     {% assign posts = site.posts | sort: "date" | reverse %}
-    {% assign post = posts[0] %}
+    {% assign post = posts | first %}
 
     <div class="row mb-3">
         <a href="{{ post.url }}" class="text-reset">
@@ -36,7 +36,11 @@
         <div class="row mb-2">
             <div class="col-8">
                 <div class="row mb-1">
-                    <span class="fw-lighter">{{ post.category }}</span>
+                    {% assign categories = site.data.categories.list %}
+                    {% assign category = categories | find: "name", post.category %}
+                    <a href="{{ category.url }}" class="text-reset">
+                        <span class="fw-lighter">{{ category.name }}</span>
+                    </a>
                 </div>
                 <div class="row">
                     <a href="{{ post.url }}" class="text-reset">

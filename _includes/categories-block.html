@@ -1,11 +1,15 @@
 {% for category in site.categories %}
     <div class="row mb-1">
         <div class="row">
+            {% assign category_name = category | first %}
             <div class="col">
-                <span class="fs-3">{{ category | first }}</span>
+                <span class="fs-3">{{ category_name }}</span>
             </div>
             <div class="col d-flex flex-row-reverse align-items-center">
-                <a href="posts.html" class="text-reset">Посмотреть все
+                {% assign categories = site.data.categories.list %}
+                {% assign site_category = categories | find: "name", category_name %}
+
+                <a href="{{ site_category.url }}" class="text-reset">Посмотреть все
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                          class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
                         <path fill-rule="evenodd"
