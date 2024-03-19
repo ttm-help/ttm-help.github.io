@@ -2,7 +2,7 @@
 layout: post
 title: "Различные виды самопомощи при трихотилломании (ТТМ)"
 description: "Методы самопомощи при трихотилломании (ТТМ)"
-category: "Лечение ТТМ"
+category: "Лечение"
 image: "/assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg"
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Трихотилломания, как неэффективная адаптация"
 description: "Трихотилломания (ттм), как борьба с тревожностью"
 image: "/assets/img/conny-schneider-mmSH4C4WANc-unsplash.jpg"
-category: "Трихотилломания - это"
+category: "Трихотилломания"
 ---
 
 {% include image-block.html

@@ -3,7 +3,7 @@ layout: post
 title: "Трихотилломания - моя суперспособность! Интервью с пациентом."
 description: "Интервью с пациентов страдавшим трихотилломанией после окончания терапии"
 image: "/assets/img/interview-thumbnail.jpg"
-category: "Личный опыт: мой и моих пациентов"
+category: "Личный опыт"
 tags: ["youtube", "interview"]
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Канал помощи при трихотилломании"
 description: "Реклама группы сайта в телеграм"
 image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
-category: "Психотерапия ТТМ"
+category: "Психотерапия"
 ---
 
 {% include image-block.html
