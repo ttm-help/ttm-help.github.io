@@ -7,17 +7,21 @@
             <div class="row">
                 <span class="fs-3">{{ post.title }}</span>
             </div>
-            <figure class="figure">
-                <img
-                        src="{{ post.image }}"
-                        class="rounded m-0"
-                        alt="{{ post.title }}">
+            <div class="row">
+                <figure class="figure mt-1">
+                    <img
+                            src="{{ post.image }}"
+                            class="rounded m-0"
+                            alt="{{ post.title }}">
 
-            </figure>
-            <span>
-                {%- assign arr = post.content | markdownify | | strip | split: "<p>" -%}
-                {{ arr[1] | remove: "</p>" | strip_html | truncatewords: 50 }}
-            </span>
+                </figure>
+            </div>
+           <div class="row">
+                <span>
+                    {%- assign arr = post.content | markdownify | | strip | split: "<p>" -%}
+                    {{ arr[1] | remove: "</p>" | strip_html | truncatewords: 50 }}
+                </span>
+           </div>
         </a>
     </div>
 </div>
