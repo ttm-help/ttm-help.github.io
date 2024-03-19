@@ -36,11 +36,14 @@
         <div class="row mb-2">
             <div class="col-8">
                 <div class="row mb-1">
-                    {% assign categories = site.data.categories.list %}
-                    {% assign category = categories | find: "name", post.category %}
-                    <a href="{{ category.url }}" class="text-reset">
-                        <span class="fw-lighter">{{ category.name }}</span>
-                    </a>
+                    {% assign post_category = post.category %}
+                    {% for site_category in site.data.categories.list %}
+                        {% if site_category.name == post_category %}
+                            <a href="{{ site_category.url }}" class="text-reset">
+                                <span class="fw-lighter">{{ site_category.name }}</span>
+                            </a>
+                        {% endif %}
+                    {% endfor %}
                 </div>
                 <div class="row">
                     <a href="{{ post.url }}" class="text-reset">
