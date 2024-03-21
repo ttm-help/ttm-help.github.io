@@ -3,7 +3,7 @@ layout: post
 title: "Selfmade кулон от трихотилломании PULSE"
 description: "Кулон, который можно использовать от трихотилломании и сделать самостоятельно"
 image: "/assets/img/05-Case_03-th700.jpg"
-category: "Лечение"
+category: "Психотерапия"
 ---
 
 

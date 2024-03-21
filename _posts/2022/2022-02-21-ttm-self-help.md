@@ -3,7 +3,7 @@ layout: post
 title: "Самопомощь при ТТМ"
 description: "Подробный разбор способов самопомощи при трихотилломании (ТТМ)"
 image: "/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg"
-category: "Лечение"
+category: "Психотерапия"
 ---
 
 {% include image-block.html

@@ -2,7 +2,7 @@
 layout: post
 title: "Трихотиллломания и неспособность отпускать прошлое"
 description: "Почему прошлое так сложно отпустить и как трихотилломания с этим связана"
-category: "Лечение"
+category: "Психотерапия"
 image: "/assets/img/anita-jankovic-m5oFzzrcKwc-unsplash.jpg"
 ---
 

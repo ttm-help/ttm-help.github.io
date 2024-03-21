@@ -3,7 +3,7 @@ layout: post
 title: "Наращивание ресниц и ТТМ: Лучшее решение проблемы или нет?"
 description: "В этой статье рассказывается о то можно ли наращивать ресницы при трихотилломании и какие минусы могут быть у этой процедуры."
 image: "/assets/img/hayley-kim-studios-sRSRuxkOuzI-unsplash.jpg"
-category: "Лечение"
+category: "Психотерапия"
 ---
 
 {% include image-block.html 
