@@ -5,10 +5,13 @@ description: "В этом видео я отвечаю на этот вопро�
 image: "/assets/img/duration-of-ttm.jpg"
 category: "Психотерапия"
 tags: ["youtube"]
+video:
+    url: https://www.youtube.com/embed/EyZ2PkcPY8w
+    duration: PT10M23S
 ---
 
 {% include video-block.html
-url='https://www.youtube.com/embed/EyZ2PkcPY8w'
+url=page.video.url
 %}
 
 Пожалуй, самый популярный вопрос на диагностических консультациях - вопрос о сроках терапии.

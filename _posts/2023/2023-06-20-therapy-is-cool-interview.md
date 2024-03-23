@@ -5,10 +5,13 @@ description: "Это интервью с моим пациентом Юлией.
 image: "/assets/img/interview-thumbnail-2.jpg"
 category: "Личный опыт"
 tags: ["youtube", "interview"]
+video:
+    url: https://www.youtube.com/embed/_hKjbcJTpJQ
+    duration: PT32M15S
 ---
 
 {% include video-block.html
-url='https://www.youtube.com/embed/_hKjbcJTpJQ'
+url=page.video.url
 %}
 
 **Оксана:**   

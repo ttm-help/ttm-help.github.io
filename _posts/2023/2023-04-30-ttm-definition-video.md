@@ -5,10 +5,13 @@ description: "В данном видео, мы говорим о том, что 
 image: "/assets/img/thumbnail-ttm-definition-video.jpg"
 category: "Психотерапия"
 tags: [ "youtube" ]
+video:
+    url: https://www.youtube.com/embed/vRTqJ2ZTH8Y
+    duration: PT4M
 ---
 
 {% include video-block.html
-url='https://www.youtube.com/embed/vRTqJ2ZTH8Y'
+url=page.video.url
 %}
 
 На стресс и тревожные события все реагируют по-разному, у кого-то потеют
