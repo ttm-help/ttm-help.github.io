@@ -1,0 +1,229 @@
+{% assign page_path = canonical_link | remove: ".html" | stripe %}
+{% assign names = site.author | split: " " %}
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "{{ page_path }}#article",
+      "isPartOf": {
+          "@id": "{{ page_path }}"
+      },
+      "author": {
+          "@id": "{{ site.url }}/#/schema/author"
+      },
+      "headline": "{{ page.title | default: site.title }}",
+      "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+      "dateModified": "{{ site.time | date: "%Y-%m-%d" }}",
+      "url":  "{{ canonical_link }}",
+      "mainEntityOfPage": {
+          "@id": "{{ page_path }}"
+      },
+      "wordCount": {{ page.content | number_of_words }},
+      "publisher": {
+          "@id": "{{ site.url }}/#organization"
+      },
+      "image": {
+          "@id": "{{ page_path }}#primaryimage"
+      },
+      {% if page.image %}
+          "thumbnailUrl": "{{site.url}}{{ page.image }}",
+      {% else %}
+          "thumbnailUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+      {% endif %}
+      "inLanguage": "ru-RU",
+      "copyrightYear": "2022",
+      "copyrightHolder": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "video": [
+        {
+          "@id": "{{ page_path }}#video"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "{{ page_path }}",
+      "url": "{{ cannonical_url }}",
+      "name": "{{ page.title }}",
+      "isPartOf": {
+        "@id": "{{ site.url }}/#website"
+      },
+      "primaryImageOfPage": {
+        "@id": "{{ page_path }}#primaryimage"
+      },
+      "image": {
+        "@id": "{{ page_path }}#primaryimage"
+      },
+      {% if page.image %}
+          "thumbnailUrl": "{{site.url}}{{ page.image }}",
+      {% else %}
+          "thumbnailUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+      {% endif %}
+      "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
+      "dateModified": "{{ site.time | date: "%Y-%m-%d" }}",
+      {% if page.description %}
+          "description": "{{ page.description }}",
+      {% else %}
+          "description": "{{ site.description }}",
+      {% endif %}
+      "breadcrumb": {
+        "@id": "{{ page_path }}#breadcrumb"
+      },
+      "inLanguage": "ru-RU",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": [
+            "{{ canonical_link }}"
+          ]
+        }
+      ],
+      "author": {
+        "@id": "{{ site.url }}/#/schema/author"
+      }
+      {% if page.video %}
+        ,
+        "video": [
+          {
+            "@id": "{{ page_path }}#video"
+          }
+        ]
+      {% endif %}
+    },
+    {
+      "@type": "ImageObject",
+      "inLanguage": "ru-RU",
+      "@id": "{{ page_path }}#primaryimage",
+      {% if page.image %}
+        "url": "{{site.url}}{{ page.image }}",
+        "contentUrl": "{{site.url}}{{ page.image }}",
+      {% else %}
+        "url": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+        "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+        "width": 600,
+        "height": 600,
+      {% endif %}
+      "caption": "{{ page.title }}"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ page_path }}#breadcrumb",
+      "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Главная",
+                "item": "{{site.url}}"
+            }
+            {% if page.layout == "post" %}
+            ,{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Статьи",
+                "item": "{{site.url}}/posts.html"
+            },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "{{page.title | truncate: 20 }} ",
+                "item": "{{ canonical_link }}"
+            }
+            {% elsif page.url != "/" %}
+            ,{
+                "@type": "ListItem",
+                "position": 2,
+                "name": "{{page.title}}",
+                "item": "{{ canonical_link }}"
+            }
+            {% endif %}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ site.url }}/#website",
+      "url": "{{ site.url }}",
+      "name": "{{ site.title }}",
+      "description": "{{ site.description }}",
+      "publisher": {
+        "@id": "{{ site.url }}/#organization"
+      },
+      "inLanguage": "ru-RU"
+    },
+    {
+    "@type": "ImageObject",
+    "inLanguage": "ru-RU",
+    "@id": "{{ site.url }}/#/schema/logo/image/",
+    "url": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+    "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+    "width": 600,
+    "height": 600,
+    "caption": "{{ site.description }}"
+    },
+    {
+      "@type": "Organization",
+      "@id": "{{ site.url }}/#organization",
+      "name": "{{ site.title }}",
+      "url": "{{ site.url }}",
+      "logo": {
+        "@id": "{{ site.url }}/#/schema/logo/image/"
+      },
+      "sameAs": [
+          {% for item in site.data.social %}
+              "{{ item.link }}"
+              {% if forloop.last == false %}
+                ,
+              {% endif %}
+          {% endfor %}
+      ],
+      "image": {
+        "@id": "{{ site.url }}/#/schema/logo/image/"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#/schema/author",
+      "name": "{{ site.author }}",
+      "knowsAbout": "{{ site.authorAbout }}",
+      "givenName": "{{ names[0] }}",
+      "familyName": "{{ names[1] }}",
+      "jobTitle": "Психотерапевт",
+      "image": {
+          "@type": "ImageObject",
+          "url": "{{ site.url }}/assets/images/illustrations/about-photo.jpg",
+          "contentUrl": "{{ site.url }}/assets/images/illustrations/about-photo.jpg",
+          "width": 1008,
+          "height": 1280,
+          "caption": "{{ site.author }} - {{ site.authorAbout }}"
+      },
+      "url": "{{site.url}}/about.html",
+      "email": "mailto:{{site.data.contact.email}}",
+      {% assign contacts = site.data.contact %}
+      "sameAs": [
+          "{{ contacts.whatsapp }}",
+          "{{ contacts.telegram }}"
+      ]
+    }
+    {% if page.video %}
+    ,
+    {
+      "@type": "VideoObject",
+      "@id": "{{ page_path }}#video",
+      "name": "{{ page.title }}",
+      "isPartOf": {
+        "@id": "{{ page_path }}#article"
+      },
+      "thumbnailUrl": "{{ page.image | default: page.video.image }}",
+      "description": "{{ page.description |default: site.description }}",
+      "uploadDate": "{{ page.date | date: "%Y-%m-%d" }}",
+      "width": 1280,
+      "height": 720,
+      "embedUrl": "{{ page.video.url }}",
+      "duration": "{{ page.video.duration }}",
+      "isFamilyFriendly": true,
+      "inLanguage": "ru-RU"
+    }
+    {% endif %}
+  ]
+}

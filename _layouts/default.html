@@ -3,181 +3,41 @@
       prefix="og: https://ogp.me/ns#
               article: https://ogp.me/ns/article#
               profile: https://ogp.me/ns/profile#">
-
-  <head>
-    <meta charset="utf-8">
-    <meta property="og:locale" content="ru_RU">
-
-    {% if page.url contains ".html" %}
-        {% capture canonical_link %}{{ site.url }}{{ page.url }}{% endcapture %}
-    {% elsif page.url == nil or page.url == '' or page.url == '/'  %}
-        {% capture canonical_link %}{{ site.url }}{% endcapture %}
-    {% else %}
-        {% capture canonical_link %}{{ site.url }}{{ page.url }}.html{% endcapture %}
+<head>
+    <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>
+    <script src="{{ '/assets/js/jquery-3.7.1.min.js' | relative_url }}" async></script>
+    <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}" async></script>
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+    {% if page.video %}
+        <link rel="preconnect" href="https://i3.ytimg.com">
     {% endif %}
 
+    <meta charset="utf-8">
+    {% if page.url contains ".html" %}
+        {% assign canonical_link = site.url | append: page.url %}
+    {% elsif page.url == nil or page.url == '' or page.url == '/' %}
+        {% assign canonical_link = site.url %}
+    {% else %}
+        {% assign canonical_link = site.url | append: page.url | append: ".html" %}
+    {% endif %}
 
     {% if page.title %}
         <title>{{page.title}}</title>
-        <meta property="og:title" content="{{ page.title }}">
     {% else %}
         <title>{{ site.title | escape }}</title>
-        <meta property="og:title" content="{{ site.title | escape }}">
     {% endif %}
-    <link rel="canonical" href="{{ canonical_link }}" >
+    <link rel="canonical" href="{{ canonical_link }}">
     {% if page.keywords %}
         <meta name="keywords" content="{{ page.keywords }}">
     {% endif %}
-    {% assign names = site.author | split: " " %}
     <meta name="author" content="{{ site.author }}">
-
-    <meta property="og:site_name" content="TTM HELP">
-    <meta property="article:author" content="{{ site.author }}">
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    {% if page.category %}
-        <meta property="article:section" content="{{ page.category }}">
-    {% endif %}
-    {% if page.is_about == "true" %}
-        <meta property="og:type" content="profile">
-        <meta property="profile:first_name" content="{{ names[0] }}">
-        <meta property="profile:last_name" content="{{ names[1] }}">
-    {% else %}
-       <meta property="og:type" content="article">
-    {% endif %}
-    <meta property="og:url" content="{{ canonical_link }}" >
-    {% if page.description %}
-        <meta name="description" property="og:description" content="{{ page.description }}">
-    {% else %}
-        <meta name="description" property="og:description" content="{{ site.description }}">
-    {% endif %}
-    {% if page.image %}
-        <meta property="og:image" content="{{site.url}}{{ page.image }}">
-    {% else %}
-        <meta property="og:image" content="{{site.url}}/assets/images/logo/ttm-help-logo.jpg">
-        <meta property=”og:image:width” content=”600″/>
-        <meta property=”og:image:height” content=”600″/>
-        <meta property="og:image:type" content="image/jpeg">
-    {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                    "@type": "BlogPosting",
-                    "inLanguage": "ru-RU",
-                    "author": {
-                        "@type": "Person",
-                        "name": "{{ site.author }}",
-                        "givenName": "{{ names[0] }}",
-                        "familyName": "{{ names[1] }}",
-                        "jobTitle": "Психотерапевт",
-                        "image": {
-                            "@type": "ImageObject",
-                            "url": "{{ site.url }}/assets/images/illustrations/about-photo.jpg",
-                            "contentUrl": "{{ site.url }}/assets/images/illustrations/about-photo.jpg",
-                            "width": 1008,
-                            "height": 1280,
-                            "caption": "{{ site.author }}"
-                        },
-                        "url": "{{site.url}}/about.html",
-                        "email": "mailto:{{site.data.contact.email}}",
-                        "sameAs": [
-                            {% assign contacts = site.data.contact %}
-                            "{{ contacts.whatsapp }}",
-                            "{{ contacts.telegram }}"
-                        ]
-                    },
-                    "publisher": {
-                        "@type": "Organization",
-                        "name": "TTM HELP",
-                        "url": "{{ site.url }}",
-                        "logo": {
-                            "@type": "ImageObject",
-                            "width": 180,
-                            "height": 180,
-                            "url": "{{ site.url }}/assets/images/logo/apple-touch-icon.png"
-                        },
-                        "sameAs": [
-                            {% for item in site.data.social %}
-                                "{{ item.link }}"
-                                {% if forloop.last == false %}
-                                 ,
-                                {% endif %}
-                            {% endfor %}
-                        ]
-                    },
-                    {% if page.title %}
-                        "headline": "{{ page.title }}",
-                    {% else %}
-                        "headline": "{{ site.title | escape }}",
-                    {% endif %}
-                    {% if page.description %}
-                        "description": "{{ page.description }}",
-                    {% else %}
-                        "description": "{{ site.description }}",
-                    {% endif %}
-                    "mainEntityOfPage": {
-                        "@type": "WebPage",
-                        "@id": "{{ canonical_link }}"
-                    },
-                    "image": {
-                        "@type": "ImageObject",
-                        {% if page.image %}
-                            "url": "{{site.url}}{{ page.image }}"
-                        {% else %}
-                            "url": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
-                            "width": 600,
-                            "height": 600
-                        {% endif %}
-                    },
-                    "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-                    "dateModified": "{{ site.time | date: "%Y-%m-%d" }}",
-                    "url":  "{{ canonical_link }}"
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                        {
-                            "@type": "ListItem",
-                            "position": 1,
-                            "name": "Сайт о ТТМ",
-                            "item": "{{site.url}}"
-                        }
-                    {% if page.layout == "post" %}
-                        ,{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "Статьи",
-                            "item": "{{site.url}}/posts.html"
-                        },{
-                            "@type": "ListItem",
-                            "position": 3,
-                            "name": "{{page.title}}",
-                            "item": "{{ canonical_link }}"
-                        }
-                    {% elsif page.url != "/" %}
-                        ,{
-                            "@type": "ListItem",
-                            "position": 2,
-                            "name": "{{page.title}}",
-                            "item": "{{ canonical_link }}"
-                        }
-                    {% endif %}
-                ]
-            },
-            {
-                "@type": "WebSite",
-                "url": "{{ site.url }}",
-                "name": "{{ site.title }}",
-                "description": "{{ site.description }}",
-                "inLanguage": "ru-RU",
-                "potentialAction": []
-            }
-        ]
-    }
+        {% include ld-json.json canonical_link=canonical_link %}
     </script>
+    {% include or-headers.html canonical_link=canonical_link %}
+
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{site.url}}/feed.xml">
 
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/favicon-16x16.png">
@@ -187,13 +47,8 @@
     <link rel="icon" type="image/png" sizes="144x144" href="/assets/images/logo/favicon-144x144.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/apple-touch-icon.png">
 
-    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
-    <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>
-    <script src="{{ '/assets/js/jquery-3.7.1.min.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/bootstrap.min.js' | relative_url }}"></script>
-
     {% include analytics-counters.html %}
-  </head>
+</head>
 
   <body class='page {{layout.bodyClass}}'>
     <div id="wrapper" class="wrapper">
