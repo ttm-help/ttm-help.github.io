@@ -35,7 +35,7 @@ layout: default
             {% for post in sorted_posts %}
                 <div class="col-md-3 content">
                     <a href="{{ post.url }}">
-                        <img src="{{post.image}}"
+                        <img src="{{post.image.url}}"
                              alt="{{post.title}}"
                              title="{{post.description}}"
                              style="width: 100%;

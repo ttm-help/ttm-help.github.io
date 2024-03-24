@@ -3,7 +3,10 @@ title: "Онлайн тест на наличие трихотилломании
 layout: page
 description: "Следующий набор вопросов разработан, чтобы помочь вам лучше понять, есть ли у вас признаки трихотилломании, и если да, то насколько они серьезны. Пожалуйста, ответьте на следующие вопросы, основываясь на том, как вы дергали волосы за последнюю неделю (7 дней). Выберите ответ, наиболее соответствующий вашей ситуации. Если вы не уверены в каком-либо из вопросов, пожалуйста, оцените в меру своих возможностей."
 date: 2023-01-31
-image: "/assets/img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash.jpg"
+image:
+    url: /assets/img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.jpg
+    width: 1200
+    height: 801
 ---
 <div class="modal fade" id="warningModal" tabindex="-1" 
      role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

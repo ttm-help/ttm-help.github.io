@@ -16,7 +16,7 @@ layout: default
                         {% for post in sorted_posts %}
                         <div class="col-md-3">
                             <a href="{{ post.url }}">
-                                <img src="{{post.image}}" title="{{post.title}}" alt="{{post.description}}">
+                                <img src="{{post.image.url}}" title="{{post.title}}" alt="{{post.description}}">
                                 <p class="pt-1">{{ post.title | smartify }}</p>
                             </a>
                         </div>
