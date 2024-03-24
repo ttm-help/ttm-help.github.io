@@ -3,8 +3,12 @@ layout: post
 title: "Что такое трихотилломания?"
 description: "Все о трихотилломании: причины возникновения, виды поведения,
 физические и психологические последствия, пути выхода"
-image: "/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash.jpg"
 category: "Психотерапия"
+
+image:
+  url: /assets/img/suhyeon-choi-G9XMLUAjETM-unsplash-1.jpg
+  width: 1969
+  height: 1528
 ---
 
 ### Содержание
@@ -127,7 +131,7 @@ caption='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Tai
 
 {% include image-block.html
 alt='Что такое трихотилломания?'
-src='/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash.jpg'
+src='/assets/img/suhyeon-choi-G9XMLUAjETM-unsplash-1.jpg'
 caption='Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash'
 %}
 
