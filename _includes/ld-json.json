@@ -13,8 +13,8 @@
           "@id": "{{ site.url }}/#/schema/author"
       },
       "headline": "{{ page.description | default: site.description }}",
-      "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-      "dateModified": "{{ site.time | date: "%Y-%m-%d" }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ site.time | date_to_xmlschema }}",
       "url":  "{{ canonical_link }}",
       "mainEntityOfPage": {
           "@id": "{{ page_path }}"
