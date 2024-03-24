@@ -217,13 +217,13 @@
     {
       "@type": "VideoObject",
       "@id": "{{ page_path }}#video",
-      "name": "{{ page.title }}",
+      "name": "{{ page.title | default: site.title }}",
       "isPartOf": {
         "@id": "{{ page_path }}#article"
       },
       "thumbnailUrl": "{{site.url}}{{ page.video.image | default: page.image.url }}",
       "description": "{{ page.description |default: site.description }}",
-      "uploadDate": "{{ page.date | date: "%Y-%m-%d" }}",
+      "uploadDate": "{{ page.date | date_to_xmlschema }}",
       "width": 1280,
       "height": 720,
       "embedUrl": "{{ page.video.url }}",
