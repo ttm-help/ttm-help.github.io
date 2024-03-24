@@ -2,8 +2,9 @@
 layout: post
 title: "Эмоциональное избегание и трихотилломания"
 description: "Трихотилломания как форма избегания эмоциональных переживаний - причины появления и способ избавления"
-image: "/assets/img/justin-luebke-BkkVcWUgwEk-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/justin-luebke-BkkVcWUgwEk-unsplash-1.jpg
 ---
 
 {% include image-block.html

@@ -3,7 +3,8 @@ layout: post
 title: "О чём нам говорит трихотилломания?"
 description: "О каких проблемах нам может рассказать трихотилломания"
 category: "Психотерапия"
-image: "/assets/img/lesly-juarez-1AhGNGKuhR0-unsplash.jpg"
+image:
+  url: /assets/img/lesly-juarez-1AhGNGKuhR0-unsplash-1.jpg
 ---
 
 {% include image-block.html %}

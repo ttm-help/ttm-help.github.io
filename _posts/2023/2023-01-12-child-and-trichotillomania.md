@@ -2,11 +2,12 @@
 layout: post
 title: "Что нельзя делать когда у ребенка трихотилломания?"
 description: "Стратегии поведения родителей при трихотилломании ребенка"
-image: "/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
 category: "Родителям"
+image:
+  url: /assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg
 ---
 {% include image-block.html
-src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash.jpg"
+src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg"
 alt="Что нельзя делать когда у ребенка трихотилломания?"
 caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash'
 %}
@@ -74,7 +75,7 @@ caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andri
 </div>
 
 {% include image-block.html
-src="/assets/img/bekah-russom-Y8QTiWuzYSs-unsplash.jpg"
+src="/assets/img/bekah-russom-Y8QTiWuzYSs-unsplash-1.jpg"
 alt="Стратегии поведения родителей при трихотилломании ребенка"
 caption='Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash'
 %}

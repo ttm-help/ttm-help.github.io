@@ -3,12 +3,13 @@ layout: post
 title: "Группа поддержки людей, страдающих трихотилломанией"
 description: "Что такое группы поддержки, как они работают, чем могут помочь, приглашение присоединиться 
 к группе поддержки людей с трихотилломанией"
-image: "/assets/img/clay-banks-LjqARJaJotc-unsplash.jpg"
 category: "Психотерапия"
+
+image:
+  url: /assets/img/clay-banks-LjqARJaJotc-unsplash-1.jpg
 ---
 
 {% include image-block.html
-src="/assets/img/clay-banks-LjqARJaJotc-unsplash.jpg"
 alt="Группа поддержки людей, страдающих трихотилломанией"
 caption='Photo by <a href="https://unsplash.com/@claybanks" rel="nofollow">Clay Banks</a> on Unsplash'
 %}
@@ -55,7 +56,7 @@ caption='Photo by <a href="https://unsplash.com/@claybanks" rel="nofollow">Clay 
 
 
 {% include image-block.html
-src="/assets/img/chris-montgomery-smgTvepind4-unsplash.jpg"
+src="/assets/img/chris-montgomery-smgTvepind4-unsplash-1.jpg"
 alt="Онлайн терапии"
 caption='Photo by <a href="https://unsplash.com/@cwmonty" rel="nofollow">Chris Montgomery</a> on Unsplash'
 %}

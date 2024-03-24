@@ -2,12 +2,13 @@
 layout: post
 title: "Где я, там хорошо! Интервью с пациентом"
 description: "Это интервью с моим пациентом Юлией. Она страдала трихотилломанией 20 лет и процесс её выздоровления занял всего 3 месяца. О результатах этой психотерапии она рассказывает в этом видео"
-image: "/assets/img/interview-thumbnail-2.jpg"
 category: "Личный опыт"
 tags: ["youtube", "interview"]
 video:
     url: https://www.youtube.com/embed/_hKjbcJTpJQ
     duration: PT32M15S
+image:
+  url: /assets/img/interview-thumbnail-3.jpg
 ---
 
 {% include video-block.html

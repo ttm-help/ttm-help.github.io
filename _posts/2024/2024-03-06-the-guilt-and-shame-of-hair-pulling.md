@@ -2,8 +2,9 @@
 layout: post
 title: "Чувство вины и стыда из-за вырывания волос"
 description: "Почему мы чувствуем стыд из-за трихотилломании"
-image: "/assets/img/jeremy-perkins-1XgFFEG_RGA-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/jeremy-perkins-1XgFFEG_RGA-unsplash-1.jpg
 ---
 Мы привыкли думать, что-то выходит за рамки «нормального», то это плохо. Многие живут в строгих рамках личной «нормы». 
 Все, что выходит за их пределы, считается «странным», «плохим». 

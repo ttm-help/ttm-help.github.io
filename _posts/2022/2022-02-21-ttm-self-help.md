@@ -2,8 +2,12 @@
 layout: post
 title: "Самопомощь при ТТМ"
 description: "Подробный разбор способов самопомощи при трихотилломании (ТТМ)"
-image: "/assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash.jpg"
 category: "Психотерапия"
+
+image:
+  url: /assets/img/luke-stackpoole-eWqOgJ-lfiI-unsplash-1.jpg
+  width: 1920
+  height: 2400
 ---
 
 {% include image-block.html

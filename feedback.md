@@ -16,7 +16,7 @@ image: /assets/images/feedbacks/15.jpg
             {% for video in videos %}
                 <div class="col-md-4">
                     <a href="{{ video.url }}">
-                        <img src="{{video.image}}"
+                        <img src="{{video.image.url}}"
                             alt="{{video.description}}"
                             title="{{video.title}}"
                             style="width: 100%;

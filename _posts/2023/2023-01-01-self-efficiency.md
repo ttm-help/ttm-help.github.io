@@ -2,8 +2,9 @@
 layout: post
 title: "Самоэффективность: сила мысли - я думаю, что могу!"
 description: "Важность мысли «я могу» при лечении трихотилломании, что можно сделать, если вы чувствуете себя беспомощным в борьбе с ТТМ"
-image: "/assets/img/susan-flynn-7rpwyZhkmNg-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/susan-flynn-7rpwyZhkmNg-unsplash-1.jpg
 ---
 
 

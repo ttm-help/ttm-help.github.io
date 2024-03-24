@@ -3,11 +3,12 @@ layout: post
 title: "Самодиагностика. Астения"
 description: "Связь астении и трихотилломании (ТТМ)"
 category: "Самодиагностика"
-image: "/assets/img/mel-elias-SevjX8pf_tQ-unsplash.jpg"
+image:
+  url: /assets/img/mel-elias-SevjX8pf_tQ-unsplash-1.jpg
 ---
 
 {% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@rubaitulazad" rel="nofollow" >Rubaitul Azad</a> on Unsplash'
+caption='Photo by <a href="https://unsplash.com/@cuartodeiibra" rel="nofollow" >Mel Elías</a> on Unsplash'
 %}
 
 Приветствую!  

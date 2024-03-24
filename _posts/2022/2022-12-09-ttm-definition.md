@@ -2,8 +2,9 @@
 layout: post
 title: "Трихотилломания и как она проявляется"
 description: "В этой статье я расскажу, как проявляется трихотилломания, как она возникает, о помощи при трихотилломании и про лечение трихотилломании"
-image: "/assets/img/rod-long-89bQBucvJdw-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/rod-long-89bQBucvJdw-unsplash-1.jpg
 ---
 
 

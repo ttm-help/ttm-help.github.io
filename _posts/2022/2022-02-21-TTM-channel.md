@@ -2,8 +2,11 @@
 layout: post
 title: "Канал помощи при трихотилломании"
 description: "Реклама группы сайта в телеграм"
-image: "/assets/img/mariyan-rajesh-BICGzegcfWs-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/mariyan-rajesh-BICGzegcfWs-unsplash-1.jpg
+  width: 1920
+  height: 1441
 ---
 
 {% include image-block.html

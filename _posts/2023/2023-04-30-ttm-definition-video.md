@@ -2,12 +2,13 @@
 layout: post
 title: "Коротко о том, что такое трихотилломания"
 description: "В данном видео, мы говорим о том, что такое трихотилломании, как она проявляется и каковы ее диагностические критерии."
-image: "/assets/img/thumbnail-ttm-definition-video.jpg"
 category: "Психотерапия"
 tags: [ "youtube" ]
 video:
     url: https://www.youtube.com/embed/vRTqJ2ZTH8Y
     duration: PT4M
+image:
+  url: /assets/img/thumbnail-ttm-definition-video.jpg
 ---
 
 {% include video-block.html

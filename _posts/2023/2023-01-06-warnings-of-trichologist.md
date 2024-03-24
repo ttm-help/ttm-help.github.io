@@ -3,8 +3,10 @@ layout: post
 title: "Предупреждение врача-дерматолога, трихолога"
 description: "Адаптивное и дезадаптивное поведение, уход человека, страдающего трихотилломанией, 
 от реальности, психологические защиты"
-image: "/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg"
 category: "Психотерапия"
+
+image:
+  url: /assets/img/rachel-coyne-l1LT-rVqbDw-unsplash-1.jpg
 ---
 
 {% include image-block.html

@@ -2,8 +2,9 @@
 layout: post
 title: "Группы помощи и сообщества при трихотилломании"
 description: "Биосоциальность и открытость в группах помощи, сообществах людей страдающих трихотилломанией"
-image: "/assets/img/groups-and-societies.jpg"
 category: "Психотерапия"
+image:
+  url: "/assets/img/mathias-jensen-5x4U6InVXpc-unsplash.jpg"
 ---
 
 > Подготовлено на основе материала Dr. Dawn Ferrara и докторской диссертации 

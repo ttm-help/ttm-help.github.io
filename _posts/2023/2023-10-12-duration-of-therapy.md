@@ -2,12 +2,13 @@
 layout: post
 title: "Сроки терапии при трихотилломании (ТТМ)"
 description: "В этом видео я отвечаю на этот вопрос, а так же рассказываю от чего зависит продолжительность и как она определяется. А также по каким причинам терапия может не помогать."
-image: "/assets/img/duration-of-ttm.jpg"
 category: "Психотерапия"
 tags: ["youtube"]
 video:
     url: https://www.youtube.com/embed/EyZ2PkcPY8w
     duration: PT10M23S
+image:
+  url: /assets/img/duration-of-ttm.jpg
 ---
 
 {% include video-block.html

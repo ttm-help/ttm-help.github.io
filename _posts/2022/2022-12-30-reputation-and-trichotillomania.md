@@ -2,17 +2,14 @@
 layout: post
 title: "Влияние внутренней репутации на лечение трихотилломании"
 description: "Что такое внутренняя репутация, позиция проигравшего и победителя, и как страдающие трихотилломанией заранее сдаются"
-image: "/assets/img/thomas-mowe-l1q_SzH5dKs-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/thomas-mowe-l1q_SzH5dKs-unsplash.jpg
 ---
-<img 
-    src="/assets/img/thomas-mowe-l1q_SzH5dKs-unsplash.jpg" 
-    alt="Внутренняя репутация и трихотилломания (ТТМ)"
-    width="640" height="427"
-    class="mb-0">
-<sup><sub>
-Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</a> on Unsplash
-</sub></sup>
+
+{% include image-block.html
+caption='Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</a> on Unsplash'
+%}
 
 
 ### Можно ли избавиться от трихотилломании?  
@@ -66,6 +63,7 @@ Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</
 
 {% include image-block.html
 alt='позиция проигравшего и победителя в борьбе с трихотилломанией'
+src='/assets/img/sander-sammy-G1l_DRxm6UA-unsplash.jpg'
 caption='Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash'
 %}
 

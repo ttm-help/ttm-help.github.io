@@ -2,8 +2,9 @@
 layout: post
 title: "Готовность к лету с ТТМ: Советы для комфортного времяпрепровождения"
 description: "Советы к лету при вырывании волос"
-image: "/assets/img/ethan-robertson-SYx3UCHZJlo-unsplash.jpg"
 category: "Психотерапия"
+image:
+  url: /assets/img/ethan-robertson-SYx3UCHZJlo-unsplash-1.jpg
 ---
 
 Наступило лето, а это значит стали доступны развлечения на солнце - вечеринки у бассейна, времяпрепровождение на пляже 

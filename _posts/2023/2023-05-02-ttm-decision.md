@@ -2,12 +2,13 @@
 layout: post
 title: "Как принять решение избавиться от трихотилломании?"
 description: "О том, из каких сценариев мы принимаем решения, о том, почему человек продолжает жить с трихотилломанией"
-image: "/assets/img/2023-05-02-20.47.32.jpg"
 category: "Психотерапия"
+image:
+  url: "/assets/img/aaron-blanco-tejedor-VBe9zj-JHBs-unsplash.jpg"
 ---
 {% include image-block.html
 alt="Как принять решение избавиться от трихотилломании?"
-src="/assets/img/2023-05-02-20.47.32.jpg"
+src="/assets/img/aaron-blanco-tejedor-VBe9zj-JHBs-unsplash.jpg"
 %}
 
 Время - это бесценный ресурс. То, что прошло не вернётся обратно, и мы не сможем прожить жизнь еще раз.  

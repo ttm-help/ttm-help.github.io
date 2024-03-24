@@ -3,7 +3,8 @@ layout: post
 title: "Трихотиллломания и неспособность отпускать прошлое"
 description: "Почему прошлое так сложно отпустить и как трихотилломания с этим связана"
 category: "Психотерапия"
-image: "/assets/img/anita-jankovic-m5oFzzrcKwc-unsplash.jpg"
+image:
+  url: /assets/img/anita-jankovic-m5oFzzrcKwc-unsplash-1.jpg
 ---
 
 Жизнь наполнена различными моментами, какие-то из них счастливые, какие-то грустные. 
