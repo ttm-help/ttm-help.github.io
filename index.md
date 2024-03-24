@@ -8,7 +8,7 @@ keywords:
 video:
     url: https://www.youtube.com/embed/CUeag1asp08
     duration: PT1M7S
-    image: https://i3.ytimg.com/vi/CUeag1asp08/hq720.jpg
+    image: /assets/img/main-page-image.jpg
 ---
 
 <div class="container">

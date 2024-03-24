@@ -5,9 +5,12 @@ description:
   тревожных мыслей, неврозов и навязчивых состояний
 url: "https://ttm-help.ru"
 permalink: /:slug.html
+image: /assets/img/main-page-image.jpg
 
-author: Оксана Коновалова
-authorAbout: Когнитивно-поведенческий психотерапевт, основатель проекта TTM-HELP
+author:
+  image: /assets/images/illustrations/about-photo.jpg
+  name: Оксана Коновалова
+  about: Когнитивно-поведенческий психотерапевт, основатель проекта TTM-HELP
 
 logo:
   mobile: "assets/images/logo/mobile-logo.svg"
