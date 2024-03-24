@@ -13,7 +13,7 @@
       "author": {
           "@id": "{{ site.url }}/#/schema/author"
       },
-      "headline": "{{ page.title | default: site.title }}",
+      "headline": "{{ page.description | default: site.description }}",
       "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
       "dateModified": "{{ site.time | date: "%Y-%m-%d" }}",
       "url":  "{{ canonical_link }}",
@@ -36,12 +36,15 @@
       "copyrightYear": "2022",
       "copyrightHolder": {
         "@id": "{{ site.url }}/#organization"
-      },
+      }
+      {% if page.video %}
+      ,
       "video": [
         {
           "@id": "{{ page_path }}#video"
         }
       ]
+      {% endif %}
     },
     {
       "@type": "WebPage",
@@ -127,7 +130,7 @@
             },{
                 "@type": "ListItem",
                 "position": 3,
-                "name": "{{page.title | truncate: 20 }} ",
+                "name": "{{page.title }} ",
                 "item": "{{ canonical_link }}"
             }
             {% elsif page.url != "/" %}
@@ -164,7 +167,7 @@
     {
       "@type": "Organization",
       "@id": "{{ site.url }}/#organization",
-      "name": "{{ site.title }}",
+      "name": "проект TTM HELP",
       "url": "{{ site.url }}",
       "logo": {
         "@id": "{{ site.url }}/#/schema/logo/image/"
@@ -214,7 +217,7 @@
       "isPartOf": {
         "@id": "{{ page_path }}#article"
       },
-      "thumbnailUrl": "{{ page.image | default: page.video.image }}",
+      "thumbnailUrl": "{{site.url}}{{ page.image | default: page.video.image }}",
       "description": "{{ page.description |default: site.description }}",
       "uploadDate": "{{ page.date | date: "%Y-%m-%d" }}",
       "width": 1280,
