@@ -4,7 +4,7 @@ title: "Влияние внутренней репутации на лечени
 description: "Что такое внутренняя репутация, позиция проигравшего и победителя, и как страдающие трихотилломанией заранее сдаются"
 category: "Психотерапия"
 image:
-  url: /assets/img/thomas-mowe-l1q_SzH5dKs-unsplash.jpg
+  url: /assets/img/thomas-kilbride-l1q_SzH5dKs-unsplash.jpg
 ---
 
 {% include image-block.html

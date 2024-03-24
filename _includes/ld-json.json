@@ -102,15 +102,17 @@
       {% if page.image %}
         "url": "{{site.url}}{{ page.image.url }}",
         "contentUrl": "{{site.url}}{{ page.image.url }}",
-        "width": {{ page.image.width }},
-        "height": {{ page.image.height }},
+        {% if page.image.width %}
+          "width": {{ page.image.width }},
+          "height": {{ page.image.height }},
+        {% endif %}
       {% else %}
         "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
         "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
         "width": 1200,
         "height": 742,
       {% endif %}
-      "caption": "{{ page.title }}"
+      "caption": "{{ page.description | default: site.description }}"
     },
     {
       "@type": "BreadcrumbList",

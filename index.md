@@ -9,6 +9,10 @@ video:
     url: https://www.youtube.com/embed/CUeag1asp08
     duration: PT1M7S
     image: /assets/img/main-page-image.jpg
+image:
+    url: /assets/img/main-page-image.jpg
+    width: 1280
+    height: 720
 ---
 
 <div class="container">
