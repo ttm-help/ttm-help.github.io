@@ -3,7 +3,8 @@ title: Отзывы клиентов
 layout: default
 description: "Анонимные отзывы моих клиентов после совместной работы"
 date: 2022-12-10
-image: /assets/images/feedbacks/15.jpg
+image: 
+    url: /assets/images/feedbacks/15.jpg
 ---
 
 <div class="container">

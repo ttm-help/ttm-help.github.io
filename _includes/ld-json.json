@@ -26,7 +26,7 @@
       "image": {
           "@id": "{{ page_path }}#primaryimage"
       },
-      {% if page.image %}
+      {% if page.image.url %}
           "thumbnailUrl": "{{site.url}}{{ page.image.url }}",
       {% else %}
           "thumbnailUrl": "{{site.url}}{{ site.image }}",
@@ -59,7 +59,7 @@
       "image": {
         "@id": "{{ page_path }}#primaryimage"
       },
-      {% if page.image %}
+      {% if page.image.url %}
           "thumbnailUrl": "{{ site.url }}{{ page.image.url }}",
       {% else %}
           "thumbnailUrl": "{{ site.url }}{{ site.image }}",
@@ -99,7 +99,7 @@
       "@type": "ImageObject",
       "inLanguage": "ru-RU",
       "@id": "{{ page_path }}#primaryimage",
-      {% if page.image %}
+      {% if page.image.url %}
         "url": "{{site.url}}{{ page.image.url }}",
         "contentUrl": "{{site.url}}{{ page.image.url }}",
         {% if page.image.width %}

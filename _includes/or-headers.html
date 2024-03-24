@@ -24,7 +24,7 @@
 <meta property="og:url" content="{{ canonical_link }}" >
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 
-{% if page.image %}
+{% if page.image.url %}
     <meta property="og:image" content="{{site.url}}{{ page.image.url }}">
     {% if page.image.width %}
         <meta property=”og:image:width” content=”{{ page.image.width }}″/>
