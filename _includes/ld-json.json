@@ -27,9 +27,9 @@
           "@id": "{{ page_path }}#primaryimage"
       },
       {% if page.image %}
-          "thumbnailUrl": "{{site.url}}{{ page.image }}",
+          "thumbnailUrl": "{{site.url}}{{ page.image.url }}",
       {% else %}
-          "thumbnailUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
+          "thumbnailUrl": "{{site.url}}{{ site.image }}",
       {% endif %}
       "inLanguage": "ru-RU",
       "copyrightYear": "2022",
@@ -60,7 +60,7 @@
         "@id": "{{ page_path }}#primaryimage"
       },
       {% if page.image %}
-          "thumbnailUrl": "{{ site.url }}{{ page.image }}",
+          "thumbnailUrl": "{{ site.url }}{{ page.image.url }}",
       {% else %}
           "thumbnailUrl": "{{ site.url }}{{ site.image }}",
       {% endif %}
@@ -100,13 +100,15 @@
       "inLanguage": "ru-RU",
       "@id": "{{ page_path }}#primaryimage",
       {% if page.image %}
-        "url": "{{site.url}}{{ page.image }}",
-        "contentUrl": "{{site.url}}{{ page.image }}",
+        "url": "{{site.url}}{{ page.image.url }}",
+        "contentUrl": "{{site.url}}{{ page.image.url }}",
+        "width": {{ page.image.width }},
+        "height": {{ page.image.height }},
       {% else %}
-        "url": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
-        "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
-        "width": 600,
-        "height": 600,
+        "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
+        "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
+        "width": 1200,
+        "height": 742,
       {% endif %}
       "caption": "{{ page.title }}"
     },
@@ -157,10 +159,10 @@
     "@type": "ImageObject",
     "inLanguage": "ru-RU",
     "@id": "{{ site.url }}/#/schema/logo/image/",
-    "url": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
-    "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo.jpg",
-    "width": 600,
-    "height": 600,
+    "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
+    "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
+    "width": 1200,
+    "height": 742,
     "caption": "{{ site.description }}"
     },
     {
@@ -217,7 +219,7 @@
       "isPartOf": {
         "@id": "{{ page_path }}#article"
       },
-      "thumbnailUrl": "{{site.url}}{{ page.image | default: page.video.image }}",
+      "thumbnailUrl": "{{site.url}}{{ page.video.image | default: page.image.url }}",
       "description": "{{ page.description |default: site.description }}",
       "uploadDate": "{{ page.date | date: "%Y-%m-%d" }}",
       "width": 1280,
