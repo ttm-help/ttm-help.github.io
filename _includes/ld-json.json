@@ -64,8 +64,8 @@
       {% else %}
           "thumbnailUrl": "{{ site.url }}{{ site.image }}",
       {% endif %}
-      "datePublished": "{{ page.date | date: "%Y-%m-%d" }}",
-      "dateModified": "{{ site.time | date: "%Y-%m-%d" }}",
+      "datePublished": "{{ page.date | date_to_xmlschema }}",
+      "dateModified": "{{ site.time | date_to_xmlschema }}",
       {% if page.description %}
           "description": "{{ page.description }}",
       {% else %}
