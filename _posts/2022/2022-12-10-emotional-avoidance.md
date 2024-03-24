@@ -60,7 +60,7 @@ caption='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin 
 Вы также можете испытывать чувства вины и стыда, которые дают новый круг данному процессу.
 
 {% include image-block.html
-src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash.jpg"
+src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash-1.jpg"
 caption='Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash'
 %}
 

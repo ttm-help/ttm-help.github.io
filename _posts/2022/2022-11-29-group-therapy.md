@@ -6,6 +6,7 @@ category: "Психотерапия"
 image:
   url: "/assets/img/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
 ---
+
 ### Что такое групповая терапия?
 {% include image-block.html
 src="/assets/img/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg"

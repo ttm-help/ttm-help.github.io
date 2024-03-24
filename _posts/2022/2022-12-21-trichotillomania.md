@@ -43,7 +43,7 @@ image:
 У женщин трихотилломания проявляется чаще, чем у мужчин.
 
 {% include image-block.html
-src="/assets/img/taisiia-stupak-mWABE4JCUHI-unsplash.jpg"
+src="/assets/img/taisiia-stupak-mWABE4JCUHI-unsplash-1.jpg"
 alt="Симптомы трихотилломании"
 caption='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
 %}
@@ -178,7 +178,7 @@ NSSI представляет собой сознательное решение
 
 {% include image-block.html
 alt='Как избавиться от трихотилломании?'
-src='/assets/img/jayson-hinrichsen-QGHC9aF2OwQ-unsplash.jpg'
+src='/assets/img/jayson-hinrichsen-QGHC9aF2OwQ-unsplash-1.jpg'
 caption='Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash'
 %}
 

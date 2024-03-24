@@ -9,7 +9,7 @@ image:
 ---
 
 {% include image-block.html
-src="/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash.jpg"
+src="/assets/img/rachel-coyne-l1LT-rVqbDw-unsplash-1.jpg"
 alt="Предупреждение врача-дерматолога, трихолога"
 caption='Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rachel Coyne</a> on Unsplash'
 %}
@@ -52,7 +52,7 @@ caption='Photo by <a href="https://unsplash.com/@rachelcoyne" rel="nofollow">Rac
 Таких людей направляют на психотерапию и разъясняют, что трихотилломания лечится только у психотерапевта.
 
 {% include image-block.html
-src="/assets/img/engin-akyurt-0bgCyhlq9oU-unsplash.jpg"
+src="/assets/img/engin-akyurt-0bgCyhlq9oU-unsplash-1.jpg"
 alt="Предупреждение врача-дерматолога, трихолога"
 caption='Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash'
 %}
