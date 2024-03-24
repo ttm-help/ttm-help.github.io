@@ -4,15 +4,18 @@ layout: page
 description: "Страница с описанием моего опыта и образования"
 is_about: "true"
 date: 2022-12-10
-image: "/assets/images/illustrations/about-photo-mobile.jpg"
+image: 
+  url: /assets/images/illustrations/about-photo-1.jpg
+  width: 1200
+  height: 1524
 ---
 
 ## Обо мне
 
 <picture class="ml-sm-3 mb-sm-3 mt-sm-0">
     <source media="(min-width:720px)"
-            width="1008" height="1280"
-            srcset="/assets/images/illustrations/about-photo.jpg">
+            width="1200" height="1524"
+            srcset="/assets/images/illustrations/about-photo-1.jpg">
     <img src="/assets/images/illustrations/about-photo-mobile.jpg"
          alt=">" width="1000" height="739"
          title="{{ site.description }}"
