@@ -12,7 +12,7 @@ video:
 image:
     url: /assets/img/main-page-image.jpg
     width: 1280
-    height: 720
+    height: 741
 ---
 
 <div class="container">
