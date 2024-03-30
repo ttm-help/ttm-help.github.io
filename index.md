@@ -5,10 +5,6 @@ date: 2022-12-10
 keywords: 
   лечение трихотилломании, тревожные мысли, расстройства, навязчивые состояния, неврозы,
   ТТМ, дерматилломания, терапия, психотерапевт, психотерапия
-video:
-    url: https://www.youtube.com/embed/CUeag1asp08
-    duration: PT1M7S
-    image: /assets/img/main-page-image.jpg
 image:
     url: /assets/img/main-page-image.jpg
     width: 1280
