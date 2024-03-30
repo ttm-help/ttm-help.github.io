@@ -1,7 +1,7 @@
 ---
-title: Отзывы клиентов
+title: Отзывы клиентов, справившимися с трихотилломанией
 layout: default
-description: "Анонимные отзывы моих клиентов после совместной работы"
+description: Отзывы моих клиентов после совместной работы, истории излечения от трихотилломании
 date: 2022-12-10
 image: 
     url: /assets/images/feedbacks/15.jpg
@@ -11,8 +11,11 @@ image:
     <div class="content mb-10">
         <div class="row">
             <h2>
-                Видео-интервью с моими пациентами
+                Видео-интервью
             </h2>
+            <span>
+                Истории излечения от трихотилломании от моих пациентов
+            </span>
             {% assign videos = site.tags['interview'] %}
             {% for video in videos %}
                 <div class="col-md-4">
