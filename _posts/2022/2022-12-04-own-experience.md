@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Как я победила трихотилломанию. Мой личный опыт борьбы с трихотилломанией (ТТМ)"
-description: "Мой путь лечения от трихотилломании (ТТМ), мои ошибки и провалы"
+description: "Моя история излечения от трихотилломании, мои ошибки и провалы"
 category: "Личный опыт"
 image:
   url: /assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash-1.jpg
