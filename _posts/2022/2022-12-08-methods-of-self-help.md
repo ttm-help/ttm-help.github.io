@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Различные виды самопомощи при трихотилломании (ТТМ)"
-description: "Методы самопомощи при трихотилломании (ТТМ)"
+title: "Как помочь себе при трихотилломании"
+description: "Различные виды самопомощи при трихотилломании (ТТМ)"
 category: "Психотерапия"
 image:
   url: /assets/img/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg
