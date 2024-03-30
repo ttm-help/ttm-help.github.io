@@ -12,7 +12,7 @@ image:
     <div class="col-12">
         <div class="row">
             <div class="faq" itemscope itemtype="https://schema.org/FAQPage">
-                <h1 itemprop="name" itemtype="https://schema.org/FAQPage" class="my-5">Ответы на вопросы связанные с лечением трихотилломании.</h1>
+                <h1 itemprop="name" itemtype="https://schema.org/FAQPage" class="my-5">Ответы на вопросы связанные с лечением трихотилломании</h1>
                 <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
                     <button class="collapsible" itemprop="name">
                         Что такое трихотилломания?
