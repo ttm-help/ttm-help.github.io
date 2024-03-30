@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Канал помощи при трихотилломании"
-description: "Реклама группы сайта в телеграм"
+title: "Группы поддержки при трихотилломании"
+description: "Группы поддержки при трихотилломании, телеграм канал для страдающих трихотилломанией"
 category: "Психотерапия"
 image:
   url: /assets/img/mariyan-rajesh-BICGzegcfWs-unsplash-1.jpg
