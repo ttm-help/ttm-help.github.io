@@ -23,7 +23,7 @@
     <meta property="profile:first_name" content="{{ names[0] }}">
     <meta property="profile:last_name" content="{{ names[1] }}">
     <meta property="profile:gender" content="female">
-{% elsif page.video %}
+{% elsif page.video and page.url != '/' %}
     <meta property="og:type" content="video.other">
     <meta property="og:video" content="{{ page.video.url }}">
     <meta property="og:video:type" content="text/html">
