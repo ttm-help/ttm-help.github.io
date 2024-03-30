@@ -1,5 +1,4 @@
-(function () {
-    const QUESTIONS = [
+const QUESTIONS = [
         {
             text: `<p>
                 Данная шкала трихотилломании была разработана в <b>Массачусетском медицинском центре
@@ -223,8 +222,9 @@
                 }
             ]
         }
-    ];
+];
 
+function questionFunction() {
 
     let questionCounter = 0;
     const SELECTIONS = [];
@@ -389,5 +389,8 @@
         }
         return (100.0 / maxScore) * score;
     }
-})();
+};
 
+window.addEventListener('load', () => {
+    questionFunction();
+})
