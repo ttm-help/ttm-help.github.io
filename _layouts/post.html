@@ -6,11 +6,23 @@ layout: default
     <div class="row justify-content-start">
         <div class="col-12 col-md-8">
           <div class="service service-single">
-            <span class="badge text-bg-info text-white mb-1">
+              <nav aria-label="breadcrumb">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                          <a href="/posts.html">Статьи</a>
+                      </li>
+                      {% for site_category in site.data.categories.list %}
+                            {% if site_category.name == page.category %}
+                                <li class="breadcrumb-item"><a href="{{ site_category.url }}">{{ site_category.name }}</a></li>
+                            {% endif %}
+                      {% endfor %}
+                  </ol>
+              </nav>
+              <h1 class="title mb-1">{{page.title}}</h1>
+              <span class="badge text-bg-info text-white mb-1">
                 {% include article-info.html %}
-            </span>
-            <h1 class="title">{{page.title}}</h1>
-            <div class="content">{{content}}</div>
+              </span>
+              <div class="content">{{content}}</div>
 
             <div class="pt-1">
                 <a href="/contact.html"

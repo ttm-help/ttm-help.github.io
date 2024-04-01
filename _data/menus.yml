@@ -3,7 +3,7 @@ main:
     url: "/test.html"
   - name: "Вопросы"
     url: "/faq.html"
-  - name: "Блог"
+  - name: "Статьи"
     url: "/posts.html"
   - name: "Отзывы"
     url: "/feedback.html"
