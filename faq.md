@@ -1,10 +1,11 @@
 ---
-title: "FAQ. Вопросы на часто задаваемые вопросы"
+title: "Вопросы на часто задаваемые вопросы о трихотилломании"
 layout: default
 description: "Ответы на вопросы о трихотилломании, которые вы, возможно, хотели бы задать"
 date: 2022-12-10
 image:
   url: /assets/img/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-1.jpg
+permalink: /faq.html
 ---
 
 <script src="{{ '/assets/js/collapse-faq.js' | relative_url }}" async></script>

@@ -3,6 +3,7 @@ title: Страница о моем образовании и опыте
 layout: page
 description: "Страница с описанием моего опыта и образования"
 is_about: "true"
+permalink: /about.html
 date: 2022-12-10
 image: 
   url: /assets/images/illustrations/about-photo-1.jpg

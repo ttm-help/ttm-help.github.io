@@ -3,6 +3,7 @@ title: Записаться на консультацию
 layout: default
 description: "Страница с моими контактными данными для связи со мной и записи на консультацию"
 date: 2023-05-27
+permalink: /contact.html
 ---
 
 <div class="container pb-6 pt-6 pt-md-10 pb-md-10">

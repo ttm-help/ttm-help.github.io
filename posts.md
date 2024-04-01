@@ -5,4 +5,5 @@ description: "На данной странице размещены матери
 date: 2022-12-10
 image:
   url: /assets/img/cathryn-lavery-fMD_Cru6OTk-unsplash-1.jpg
+permalink: /posts.html
 ---

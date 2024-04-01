@@ -10,6 +10,7 @@ image:
     url: /assets/img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.jpg
     width: 1200
     height: 801
+permalink: /test.html
 ---
 <div class="modal fade" id="warningModal" tabindex="-1" 
      role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

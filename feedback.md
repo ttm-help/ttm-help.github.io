@@ -5,6 +5,7 @@ description: Отзывы моих клиентов после совместн�
 date: 2022-12-10
 image: 
     url: /assets/images/feedbacks/15.jpg
+permalink: /feedback.html
 ---
 
 <div class="container">

@@ -9,7 +9,7 @@ layout: default
               <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                       <li class="breadcrumb-item">
-                          <a href="/posts.html">Статьи</a>
+                          <a href="{% link posts.md %}">Статьи</a>
                       </li>
                       {% for site_category in site.data.categories.list %}
                             {% if site_category.name == page.category %}
@@ -25,7 +25,7 @@ layout: default
               <div class="content">{{content}}</div>
 
             <div class="pt-1">
-                <a href="/contact.html"
+                <a href="{% link contact.md %}"
                    class="button button-shadow button-post d-block">
                             Записаться на консультацию
                 </a>
@@ -40,7 +40,7 @@ layout: default
         {% endif %}
         <div class="row col">
             <span class="weight-bold mb-1" style="font-size: x-large">
-                <a href="/posts.html">Похожие статьи</a>
+                <a href="{% link posts.md %}">Похожие статьи</a>
             </span>
         </div>
         <div class="row">
