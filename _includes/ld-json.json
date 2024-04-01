@@ -129,11 +129,22 @@
                 "@type": "ListItem",
                 "position": 2,
                 "name": "Статьи",
-                "item": "{{site.url}}/posts.html"
-            },{
+                "item": "{{ site.url }}{% link posts.md %}"
+            },
+            {% for site_category in site.data.categories.list %}
+                {% if site_category.name == page.category %}
+                        {
+                          "@type": "ListItem",
+                          "position": 3,
+                          "name": "{{ site_category.name }}",
+                          "item": "{{ site_category.url }}"
+                        },
+                {% endif %}
+            {% endfor %}
+            {
                 "@type": "ListItem",
-                "position": 3,
-                "name": "{{page.title }} ",
+                "position": 4,
+                "name": "{{ page.title }}",
                 "item": "{{ canonical_link }}"
             }
             {% elsif page.url != "/" %}
@@ -204,7 +215,7 @@
           "height": 1524,
           "caption": "{{ site.author.name }} - {{ site.author.about }}"
       },
-      "url": "{{site.url}}/about.html",
+      "url": "{{ site.url }}{% link about.md %}",
       "email": "mailto:{{site.data.contact.email}}",
       {% assign contacts = site.data.contact %}
       "sameAs": [
