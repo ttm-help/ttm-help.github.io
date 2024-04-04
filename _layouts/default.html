@@ -29,6 +29,7 @@
     {% else %}
         <title>{{ site.title | escape }}</title>
     {% endif %}
+    <meta name="description" content="{{ page.description | default: site.description }}">
     <link rel="canonical" href="{{ canonical_link }}">
     {% if page.keywords %}
         <meta name="keywords" content="{{ page.keywords }}">
