@@ -22,14 +22,18 @@ layout: default
               <span class="badge text-bg-info text-white mb-1">
                 {% include article-info.html %}
               </span>
+
+              <div class="content">
+                {% include toc.html html=content flat_toc=true %}
+              </div>
               <div class="content">{{content}}</div>
 
-            <div class="pt-1">
+              <div class="pt-1">
                 <a href="{% link contact.md %}"
                    class="button button-shadow button-post d-block">
                             Записаться на консультацию
                 </a>
-            </div>
+              </div>
           </div>
         </div>
     </div>
