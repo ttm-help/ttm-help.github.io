@@ -8,7 +8,7 @@ keywords:
 video:
     url: https://www.youtube.com/embed/CUeag1asp08
     duration: PT1M7S
-    image: /assets/img/main-page-image.jpg
+    image: /assets/img/main-video-image.jpg
 image:
     url: /assets/img/main-page-image.jpg
     width: 1280
@@ -30,7 +30,7 @@ image:
         <div class="row content">
             <p>
                 Меня зовут <span style="font-weight: bold">Коновалова Оксана</span>, я <a
-                    href="/about.html">дипломированный психотерапевт</a>,
+                    href="{% link about.md %}">дипломированный психотерапевт</a>,
                 практикую уже более 8 лет и специализируюсь на работе с пациентами, страдающими ТТМ.
             </p>
             <p>
@@ -50,7 +50,7 @@ image:
                 можно посмотреть интервью с некоторыми из них.
             </p>
             <p>
-                Записывайтесь на <a href="/contact.html">диагностическую консультацию</a>, если вам
+                Записывайтесь на <a href="{% link contact.md %}">диагностическую консультацию</a>, если вам
                 необходима профессиональная
                 помощь.
             </p>
@@ -308,7 +308,7 @@ image:
     <div class="container">
         <div class="content">
             <h2 class="custom-header">
-                <a href="/feedback.html">Отзывы моих клиентов</a>
+                <a href="{% link feedback.md %}">Отзывы моих клиентов</a>
             </h2>
             {% include feedback-slideshow.html %}
         </div>
