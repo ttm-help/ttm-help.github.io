@@ -11,9 +11,7 @@ image:
   url: /assets/img/thumbnail-ttm-definition-video.jpg
 ---
 
-{% include video-block.html
-url=page.video.url
-%}
+{% include video-block.html %}
 
 На стресс и тревожные события все реагируют по-разному, у кого-то потеют
 ладони, кто-то начинает запинаться, кто-то грызет ногти, кто-то снимает стресс алкоголем, а кто-то вырывает волосы.  

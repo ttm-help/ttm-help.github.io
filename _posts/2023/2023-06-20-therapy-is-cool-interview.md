@@ -11,9 +11,7 @@ image:
   url: /assets/img/interview-thumbnail-3.jpg
 ---
 
-{% include video-block.html
-url=page.video.url
-%}
+{% include video-block.html %}
 
 **Оксана:**   
 Всем доброго времени!   

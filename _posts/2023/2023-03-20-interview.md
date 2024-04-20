@@ -11,9 +11,7 @@ image:
   url: /assets/img/interview-thumbnail-1.jpg
 ---
 
-{% include video-block.html
-url=page.video.url
-%}
+{% include video-block.html %}
 
 Всем доброго времени!   
 Меня зовут Оксана Коновалова я психотерапевт и специализируюсь на работе 

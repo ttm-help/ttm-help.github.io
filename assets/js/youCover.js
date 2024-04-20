@@ -1,56 +1,25 @@
 window.addEventListener("load", function(){
-    var youCover = function(el, attributes){
-        const $el         = $(el), data = $el.data();
-        const coverUrl    = "https://i3.ytimg.com/vi/%yid%/hq720.jpg";
-        const $wrapper    = $("<a href='#'></a>");
-        const $iframe     = $("<iframe />");
-        const $cover      = $('<img id="youtube-cover" alt="Видео для просмотра" class="pt-1" style="z-index: 1"/>');
 
-        attributes = $.extend( {}, attributes, data);
-        $wrapper.addClass(attributes.wrapperclass);
+    const $wrapper = $('#video-play');
+    if(!$wrapper)
+        return;
 
+    $wrapper.click(function(){
+        var youtubeCover = $("<iframe />");
+
+        const $iframe = document.createElement("iframe");
+        $iframe.width = youtubeCover.width();
+        $iframe.height = youtubeCover.height();
+
+
+        const attributes = $("#video-wrapper").data();
         $(attributes).each(function(idx, attr){
             for(var key in attr){
-                $iframe.attr(key, attr[key]);
+                $iframe.setAttribute(key, attr[key]);
             }
         });
 
-        const coverImage  = coverUrl.replace("%yid%", youtube_parser(attributes.src));
-        $cover.attr('src', coverImage);
-        const $button = $('<img id="youtube-button" alt="Воспроизвести" src="/assets/images/social/youtube-button.png"/>');
-        $wrapper.append($cover);
-        $wrapper.append($button);
-
-        $el.replaceWith($wrapper);
-        $wrapper.addClass('loaded');
-        
-        $wrapper.click(function(){
-            var youtubeCover = $('#youtube-cover');    
-
-            $iframe.width = youtubeCover.width();
-            $iframe.height = youtubeCover.height();
-
-            $wrapper.parent().append($iframe);
-            $wrapper.remove();
-
-        });
-       
-        return $wrapper;
-    };
-
-    function youtube_parser(url){
-        var regExp = /.*\/(.*)\?/;
-        var match = url.match(regExp);
-        return match[1];
-    }
-
-    $.fn.youCover = function(attributes) {
-        attributes = $.extend( {}, $.fn.youCover.attributes, attributes );
-        
-        return $(this).each(function(){
-            if($(this).hasClass('loaded')) return this;
-            return new youCover(this, attributes);
-        });
-    };
-    $("[data-youcover]").youCover();
+        $wrapper.parent().append($iframe);
+        $wrapper.remove();
+    });
 });

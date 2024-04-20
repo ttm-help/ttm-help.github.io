@@ -10,12 +10,10 @@ video:
     url: https://www.youtube.com/embed/w_UiW3XO_KY
     duration: PT29M56S
 image:
-  url: /assets/img/interview-about-fear.jpeg
+  url: /assets/img/interview-about-fear.jpg
 ---
 
-{% include video-block.html
-url=page.video.url
-%}
+{% include video-block.html %}
 
 
 Интервью с моей пациенткой Марией. С подросткового возраста страдала трихотилломанией, терапия заняла 6 блоков (1 блок - 1 месяц).   

@@ -11,9 +11,7 @@ image:
   url: /assets/img/duration-of-ttm.jpg
 ---
 
-{% include video-block.html
-url=page.video.url
-%}
+{% include video-block.html %}
 
 Пожалуй, самый популярный вопрос на диагностических консультациях - вопрос о сроках терапии.
 В связи с этим я решила осветить его достаточно подробно.  

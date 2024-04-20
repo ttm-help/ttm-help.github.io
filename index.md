@@ -19,9 +19,7 @@ image:
     <div class="intro mb-10">
         <div class="row mt-2 mb-4">
             <div class="col">
-                {% include video-block.html
-                    url=page.video.url
-                %}
+                {% include video-block.html %}
             </div>
         </div>
         <div class="row mt-1">
