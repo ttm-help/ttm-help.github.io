@@ -14,7 +14,7 @@ image:
 Первым не просто повезло. Они думают, что могут.
 
 {% include image-block.html
-src="/assets/img/wojciech-celinski-lMlEt1l9QAo-unsplash.jpg"
+src="/assets/img/wojciech-celinski-lMlEt1l9QAo-unsplash-1.jpg"
 alt="Самоэффективность: сила мысли - я думаю, что могу!"
 caption='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash'
 %}
@@ -100,7 +100,7 @@ caption='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech
 самоэффективности и ее роль в предотвращении рецидивов.  
 
 {% include image-block.html
-src="/assets/img/susan-flynn-7rpwyZhkmNg-unsplash.jpg"
+src="/assets/img/susan-flynn-7rpwyZhkmNg-unsplash-1.jpg"
 alt="Самоэффективность и ее роль в предотвращении рецидивов"
 caption='Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash'
 %}
