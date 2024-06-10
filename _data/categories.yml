@@ -1,9 +1,9 @@
 list:
+  - name: "Личный опыт"
+    url: "/categories/experience.html"
   - name: "Психотерапия"
     url: "/categories/therapy.html"
   - name: "Родителям"
     url: "/categories/parents.html"
   - name: "Самодиагностика"
     url: "/categories/self-diagnosis.html"
-  - name: "Личный опыт"
-    url: "/categories/experience.html"
