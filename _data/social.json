@@ -10,5 +10,11 @@
     "description": "ttm help - YouTube канал с полезными видео материалами о трихотилломании",
     "link": "https://www.youtube.com/@ttm-help",
     "image": "assets/images/social/youtube.svg"
+  },
+  {
+    "name": "Сообщество VK",
+    "description": "VK группа о трихотилломании с видео и полезными материалами",
+    "link": "https://vk.com/ttm.help",
+    "image": "assets/images/social/vk.svg"
   }
 ]
