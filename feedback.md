@@ -12,7 +12,7 @@ permalink: /feedback.html
     <div class="content mb-10">
         <div class="row">
             <h2>
-                Видео-интервью
+                Видео интервью
             </h2>
             <span>
                 Истории излечения от трихотилломании от моих пациентов
@@ -26,7 +26,7 @@ permalink: /feedback.html
                             title="{{video.title}}"
                             style="width: 100%;
                                     border-radius: .25rem ;
-                                    aspect-ratio: 9/6;">
+                                    aspect-ratio: 10/6;">
                         <p class="pt-1">{{ post.title | smartify }}</p>
                     </a>
                 </div>
