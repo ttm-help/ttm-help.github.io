@@ -1,19 +1,26 @@
-<script src="/assets/js/youCover.js" async></script>
+<link rel="stylesheet" href="/assets/css/plyr.css"/>
+<script src="/assets/js/plyr.js" async></script>
 
-<div class="video-container mb-3">
-    <div id="video-wrapper"
-         data-width="100%"
-         data-src='{{ page.video.url }}?controls=1&amp;autoplay=1&amp;showinfo=0&amp;rel=0'
-         data-allowfullscreen
-         data-loading='lazy'
-         data-frameborder='0'
-         data-allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'>
-
-        <a href="#" id="video-play">
-            <img id="youtube-cover" alt="Видео для просмотра" class="pt-1"
-                 src="{{ page.video.image | default: page.image.url }}"
-                 style="z-index: 1"/>
-            <img id="youtube-button" alt="Воспроизвести" src="/assets/images/social/youtube-button.png"/>
-        </a>
-    </div>
+<div class="mb-3">
+    {% if page.video.url contains "youtube" %}
+        <div class="plyr__video-embed"
+             id="player">
+            <iframe
+                    src='{{ page.video.url }}?controls=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1'
+                    allowfullscreen
+                    allowtransparency
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+        </div>
+    {% else %}
+        <video id="player" playsinline controls data-poster="{{ page.video.image | default: page.image.url }}">
+            <source src="{{ page.video.url }}" type="video/mp4" />
+        </video>
+    {% endif %}
 </div>
+
+<script>
+window.addEventListener("load", function(){
+    const player = new Plyr('#player');
+});
+</script>
