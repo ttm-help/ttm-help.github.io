@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="/assets/css/plyr.css"/>
-<script src="/assets/js/plyr.js" async></script>
+<script src="{{ '/assets/js/plyr.js' | relative_url }}"></script>
+<link href="{{ '/assets/css/plyr.css' | relative_url }}" rel="stylesheet">
 
 <div class="mb-3">
     {% if page.video.url contains "youtube" %}
@@ -20,7 +20,5 @@
 </div>
 
 <script>
-window.addEventListener("load", function(){
-    const player = new Plyr('#player');
-});
+const player = new Plyr('#player');
 </script>
