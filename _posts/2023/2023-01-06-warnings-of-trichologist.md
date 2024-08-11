@@ -59,7 +59,7 @@ caption='Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">eng
 
 <div class="card mb-4 mt-3">
   <div class="card-header">
-    <h5 class="mb-0">Задайте себе вопросы:</h5>
+    <p class="mb-0 fw-bolder">Задайте себе вопросы:</p>
   </div>
   <div class="card-body">
     <ul class="mb-1">
