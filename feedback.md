@@ -15,7 +15,7 @@ permalink: /feedback.html
                 Видео интервью
             </h2>
             <span>
-                Истории излечения от трихотилломании от моих пациентов
+                Истории излечения от трихотилломании моих пациентов
             </span>
             {% assign videos = site.tags['interview'] %}
             {% for video in videos %}
