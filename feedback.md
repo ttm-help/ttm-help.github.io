@@ -12,10 +12,10 @@ permalink: /feedback.html
     <div class="content mb-10">
         <div class="row">
             <h2>
-                Видео интервью
+                Видео интервью с моими пациентами
             </h2>
             <span>
-                Истории излечения от трихотилломании моих пациентов
+                Истории излечения от трихотилломании людей прошедших терапию со мной
             </span>
             {% assign videos = site.tags['interview'] %}
             {% for video in videos %}
