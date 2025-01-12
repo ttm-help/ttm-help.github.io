@@ -13,7 +13,7 @@ image:
 
 {% include video-block.html %}
 
-[//]: # (<a href="" rel="nofollow">Ссылка на ВК Видео</a>)
+<a href="https://vkvideo.ru/video-211245681_456239033" rel="nofollow">Ссылка на ВК Видео</a>
 
 Интервью с участницей американской программы по 10-сессионной терапии ТТМ
 
