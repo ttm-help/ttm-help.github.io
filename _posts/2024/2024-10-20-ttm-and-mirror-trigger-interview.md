@@ -13,4 +13,6 @@ image:
 
 {% include video-block.html %}
 
+<a href="https://vkvideo.ru/video-211245681_456239026" rel="nofollow">Ссылка на ВК Видео</a>
+
 Интервью с Еленой, страдавшей трихотилломанией. Терапия заняла 4 блока.
