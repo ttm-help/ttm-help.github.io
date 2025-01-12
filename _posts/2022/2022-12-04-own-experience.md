@@ -4,7 +4,7 @@ title: "Как я победила трихотилломанию. Мой лич
 description: "Моя история излечения от трихотилломании, мои ошибки и провалы"
 category: "Личный опыт"
 image:
-  url: /assets/img/artur-aldyrkhanov-CDpCbaOThwg-unsplash-1.jpg
+  url: /assets/img/2024/artur-aldyrkhanov-CDpCbaOThwg-unsplash-1.jpg
 ---
 
 {% include image-block.html

@@ -4,7 +4,7 @@ title: "Онлайн-терапия для лечения трихотиллом
 description: "Исследования об эффективности он-лайн терапии ТТМ"
 category: "Психотерапия"
 image:
-  url: /assets/img/christin-hume-Hcfwew744z4-unsplash-1.jpg
+  url: /assets/img/2024/christin-hume-Hcfwew744z4-unsplash-1.jpg
 ---
 
 {% include image-block.html

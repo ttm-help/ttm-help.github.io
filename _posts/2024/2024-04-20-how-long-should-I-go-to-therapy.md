@@ -6,7 +6,7 @@ description: Автор обсуждает вопросы продолжител
   делается на важности терпения и достижении целей лечения в сочетании с терапевтом.
 category: "Психотерапия"
 image:
-    url: /assets/img/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
+    url: /assets/img/2024/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
 ---
 
 {% include image-block.html

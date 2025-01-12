@@ -4,7 +4,7 @@ title: "Трихотилломания и пограничный уровень 
 description: "Навыки которые необходимо сформировать для лечения трихотилломании"
 category: "Психотерапия"
 image:
-  url: /assets/img/daniel-thiele-EWv_1Y9x6RE-unsplash-1.jpg
+  url: /assets/img/2024/daniel-thiele-EWv_1Y9x6RE-unsplash-1.jpg
 ---
 
 Напомню, что у нас есть условно 4 уровня организации психики, и если располагать их от 

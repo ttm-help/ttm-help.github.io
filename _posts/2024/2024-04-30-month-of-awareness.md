@@ -6,7 +6,7 @@ description: Статья рассказывает важность принят
   Шаг за шагом описываются стратегии, которые помогут людям с трихотилломанией построить более позитивное отношение к себе и своей жизни.
 category: "Психотерапия"
 image:
-    url: /assets/img/leone-venter-mTkXSSScrzw-unsplash.jpg
+    url: /assets/img/2024/leone-venter-mTkXSSScrzw-unsplash.jpg
 ---
 
 {% include image-block.html

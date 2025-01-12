@@ -8,7 +8,7 @@ video:
     url: https://www.youtube.com/embed/HUt5DaaKcj4
     duration: PT47M8S
 image:
-  url: /assets/img/interview-thumbnail-1.jpg
+  url: /assets/img/2024/interview-thumbnail-1.jpg
 ---
 
 {% include video-block.html %}

@@ -7,7 +7,7 @@ description:
   подхода к лечению и потенциал структурированных программ самопомощи.
 category: "Самодиагностика"
 image:
-    url: /assets/img/j-w-Ju-ITc1Cc0w-unsplash.jpg
+    url: /assets/img/2024/j-w-Ju-ITc1Cc0w-unsplash.jpg
 ---
 
 {% include image-block.html

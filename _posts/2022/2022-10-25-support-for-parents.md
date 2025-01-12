@@ -4,7 +4,7 @@ title: "Помощь родителям при трихотилломании у
 description: "Детская трихотилломания (ТТМ) у ребёнка"
 category: "Родителям"
 image:
-  url: "/assets/img/caleb-woods-VZILDYoqn_U-unsplash.jpg"
+  url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.jpg"
 ---
 {% include image-block.html
 caption='Photo by <a href="https://unsplash.com/@caleb_woods" rel="nofollow" >Caleb Woods</a> on Unsplash'

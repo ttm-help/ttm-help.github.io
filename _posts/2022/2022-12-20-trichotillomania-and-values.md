@@ -4,7 +4,7 @@ title: "Трихотилломания и ценности"
 description: "Самомотивация к лечению трихотилломании, о ценности и боли как двух сторонах одной медали"
 category: "Психотерапия"
 image:
-  url: /assets/img/smit-patel-JMmTloWmvSI-unsplash.jpg
+  url: /assets/img/2024/smit-patel-JMmTloWmvSI-unsplash.jpg
 ---
 
 {% include image-block.html

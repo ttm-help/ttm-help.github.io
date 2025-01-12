@@ -4,7 +4,7 @@ title: "Выпадение волос и трихотилломания"
 description: "В статье рассказываются о связи между трихотилломанией и потерей волос"
 category: "Психотерапия"
 image:
-  url: /assets/img/kasia-serbin-UxcRjTtzLXw-unsplash-1.jpg
+  url: /assets/img/2024/kasia-serbin-UxcRjTtzLXw-unsplash-1.jpg
 ---
 
 {% include image-block.html 

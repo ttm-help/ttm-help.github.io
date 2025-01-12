@@ -4,10 +4,10 @@ title: "Что нельзя делать когда у ребёнка трихо
 description: "Стратегии поведения родителей при трихотилломании ребёнка"
 category: "Родителям"
 image:
-  url: /assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg
+  url: /assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg
 ---
 {% include image-block.html
-src="/assets/img/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg"
+src="/assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg"
 alt="Что нельзя делать когда у ребёнка трихотилломания?"
 caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash'
 %}
@@ -75,7 +75,7 @@ caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andri
 </div>
 
 {% include image-block.html
-src="/assets/img/bekah-russom-Y8QTiWuzYSs-unsplash-1.jpg"
+src="/assets/img/2024/bekah-russom-Y8QTiWuzYSs-unsplash-1.jpg"
 alt="Стратегии поведения родителей при трихотилломании ребёнка"
 caption='Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash'
 %}

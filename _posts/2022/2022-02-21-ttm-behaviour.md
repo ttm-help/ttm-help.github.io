@@ -4,7 +4,7 @@ title: "Трихотилломания, как неэффективная ада
 description: "Трихотилломания (ттм), как борьба с тревожностью"
 category: "Психотерапия"
 image:
-  url: /assets/img/conny-schneider-mmSH4C4WANc-unsplash-1.jpg
+  url: /assets/img/2024/conny-schneider-mmSH4C4WANc-unsplash-1.jpg
   width: 1920
   height: 1280
 ---

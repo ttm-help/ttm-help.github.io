@@ -6,7 +6,7 @@ description: "Трихотилломания и другие BFRB возника
   факторов для полного понимания причин таких расстройств."
 category: "Психотерапия"
 image:
-    url: /assets/img/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.jpg
+    url: /assets/img/2024/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.jpg
 ---
 
 Грызть ногти или даже ковыряться в царапинах - это то, чем занималось большинство из нас. Мы делали это и могли остановиться. Однако 

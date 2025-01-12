@@ -4,7 +4,7 @@ title: "Эмоциональное избегание и трихотиллом�
 description: "Трихотилломания как форма избегания эмоциональных переживаний - причины появления и способ избавления"
 category: "Психотерапия"
 image:
-  url: /assets/img/justin-luebke-BkkVcWUgwEk-unsplash-1.jpg
+  url: /assets/img/2024/justin-luebke-BkkVcWUgwEk-unsplash-1.jpg
 ---
 
 {% include image-block.html
@@ -60,7 +60,7 @@ caption='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin 
 Вы также можете испытывать чувства вины и стыда, которые дают новый круг данному процессу.
 
 {% include image-block.html
-src="/assets/img/joseph-frank-xUnhfZNBm7s-unsplash-1.jpg"
+src="/assets/img/2024/joseph-frank-xUnhfZNBm7s-unsplash-1.jpg"
 caption='Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash'
 %}
 

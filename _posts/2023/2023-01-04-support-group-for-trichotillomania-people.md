@@ -5,7 +5,7 @@ description: "Что такое группы поддержки, как они �
 к группе поддержки людей с трихотилломанией"
 category: "Психотерапия"
 image:
-  url: /assets/img/clay-banks-LjqARJaJotc-unsplash-1.jpg
+  url: /assets/img/2024/clay-banks-LjqARJaJotc-unsplash-1.jpg
 ---
 
 {% include image-block.html
@@ -55,7 +55,7 @@ caption='Photo by <a href="https://unsplash.com/@claybanks" rel="nofollow">Clay 
 
 
 {% include image-block.html
-src="/assets/img/chris-montgomery-smgTvepind4-unsplash-1.jpg"
+src="/assets/img/2024/chris-montgomery-smgTvepind4-unsplash-1.jpg"
 alt="Онлайн терапии"
 caption='Photo by <a href="https://unsplash.com/@cwmonty" rel="nofollow">Chris Montgomery</a> on Unsplash'
 %}

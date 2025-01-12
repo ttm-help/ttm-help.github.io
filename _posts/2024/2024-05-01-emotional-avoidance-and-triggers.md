@@ -7,7 +7,7 @@ description: Статья рассматривает важность выявл
   Понимание этой взаимосвязи помогает улучшить подход к лечению и повысить эффективность терапии.
 category: "Психотерапия"
 image:
-    url: /assets/img/dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+    url: /assets/img/2024/dylan-gillis-KdeqA3aTnBY-unsplash.jpg
 ---
 
 {% include image-block.html

@@ -4,7 +4,7 @@ title: "Трихотилломания у женщин"
 description: "В статье рассказывается о причинах возникновения трихотилломании у женщин"
 category: "Психотерапия"
 image:
-    url: /assets/img/tim-mossholder-SxPISzSxJrQ-unsplash.jpg
+    url: /assets/img/2024/tim-mossholder-SxPISzSxJrQ-unsplash.jpg
 ---
 
 

@@ -6,7 +6,7 @@ description:
   В этой статье разбирается когда подобный способ применим и разбирается его эффективность
 category: "Психотерапия"
 image:
-  url: /assets/img/samantha-borges-EeS69TTPQ18-unsplash-1.jpg
+  url: /assets/img/2024/samantha-borges-EeS69TTPQ18-unsplash-1.jpg
 ---
 
 {% include image-block.html

@@ -4,7 +4,7 @@ title: "Эмоциональные последствия трихотиллом
 description: "Какие негативные эмоциональные последствия могут быть в случае трихотилломании."
 category: "Психотерапия"
 image:
-    url: /assets/img/tengyart-dTgyj9okQ_w-unsplash.jpg
+    url: /assets/img/2024/tengyart-dTgyj9okQ_w-unsplash.jpg
 ---
 
 {% include image-block.html

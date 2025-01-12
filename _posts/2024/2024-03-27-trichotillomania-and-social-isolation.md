@@ -6,7 +6,7 @@ description: Статья исследует расстройство контр
   важность профессиональной помощи и социальной поддержки для улучшения качества жизни больных.
 category: "Психотерапия"
 image:
-    url: /assets/img/miikka-luotio-uRxImxKnGl8-unsplash.jpg
+    url: /assets/img/2024/miikka-luotio-uRxImxKnGl8-unsplash.jpg
 ---
 
 [Трихотилломания]({% link _posts/2022/2022-12-21-trichotillomania.md %}) - это расстройство контроля над импульсами, 

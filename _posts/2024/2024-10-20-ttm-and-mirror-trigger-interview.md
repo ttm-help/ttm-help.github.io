@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/-A0E9MVgIug
   duration: PT34M3S
 image:
-  url: /assets/img/ttm-and-mirror-interview.png
+  url: /assets/img/2024/ttm-and-mirror-interview.png
 ---
 
 {% include video-block.html %}

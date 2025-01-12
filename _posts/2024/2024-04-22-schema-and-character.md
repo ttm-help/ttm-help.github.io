@@ -7,7 +7,7 @@ description: В статье рассматриваются различные �
   механизмов развития трихотилломании.
 category: "Психотерапия"
 image:
-    url: /assets/img/yulia-matvienko-kgz9vsP5JCU-unsplash.jpg
+    url: /assets/img/2024/yulia-matvienko-kgz9vsP5JCU-unsplash.jpg
 ---
 
 {% include image-block.html

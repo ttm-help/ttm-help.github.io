@@ -6,7 +6,7 @@ description: Статья исследует причины выдергиван
   стресса и негативных мыслей. Также обсуждаются альтернативные способы снятия напряжения, например, физическая активность и стрессовые игрушки.
 category: "Психотерапия"
 image:
-    url: /assets/img/engin-akyurt-wJaMWPU_VYY-unsplash.jpg
+    url: /assets/img/2024/engin-akyurt-wJaMWPU_VYY-unsplash.jpg
 ---
 
 

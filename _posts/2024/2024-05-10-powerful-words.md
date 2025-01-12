@@ -7,7 +7,7 @@ description: статья, раскрывающая влияние слов на
   стадиям развития по теории Эрика Эриксона, чтобы объяснить влияние времени на формирование нашего мировоззрения и отношений.
 category: "Психотерапия"
 image:
-    url: /assets/img/namroud-gorguis-FZWivbri0Xk-unsplash.jpg
+    url: /assets/img/2024/namroud-gorguis-FZWivbri0Xk-unsplash.jpg
 ---
 
 {% include image-block.html

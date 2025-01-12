@@ -4,7 +4,7 @@ title: "Диагностика трихотилломании у детей: Н�
 description: "Способы диагностики трихотилломании у детей и какие существуют способы лечения трихотилломании у детей."
 category: "Родителям"
 image:
-    url: /assets/img/artur-aldyrkhanov-3bwMp-TyxOE-unsplash.jpg
+    url: /assets/img/2024/artur-aldyrkhanov-3bwMp-TyxOE-unsplash.jpg
 ---
 
 {% include image-block.html

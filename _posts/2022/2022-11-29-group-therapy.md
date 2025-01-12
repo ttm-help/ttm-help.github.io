@@ -4,12 +4,12 @@ title: "Групповая терапия трихотилломании"
 description: "Групповая психотерапия при трихотилломании"
 category: "Психотерапия"
 image:
-  url: "/assets/img/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
+  url: "/assets/img/2024/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
 ---
 
 ### Что такое групповая терапия?
 {% include image-block.html
-src="/assets/img/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg"
+src="/assets/img/2024/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg"
 caption='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash'
 %}
 

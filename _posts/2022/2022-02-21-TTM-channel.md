@@ -4,7 +4,7 @@ title: "Группы поддержки при трихотилломании"
 description: "Группы поддержки при трихотилломании, телеграм канал для страдающих трихотилломанией"
 category: "Психотерапия"
 image:
-  url: /assets/img/mariyan-rajesh-BICGzegcfWs-unsplash-1.jpg
+  url: /assets/img/2024/mariyan-rajesh-BICGzegcfWs-unsplash-1.jpg
   width: 1920
   height: 1441
 ---

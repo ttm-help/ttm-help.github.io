@@ -4,7 +4,7 @@ title: "Самодиагностика. Астения"
 description: "Статья о связи патологической утомляемости с трихотилломанией."
 category: "Самодиагностика"
 image:
-  url: /assets/img/mel-elias-SevjX8pf_tQ-unsplash-1.jpg
+  url: /assets/img/2024/mel-elias-SevjX8pf_tQ-unsplash-1.jpg
 ---
 
 {% include image-block.html

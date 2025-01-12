@@ -7,7 +7,7 @@ description: Статья исследует эффективность тера
   этого подхода и открывают новые перспективы для терапии выдергивания волос.
 category: "Психотерапия"
 image:
-    url: /assets/img/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.jpg
+    url: /assets/img/2024/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.jpg
 ---
 
 {% include image-block.html

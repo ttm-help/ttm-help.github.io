@@ -7,7 +7,7 @@ description: Статья исследует сложности, с которы
   и психологических побуждений, требующих комплексного психологического лечения.
 category: "Психотерапия"
 image:
-    url: /assets/img/andy-t-oRhhb0f2Kic-unsplash.jpg
+    url: /assets/img/2024/andy-t-oRhhb0f2Kic-unsplash.jpg
 ---
 
 {% include image-block.html

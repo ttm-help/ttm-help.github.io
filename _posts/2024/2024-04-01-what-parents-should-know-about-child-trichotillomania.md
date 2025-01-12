@@ -5,7 +5,7 @@ description: "Детская ТТМ: Повторное вырывание во�
  Основана на психосоциальных стрессах раннего детства. Лечение с участием родителей эффективно"
 category: "Родителям"
 image:
-    url: /assets/img/jeremiah-lawrence-IXiGMtCrQPg-unsplash.jpg
+    url: /assets/img/2024/jeremiah-lawrence-IXiGMtCrQPg-unsplash.jpg
 ---
 
 {% include image-block.html

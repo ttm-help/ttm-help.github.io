@@ -4,7 +4,7 @@ title: "Бремя жизни с трихотилломанией"
 description: "Что такое трихотилломания и какие негативные факторы она несет в повседневную жизнь"
 category: "Психотерапия"
 image:
-    url: /assets/img/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.jpg
+    url: /assets/img/2024/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.jpg
 ---
 
 {% include image-block.html

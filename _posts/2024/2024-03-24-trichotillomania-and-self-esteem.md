@@ -4,7 +4,7 @@ title: "Влияние трихотилломании на самооценку"
 description: "Трихотилломания вызывает стыд и социальную изоляцию, приводит к физическим и психологическим проблемам, требует комплексного лечения"
 category: "Психотерапия"
 image:
-  url: /assets/img/frames-for-your-heart-x1cbwiTq7vU-unsplash.jpg
+  url: /assets/img/2024/frames-for-your-heart-x1cbwiTq7vU-unsplash.jpg
 ---
 
 {% include image-block.html

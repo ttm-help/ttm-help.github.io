@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/ZJiY19sTVo4
   duration: PT25M15S
 image:
-  url: /assets/img/interview-anastasia-ufa.png
+  url: /assets/img/2024/interview-anastasia-ufa.png
 ---
 
 {% include video-block.html %}
