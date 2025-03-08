@@ -85,34 +85,47 @@
 <div class="mobile-footer-menu d-flex justify-content-around align-items-center mb-1 mb-md-0">
     <a href="/" aria-label="сайт о лечении трихотилломании">
         <img src="/assets/images/menu/index.svg"
-             width="26" height="26"
-             class="mb-2 mt-1"
+             width="30" height="30"
+             class="mb-1 mt-1"
              title="Вернуться на главную страницу сайта"
              alt="Сайт лечение трихотилломании">
+
+        {% if page.name == 'index.md' %}
+            <div class="selected-item"></div>
+        {% endif %}
     </a>
     <a href="https://t.me/ttm_help_ru"
        aria-label="группа помощи в телеграм"
-       rel="nofollow">
+       target="_blank"
+       rel="noopener noreferrer nofollow">
         <img src="/assets/images/menu/telegram.svg"
-             width="26" height="26"
-             class="mb-2 mt-1"
+             width="30" height="30"
+             class="mb-1 mt-1"
              title="Перейти в группа помощи в телеграм"
              alt="Группа помощи при трихотилломании в телеграм">
     </a>
     <a href="{% link contact.md %}"
        aria-label="страница с контактами">
         <img src="/assets/images/menu/write.svg"
-             width="26" height="26"
-             class="mb-2 mt-1"
+             width="30" height="30"
+             class="mb-1 mt-1"
              title="Перейти на страницу с контактными данными"
              alt="Записаться на консультацию">
+
+        {% if page.name == 'contact.md' %}
+            <div class="selected-item"></div>
+        {% endif %}
     </a>
     <a href="{% link faq.md %}"
        aria-label="страница с часто задаваемыми вопросами и ответы на них">
         <img src="/assets/images/menu/question.svg"
-             width="26" height="26"
-             class="mb-2 mt-1"
+             width="30" height="30"
+             class="mb-1 mt-1"
              title="Ответа на ваши вопросы о трихотилломании"
              alt="Часто задаваемые вопросы">
+
+        {% if page.name == 'faq.md' %}
+            <div class="selected-item"></div>
+        {% endif %}
     </a>
 </div>

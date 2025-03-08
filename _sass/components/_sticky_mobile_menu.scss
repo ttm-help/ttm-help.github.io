@@ -13,4 +13,8 @@
       display: none;
     }
   }
+
+  .selected-item {
+    border-bottom: 5px solid $primary;
+  }
 }
