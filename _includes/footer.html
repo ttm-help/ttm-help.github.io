@@ -90,7 +90,7 @@
              title="Вернуться на главную страницу сайта"
              alt="Сайт лечение трихотилломании">
 
-        {% if page.name == 'index.md' %}
+        {% if page.url == '/' %}
             <div class="selected-item"></div>
         {% endif %}
     </a>
@@ -112,7 +112,7 @@
              title="Перейти на страницу с контактными данными"
              alt="Записаться на консультацию">
 
-        {% if page.name == 'contact.md' %}
+        {% if page.url == '/contact.html' %}
             <div class="selected-item"></div>
         {% endif %}
     </a>
@@ -124,7 +124,7 @@
              title="Ответа на ваши вопросы о трихотилломании"
              alt="Часто задаваемые вопросы">
 
-        {% if page.name == 'faq.md' %}
+        {% if page.url == '/faq.html' %}
             <div class="selected-item"></div>
         {% endif %}
     </a>
