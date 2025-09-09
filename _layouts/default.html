@@ -13,8 +13,10 @@
         {% if page.video.url contains "youtube" %}
             <link rel="preconnect" href="{{ page.video.url }}">
         {% endif %}
-        <script src="{{ '/assets/js/plyr.js' | relative_url }}"></script>
-        <link href="{{ '/assets/css/plyr.css' | relative_url }}" rel="stylesheet">
+        <link rel="preload" href="{{ '/assets/css/plyr.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="{{ '/assets/css/plyr.css' | relative_url }}"></noscript>
+
+        <script src="{{ '/assets/js/plyr.js' | relative_url }}" defer></script>
     {% endif %}
 
     <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>

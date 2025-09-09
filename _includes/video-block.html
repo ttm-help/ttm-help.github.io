@@ -16,6 +16,8 @@
     {% endif %}
 </div>
 
-<script>
-const player = new Plyr('#player');
+<script defer>
+    document.addEventListener('DOMContentLoaded', () => {
+       const player = new Plyr('#player');
+     });
 </script>
