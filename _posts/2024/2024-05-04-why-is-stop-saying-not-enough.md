@@ -7,12 +7,10 @@ description: Статья исследует сложности, с которы
   и психологических побуждений, требующих комплексного психологического лечения.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/andy-t-oRhhb0f2Kic-unsplash.jpg
+    url: /assets/img/2024/andy-t-oRhhb0f2Kic-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@andytoots" rel="nofollow">Andy T</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 > Просто остановитесь!  
 > Это просто плохая привычка.

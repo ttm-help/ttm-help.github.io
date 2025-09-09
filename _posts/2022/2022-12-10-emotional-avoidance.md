@@ -4,12 +4,10 @@ title: "Эмоциональное избегание и трихотиллом�
 description: "Трихотилломания как форма избегания эмоциональных переживаний - причины появления и способ избавления"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/justin-luebke-BkkVcWUgwEk-unsplash-1.jpg
+  url: /assets/img/2024/justin-luebke-BkkVcWUgwEk-unsplash-1.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin Luebke</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 **Избегание** - это наш выход из ситуации, когда мы просто не хотим что-то делать. 
 На самом деле избегание является одним из защитных механизмов психики.
@@ -59,10 +57,7 @@ caption='Photo by <a href="https://unsplash.com/@jluebke" rel="nofollow">Justin 
 облегчения смешанного с удовлетворением, подкрепляя такое поведение, после чего оно становится системой. 
 Вы также можете испытывать чувства вины и стыда, которые дают новый круг данному процессу.
 
-{% include image-block.html
-src="/assets/img/2024/joseph-frank-xUnhfZNBm7s-unsplash-1.jpg"
-caption='Photo by <a href="https://unsplash.com/@josephgruenthal" rel="nofollow">Joseph Frank</a> on Unsplash'
-%}
+{% include image-block.html src="/assets/img/2024/joseph-frank-xUnhfZNBm7s-unsplash-1.webp" %}
 
 ### Как разорвать цикл?
 

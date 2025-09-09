@@ -4,14 +4,12 @@ title: "Как победить трихотилломанию самому"
 description: "Подробный разбор способов самопомощи при трихотилломании (ТТМ)"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/luke-stackpoole-eWqOgJ-lfiI-unsplash-1.jpg
+  url: /assets/img/2024/luke-stackpoole-eWqOgJ-lfiI-unsplash-1.webp
   width: 1920
   height: 2400
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@withluke" rel="nofollow">Luke Stackpoole</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 В вопросе самопомощи при трихотилломании важно понимать, что существует несколько уровней [организации психики]({% link _posts/2022/2022-12-18-trichotillomania-and-levels-of-mental-development.md %}) –
 здоровый, невротик, пограничник и психотик. Для лучшего понимания есть отличная метафора с домом. 

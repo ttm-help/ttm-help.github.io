@@ -4,7 +4,7 @@ title: "Вызывает ли трихотилломания облысение?
 description: "Правда ли, что трихотилломания может привести к облысению волос? Данная статья отвечает на этот вопрос"
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/ahmed-carter-W1jRfqh3-tc-unsplash.jpg
+    url: /assets/img/2024/ahmed-carter-W1jRfqh3-tc-unsplash.webp
 ---
 
 Один из самых распространенных вопросов, который задают люди, страдающие от компульсивного вырывания волос, 
@@ -16,9 +16,7 @@ image:
 
 Давайте подробнее рассмотрим связь трихотилломании и выпадения волос.
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@ahmedcarter" rel="nofollow">Ahmed Carter</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ## Приводит ли вырывание волос к их выпадению?
 

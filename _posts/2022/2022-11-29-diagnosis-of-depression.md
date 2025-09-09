@@ -4,7 +4,7 @@ title: "Самодиагностика. Депрессия"
 description: "Связь депрессии и трихотилломании (ттм)"
 category: "Самодиагностика"
 image:
-  url: /assets/img/2024/jackson-simmer-QgJYBOID-9A-unsplash-1.jpg
+  url: /assets/img/2024/jackson-simmer-QgJYBOID-9A-unsplash-1.webp
 ---
 Депрессия характеризуется:
 - сниженное настроение - не ситуативно, а хронически, постоянно
@@ -29,9 +29,7 @@ image:
   на ухаживания за собой, одежду и закрываются
 - могут периодически играть - надевать маску, но не долго, так как маски носить энерго затратно, а сил нет
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@simmerdownjpg" rel="nofollow" >Jackson Simmer</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Если человек находится в таком состоянии длительное время - от 3 лет, это считается затяжной депрессией,
 тяжелой. Часто люди теряют социальные контакты, близость. Чувство вины здесь становится огромным. 

@@ -4,12 +4,10 @@ title: "Влияние трихотилломании на самооценку"
 description: "Трихотилломания вызывает стыд и социальную изоляцию, приводит к физическим и психологическим проблемам, требует комплексного лечения"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/frames-for-your-heart-x1cbwiTq7vU-unsplash.jpg
+  url: /assets/img/2024/frames-for-your-heart-x1cbwiTq7vU-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@framesforyourheart" rel="nofollow">Frames For Your Heart</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Существуют разные степени тяжести трихотилломании. Но для многих стыд и смущение, связанные с вырыванием волос, становятся причиной болезненной 
 изоляции и вызывают сильные эмоциональные переживания. Это подвергает людей риску развития сопутствующих психических расстройств, таких как аффективные 

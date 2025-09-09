@@ -4,12 +4,10 @@ title: "Онлайн-терапия для лечения трихотиллом
 description: "Исследования об эффективности он-лайн терапии ТТМ"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/christin-hume-Hcfwew744z4-unsplash-1.jpg
+  url: /assets/img/2024/christin-hume-Hcfwew744z4-unsplash-1.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@christinhumephoto" rel="nofollow">Christin Hume</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Онлайн-взаимодействие во многом стало нашим основным способом общения. Мы переписываемся, отправляем сообщения, общаемся в чате. 
 Мы даже работаем через экран. Пандемия только ускорила развитие мира онлайн-коммуникаций. Есть ли сейчас что-то, 

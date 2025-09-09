@@ -7,7 +7,7 @@ description: Следующий набор вопросов разработан
   вопросов, пожалуйста, оцените в меру своих возможностей.
 date: 2023-01-31
 image:
-    url: /assets/img/2024/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.jpg
+    url: /assets/img/2024/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.webp
     width: 1200
     height: 801
 permalink: /test.html

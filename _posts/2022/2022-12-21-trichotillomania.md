@@ -4,7 +4,7 @@ title: "Трихотилломания - причины появления, си
 description: "Все о трихотилломании: причины возникновения, виды поведения, физические и психологические последствия, пути выхода"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/suhyeon-choi-G9XMLUAjETM-unsplash-1.jpg
+  url: /assets/img/2024/suhyeon-choi-G9XMLUAjETM-unsplash-1.webp
   width: 1969
   height: 1528
 ---
@@ -37,9 +37,8 @@ image:
 У женщин трихотилломания проявляется чаще, чем у мужчин.
 
 {% include image-block.html
-src="/assets/img/2024/taisiia-stupak-mWABE4JCUHI-unsplash-1.jpg"
-alt="Симптомы трихотилломании"
-caption='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
+src="/assets/img/2024/taisiia-stupak-mWABE4JCUHI-unsplash-1.webp"
+alt="Симптомы трихотилломании" 
 %}
 
 
@@ -123,9 +122,7 @@ caption='Photo by <a href="https://unsplash.com/ja/@taiamint" rel="nofollow">Tai
 
 {% include image-block.html
 alt='Что такое трихотилломания?'
-src='/assets/img/2024/suhyeon-choi-G9XMLUAjETM-unsplash-1.jpg'
-caption='Photo by <a href="https://unsplash.com/@by_syeoni" rel="nofollow">Suhyeon Choi</a> on Unsplash'
-%}
+src='/assets/img/2024/suhyeon-choi-G9XMLUAjETM-unsplash-1.webp' %}
 
 
 ## Ошибочная диагностика трихотилломании
@@ -176,8 +173,7 @@ NSSI представляет собой сознательное решение
 
 {% include image-block.html
 alt='Как избавиться от трихотилломании?'
-src='/assets/img/2024/jayson-hinrichsen-QGHC9aF2OwQ-unsplash-1.jpg'
-caption='Photo by <a href="https://unsplash.com/@jayson_hinrichsen" rel="nofollow">Jayson Hinrichsen</a> on Unsplash'
+src='/assets/img/2024/jayson-hinrichsen-QGHC9aF2OwQ-unsplash-1.webp'
 %}
 
 ## Как избавиться от трихотилломании?

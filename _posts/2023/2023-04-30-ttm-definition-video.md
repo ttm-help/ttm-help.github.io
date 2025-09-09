@@ -8,7 +8,7 @@ video:
     url: https://www.youtube.com/embed/vRTqJ2ZTH8Y
     duration: PT4M
 image:
-  url: /assets/img/2024/thumbnail-ttm-definition-video.jpg
+  url: /assets/img/2024/thumbnail-ttm-definition-video.webp
 ---
 
 {% include video-block.html %}

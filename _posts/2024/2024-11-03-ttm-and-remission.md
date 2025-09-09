@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/6uUeNdpgwT8
   duration: PT26M58S
 image:
-  url: /assets/img/2024/ttm-and-remission.jpg
+  url: /assets/img/2024/ttm-and-remission.webp
 ---
 
 {% include video-block.html %}

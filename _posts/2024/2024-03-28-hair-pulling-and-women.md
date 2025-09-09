@@ -4,13 +4,11 @@ title: "Трихотилломания у женщин"
 description: "В статье рассказывается о причинах возникновения трихотилломании у женщин"
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/tim-mossholder-SxPISzSxJrQ-unsplash.jpg
+    url: /assets/img/2024/tim-mossholder-SxPISzSxJrQ-unsplash.webp
 ---
 
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@timmossholder" rel="nofollow">Tim Mossholder</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Трихотилломания - стремление вырывать волосы прядь за прядью, которое приводит к облысению и эмоциональной травме. Тем, кто не сталкивался с этим заболеванием, 

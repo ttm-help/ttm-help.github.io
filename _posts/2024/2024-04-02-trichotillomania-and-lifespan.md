@@ -4,7 +4,7 @@ title: "Трихотилломания в течении всей жизни"
 description: "Статья о связи между трихотилломанией и дерматилломанией"
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/rirri-fOyNfubusxE-unsplash.jpg
+    url: /assets/img/2024/rirri-fOyNfubusxE-unsplash.webp
 ---
 
 Трихотилломания (ТТМ) - это повторяющееся расстройство поведения, сосредоточенное на теле (BFRB). Для него характерно регулярное вырывание волос, 
@@ -42,9 +42,7 @@ Characteristics of trichotillomania and excoriation disorder across the lifespan
 Также предоставляются новые сведения, которые могут помочь в информировании о лечении.
 
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@rirri01" rel="nofollow">Rirri</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ## В течение всей жизни
 

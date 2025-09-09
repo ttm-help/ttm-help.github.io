@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/Gbai5lqNoRQ
   duration: PT25M26S
 image:
-  url: /assets/img/2024/how-to-help-yourself.jpg
+  url: /assets/img/2024/how-to-help-yourself.webp
 ---
 
 {% include video-block.html %}

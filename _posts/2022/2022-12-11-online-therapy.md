@@ -6,12 +6,10 @@ description:
   В этой статье разбирается когда подобный способ применим и разбирается его эффективность
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/samantha-borges-EeS69TTPQ18-unsplash-1.jpg
+  url: /assets/img/2024/samantha-borges-EeS69TTPQ18-unsplash-1.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@samich_18" rel="nofollow">Samantha Borges</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Очень часто (хотя после коронавируса уже реже) пациенты задаются вопросом - а 
 эффективна ли онлайн терапия или надо как в старые времена ехать на другой конец города раз в неделю 

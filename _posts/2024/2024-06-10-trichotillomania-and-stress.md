@@ -6,13 +6,11 @@ description: Статья исследует причины выдергиван
   стресса и негативных мыслей. Также обсуждаются альтернативные способы снятия напряжения, например, физическая активность и стрессовые игрушки.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/engin-akyurt-wJaMWPU_VYY-unsplash.jpg
+    url: /assets/img/2024/engin-akyurt-wJaMWPU_VYY-unsplash.webp
 ---
 
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@enginakyurt" rel="nofollow">engin akyurt</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Причины, побуждающие к [выдергиванию волос]({% link _posts/2022/2022-12-21-trichotillomania.md %}), у всех разные. Некоторые люди привычно дергают себя за волосы, не осознавая этого,
 когда занимаются пассивной деятельностью, другие сознательно дергают себя за волосы, чтобы снять чувство напряжения. Каковы бы ни

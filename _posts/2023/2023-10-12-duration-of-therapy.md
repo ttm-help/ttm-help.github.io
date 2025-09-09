@@ -8,7 +8,7 @@ video:
     url: https://www.youtube.com/embed/EyZ2PkcPY8w
     duration: PT10M23S
 image:
-  url: /assets/img/2024/duration-of-ttm.jpg
+  url: /assets/img/2024/duration-of-ttm.webp
 ---
 
 {% include video-block.html %}

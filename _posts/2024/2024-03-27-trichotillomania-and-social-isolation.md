@@ -6,7 +6,7 @@ description: Статья исследует расстройство контр
   важность профессиональной помощи и социальной поддержки для улучшения качества жизни больных.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/miikka-luotio-uRxImxKnGl8-unsplash.jpg
+    url: /assets/img/2024/miikka-luotio-uRxImxKnGl8-unsplash.webp
 ---
 
 [Трихотилломания]({% link _posts/2022/2022-12-21-trichotillomania.md %}) - это расстройство контроля над импульсами, 
@@ -39,9 +39,7 @@ image:
 как депрессия и тревога. Расстройство также может мешать социальной жизни, учебе и/или работе. Умеренная или сильная боль 
 во время и после вырывания волос, шрамы, ухудшение внешности, а также проблемы со здоровьем (например инфекции) тоже могут иметь место.
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@mluotio83" rel="nofollow">Miikka Luotio</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ## Негативные последствия одиночества
 

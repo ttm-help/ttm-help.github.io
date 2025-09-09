@@ -6,12 +6,10 @@ description: Автор обсуждает вопросы продолжител
   делается на важности терпения и достижении целей лечения в сочетании с терапевтом.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/kelly-sikkema-XX2WTbLr3r8-unsplash.jpg
+    url: /assets/img/2024/kelly-sikkema-XX2WTbLr3r8-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@kellysikkema" rel="nofollow">Kelly Sikkema</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Этот вопрос возникает у многих людей, решивших начать терапию.  
 Один из классических стереотипов о терапии - человек, неделями лежащий на кушетке терапевта 

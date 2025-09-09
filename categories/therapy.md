@@ -6,5 +6,5 @@ category_name: "Психотерапия"
 date: 2024-03-19
 permalink: /categories/therapy.html
 image:
-  url: "/assets/img/2024/priscilla-du-preez-vDzeKnPBPLM-unsplash-1.jpg"
+  url: "/assets/img/2024/priscilla-du-preez-vDzeKnPBPLM-unsplash-1.webp"
 ---

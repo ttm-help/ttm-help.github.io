@@ -4,12 +4,10 @@ title: "Самодиагностика. Астения"
 description: "Статья о связи патологической утомляемости с трихотилломанией."
 category: "Самодиагностика"
 image:
-  url: /assets/img/2024/mel-elias-SevjX8pf_tQ-unsplash-1.jpg
+  url: /assets/img/2024/mel-elias-SevjX8pf_tQ-unsplash-1.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@cuartodeiibra" rel="nofollow" >Mel Elías</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Приветствую!  
 

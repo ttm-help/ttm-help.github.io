@@ -4,12 +4,10 @@ title: "Эмоциональные последствия трихотиллом
 description: "Какие негативные эмоциональные последствия могут быть в случае трихотилломании."
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/tengyart-dTgyj9okQ_w-unsplash.jpg
+    url: /assets/img/2024/tengyart-dTgyj9okQ_w-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@tengyart" rel="nofollow">Tengyart</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Физические последствия, которые может вызвать трихотилломания, относительно легко обнаружить. Со временем они могут проявиться в виде:

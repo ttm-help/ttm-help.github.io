@@ -7,12 +7,10 @@ description: Статья исследует эффективность тера
   этого подхода и открывают новые перспективы для терапии выдергивания волос.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.jpg
+    url: /assets/img/2024/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@breakfast_on_jupiter" rel="nofollow">Aleksandr Ledogorov</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Выдергивание волос - это сложное расстройство, которое характеризуется выдергиванием волос, мешающим функционировать. Выдергивание происходит в 
 ответ на непреодолимые позывы, которые стихают, как только действие закончено. Не все случаи выдергивания волос одинаковы. Существует два выделенных 

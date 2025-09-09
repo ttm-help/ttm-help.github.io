@@ -4,14 +4,12 @@ title: "Трихотилломания, как неэффективная ада
 description: "Трихотилломания (ттм), как борьба с тревожностью"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/conny-schneider-mmSH4C4WANc-unsplash-1.jpg
+  url: /assets/img/2024/conny-schneider-mmSH4C4WANc-unsplash-1.webp
   width: 1920
   height: 1280
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@choys_" rel="nofollow" >Conny Schneider</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Можно разделить любое поведение человека на **адаптивное** и **дезадаптивное**.
 

@@ -7,12 +7,10 @@ description: статья, раскрывающая влияние слов на
   стадиям развития по теории Эрика Эриксона, чтобы объяснить влияние времени на формирование нашего мировоззрения и отношений.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/namroud-gorguis-FZWivbri0Xk-unsplash.jpg
+    url: /assets/img/2024/namroud-gorguis-FZWivbri0Xk-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@namroud" rel="nofollow">Namroud Gorguis</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Тот, кто придумал поговорку «Палки и камни могут сломать мои кости, но слова никогда не причинят мне вреда», либо полностью отрицал, либо не имел ни малейшего 
 представления о разрушительном воздействии слов. То, что мы слышим в детстве, эхом отдается в нашем сознании на долгие годы.

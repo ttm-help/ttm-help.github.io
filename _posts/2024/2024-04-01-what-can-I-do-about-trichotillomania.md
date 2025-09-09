@@ -4,7 +4,7 @@ title: "Почему я вырываю на себе волосы? Что мож
 description: "Что можно предпринять в случае трихотилломании, что можно сделать самостоятельно без помощи психолога"
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/daria-tumanova-mmYyzczxvdo-unsplash.jpg
+    url: /assets/img/2024/daria-tumanova-mmYyzczxvdo-unsplash.webp
 ---
 
 > Почему у меня появились залысины? Всегда ли мои ресницы были такими редкими? Что случилось с моими бровями?
@@ -97,9 +97,7 @@ image:
 - Рисование и <a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D1%84%D0%BE%D0%BD%D0%B0%D0%B6" rel="nofollow">грифонаж</a>
 - Сжимание и разжимание кулака
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@tumanova_photo" rel="nofollow">Daria Tumanova</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ### Физические действия
 Подобно упражнениям на заземление, это намеренные физические действия, которые помогают вам сосредоточиться и расслабиться.

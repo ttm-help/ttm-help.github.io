@@ -4,7 +4,7 @@ title: "Готовность к лету с трихотилломанией: С
 description: "Советы к лету при вырывании волос"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/ethan-robertson-SYx3UCHZJlo-unsplash-1.jpg
+  url: /assets/img/2024/ethan-robertson-SYx3UCHZJlo-unsplash-1.webp
 ---
 
 Наступило лето, а это значит стали доступны развлечения на солнце - вечеринки у бассейна, времяпрепровождение на пляже 
@@ -45,9 +45,7 @@ image:
 средства защиты водонепроницаемы и устойчивы к поту. Что же тогда делать любительницам позагорать в летний сезон?
 
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@ethanrobertson" rel="nofollow">Ethan Robertson</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ## Подружитесь с летом
 

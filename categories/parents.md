@@ -6,5 +6,5 @@ category_name: "Родителям"
 date: 2024-03-19
 permalink: "/categories/parents.html"
 image:
-    url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.jpg"
+    url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.webp"
 ---

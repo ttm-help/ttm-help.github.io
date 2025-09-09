@@ -5,12 +5,10 @@ description: "Детская ТТМ: Повторное вырывание во�
  Основана на психосоциальных стрессах раннего детства. Лечение с участием родителей эффективно"
 category: "Родителям"
 image:
-    url: /assets/img/2024/jeremiah-lawrence-IXiGMtCrQPg-unsplash.jpg
+    url: /assets/img/2024/jeremiah-lawrence-IXiGMtCrQPg-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@jrlawrence" rel="nofollow">Jeremiah Lawrence</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Когда вы слышите о [трихотилломании]({% link _posts/2022/2022-12-21-trichotillomania.md %}), которую часто называют ТТМ, вы, скорее всего, представляете себе подростка или 

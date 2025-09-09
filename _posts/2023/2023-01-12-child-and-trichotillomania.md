@@ -4,12 +4,11 @@ title: "Что нельзя делать когда у ребёнка трихо
 description: "Стратегии поведения родителей при трихотилломании ребёнка"
 category: "Родителям"
 image:
-  url: /assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg
+  url: /assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.webp
 ---
 {% include image-block.html
-src="/assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.jpg"
+src="/assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.webp"
 alt="Что нельзя делать когда у ребёнка трихотилломания?"
-caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andriyko Podilnyk</a> on Unsplash'
 %}
 
 Давайте предположим, что условная Машенька 8 лет ходит уже во второй класс, что-то случается в школе,
@@ -75,9 +74,8 @@ caption='Photo by <a href="https://unsplash.com/@andriyko" rel="nofollow" >Andri
 </div>
 
 {% include image-block.html
-src="/assets/img/2024/bekah-russom-Y8QTiWuzYSs-unsplash-1.jpg"
+src="/assets/img/2024/bekah-russom-Y8QTiWuzYSs-unsplash-1.webp"
 alt="Стратегии поведения родителей при трихотилломании ребёнка"
-caption='Photo by <a href="https://unsplash.com/@bekahrussom" rel="nofollow" >Bekah Russom</a> on Unsplash'
 %}
 
 ### Действие второе. Гиперконтроль.

@@ -4,7 +4,7 @@ title: "Самоэффективность: сила мысли - я думаю,
 description: "Важность мысли «я могу» при лечении трихотилломании, что можно сделать, если вы чувствуете себя беспомощным в борьбе с ТТМ"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/susan-flynn-7rpwyZhkmNg-unsplash-1.jpg
+  url: /assets/img/2024/susan-flynn-7rpwyZhkmNg-unsplash-1.webp
 ---
 
 
@@ -14,9 +14,8 @@ image:
 Первым не просто повезло. Они думают, что могут.
 
 {% include image-block.html
-src="/assets/img/2024/wojciech-celinski-lMlEt1l9QAo-unsplash-1.jpg"
+src="/assets/img/2024/wojciech-celinski-lMlEt1l9QAo-unsplash-1.webp"
 alt="Самоэффективность: сила мысли - я думаю, что могу!"
-caption='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech Celiński</a> on Unsplash'
 %}
 
 Не секрет, что как вы думаете о себе и о своей способности что-то делать, сильно влияет на эти самые ваши действия.
@@ -100,9 +99,8 @@ caption='Photo by <a href="https://unsplash.com/@woyciq" rel="nofollow">Wojciech
 самоэффективности и ее роль в предотвращении рецидивов.  
 
 {% include image-block.html
-src="/assets/img/2024/susan-flynn-7rpwyZhkmNg-unsplash-1.jpg"
+src="/assets/img/2024/susan-flynn-7rpwyZhkmNg-unsplash-1.webp"
 alt="Самоэффективность и ее роль в предотвращении рецидивов"
-caption='Photo by <a href="https://unsplash.com/@misssusanflynn" rel="nofollow">Susan Flynn</a> on Unsplash'
 %}
 
 - Повышение самоэффективности может быть полезным и в других сферах жизни, а также при других расстройствах.  

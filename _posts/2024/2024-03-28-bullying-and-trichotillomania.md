@@ -4,7 +4,7 @@ title: "Травля и трихотилломания"
 description: "Трихотилломания как причина травли и способы решить эту проблему"
 category: "Родителям"
 image:
-    url: /assets/img/2024/renaud-confavreux-nDIkKz9ytYo-unsplash.jpg
+    url: /assets/img/2024/renaud-confavreux-nDIkKz9ytYo-unsplash.webp
 ---
 
 Трихотилломания может настигнуть любого человека в любом возрасте. Есть данные о том, что заболеть человек может как в детском возрасте, 
@@ -21,9 +21,7 @@ image:
 отличает их от сверстников, могут столкнуться с травлей. И такое заболевание, как трихотилломания, не является исключением.
 
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@renaudcfx" rel="nofollow">Renaud Confavreux</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ## Объект травли
 

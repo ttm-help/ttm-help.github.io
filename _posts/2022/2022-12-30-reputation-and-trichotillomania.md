@@ -4,12 +4,10 @@ title: "Влияние внутренней репутации на лечени
 description: "Что такое внутренняя репутация, позиция проигравшего и победителя, и как страдающие трихотилломанией заранее сдаются"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/thomas-kilbride-l1q_SzH5dKs-unsplash.jpg
+  url: /assets/img/2024/thomas-kilbride-l1q_SzH5dKs-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thomas Mowe</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 ### Можно ли избавиться от трихотилломании?  
@@ -63,8 +61,7 @@ caption='Photo by <a href="https://unsplash.com/@thomasmowe" rel="nofollow">Thom
 
 {% include image-block.html
 alt='позиция проигравшего и победителя в борьбе с трихотилломанией'
-src='/assets/img/2024/sander-sammy-G1l_DRxm6UA-unsplash.jpg'
-caption='Photo by <a href="https://unsplash.com/@sammywilliams" rel="nofollow">Sander Sammy</a> on Unsplash'
+src='/assets/img/2024/sander-sammy-G1l_DRxm6UA-unsplash.webp'
 %}
 
 Начинать нужно с самых маленьких плюсов, с мелочей. Как только вы начнете это делать, вы почувствуете бОльшую 

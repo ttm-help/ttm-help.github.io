@@ -4,7 +4,7 @@ layout: default
 description: "Ответы на вопросы о трихотилломании, которые вы, возможно, хотели бы задать"
 date: 2022-12-10
 image:
-  url: /assets/img/2024/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-1.jpg
+  url: /assets/img/2024/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-1.webp
 permalink: /faq.html
 ---
 

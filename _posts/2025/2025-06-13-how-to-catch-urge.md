@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/jsd6DMzDsM0
   duration: PT3M41S
 image:
-  url: /assets/img/2025/how-to-catch-ttm-urge.jpg
+  url: /assets/img/2025/how-to-catch-ttm-urge.webp
 ---
 
 {% include video-block.html %}

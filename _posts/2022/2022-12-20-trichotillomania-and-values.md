@@ -4,12 +4,10 @@ title: "Трихотилломания и ценности"
 description: "Самомотивация к лечению трихотилломании, о ценности и боли как двух сторонах одной медали"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/smit-patel-JMmTloWmvSI-unsplash.jpg
+  url: /assets/img/2024/smit-patel-JMmTloWmvSI-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@wallsbysmit" rel="nofollow">Smit Patel</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Ценность - это наивысшая значимость для человека, важность. Ценности - это наш компас, который указывает в каком направлении двигаться.

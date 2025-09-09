@@ -6,12 +6,10 @@ description: Статья рассказывает важность принят
   Шаг за шагом описываются стратегии, которые помогут людям с трихотилломанией построить более позитивное отношение к себе и своей жизни.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/leone-venter-mTkXSSScrzw-unsplash.jpg
+    url: /assets/img/2024/leone-venter-mTkXSSScrzw-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@fempreneurstyledstock" rel="nofollow">Leone Venter</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Многие заголовки говорят об осведомленности о психическом здоровье с советами, трюками, уловками и празднованием выздоровления. 
 Всё это замечательно, но я предлагаю вам подарить себе дар принятия.

@@ -4,13 +4,11 @@ title: "Трихотилломания и как она проявляется"
 description: "В этой статье я расскажу, как проявляется трихотилломания, как она возникает, о помощи при трихотилломании и про лечение трихотилломании"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/rod-long-89bQBucvJdw-unsplash-1.jpg
+  url: /assets/img/2024/rod-long-89bQBucvJdw-unsplash-1.webp
 ---
 
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@rodlong" rel="nofollow">Rod Long</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 **Трихотилломания** — это повторяющееся расстройство, сфокусированное на теле (*BFRB*), 
 характеризующееся компульсивным выдергиванием волос. По старым исследованиям данное расстройство затрагивает около 2% населения

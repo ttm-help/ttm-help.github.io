@@ -4,11 +4,9 @@ title: "Помощь родителям при трихотилломании у
 description: "Детская трихотилломания (ТТМ) у ребёнка"
 category: "Родителям"
 image:
-  url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.jpg"
+  url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.webp"
 ---
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@caleb_woods" rel="nofollow" >Caleb Woods</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Быть родителем для ребёнка с трихотилломанией может иметь дополнительные факторы.
 

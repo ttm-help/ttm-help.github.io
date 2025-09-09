@@ -4,7 +4,7 @@ title: "Суицидальность и трихотилломания: Связ
 description: "Статья рассказывает о том, как трихотилломания может привести к суицидальным мыслям и самоубийству"
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/wilfried-santer-7g8tSyxgr40-unsplash.jpg
+    url: /assets/img/2024/wilfried-santer-7g8tSyxgr40-unsplash.webp
 ---
 
 >  Предупреждение: Эта статья содержит материалы, которые могут вызвать дискомфорт или расстройство.
@@ -37,9 +37,7 @@ image:
 Повышает ли наличие сопутствующего БДР риск самоубийства у людей, живущих с ТТМ? Удивительно, но несмотря на то, что 
 ТТМ часто сочетается с коморбидными расстройствами, такими как БДР, информации о связи суицида и ТТМ очень мало.
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@wsanter" rel="nofollow">Wilfried Santer</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 ## Более детальное рассмотрение

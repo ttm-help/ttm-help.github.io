@@ -4,12 +4,10 @@ title: "Выпадение волос и трихотилломания"
 description: "В статье рассказываются о связи между трихотилломанией и потерей волос"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/kasia-serbin-UxcRjTtzLXw-unsplash-1.jpg
+  url: /assets/img/2024/kasia-serbin-UxcRjTtzLXw-unsplash-1.webp
 ---
 
-{% include image-block.html 
-caption='Photo by <a href="https://unsplash.com/@katersss" rel="nofollow" >Kasia Serbin</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 Люди, страдающие трихотилломанией, испытывают непреодолимое желание вырывать волосы, обычно с кожи головы, века и бровей. 
 Однако мишенью может стать любая часть тела, где растут волосы. Трихотилломания один из видов расстройства контроля 

@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/0KBFfSJgjMU
   duration: PT20M55S
 image:
-  url: /assets/img/2025/happy-new-year-2025.jpg
+  url: /assets/img/2025/happy-new-year-2025.webp
 ---
 
 {% include video-block.html %}

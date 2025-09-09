@@ -7,12 +7,10 @@ description:
   подхода к лечению и потенциал структурированных программ самопомощи.
 category: "Самодиагностика"
 image:
-    url: /assets/img/2024/j-w-Ju-ITc1Cc0w-unsplash.jpg
+    url: /assets/img/2024/j-w-Ju-ITc1Cc0w-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@bakutroo" rel="nofollow">J W</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Если вы или ваш близкий человек [страдаете от трихотилломании]({% link _posts/2022/2022-12-21-trichotillomania.md %}), вы наверняка 

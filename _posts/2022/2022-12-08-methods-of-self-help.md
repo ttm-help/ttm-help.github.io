@@ -4,7 +4,7 @@ title: "Как помочь себе при трихотилломании"
 description: "Различные виды самопомощи при трихотилломании (ТТМ)"
 category: "Самодиагностика"
 image:
-  url: /assets/img/2024/taisiia-stupak-MKNJZb9GDFM-unsplash.jpg
+  url: /assets/img/2024/taisiia-stupak-MKNJZb9GDFM-unsplash.webp
 ---
 
 Если вы или ваш близкий страдаете от трихотилломании, то вероятно вы пробовали многие способы самопомощи.
@@ -26,9 +26,7 @@ image:
 *HRT* состоит из разделов, каждый из которых сосредоточен на каком-либо одном аспекте поведения с целью облегчения 
 его изменения. В случае вырывание волос целью является сокращение или прекращение поведения, связанного с этим.
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@taiamint" rel="nofollow">Taisiia Stupak</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Среди указанных разделов - **повышение осведомленности**, которое состоит из методов, 

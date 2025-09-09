@@ -4,7 +4,7 @@ title: "Браслет Habitaware Keen от трихотилломании"
 description: "Плюсы и минусы работы браслета от трихотилломании, механизм работы"
 category: "Психотерапия"
 image:
-  url: /assets/img/2024/61XKgxST7uL-1.jpg
+  url: /assets/img/2024/61XKgxST7uL-1.webp
 ---
 
 {% include image-block.html
@@ -41,9 +41,8 @@ alt="Браслет Habitaware Keen"
 Стоимость браслета в России, например, по состоянию на начало января 2023 года составляет 25 000 рублей.
 
 {% include image-block.html
-src="/assets/img/2024/milada-vigerova-iQWvVYMtv1k-unsplash-1.jpg"
+src="/assets/img/2024/milada-vigerova-iQWvVYMtv1k-unsplash-1.webp"
 alt="Плюсы и минусы работы браслета от трихотилломании"
-caption='Photo by <a href="https://unsplash.com/ja/@milada_vigerova" rel="nofollow">Milada Vigerova</a> on Unsplash'
 %}
 
 Итак мое мнение о браслете.  

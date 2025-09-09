@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/roqILlDYMTM
   duration: PT1H3M
 image:
-  url: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.png
+  url: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.webp
 ---
 
 {% include video-block.html %}

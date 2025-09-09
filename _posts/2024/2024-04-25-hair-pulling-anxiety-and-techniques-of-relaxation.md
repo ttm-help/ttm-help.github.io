@@ -6,12 +6,10 @@ description: Статья предлагает взглянуть на связ�
   Читатели узнают о роли биохимических процессов в мозге, конструктивистской теории эмоций и практических методах управления острой тревогой.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/chelsea-gates-n8L1VYaypcw-unsplash.jpg
+    url: /assets/img/2024/chelsea-gates-n8L1VYaypcw-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@chelseacgates" rel="nofollow">Chelsea Gates</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Тревога является ключевым компонентом <abbr title="BFRB - это аббревиатура, которая означает

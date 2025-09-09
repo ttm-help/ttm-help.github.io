@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/LsOSdVA13oA
   duration: PT4M42S
 image:
-  url: /assets/img/2025/41-years-with-ttm.png
+  url: /assets/img/2025/41-years-with-ttm.webp
 ---
 
 {% include video-block.html %}

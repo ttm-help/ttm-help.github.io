@@ -8,9 +8,9 @@ keywords:
 video:
     url: /assets/videos/welcome-video.mp4
     duration: PT1M7S
-    image: /assets/img/2024/main-video-image.jpg
+    image: /assets/img/2024/main-video-image.webp
 image:
-    url: /assets/img/2024/main-page-image.jpg
+    url: /assets/img/2024/main-page-image.webp
     width: 1280
     height: 741
 ---

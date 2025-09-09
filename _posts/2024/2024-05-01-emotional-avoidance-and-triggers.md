@@ -7,12 +7,10 @@ description: Статья рассматривает важность выявл
   Понимание этой взаимосвязи помогает улучшить подход к лечению и повысить эффективность терапии.
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+    url: /assets/img/2024/dylan-gillis-KdeqA3aTnBY-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@dylandgillis" rel="nofollow">Dylan Gillis</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 Одним из первых этапов терапии трихотилломании является повышение осведомленности. Цель состоит в том, чтобы помочь человеку 

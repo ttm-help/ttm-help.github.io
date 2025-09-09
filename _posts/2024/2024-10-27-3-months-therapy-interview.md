@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/cMthVAsASlQ
   duration: PT25M53S
 image:
-  url: /assets/img/2024/3-months-therapy-interview.png
+  url: /assets/img/2024/3-months-therapy-interview.webp
 ---
 
 {% include video-block.html %}

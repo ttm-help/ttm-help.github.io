@@ -4,14 +4,11 @@ title: "Групповая терапия трихотилломании"
 description: "Групповая психотерапия при трихотилломании"
 category: "Психотерапия"
 image:
-  url: "/assets/img/2024/hannah-busing-Zyx1bK9mqmA-unsplash.jpg"
+  url: "/assets/img/2024/hannah-busing-Zyx1bK9mqmA-unsplash.webp"
 ---
 
 ### Что такое групповая терапия?
-{% include image-block.html
-src="/assets/img/2024/vonecia-carswell-0aMMMUjiiEQ-unsplash.jpg"
-caption='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow">Vonecia Carswell</a> on Unsplash'
-%}
+{% include image-block.html src="/assets/img/2024/vonecia-carswell-0aMMMUjiiEQ-unsplash.webp" %}
 
 
 Это форма психотерапии, при которой специально сформированная группа людей - психотерапевтическая группа, 
@@ -38,9 +35,7 @@ caption='Photo by <a href="https://unsplash.com/@voneciacarswell" rel="nofollow"
 Можно, тогда процесс выздоровления будет еще более эффективным и быстрым, т.к. вы получаете 
 обратную связь сразу из двух источников - от психотерапевта и группы.
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@hannahbusing" rel="nofollow">Hannah Busing</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 ### Сколько стоит?
 Со стоимостью можно ознакомиться на [этой странице]({% link contact.md %}).

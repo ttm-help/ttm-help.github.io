@@ -8,7 +8,7 @@ video:
   url: https://www.youtube.com/embed/bSUd0wpygLY
   duration: PT22M55S
 image:
-  url: /assets/img/2025/interview-with-tatiana.png
+  url: /assets/img/2025/interview-with-tatiana.webp
 ---
 
 {% include video-block.html %}

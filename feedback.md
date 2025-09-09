@@ -4,7 +4,7 @@ layout: default
 description: Отзывы моих клиентов после совместной работы, истории излечения от трихотилломании
 date: 2022-12-10
 image: 
-    url: /assets/images/feedbacks/15.jpg
+    url: /assets/images/feedbacks/15.webp
 permalink: /feedback.html
 ---
 

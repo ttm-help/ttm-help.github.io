@@ -6,7 +6,7 @@ is_about: "true"
 permalink: /about.html
 date: 2022-12-10
 image: 
-  url: /assets/images/illustrations/about-photo-1.jpg
+  url: /assets/images/illustrations/about-photo-1.webp
   width: 1200
   height: 1524
 ---
@@ -16,8 +16,8 @@ image:
 <picture class="ml-sm-3 mb-sm-3 mt-sm-0">
     <source media="(min-width:720px)"
             width="1200" height="1524"
-            srcset="/assets/images/illustrations/about-photo-1.jpg">
-    <img src="/assets/images/illustrations/about-photo-mobile.jpg"
+            srcset="/assets/images/illustrations/about-photo-1.webp">
+    <img src="/assets/images/illustrations/about-photo-mobile.webp"
          alt=">" width="1000" height="739"
          title="{{ site.description }}"
          style="width:50%; min-width: 300px">
@@ -87,53 +87,53 @@ ACT in Action by Steven C.Hayes (Newpsy education)
 
 <div class="row">
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/0.jpg">
-            <img src="assets/images/certificates/0.jpg" alt="когнитивно-поведенческая терапия" width="1280" height="960">
+        <a href="assets/images/certificates/0.webp">
+            <img src="assets/images/certificates/0.webp" alt="когнитивно-поведенческая терапия" width="1280" height="960">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/1.jpg">
-            <img src="assets/images/certificates/1.jpg" alt="диплом юридический психолог" height="1294" width="1796">
+        <a href="assets/images/certificates/1.webp">
+            <img src="assets/images/certificates/1.webp" alt="диплом юридический психолог" height="1294" width="1796">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/2.jpg">
-            <img src="assets/images/certificates/2.jpg" alt="психологическое консультирование родителей" width="1734" height="1206">
+        <a href="assets/images/certificates/2.webp">
+            <img src="assets/images/certificates/2.webp" alt="психологическое консультирование родителей" width="1734" height="1206">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/3.jpg">
-            <img src="assets/images/certificates/3.jpg" alt="библиотерапия в работе в детьми" height="1258" width="1744">
+        <a href="assets/images/certificates/3.webp">
+            <img src="assets/images/certificates/3.webp" alt="библиотерапия в работе в детьми" height="1258" width="1744">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/4.jpg">
-            <img src="assets/images/certificates/4.jpg" alt="сертификат по коучингу" width="1280" height="960">
+        <a href="assets/images/certificates/4.webp">
+            <img src="assets/images/certificates/4.webp" alt="сертификат по коучингу" width="1280" height="960">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/5.jpg">
-            <img src="assets/images/certificates/5.jpg" alt="сертификат искусство психотерапии" width="905" height="1280">
+        <a href="assets/images/certificates/5.webp">
+            <img src="assets/images/certificates/5.webp" alt="сертификат искусство психотерапии" width="905" height="1280">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/6.jpg">
-                <img src="assets/images/certificates/6.jpg" alt="техника эмоциональной свободы" width="1972" height="1406">
+        <a href="assets/images/certificates/6.webp">
+                <img src="assets/images/certificates/6.webp" alt="техника эмоциональной свободы" width="1972" height="1406">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/7.jpg">
-            <img src="assets/images/certificates/7.jpg" alt="сертификат ACT" height="1280" width="905">
+        <a href="assets/images/certificates/7.webp">
+            <img src="assets/images/certificates/7.webp" alt="сертификат ACT" height="1280" width="905">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/8.jpg">
-            <img src="assets/images/certificates/8.jpg" alt="сертификат групповая терапия" height="1280" width="905">
+        <a href="assets/images/certificates/8.webp">
+            <img src="assets/images/certificates/8.webp" alt="сертификат групповая терапия" height="1280" width="905">
         </a>
     </div>
     <div class="col-md-3 content">
-        <a href="assets/images/certificates/9.jpeg">
-            <img src="assets/images/certificates/9.jpeg" alt="сертификат типы организации личности" height="1522" width="1070">
+        <a href="assets/images/certificates/9.webp">
+            <img src="assets/images/certificates/9.webp" alt="сертификат типы организации личности" height="1522" width="1070">
         </a>
     </div>
 </div>

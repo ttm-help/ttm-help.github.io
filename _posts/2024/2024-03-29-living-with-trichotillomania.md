@@ -4,12 +4,10 @@ title: "Бремя жизни с трихотилломанией"
 description: "Что такое трихотилломания и какие негативные факторы она несет в повседневную жизнь"
 category: "Психотерапия"
 image:
-    url: /assets/img/2024/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.jpg
+    url: /assets/img/2024/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.webp
 ---
 
-{% include image-block.html
-caption='Photo by <a href="https://unsplash.com/@alicekat" rel="nofollow">Alice Donovan Rouse</a> on Unsplash'
-%}
+{% include image-block.html %}
 
 
 [Трихотилломания]({% link _posts/2022/2022-12-21-trichotillomania.md %}) - не очень известное заболевание. Существует много 

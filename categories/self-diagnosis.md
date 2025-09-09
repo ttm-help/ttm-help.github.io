@@ -6,5 +6,5 @@ category_name: "Самодиагностика"
 date: 2024-03-19
 permalink: /categories/self-diagnosis.html
 image:
-  url: "/assets/img/2024/tom-allport-eoRxpc7GDbM-unsplash.jpg"
+  url: "/assets/img/2024/tom-allport-eoRxpc7GDbM-unsplash.webp"
 ---
