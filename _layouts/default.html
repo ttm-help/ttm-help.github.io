@@ -8,6 +8,8 @@
     {% if page.video %}
         <link rel="preconnect" href="https://i3.ytimg.com">
         <link rel="preconnect" href="{{ page.video.url }}">
+        <script src="{{ '/assets/js/plyr.js' | relative_url }}"></script>
+        <link href="{{ '/assets/css/plyr.css' | relative_url }}" rel="stylesheet">
     {% endif %}
 
     <script src="{{ '/assets/js/mobile-menu.js' | relative_url }}" async></script>
