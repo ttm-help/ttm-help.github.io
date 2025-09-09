@@ -107,8 +107,8 @@
           "height": {{ page.image.height }},
         {% endif %}
       {% else %}
-        "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.webp",
-        "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.webp",
+        "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
+        "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
         "width": 1200,
         "height": 742,
       {% endif %}
@@ -172,8 +172,8 @@
     "@type": "ImageObject",
     "inLanguage": "ru-RU",
     "@id": "{{ site.url }}/#/schema/logo/image/",
-    "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.webp",
-    "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.webp",
+    "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
+    "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
     "width": 1200,
     "height": 742,
     "caption": "{{ site.description }}"
