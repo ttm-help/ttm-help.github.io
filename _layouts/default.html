@@ -13,6 +13,12 @@
             <link rel="preconnect" href="https://i3.ytimg.com">
             <link rel="preconnect" href="{{ page.video.url }}">
         {% endif %}
+        {% if page.video.image %}
+            <link rel="preload" href="{{ page.video.image | default: page.image.url }}" fetchpriority="high">
+        {% else %}
+            {% assign youtube_thumbnail = page.video.url | split: "/" | last | split: "." | last %}
+            <link rel="preload" as="image" href="https://i.ytimg.com/vi/{{ youtube_thumbnail }}/maxresdefault.jpg" fetchpriority="high">
+        {% endif %}
         <link rel="preload" href="{{ '/assets/css/plyr.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="{{ '/assets/css/plyr.css' | relative_url }}"></noscript>
 
