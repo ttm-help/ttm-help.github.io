@@ -22,9 +22,11 @@ permalink: /feedback.html
             <span>
                 Истории излечения от трихотилломании от людей прошедших терапию со мной
             </span>
+        </div>
+        <div class="row">
             {% assign videos = site.tags['interview'] %}
             {% for video in videos %}
-                <div class="col-md-4">
+                <div class="col-md-4 p-1">
                     <a href="{{ video.url }}">
                         <img src="{{video.image.url}}"
                             alt="{{video.description}}"
@@ -32,7 +34,7 @@ permalink: /feedback.html
                             style="width: 100%;
                                     border-radius: .25rem ;
                                     aspect-ratio: 10/6;">
-                        <p class="pt-1">{{ post.title | smartify }}</p>
+                        <p>{{ video.title | smartify }}</p>
                     </a>
                 </div>
             {% endfor %}
