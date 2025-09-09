@@ -10,7 +10,7 @@
             ></iframe>
         </div>
     {% else %}
-        <video id="player" playsinline controls data-poster="{{ page.video.image | default: page.image.url }}">
+        <video id="player" playsinline controls >
             <source src="{{ page.video.url }}" type="video/mp4" />
         </video>
     {% endif %}
