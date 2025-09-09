@@ -10,7 +10,7 @@ video:
     url: https://www.youtube.com/embed/w_UiW3XO_KY
     duration: PT29M56S
 image:
-  url: /assets/img/2024/interview-about-fear.weg0
+  url: /assets/img/2024/interview-about-fear.webp
 ---
 
 {% include video-block.html %}
