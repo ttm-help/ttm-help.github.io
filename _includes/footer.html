@@ -5,7 +5,7 @@
                 <div class="col-12 col-md-4 mb-1">
                     <div class="row align-items-center">
                         <div class="col-auto mt-1">
-                            <a href="/" aria-label="Сайт о лечении трихотилломании">
+                            <a href="/" aria-label="Лечении трихотилломании">
                                 <img width="60"
                                      height="60"
                                      alt="{{ site.title }}"
@@ -14,12 +14,12 @@
                             </a>
                         </div>
                         <div class="col-auto mt-1">
+                            <div class="row mb-1">
+                                <span class="d-block">КОНОВАЛОВА ОКСАНА</span>
+                                <span class="d-block">Когнитивно-поведенческий психотерапевт, клинический психолог</span>
+                            </div>
                             <div class="row">
-                                <div class="col">
-                                    <span class="d-block">КОНОВАЛОВА ОКСАНА</span>
-                                    <span class="d-block">Когнитивно-поведенческий психотерапевт</span>
-                                    <span class="d-block">Помощь людям с трихотилломанией</span>
-                                </div>
+                                <span class="d-block">Помощь в лечении трихотилломании</span>
                             </div>
                         </div>
                     </div>
@@ -27,13 +27,13 @@
                 <div class="col-12 col-md-3 social">
                     <div class="row">
                         <div class="col mt-1">
-                            {% assign mainmenu = site.data.menus.main %}
-                           <ul style="padding-left: 1.3rem">
-                               {% for item in mainmenu %}
-                               <li class="pb-1">
-                                   <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-                               </li>
-                               {% endfor %}
+                            {% assign categories = site.data.categories.list %}
+                            <ul style="padding-left: 1.3rem">
+                                {% for category in categories %}
+                                    <li class="pb-1">
+                                        <a href="{{ category.url | relative_url }}">{{ category.name }}</a>
+                                    </li>
+                                {% endfor %}
                            </ul>
                         </div>
                     </div>

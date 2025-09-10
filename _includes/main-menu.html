@@ -3,7 +3,7 @@
         {% assign mainmenu = site.data.menus.main %}
         {% for item in mainmenu %}
             <li class="{% if item.url == page.url %}active{% endif %}">
-                <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+                <a href="{{ item.url | relative_url }}" title="{{ item.long_name }}" class="text-decoration-none">{{ item.name }}</a>
             </li>
         {% endfor %}
     </ul>
