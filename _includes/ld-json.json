@@ -206,7 +206,7 @@
       {% assign names = site.author.name | split: " " %}
       "givenName": "{{ names[0] }}",
       "familyName": "{{ names[1] }}",
-      "jobTitle": "Психотерапевт",
+      "jobTitle": "Конгнитивно-поведенческий психотерапевт, клинический психолог",
       "image": {
           "@type": "ImageObject",
           "url": "{{ site.url }}/assets/images/illustrations/about-photo-1.webp",
@@ -214,6 +214,10 @@
           "width": 1200,
           "height": 1524,
           "caption": "{{ site.author.name }} - {{ site.author.about }}"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Саратовская государственная юридическая академия"
       },
       "url": "{{ site.url }}{% link about.md %}",
       "email": "mailto:{{site.data.contact.email}}",

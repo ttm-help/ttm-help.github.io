@@ -1,7 +1,7 @@
 ---
-title: Страница о моем образовании и опыте
 layout: page
-description: "Страница с описанием моего опыта и образования"
+title: Оксана Коновалова - клинический психолог, когнитивно-поведенческий психотерапевт
+description: Помогаю при трихотилломании, тревожности и обсессивно-компульсивных расстройствах
 is_about: "true"
 permalink: /about.html
 date: 2022-12-10
@@ -40,6 +40,10 @@ image:
 - Причины развития ттм,
 - Лечение трихотилломании   
 
+## Контакты
+
+{% include call.html %}
+
 ## Что я предлагаю:
 
 - <a href="https://t.me/ttm_help_ru" rel="nofollow">Канал ТТМ в телеграм</a>, где я размещаю статьи, переводы выступлений зарубежных коллег
@@ -72,18 +76,18 @@ image:
 С 2016 года - интеллект психолог (работа с детьми и взрослыми); преподавание.  
 С 2018 года - индивидуальная терапия, консультирование, коучинг.
 
-## Образование:
+## Образование и квалификация:
 
-Юридический психолог (ФГБОУ ВПО СГЮА).  
-Когнитивно-поведенческая психотерапия (АНО ДПО АПС).  
-Психологическое консультирование родителей (ФГБНУ ПИРАО).  
-Библиотерапия в работе с детьми (ФГБНУ ПИРАО).  
-Professional Coach (IICA ICF ICF).  
-Professional coaching of groups and companies (IICA ICF ICF).  
-НЛП-практик.  
-EFT Emotional Freedom Technique: Hair Pulling & Skin Picking  
-Irvin Yalom and the Art of Psychotherapy (Newpsy education)  
-ACT in Action by Steven C.Hayes (Newpsy education)  
+- Юридический психолог (Саратовская государственная юридическая академия).  
+- Психологическое консультирование родителей (Психологический институт Российской академии образования).  
+- Библиотерапия в работе с детьми (Психологический институт Российской академии образования).  
+- Когнитивно-поведенческая психотерапия (Академия профессиональных стандартов).  
+- Professional Coach (IICA ICF ICF).  
+- Professional coaching of groups and companies (IICA ICF ICF).  
+- НЛП-практик.  
+- EFT Emotional Freedom Technique: Hair Pulling & Skin Picking  
+- Irvin Yalom and the Art of Psychotherapy (Newpsy education)  
+- ACT in Action by Steven C.Hayes (Newpsy education)  
 
 <div class="row">
     <div class="col-md-3">
