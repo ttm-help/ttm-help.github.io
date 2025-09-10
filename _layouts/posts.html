@@ -4,8 +4,8 @@ layout: default
 
 <div class="container pt-2 pb-6">
     <div class="content">
-        <div class="col my-3">
-            <div class="row mb-4">
+        <div class="col">
+            <div class="row my-4">
                 {% include categories-menu.html %}
             </div>
             <div class="row mb-3">
@@ -13,6 +13,10 @@ layout: default
             </div>
             <div class="row">
                 {% include categories-block.html %}
+            </div>
+            <hr class="border-primary">
+            <div class="row content">
+                <p>{{ page.text }}</p>
             </div>
         </div>
     </div>
