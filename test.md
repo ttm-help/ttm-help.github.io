@@ -12,7 +12,7 @@ image:
 permalink: /test.html
 ---
 
-<div class="content">
+<div class="content mb-2">
     <div class="row">
         <p>
             Этот <strong>тест для трихотилломании</strong> поможет вам понять, есть ли у вас признаки трихотилломании и насколько они выражены. <br/>
@@ -57,10 +57,11 @@ permalink: /test.html
     </div>
     
     <div id='quiz' class="mb-1"></div>
-    <div class='button' id='next' style="padding-left: 25px; padding-right: 25px">
-        <a href='#' style="color: white">Далее</a>
+    <div class="pt-1" id='next'>
+        <a href="#" class="button button-shadow button-post d-block">
+            Далее
+        </a>
     </div>
-    
     <script type='text/javascript' src='/assets/js/jsquiz.js'></script>
 
 </div>
