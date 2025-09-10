@@ -1,23 +1,6 @@
 const QUESTIONS = [
         {
-            text: `<p>
-                Данная шкала трихотилломании была разработана в <strong>Массачусетском медицинском центре
-                (The Massachusetts General Hospital)</strong>. Она используется для отслеживания своего состояния.
-                </p>
-                <p>
-                Его можно проходить <u>неоднократно</u>.
-                </p>
-                <p>
-                Результат на сайте покажет общее количество баллов. На психотерапии же мы используем более глубокий
-                анализ - отдельно смотрим на интенсивность побуждений и на фактическое выдергивание волос,
-                а также рассматриваем чувство вины в контексте последствий и его влияния на очередные приступы трихотилломании.
-                <blockquote>
-                 <a href='https://pubmed.ncbi.nlm.nih.gov/8657844/' rel="nofollow">
-                Keuthen NJ, O’Sullivan RL, Ricciardi JN, et al. The Massachusetts General Hospital (MGH)
-                Hairpulling Scale: 1. Development and Factor Analyses. Psychother Psychosomat 1995; 64: 141–145
-                </a></blockquote>
-                </p>
-                `
+            text: ``
         },
         {
             text: `<p>
