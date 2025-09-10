@@ -11,15 +11,13 @@
     <div class="row">
         {% for post in sorted_posts %}
         <div class="col-md-3 content">
-            <div class="row mx-1">
-                <a href="{{ post.url }}">
-                    <img src="{{post.image.url}}"
-                         alt="{{post.title}}"
-                         title="{{post.description}}"
-                         class="rounded">
-                    <p class="pt-1">{{ post.title | smartify }}</p>
-                </a>
-            </div>
+            <a href="{{ post.url }}">
+                <img src="{{post.image.url}}"
+                     alt="{{post.title}}"
+                     title="{{post.description}}"
+                     class="rounded">
+                <p class="pt-1">{{ post.title | smartify }}</p>
+            </a>
         </div>
         {% endfor %}
     </div>

@@ -25,12 +25,10 @@
             {% assign sorted_posts = category.last | sort: "date" | reverse %}
             {% for post in sorted_posts limit:4 %}
                 <div class="col-md-3">
-                   <div class="row mx-1">
-                       <a href="{{ post.url }}">
-                           <img src="{{post.image.url}}" title="{{post.title}}" alt="{{post.description}}">
-                           <p class="mr-1">{{ post.title | smartify }}</p>
-                       </a>
-                   </div>
+                   <a href="{{ post.url }}">
+                       <img src="{{post.image.url}}" title="{{post.title}}" alt="{{post.description}}">
+                       <p class="mr-1">{{ post.title | smartify }}</p>
+                   </a>
                 </div>
             {% endfor %}
         </div>

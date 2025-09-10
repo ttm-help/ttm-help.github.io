@@ -27,6 +27,9 @@ sass:
   style: compressed # possible values: nested expanded compact compressed
   sourcemap: always
 
+jekyll-minifier:
+  compress_css: false
+
 plugins:
   - jekyll-feed
   - jekyll-sass-converter
