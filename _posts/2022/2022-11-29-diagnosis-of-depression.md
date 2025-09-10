@@ -2,7 +2,7 @@
 layout: post
 title: "Самодиагностика. Депрессия"
 description: "Связь депрессии и трихотилломании (ттм)"
-category: "Самодиагностика"
+category: "Советы и практики"
 image:
   url: /assets/img/2024/jackson-simmer-QgJYBOID-9A-unsplash-1.webp
 ---

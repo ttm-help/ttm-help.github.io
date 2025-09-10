@@ -2,7 +2,7 @@
 layout: post
 title: "Группы помощи и сообщества при трихотилломании"
 description: "Биосоциальность и открытость в группах помощи, сообществах людей страдающих трихотилломанией"
-category: "Психотерапия"
+category: "Советы и практики"
 image:
   url: "/assets/img/2024/mathias-jensen-5x4U6InVXpc-unsplash.webp"
 ---

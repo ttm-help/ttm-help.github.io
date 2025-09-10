@@ -2,7 +2,7 @@
 layout: post
 title: "Вызывает ли трихотилломания облысение?"
 description: "Правда ли, что трихотилломания может привести к облысению волос? Данная статья отвечает на этот вопрос"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
     url: /assets/img/2024/ahmed-carter-W1jRfqh3-tc-unsplash.webp
 ---

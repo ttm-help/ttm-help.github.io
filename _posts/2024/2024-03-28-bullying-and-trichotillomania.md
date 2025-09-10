@@ -2,7 +2,7 @@
 layout: post
 title: "Травля и трихотилломания"
 description: "Трихотилломания как причина травли и способы решить эту проблему"
-category: "Родителям"
+category: "Трихотилломания у детей"
 image:
     url: /assets/img/2024/renaud-confavreux-nDIkKz9ytYo-unsplash.webp
 ---

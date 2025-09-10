@@ -2,7 +2,7 @@
 layout: post
 title: "Почему я вырываю на себе волосы? Что можно сделать с раздражителями"
 description: "Что можно предпринять в случае трихотилломании, что можно сделать самостоятельно без помощи психолога"
-category: "Психотерапия"
+category: "Советы и практики"
 image:
     url: /assets/img/2024/daria-tumanova-mmYyzczxvdo-unsplash.webp
 ---

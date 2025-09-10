@@ -2,7 +2,7 @@
 layout: post
 title: "Трихотилломания и ценности"
 description: "Самомотивация к лечению трихотилломании, о ценности и боли как двух сторонах одной медали"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
   url: /assets/img/2024/smit-patel-JMmTloWmvSI-unsplash.webp
 ---

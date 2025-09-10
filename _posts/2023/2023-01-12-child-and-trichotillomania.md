@@ -2,7 +2,7 @@
 layout: post
 title: "Что нельзя делать когда у ребёнка трихотилломания?"
 description: "Стратегии поведения родителей при трихотилломании ребёнка"
-category: "Родителям"
+category: "Трихотилломания у детей"
 image:
   url: /assets/img/2024/andriyko-podilnyk-yhk_zsfgw0g-unsplash-1.webp
 ---

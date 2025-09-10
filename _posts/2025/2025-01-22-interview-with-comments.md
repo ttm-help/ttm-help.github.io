@@ -2,7 +2,7 @@
 layout: post
 title: "Путь пациента по терапии трихотилломании: от парика до своих волос - интервью с Анжелой"
 description: Видео интервью с пациентом излечившимся от трихотилломании, в котором я даю подробные комментарии
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/Zob_KxeRy3M

@@ -2,7 +2,7 @@
 layout: post
 title:  Стыд — главный двигатель ТТМ? – Ответы на вопросы подписчиков
 description: Видео с ответами на вопросы из телеграм канала @ttm_help_ru про стыд, как причина трихотилломании
-category: "Психотерапия"
+category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/sUzY6gSO9kk

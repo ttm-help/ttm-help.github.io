@@ -2,7 +2,7 @@
 layout: post
 title: "Как я победила трихотилломанию. Мой личный опыт борьбы с трихотилломанией"
 description: "Моя история излечения от трихотилломании, мои ошибки и провалы"
-category: "Личный опыт"
+category: "Истории выздоровления"
 image:
   url: /assets/img/2024/artur-aldyrkhanov-CDpCbaOThwg-unsplash-1.webp
 ---

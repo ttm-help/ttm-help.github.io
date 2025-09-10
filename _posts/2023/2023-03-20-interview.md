@@ -2,7 +2,7 @@
 layout: post
 title: "Трихотилломания - моя суперспособность! Видео-интервью с Викторией"
 description: "Интервью с пациентов страдавшим трихотилломанией после окончания терапии"
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
     url: https://www.youtube.com/embed/HUt5DaaKcj4

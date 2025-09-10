@@ -2,7 +2,7 @@
 layout: post
 title: "Как зеркало стало триггером: История борьбы с трихотилломанией | Интервью с Еленой"
 description: История от пациента делящегося своей историей борьбы с трихотилломанией
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/-A0E9MVgIug

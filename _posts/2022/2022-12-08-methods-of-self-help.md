@@ -2,7 +2,7 @@
 layout: post
 title: "Как помочь себе при трихотилломании"
 description: "Различные виды самопомощи при трихотилломании (ТТМ)"
-category: "Самодиагностика"
+category: "Советы и практики"
 image:
   url: /assets/img/2024/taisiia-stupak-MKNJZb9GDFM-unsplash.webp
 ---

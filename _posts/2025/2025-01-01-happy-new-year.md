@@ -2,7 +2,7 @@
 layout: post
 title:  Трихотилломания и Новый год - ваш индивидуальный пошаговый план | Видео
 description: В новом видео готовимся к новому году вместе с ttm-help
-category: "Психотерапия"
+category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/0KBFfSJgjMU

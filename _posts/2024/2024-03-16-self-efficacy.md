@@ -2,7 +2,7 @@
 layout: post
 title: "Самоэффективность: Сила «Я думаю, я могу»"
 description: "Что такое самоэффективность, для чего она нужна и как её тренировать?"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
   url: /assets/img/2024/nick-page-IKFb6MqM8m8-unsplash-1.webp
 ---

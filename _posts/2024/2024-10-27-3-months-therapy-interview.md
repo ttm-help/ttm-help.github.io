@@ -2,7 +2,7 @@
 layout: post
 title: "27 лет борьбы с трихотилломанией: как я выздоровела за 3 месяца | Интервью с Натальей"
 description: Интервью с пациентом, который страдал трихотилломанией и пришел на терапию через преодоление сопротивления
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/cMthVAsASlQ

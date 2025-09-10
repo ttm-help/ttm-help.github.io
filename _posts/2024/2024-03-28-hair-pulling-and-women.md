@@ -2,7 +2,7 @@
 layout: post
 title: "Трихотилломания у женщин"
 description: "В статье рассказывается о причинах возникновения трихотилломании у женщин"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
     url: /assets/img/2024/tim-mossholder-SxPISzSxJrQ-unsplash.webp
 ---

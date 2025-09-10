@@ -2,7 +2,7 @@
 layout: post
 title: Влияет ли тревожность родителей или холодные отношения в семье на трихотилломанию у детей | Ответы на вопросы 
 description: Видео с ответами на вопросы из телеграм канала @ttm_help_ru про тревожных родителей
-category: "Психотерапия"
+category: "Трихотилломания у детей"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/B5-NWNwfFfQ

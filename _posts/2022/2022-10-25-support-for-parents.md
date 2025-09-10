@@ -2,7 +2,7 @@
 layout: post
 title: "Помощь родителям при трихотилломании у ребёнка"
 description: "Детская трихотилломания (ТТМ) у ребёнка"
-category: "Родителям"
+category: "Трихотилломания у детей"
 image:
   url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.webp"
 ---

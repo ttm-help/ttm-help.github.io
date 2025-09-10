@@ -2,7 +2,7 @@
 layout: post
 title: "Готовность к лету с трихотилломанией: Советы для комфортного времяпрепровождения"
 description: "Советы к лету при вырывании волос"
-category: "Психотерапия"
+category: "Советы и практики"
 image:
   url: /assets/img/2024/ethan-robertson-SYx3UCHZJlo-unsplash-1.webp
 ---

@@ -2,7 +2,7 @@
 layout: post
 title:  Интервью с Галиной о том, как она справилась с трихотилломанией
 description: Очередное интервью с пациентом прошедшем терапию со мной
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/nK84f8l7wMI

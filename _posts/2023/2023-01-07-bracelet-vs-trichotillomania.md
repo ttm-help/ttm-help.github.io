@@ -2,7 +2,7 @@
 layout: post
 title: "Браслет Habitaware Keen от трихотилломании"
 description: "Плюсы и минусы работы браслета от трихотилломании, механизм работы"
-category: "Психотерапия"
+category: "Советы и практики"
 image:
   url: /assets/img/2024/61XKgxST7uL-1.webp
 ---

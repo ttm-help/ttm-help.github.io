@@ -2,7 +2,7 @@
 layout: post
 title: Устала и перестала бороться - более 30 лет с трихотилломанией | Интервью с Юлией
 description: Очередная история моего пациента который страдал трихотилломанией 30 лет и устал бороться
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/0KBFfSJgjMU

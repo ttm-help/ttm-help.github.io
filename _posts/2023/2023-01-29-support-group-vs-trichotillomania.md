@@ -2,7 +2,7 @@
 layout: post
 title: "По следам группы поддержки при трихотилломании"
 description: "Вопросы, которые поднимались на встрече группы поддержки людей страдающих трихотилломанией"
-category: "Личный опыт"
+category: "Истории выздоровления"
 image:
   url: /assets/img/2024/windows-p74ndnYWRY4-unsplash.webp
 ---

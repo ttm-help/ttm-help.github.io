@@ -2,7 +2,7 @@
 layout: post
 title: "Эмоциональные последствия трихотилломании"
 description: "Какие негативные эмоциональные последствия могут быть в случае трихотилломании."
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
     url: /assets/img/2024/tengyart-dTgyj9okQ_w-unsplash.webp
 ---

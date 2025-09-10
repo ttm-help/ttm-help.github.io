@@ -2,7 +2,7 @@
 layout: post
 title: "Чувство вины и стыда из-за вырывания волос"
 description: "Почему мы чувствуем стыд из-за трихотилломании"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
   url: /assets/img/2024/jeremy-perkins-1XgFFEG_RGA-unsplash-1.webp
 ---

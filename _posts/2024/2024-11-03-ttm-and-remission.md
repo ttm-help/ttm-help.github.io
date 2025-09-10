@@ -2,7 +2,7 @@
 layout: post
 title: "Почему я не употребляю понятие ремиссии применительно к трихотилломании"
 description: Что нужно делать, чтобы не возвращаться к трихотилломании снова и снова
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/6uUeNdpgwT8

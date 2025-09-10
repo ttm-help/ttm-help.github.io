@@ -2,7 +2,7 @@
 layout: post
 title: Как поймать позыв Трихотиломании | Ответы на вопросы 
 description: Видео с ответами на вопросы из телеграм канала @ttm_help_ru
-category: "Психотерапия"
+category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/jsd6DMzDsM0

@@ -2,7 +2,7 @@
 layout: post
 title: Жить жизнь чтобы остановить трихотилломанию | Интервью с Анастасией
 description: Интервью с пациенткой, которая страдала трихотилломанией и проходила терапию
-category: "Личный опыт"
+category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/ZJiY19sTVo4

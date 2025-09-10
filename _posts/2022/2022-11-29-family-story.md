@@ -2,7 +2,7 @@
 layout: post
 title: "Что семейная история может рассказать о трихотилломании?"
 description: "Статья о связи наследственности и трихотилломании (ттм)"
-category: "Самодиагностика"
+category: "Советы и практики"
 image:
   url: /assets/img/2024/tyler-nix-V3dHmb1MOXM-unsplash.webp
 ---

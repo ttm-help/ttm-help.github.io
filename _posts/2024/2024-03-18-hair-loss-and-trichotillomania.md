@@ -2,7 +2,7 @@
 layout: post
 title: "Выпадение волос и трихотилломания"
 description: "В статье рассказываются о связи между трихотилломанией и потерей волос"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
   url: /assets/img/2024/kasia-serbin-UxcRjTtzLXw-unsplash-1.webp
 ---

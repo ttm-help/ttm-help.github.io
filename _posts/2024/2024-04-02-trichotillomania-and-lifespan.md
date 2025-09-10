@@ -2,7 +2,7 @@
 layout: post
 title: "Трихотилломания в течении всей жизни"
 description: "Статья о связи между трихотилломанией и дерматилломанией"
-category: "Психотерапия"
+category: "Что такое трихотилломания?"
 image:
     url: /assets/img/2024/rirri-fOyNfubusxE-unsplash.webp
 ---
