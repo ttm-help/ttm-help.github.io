@@ -1,8 +1,8 @@
 const QUESTIONS = [
         {
             text: `<p>
-                Данная шкала трихотилломании была разработана в <b>Массачусетском медицинском центре
-                (The Massachusetts General Hospital)</b>. Она используется для отслеживания своего состояния.
+                Данная шкала трихотилломании была разработана в <strong>Массачусетском медицинском центре
+                (The Massachusetts General Hospital)</strong>. Она используется для отслеживания своего состояния.
                 </p>
                 <p>
                 Его можно проходить <u>неоднократно</u>.
@@ -336,7 +336,7 @@ function questionFunction() {
         }
         const percentage = getPercentage(totalScore);
 
-        score.append($(`<p>У вас <b>${totalScore}</b> баллов.</p>`));
+        score.append($(`<p>У вас <strong>${totalScore}</strong> баллов.</p>`));
         score.append($(`<p>${getTipText(percentage)}</p>`));
         score.append($(`<p>Пройдите этот тест через какой-то промежуток 
                     времени для того, чтобы определить улучшение или ухудшение своего состояния.</p>`));
