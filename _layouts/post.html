@@ -37,31 +37,5 @@ layout: default
           </div>
         </div>
     </div>
-    <div class="row col mt-4">
-        {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
-        {% if sorted_posts and sorted_posts.size < 4 %}
-            {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
-        {% endif %}
-        <div class="row col">
-            <span class="weight-bold mb-1" style="font-size: x-large">
-                <a href="{% link posts.md %}">Похожие статьи</a>
-            </span>
-        </div>
-        <div class="row">
-            {% for post in sorted_posts %}
-                <div class="col-md-3 content">
-                    <a href="{{ post.url }}">
-                        <img src="{{post.image.url}}"
-                             alt="{{post.title}}"
-                             title="{{post.description}}"
-                             style="width: 100%;
-                                    border-radius: .25rem;
-                                    aspect-ratio: 9/6;
-                                    object-fit: contain;">
-                        <p class="pt-1">{{ post.title | smartify }}</p>
-                    </a>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
+    {% include related-posts.html %}
 </div>

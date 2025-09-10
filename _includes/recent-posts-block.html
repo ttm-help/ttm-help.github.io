@@ -2,7 +2,7 @@
     {% assign posts = site.posts | sort: "date" | reverse %}
     {% assign post = posts | first %}
 
-    <div class="row mb-3">
+    <div class="row mb-3 mr-1">
         <a href="{{ post.url }}" class="text-reset">
             <div class="row">
                 <span class="fs-3">{{ post.title }}</span>
@@ -11,14 +11,15 @@
                 <img
                         src="{{ post.image.url }}"
                         class="rounded m-0"
+                        style="width: 90%"
                         alt="{{ post.title }}">
             </div>
-           <div class="row">
+            <div class="row">
                 <span>
                     {%- assign arr = post.content | markdownify | | strip | split: "<p>" -%}
                     {{ arr[1] | remove: "</p>" | strip_html | truncatewords: 50 }}
                 </span>
-           </div>
+            </div>
         </a>
     </div>
 </div>
