@@ -8,7 +8,7 @@ permalink: /contact.html
 
 <div class="container">
     <div class="row justify-content-start">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8  mb-5">
             <div class="row mt-4 mb-0">
                 <h1>Онлайн помощь при трихотилломании</h1>
                 <p>Я оказываю поддержку людям с трихотилломанией онлайн, помогая контролировать привычку выдёргивания волос и справляться с сопутствующей тревожностью. 

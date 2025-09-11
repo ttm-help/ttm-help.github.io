@@ -11,8 +11,6 @@ image:
   height: 1524
 ---
 
-## Обо мне
-
 <picture class="ml-sm-3 mb-sm-3 mt-sm-0">
     <source media="(min-width:720px)"
             width="1200" height="1524"
