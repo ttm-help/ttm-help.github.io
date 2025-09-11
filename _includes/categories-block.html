@@ -4,20 +4,16 @@
             {% assign category_name = category | first %}
             {% for site_category in site.data.categories.list %}
                 {% if site_category.name == category_name %}
-                    <div class="col">
-                        <a href="{{ site_category.url }}" class="text-reset">
-                            <span class="fs-3">{{ category_name }}</span>
-                        </a>
-                    </div>
-                    <div class="col d-flex flex-row-reverse align-items-center">
-                        <a href="{{ site_category.url }}" class="icon-link icon-link-hover">Посмотреть все
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    <h2>
+                        <a href="{{ site_category.url }}" class="icon-link icon-link-hover">
+                            {{ category_name }}
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
                                  class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
                                 <path fill-rule="evenodd"
                                       d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5"/>
                             </svg>
                         </a>
-                    </div>
+                    </h2>
                 {% endif %}
             {% endfor %}
         </div>
@@ -25,9 +21,9 @@
             {% assign sorted_posts = category.last | sort: "date" | reverse %}
             {% for post in sorted_posts limit:4 %}
                 <div class="col-md-3">
-                   <a href="{{ post.url }}">
+                   <a href="{{ post.url }}" class="text-reset">
                        <img src="{{post.image.url}}" title="{{post.title}}" alt="{{post.description}}">
-                       <p class="mr-1">{{ post.title | smartify }}</p>
+                       <h6>{{ post.title | smartify }}</h6>
                    </a>
                 </div>
             {% endfor %}

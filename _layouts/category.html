@@ -22,9 +22,9 @@ layout: default
                         {% assign sorted_posts = category | last | sort: "date" | reverse %}
                         {% for post in sorted_posts %}
                         <div class="col-md-3">
-                            <a href="{{ post.url }}">
+                            <a href="{{ post.url }}" class="text-reset">
                                 <img src="{{post.image.url}}" title="{{post.title}}" alt="{{post.description}}">
-                                <p class="pt-1">{{ post.title | smartify }}</p>
+                                <h6>{{ post.title | smartify }}</h6>
                             </a>
                         </div>
                         {% endfor %}
