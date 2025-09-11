@@ -3,10 +3,7 @@ layout: post
 title: "Трихотилломания - причины появления, симптомы заболевания, диагностика и способы лечения"
 description: "Все о трихотилломании: причины возникновения, виды поведения, физические и психологические последствия, пути выхода"
 category: "Что такое трихотилломания?"
-image:
-  url: /assets/img/2024/suhyeon-choi-G9XMLUAjETM-unsplash-1.webp
-  width: 1969
-  height: 1528
+image: /assets/img/2024/suhyeon-choi-G9XMLUAjETM-unsplash-1.webp
 ---
 
 

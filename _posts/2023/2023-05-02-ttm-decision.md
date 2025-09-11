@@ -3,8 +3,7 @@ layout: post
 title: "Как принять решение избавиться от трихотилломании?"
 description: "О том, из каких сценариев мы принимаем решения, о том, почему человек продолжает жить с трихотилломанией"
 category: "Советы и практики"
-image:
-  url: "/assets/img/2024/aaron-blanco-tejedor-VBe9zj-JHBs-unsplash.webp"
+image: "/assets/img/2024/aaron-blanco-tejedor-VBe9zj-JHBs-unsplash.webp"
 ---
 {% include image-block.html
 alt="Как принять решение избавиться от трихотилломании?"

@@ -8,8 +8,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/0DSO_fjSrhY
   duration: PT5M22S
-image:
-  url: /assets/img/2025/child-rejects-therapy.webp
+image: /assets/img/2025/child-rejects-therapy.webp
 ---
 
 {% include video-block.html %}

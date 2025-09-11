@@ -3,8 +3,7 @@ title: Короткие ответы на часто задаваемые воп
 layout: default
 description: "Ответы на популярные вопросы о трихотилломании: причины, симптомы, лечение и советы специалиста. Узнайте ключевую информацию быстро и понятно."
 date: 2022-12-10
-image:
-  url: /assets/img/2024/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-1.webp
+image: /assets/img/2024/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-1.webp
 permalink: /faq.html
 ---
 

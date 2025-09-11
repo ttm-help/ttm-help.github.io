@@ -3,8 +3,7 @@ layout: post
 title: "Самодиагностика. Депрессия"
 description: "Связь депрессии и трихотилломании (ттм)"
 category: "Советы и практики"
-image:
-  url: /assets/img/2024/jackson-simmer-QgJYBOID-9A-unsplash-1.webp
+image: /assets/img/2024/jackson-simmer-QgJYBOID-9A-unsplash-1.webp
 ---
 Депрессия характеризуется:
 - сниженное настроение - не ситуативно, а хронически, постоянно

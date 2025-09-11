@@ -5,10 +5,7 @@ description: Помогаю при трихотилломании, тревож�
 is_about: "true"
 permalink: /about.html
 date: 2022-12-10
-image: 
-  url: /assets/images/illustrations/about-photo-1.webp
-  width: 1200
-  height: 1524
+image: /assets/images/illustrations/about-photo-1.webp
 ---
 
 <picture class="ml-sm-3 mb-sm-3 mt-sm-0">

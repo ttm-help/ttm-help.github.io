@@ -3,8 +3,7 @@ title: "Трихотилломания: истории людей, кто выл
 layout: default
 description: Истории выздоровления моих пациентов от трихотилломании. Узнай, как они с ней справились и вернули контроль над собой.
 date: 2022-12-10
-image: 
-    url: /assets/images/feedbacks/15.webp
+image: /assets/images/feedbacks/15.webp
 permalink: /feedback.html
 ---
 

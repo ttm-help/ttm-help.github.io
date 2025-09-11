@@ -7,8 +7,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/sUzY6gSO9kk
   duration: PT7M27S
-image:
-  url: /assets/img/2025/shame-is-the-main-reason-of-ttm.webp
+image: /assets/img/2025/shame-is-the-main-reason-of-ttm.webp
 ---
 
 {% include video-block.html %}

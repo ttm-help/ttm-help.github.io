@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
     url: https://www.youtube.com/embed/_hKjbcJTpJQ
     duration: PT32M15S
-image:
-  url: /assets/img/2024/interview-thumbnail-3.webp
+image: /assets/img/2024/interview-thumbnail-3.webp
 ---
 
 {% include video-block.html %}

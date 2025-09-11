@@ -3,8 +3,7 @@ layout: post
 title: "По следам группы поддержки при трихотилломании. Часть 2"
 description: "Вторая часть вопросов, которые поднимались на встрече группы поддержки людей страдающих трихотилломанией"
 category: "Истории выздоровления"
-image:
-  url: /assets/img/2024/taylor-hernandez-NK-N6coeI5Y-unsplash-1.webp
+image: /assets/img/2024/taylor-hernandez-NK-N6coeI5Y-unsplash-1.webp
 ---
 
 {% include image-block.html %}

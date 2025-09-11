@@ -3,8 +3,7 @@ layout: post
 title: "Влияние трихотилломании на самооценку"
 description: "Трихотилломания вызывает стыд и социальную изоляцию, приводит к физическим и психологическим проблемам, требует комплексного лечения"
 category: "Что такое трихотилломания?"
-image:
-  url: /assets/img/2024/frames-for-your-heart-x1cbwiTq7vU-unsplash.webp
+image: /assets/img/2024/frames-for-your-heart-x1cbwiTq7vU-unsplash.webp
 ---
 
 {% include image-block.html %}

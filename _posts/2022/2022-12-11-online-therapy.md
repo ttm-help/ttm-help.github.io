@@ -5,8 +5,7 @@ description:
   Возможно ли лечение трихотилломании онлайн? 
   В этой статье разбирается когда подобный способ применим и разбирается его эффективность
 category: "Советы и практики"
-image:
-  url: /assets/img/2024/samantha-borges-EeS69TTPQ18-unsplash-1.webp
+image: /assets/img/2024/samantha-borges-EeS69TTPQ18-unsplash-1.webp
 ---
 
 {% include image-block.html %}

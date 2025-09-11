@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/0KBFfSJgjMU
   duration: PT19M32S
-image:
-  url: /assets/img/2025/30-years-of-fear.webp
+image: /assets/img/2025/30-years-of-fear.webp
 ---
 
 {% include video-block.html %}

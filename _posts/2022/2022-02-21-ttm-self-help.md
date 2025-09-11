@@ -3,10 +3,7 @@ layout: post
 title: "Как победить трихотилломанию самому"
 description: "Подробный разбор способов самопомощи при трихотилломании (ТТМ)"
 category: "Советы и практики"
-image:
-  url: /assets/img/2024/luke-stackpoole-eWqOgJ-lfiI-unsplash-1.webp
-  width: 1920
-  height: 2400
+image: /assets/img/2024/luke-stackpoole-eWqOgJ-lfiI-unsplash-1.webp
 ---
 
 {% include image-block.html %}

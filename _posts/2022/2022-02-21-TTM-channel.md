@@ -3,10 +3,7 @@ layout: post
 title: "Группы поддержки при трихотилломании"
 description: "Группы поддержки при трихотилломании, телеграм канал для страдающих трихотилломанией"
 category: "Что такое трихотилломания?"
-image:
-  url: /assets/img/2024/mariyan-rajesh-BICGzegcfWs-unsplash-1.webp
-  width: 1920
-  height: 1441
+image: /assets/img/2024/mariyan-rajesh-BICGzegcfWs-unsplash-1.webp
 ---
 
 {% include image-block.html %}

@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/ZJiY19sTVo4
   duration: PT25M15S
-image:
-  url: /assets/img/2024/interview-anastasia-ufa.webp
+image: /assets/img/2024/interview-anastasia-ufa.webp
 ---
 
 {% include video-block.html %}

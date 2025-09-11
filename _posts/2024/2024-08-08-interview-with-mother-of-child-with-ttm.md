@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/roqILlDYMTM
   duration: PT1H3M
-image:
-  url: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.webp
+image: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.webp
 ---
 
 {% include video-block.html %}

@@ -3,8 +3,7 @@ layout: post
 title: "Что семейная история может рассказать о трихотилломании?"
 description: "Статья о связи наследственности и трихотилломании (ттм)"
 category: "Советы и практики"
-image:
-  url: /assets/img/2024/tyler-nix-V3dHmb1MOXM-unsplash.webp
+image: /assets/img/2024/tyler-nix-V3dHmb1MOXM-unsplash.webp
 ---
 > Ниже приведен перевод статьи Dr. Dawn Ferrara по мотивам исследований Zhang, J., & Grant,J.E. (2022).
 > <a href="https://www.sciencedirect.com/science/article/pii/S0010440X22000554" rel="nofollow">«Significance of family history in understanding and subtyping trichotillomania.Comprehensive Psychiatry»]</a>, 119, 152349. 

@@ -3,8 +3,7 @@ layout: post
 title: "Как помочь себе при трихотилломании"
 description: "Различные виды самопомощи при трихотилломании (ТТМ)"
 category: "Советы и практики"
-image:
-  url: /assets/img/2024/taisiia-stupak-MKNJZb9GDFM-unsplash.webp
+image: /assets/img/2024/taisiia-stupak-MKNJZb9GDFM-unsplash.webp
 ---
 
 Если вы или ваш близкий страдаете от трихотилломании, то вероятно вы пробовали многие способы самопомощи.

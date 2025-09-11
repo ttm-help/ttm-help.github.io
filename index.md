@@ -11,10 +11,7 @@ keywords:
 video:
   url: /assets/videos/welcome-video.mp4
   duration: PT1M7S
-image:
-  url: /assets/img/2024/main-page-image.webp
-  width: 1280
-  height: 741
+image: /assets/img/2024/main-page-image.webp
 ---
 
 <div class="container mb-10">

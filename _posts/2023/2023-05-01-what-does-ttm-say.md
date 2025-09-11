@@ -3,8 +3,7 @@ layout: post
 title: "О чём нам говорит трихотилломания?"
 description: "О каких проблемах нам может рассказать трихотилломания"
 category: "Что такое трихотилломания?"
-image:
-  url: /assets/img/2024/lesly-juarez-1AhGNGKuhR0-unsplash-1.webp
+image: /assets/img/2024/lesly-juarez-1AhGNGKuhR0-unsplash-1.webp
 ---
 
 {% include image-block.html %}

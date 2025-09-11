@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/Zob_KxeRy3M
   duration: PT21M33S
-image:
-  url: /assets/img/2025/interview-with-comments.webp
+image: /assets/img/2025/interview-with-comments.webp
 ---
 
 {% include video-block.html %}

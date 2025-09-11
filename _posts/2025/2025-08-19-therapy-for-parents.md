@@ -8,8 +8,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/Dwu58xzGLAQ
   duration: PT5M22S
-image:
-  url: /assets/img/2025/therapy-for-parents.webp
+image: /assets/img/2025/therapy-for-parents.webp
 ---
 
 {% include video-block.html %}

@@ -8,8 +8,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/we2DH8FpTwU
   duration: PT4M08S
-image:
-  url: /assets/img/2025/child-ttm-depression.webp
+image: /assets/img/2025/child-ttm-depression.webp
 ---
 
 {% include video-block.html %}

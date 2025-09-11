@@ -3,8 +3,7 @@ layout: post
 title: "Онлайн-терапия для лечения трихотилломании? Насколько она эффективна?"
 description: "Исследования об эффективности он-лайн терапии ТТМ"
 category: "Советы и практики"
-image:
-  url: /assets/img/2024/christin-hume-Hcfwew744z4-unsplash-1.webp
+image: /assets/img/2024/christin-hume-Hcfwew744z4-unsplash-1.webp
 ---
 
 {% include image-block.html %}

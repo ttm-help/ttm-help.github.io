@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/-A0E9MVgIug
   duration: PT34M3S
-image:
-  url: /assets/img/2024/ttm-and-mirror-interview.webp
+image: /assets/img/2024/ttm-and-mirror-interview.webp
 ---
 
 {% include video-block.html %}

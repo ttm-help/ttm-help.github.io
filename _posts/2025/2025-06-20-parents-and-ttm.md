@@ -7,8 +7,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/B5-NWNwfFfQ
   duration: PT4M12S
-image:
-  url: /assets/img/2025/disturbing-parents.webp
+image: /assets/img/2025/disturbing-parents.webp
 ---
 
 {% include video-block.html %}

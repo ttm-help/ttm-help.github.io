@@ -7,8 +7,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/rM7eYzR0KAg
   duration: PT2M29S
-image:
-  url: /assets/img/2025/remission-is-ok.webp
+image: /assets/img/2025/remission-is-ok.webp
 ---
 
 {% include video-block.html %}

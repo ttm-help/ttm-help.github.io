@@ -10,6 +10,5 @@ text: |
   В собранных здесь статьях рассказывается более подробно о причинах возникновения, симптомах и последствиях трихотилломании. 
 date: 2024-03-19
 permalink: /categories/ttm.html
-image:
-  url: "/assets/img/2024/priscilla-du-preez-vDzeKnPBPLM-unsplash-1.webp"
+image: "/assets/img/2024/priscilla-du-preez-vDzeKnPBPLM-unsplash-1.webp"
 ---

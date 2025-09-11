@@ -7,8 +7,7 @@ tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/nK84f8l7wMI
   duration: PT5M38S
-image:
-  url: /assets/img/2025/interview-with-galina.webp
+image: /assets/img/2025/interview-with-galina.webp
 ---
 
 {% include video-block.html %}

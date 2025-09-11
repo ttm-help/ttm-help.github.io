@@ -8,8 +8,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/JmdO8Aol3YM
   duration: PT40M7S
-image:
-  url: /assets/img/2025/what-parents-should-do.webp
+image: /assets/img/2025/what-parents-should-do.webp
 ---
 
 {% include video-block.html %}
