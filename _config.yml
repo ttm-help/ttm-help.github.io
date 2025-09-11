@@ -34,6 +34,7 @@ plugins:
   - jekyll-feed
   - jekyll-sass-converter
   - jekyll-minifier
+  - jekyll-sitemap
 
 exclude:
   - "*.iml"

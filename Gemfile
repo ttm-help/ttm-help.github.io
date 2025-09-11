@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll-minifier"
+gem "jekyll-sitemap"
 gem "webrick"
 gem "liquid", "~> 4.0.4"
 gem "jekyll"
