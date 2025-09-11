@@ -50,7 +50,7 @@
         &:last-child {
           background-color: $primary;
           border: 0 solid $primary;
-          border-radius: 5px;
+          border-radius: 4px;
           padding: 6px 5px;
         }
       }
@@ -136,7 +136,7 @@
 
         &:last-child {
           background-color: $primary;
-          @apply rounded-3;
+          border-radius: 4px;
         }
       }
     }
