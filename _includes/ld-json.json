@@ -211,12 +211,14 @@
           "height": 1524,
           "caption": "{{ site.author.name }} - {{ site.author.about }}"
       },
+      "gender": "female",
       "alumniOf": {
         "@type": "EducationalOrganization",
-        "name": "Саратовская государственная юридическая академия"
+        "name": "Саратовская государственная юридическая академия",
+        "sameAs": "https://ru.wikipedia.org/wiki/Саратовская_государственная_юридическая_академия"
       },
       "url": "{{ site.url }}{% link about.md %}",
-      "email": "mailto:{{site.data.contact.email}}",
+      "email": "{{site.data.contact.email}}",
       {% assign contacts = site.data.contact %}
       "sameAs": [
           "{{ contacts.whatsapp }}",
