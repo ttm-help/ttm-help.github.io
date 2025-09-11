@@ -58,7 +58,7 @@ permalink: /test.html
     
     <div id='quiz' class="mb-1"></div>
     <div class="pt-1" id='next'>
-        <a href="#" class="button button-shadow button-post d-block">
+        <a href="#" class="button button-shadow button-post d-block rounded-3">
             Далее
         </a>
     </div>

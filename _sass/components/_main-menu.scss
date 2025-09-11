@@ -136,8 +136,7 @@
 
         &:last-child {
           background-color: $primary;
-          border: 0 solid $primary;
-          border-radius: 5px;
+          @apply rounded-3;
         }
       }
     }
