@@ -3,8 +3,7 @@ layout: post
 title: "Трихотилломания и эмоциональное избегание: Что стоит на первом месте?"
 description: "Статья отвечает на вопрос, что приходит первым, трихотилломания или эмоциональное избегание"
 category: "Советы и практики"
-image:
-    url: /assets/img/2024/ryan-tauss-jVwb9LjxJ08-unsplash.webp
+image: /assets/img/2024/ryan-tauss-jVwb9LjxJ08-unsplash.webp
 ---
 
 {% include image-block.html %}

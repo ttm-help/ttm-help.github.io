@@ -4,8 +4,7 @@ title: Присутствовать в настоящем или быть осо
 description: "Присутствие vs. осознанность: Ключ к пониманию метакогнитивных способностей. Будьте настоящими, активно участвуя 
 в настоящем моменте, или будьте внимательными, практикуя осознанность без осуждения прошлого или будущего."
 category: "Советы и практики"
-image:
-    url: /assets/img/2024/callum-shaw-HRayFsFYkhM-unsplash.webp
+image: /assets/img/2024/callum-shaw-HRayFsFYkhM-unsplash.webp
 ---
 
 {% include image-block.html %}

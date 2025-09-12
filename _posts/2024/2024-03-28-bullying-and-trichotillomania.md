@@ -3,8 +3,7 @@ layout: post
 title: "Травля и трихотилломания"
 description: "Трихотилломания как причина травли и способы решить эту проблему"
 category: "Трихотилломания у детей"
-image:
-    url: /assets/img/2024/renaud-confavreux-nDIkKz9ytYo-unsplash.webp
+image: /assets/img/2024/renaud-confavreux-nDIkKz9ytYo-unsplash.webp
 ---
 
 Трихотилломания может настигнуть любого человека в любом возрасте. Есть данные о том, что заболеть человек может как в детском возрасте, 

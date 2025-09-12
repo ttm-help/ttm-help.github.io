@@ -6,8 +6,7 @@ description: Статья исследует эффективность тера
   исследования, проведенного с использованием ACT в качестве самостоятельного метода лечения, подтверждают эффективность 
   этого подхода и открывают новые перспективы для терапии выдергивания волос.
 category: "Что такое трихотилломания?"
-image:
-    url: /assets/img/2024/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.webp
+image: /assets/img/2024/aleksandr-ledogorov-G-JJy-Yv_dA-unsplash.webp
 ---
 
 {% include image-block.html %}

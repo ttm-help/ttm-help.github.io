@@ -6,8 +6,7 @@ description: статья, раскрывающая влияние слов на
   услышанными в детстве, и как это повлияло на ее психическое здоровье и отношения. Статья также обращается к психосоциальным 
   стадиям развития по теории Эрика Эриксона, чтобы объяснить влияние времени на формирование нашего мировоззрения и отношений.
 category: "Советы и практики"
-image:
-    url: /assets/img/2024/namroud-gorguis-FZWivbri0Xk-unsplash.webp
+image: /assets/img/2024/namroud-gorguis-FZWivbri0Xk-unsplash.webp
 ---
 
 {% include image-block.html %}

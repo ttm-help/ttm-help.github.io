@@ -6,8 +6,7 @@ description: Статья рассматривает важность выявл
   лечения. Ученые обнаружили, что те, кто испытывает телесные ощущения и физический дискомфорт, склонны к такому избеганию. 
   Понимание этой взаимосвязи помогает улучшить подход к лечению и повысить эффективность терапии.
 category: "Что такое трихотилломания?"
-image:
-    url: /assets/img/2024/dylan-gillis-KdeqA3aTnBY-unsplash.webp
+image: /assets/img/2024/dylan-gillis-KdeqA3aTnBY-unsplash.webp
 ---
 
 {% include image-block.html %}

@@ -3,8 +3,7 @@ layout: post
 title: "Почему я вырываю на себе волосы? Что можно сделать с раздражителями"
 description: "Что можно предпринять в случае трихотилломании, что можно сделать самостоятельно без помощи психолога"
 category: "Советы и практики"
-image:
-    url: /assets/img/2024/daria-tumanova-mmYyzczxvdo-unsplash.webp
+image: /assets/img/2024/daria-tumanova-mmYyzczxvdo-unsplash.webp
 ---
 
 > Почему у меня появились залысины? Всегда ли мои ресницы были такими редкими? Что случилось с моими бровями?

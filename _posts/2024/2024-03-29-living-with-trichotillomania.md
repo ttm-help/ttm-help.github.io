@@ -3,8 +3,7 @@ layout: post
 title: "Бремя жизни с трихотилломанией"
 description: "Что такое трихотилломания и какие негативные факторы она несет в повседневную жизнь"
 category: "Что такое трихотилломания?"
-image:
-    url: /assets/img/2024/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.webp
+image: /assets/img/2024/alice-donovan-rouse-pZ61ZA8QgcY-unsplash.webp
 ---
 
 {% include image-block.html %}

@@ -3,8 +3,7 @@ layout: post
 title: "Трихотилломания в течении всей жизни"
 description: "Статья о связи между трихотилломанией и дерматилломанией"
 category: "Что такое трихотилломания?"
-image:
-    url: /assets/img/2024/rirri-fOyNfubusxE-unsplash.webp
+image: /assets/img/2024/rirri-fOyNfubusxE-unsplash.webp
 ---
 
 Трихотилломания (ТТМ) - это повторяющееся расстройство поведения, сосредоточенное на теле (BFRB). Для него характерно регулярное вырывание волос, 

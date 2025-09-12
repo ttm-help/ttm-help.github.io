@@ -4,8 +4,7 @@ title: "Что нужно знать каждому родителю о детс
 description: "Детская ТТМ: Повторное вырывание волос у детей, приводящее к выпадению и нарушению психосоциального функционирования.
  Основана на психосоциальных стрессах раннего детства. Лечение с участием родителей эффективно"
 category: "Трихотилломания у детей"
-image:
-    url: /assets/img/2024/jeremiah-lawrence-IXiGMtCrQPg-unsplash.webp
+image: /assets/img/2024/jeremiah-lawrence-IXiGMtCrQPg-unsplash.webp
 ---
 
 {% include image-block.html %}

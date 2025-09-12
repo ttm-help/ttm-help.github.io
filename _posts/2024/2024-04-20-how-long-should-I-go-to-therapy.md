@@ -5,8 +5,7 @@ description: Автор обсуждает вопросы продолжител
   влияющие на время лечения, и предлагает рекомендации по выбору наиболее подходящего варианта. Ключевой акцент 
   делается на важности терпения и достижении целей лечения в сочетании с терапевтом.
 category: "Советы и практики"
-image:
-    url: /assets/img/2024/kelly-sikkema-XX2WTbLr3r8-unsplash.webp
+image: /assets/img/2024/kelly-sikkema-XX2WTbLr3r8-unsplash.webp
 ---
 
 {% include image-block.html %}

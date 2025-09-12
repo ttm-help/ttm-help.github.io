@@ -3,8 +3,7 @@ layout: post
 title: "Диагностика трихотилломании у детей: Нужен специалист"
 description: "Способы диагностики трихотилломании у детей и какие существуют способы лечения трихотилломании у детей."
 category: "Трихотилломания у детей"
-image:
-    url: /assets/img/2024/artur-aldyrkhanov-3bwMp-TyxOE-unsplash.webp
+image: /assets/img/2024/artur-aldyrkhanov-3bwMp-TyxOE-unsplash.webp
 ---
 
 {% include image-block.html %}

@@ -9,6 +9,5 @@ text: |
   которые помогают детям постепенно справляться с выдёргиванием волос. Эти рекомендации основаны на опыте специалистов и реальных историях выздоровлений.
 date: 2024-03-19
 permalink: "/categories/parents.html"
-image:
-    url: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.webp"
+image: "/assets/img/2024/caleb-woods-VZILDYoqn_U-unsplash.webp"
 ---

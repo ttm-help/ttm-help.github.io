@@ -3,8 +3,7 @@ layout: post
 title: "Качество сна и вырывание волос: Какая связь?"
 description: "Статья о том как сон влияет на трихотилломанию"
 category: "Что такое трихотилломания?"
-image:
-    url: /assets/img/2024/beazy-toX2sYnycCw-unsplash-1.webp
+image: /assets/img/2024/beazy-toX2sYnycCw-unsplash-1.webp
 ---
 
 Когда речь идет о физическом здоровье, преимущества здорового образа жизни хорошо известны. Доказано, что соблюдение 
