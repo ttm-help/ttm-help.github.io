@@ -29,7 +29,7 @@ permalink: /feedback.html
             {% for video in videos %}
                 <div class="col-md-4 p-1">
                     <a href="{{ video.url }}">
-                        <img src="{{video.image.url}}"
+                        <img src="{{video.image}}"
                             alt="{{video.description}}"
                             title="{{video.title}}"
                             style="width: 100%;
