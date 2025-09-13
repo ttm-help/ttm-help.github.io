@@ -5,7 +5,7 @@ description: В новом видео готовимся к новому год�
 category: "Советы и практики"
 tags: ["youtube"]
 video:
-  url: https://www.youtube.com/embed/0KBFfSJgjMU
+  url: https://www.youtube.com/embed/4ylPTUyyMy4
   duration: PT20M55S
 image: /assets/img/2025/happy-new-year-2025.webp
 ---
