@@ -11,7 +11,11 @@
     {% endfor %}
     <div class="row col">
             <span class="weight-bold mb-1" style="font-size: x-large">
-                <a href="{{ category_url }}">{{ page.category }}</a>
+                 {% if category_url %}
+                    <a href="{{ category_url }}">{{ page.category }}</a>
+                {% else %}
+                    <a href="{% link posts.md %}">{{ page.category }}</a>
+                {% endif %}
             </span>
     </div>
     <div class="row">
