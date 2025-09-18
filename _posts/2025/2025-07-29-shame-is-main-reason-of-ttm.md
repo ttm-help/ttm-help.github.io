@@ -17,7 +17,7 @@ image: /assets/img/2025/shame-is-the-main-reason-of-ttm.webp
 Я записала это видео, чтобы подробно разобрать, откуда берется это чувство, почему оно так крепко связано с ТТМ и, самое главное, как вы можете начать путь к освобождению от него.
 
 {% include video-block.html %}
-<a href="https://vkvideo.ru/video-211245681_456239069" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239069" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ## Ключевые тезисы из моего видео
 

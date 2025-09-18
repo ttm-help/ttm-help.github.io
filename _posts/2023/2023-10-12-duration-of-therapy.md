@@ -12,7 +12,7 @@ image: /assets/img/2024/duration-of-ttm.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239019" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239019" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Пожалуй, самый популярный вопрос на диагностических консультациях - вопрос о сроках терапии.
 В связи с этим я решила осветить его достаточно подробно.  

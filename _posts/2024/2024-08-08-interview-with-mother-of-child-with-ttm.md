@@ -16,7 +16,7 @@ image: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239024" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239024" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### От отчаяния к действию: история Екатерины
 

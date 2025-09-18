@@ -7,7 +7,7 @@ image: "/assets/img/2024/mathias-jensen-5x4U6InVXpc-unsplash.webp"
 ---
 
 > Подготовлено на основе материала Dr. Dawn Ferrara и докторской диссертации 
-> С. Андерсона <a href="https://uwe-repository.worktribe.com/output/7239383%20" rel="nofollow">«Проблематика дерматилломании»</a> (2021)
+> С. Андерсона <a href="https://uwe-repository.worktribe.com/output/7239383%20" rel="nofollow" target="_blank">«Проблематика дерматилломании»</a> (2021)
 
 Когда ты осознаешь, что страдаешь каким-либо сложным заболеванием, 
 это нормально чувствовать себя одиноким в контексте того, что ты один такой. 
@@ -67,5 +67,5 @@ image: "/assets/img/2024/mathias-jensen-5x4U6InVXpc-unsplash.webp"
 Вы можете стать частью сообщества людей борющихся с трихотилломанией (ТТМ) любым удобным для вас способом. Самое главное, что нужно знать, 
 это то, что существует сообщество, которое поддерживает ваше путешествие к физическому и психическому здоровью и исцелению.
 
-Присоединяйтесь к <a href="https://t.me/ttm_help_ru" rel="nofollow">каналу</a>
-и <a href="https://t.me/+Iofg2iERjAlmMTQy" rel="nofollow">психотерапевтической группе помощи</a> при ТТМ.
+Присоединяйтесь к <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">каналу</a>
+и <a href="https://t.me/+Iofg2iERjAlmMTQy" rel="nofollow" target="_blank">психотерапевтической группе помощи</a> при ТТМ.

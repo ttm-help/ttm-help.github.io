@@ -12,7 +12,7 @@ image: /assets/img/2025/disturbing-parents.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239066" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239066" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте! Я — Оксана Коновалова, психолог и психотерапевт, специализирующийся на трихотилломании.
 

@@ -93,7 +93,7 @@ image: /assets/img/2024/daria-tumanova-mmYyzczxvdo-unsplash.webp
 Хотя заземление не так эффективно, как дыхание, оно особенно полезно при постепенном нарастании порывов, если использовать его на ранних стадиях. Несколько примеров заземления:
 
 - Сжимание ладоней вместе
-- Рисование и <a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D1%84%D0%BE%D0%BD%D0%B0%D0%B6" rel="nofollow">грифонаж</a>
+- Рисование и <a href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%B8%D1%84%D0%BE%D0%BD%D0%B0%D0%B6" rel="nofollow" target="_blank">грифонаж</a>
 - Сжимание и разжимание кулака
 
 {% include image-block.html %}

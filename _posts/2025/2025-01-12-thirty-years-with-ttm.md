@@ -13,7 +13,7 @@ image: /assets/img/2025/30-years-of-fear.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239033" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239033" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 # «Я вернула себе радость жизни»: история Юлии в борьбе с трихотилломанией
 

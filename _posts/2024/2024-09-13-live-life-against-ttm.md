@@ -18,7 +18,7 @@ image: /assets/img/2024/interview-anastasia-ufa.webp
 Это не просто интервью, это источник вдохновения для каждого, кто столкнулся с ТТМ.
 
 {% include video-block.html %}
-<a href="https://vkvideo.ru/video-211245681_456239025" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239025" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Главные выводы из истории Анастасии
 

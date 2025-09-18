@@ -20,7 +20,7 @@ permalink: /test.html
         <p>
             Данная шкала трихотилломании была разработана в Массачусетском медицинском центре (The Massachusetts General Hospital). Она используется для отслеживания состояния.
             <blockquote>
-                 <a href='https://pubmed.ncbi.nlm.nih.gov/8657844/' rel="nofollow">
+                 <a href='https://pubmed.ncbi.nlm.nih.gov/8657844/' rel="nofollow" target="_blank">
                 Keuthen NJ, O’Sullivan RL, Ricciardi JN, et al. The Massachusetts General Hospital (MGH)
                 Hairpulling Scale: 1. Development and Factor Analyses. Psychother Psychosomat 1995; 64: 141–145
                 </a>

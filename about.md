@@ -41,7 +41,7 @@ image: /assets/images/illustrations/about-photo-1.webp
 
 ## Что я предлагаю:
 
-- <a href="https://t.me/ttm_help_ru" rel="nofollow">Канал ТТМ в телеграм</a>, где я размещаю статьи, переводы выступлений зарубежных коллег
+- <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">Канал ТТМ в телеграм</a>, где я размещаю статьи, переводы выступлений зарубежных коллег
   в области ТТМ и разные полезные материалы,
 - [Диагностическая консультация](/contact.html), где вы заполняете подробную анкету о своем заболевании, мы общаемся более
   подробно на сессии, и я даю список рекомендаций по лечению ТТМ конкретно у вас,
@@ -63,7 +63,7 @@ image: /assets/images/illustrations/about-photo-1.webp
 
 ## Мои публикации:
 - Коновалова О.В. Трихотилломания: // Вестник Трихологии - интернет журнал союза трихологов. 2023. 
-  URL: <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" rel="nofollow">http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php</a>.
+  URL: <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" rel="nofollow" target="_blank">http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php</a>.
 
 ## Опыт работы:
 

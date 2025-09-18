@@ -12,7 +12,7 @@ image: /assets/img/2024/ttm-and-remission.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239028" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239028" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте! Я — Коновалова Оксана, психолог и психотерапевт, специализирующийся на трихотилломании. В этом видео я расскажу, почему я не использую концепцию ремиссии в отношении трихотилломании.
 

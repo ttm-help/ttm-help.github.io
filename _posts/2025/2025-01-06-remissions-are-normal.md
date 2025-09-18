@@ -12,7 +12,7 @@ image: /assets/img/2025/remission-is-ok.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239032" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239032" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте! Меня зовут Оксана Коновалова, и я психолог-психотерапевт, специализирующийся на лечении трихотилломании. В этом видео я хочу обсудить с вами концепцию кривой выздоровления.
 

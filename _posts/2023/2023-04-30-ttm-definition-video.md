@@ -12,7 +12,7 @@ image: /assets/img/2024/thumbnail-ttm-definition-video.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239018" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239018" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 На стресс и тревожные события все реагируют по-разному, у кого-то потеют
 ладони, кто-то начинает запинаться, кто-то грызет ногти, кто-то снимает стресс алкоголем, а кто-то вырывает волосы.  

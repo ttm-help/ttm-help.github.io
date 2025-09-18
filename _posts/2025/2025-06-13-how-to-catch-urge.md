@@ -12,9 +12,9 @@ image: /assets/img/2025/how-to-catch-ttm-urge.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239059" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239059" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
-В этом видео я отвечаю на вопросы участников телеграм канала <a href="https://t.me/ttm_help_ru" rel="nofollow">@ttm_help_ru</a>  
+В этом видео я отвечаю на вопросы участников телеграм канала <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">@ttm_help_ru</a>  
 
 **Таймкоды**:   
 0:22 - как успеть поймать позыв трихотилломании до вырывания и не забывать фиксировать все в табличке  

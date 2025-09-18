@@ -16,7 +16,7 @@ image: /assets/img/2024/interview-thumbnail-3.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239021" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239021" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Почему обычная психотерапия не помогала?
 

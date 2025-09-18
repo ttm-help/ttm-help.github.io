@@ -60,5 +60,5 @@ image: /assets/img/2024/rod-long-89bQBucvJdw-unsplash-1.webp
 заболеванием дает представление не только о том, как проявляется и переживается **трихотилломания** у других, но и о том, 
 почему она могла проявиться у вас. Такое понимание ведет к своему индивидуальному способу излечения.
 
-Вступайте в психотерапевтическую <a href="https://t.me/+Iofg2iERjAlmMTQy" rel="nofollow">группу помощи при ТТМ</a>, 
-а также подписывайтесь на <a href="https://t.me/ttm_help_ru" rel="nofollow">телеграм канал</a>.
+Вступайте в психотерапевтическую <a href="https://t.me/+Iofg2iERjAlmMTQy" rel="nofollow" target="_blank">группу помощи при ТТМ</a>, 
+а также подписывайтесь на <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">телеграм канал</a>.

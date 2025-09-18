@@ -20,7 +20,7 @@ image: /assets/img/2024/interview-about-fear.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239023" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239023" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Ключевые моменты интервью с Марией
 

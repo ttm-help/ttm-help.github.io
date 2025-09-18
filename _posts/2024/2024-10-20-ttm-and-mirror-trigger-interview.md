@@ -17,7 +17,7 @@ image: /assets/img/2024/ttm-and-mirror-interview.webp
 
 {% include video-block.html %}
 
-<a href="https://vkvideo.ru/video-211245681_456239026" rel="nofollow">Ссылка на ВК Видео</a>
+<a href="https://vkvideo.ru/video-211245681_456239026" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Как зеркало становится врагом?
 

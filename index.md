@@ -52,6 +52,7 @@ image: /assets/img/2024/main-page-image.webp
             <div class="col-12 col-md-6 mb-2 d-flex justify-content-center align-items-center">
                 <a href="https://t.me/ttm_help_ru"
                        rel="nofollow"
+                       target="_blank"
                        class="button btn-primary button-shadow rounded-3"
                        style="background-color: #56bcec">
                         <img alt="Телеграм канал при трихотилломании (ТТМ)"
@@ -72,7 +73,7 @@ image: /assets/img/2024/main-page-image.webp
                 Трихотилломания (ТТМ) — это психическое расстройство, при котором человеку сложно контролировать желание выдергивать свои волосы. <br/>
                 Врачи относят его к группе расстройств повторяющегося поведения, связанного с телом. 
                 В международных медицинских классификациях (используемых врачами по всему миру) 
-                у трихотилломании есть свой официальный код <a href="https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1253999657" rel="nofollow">6B25.0</a>. Это подверждает, что ттм – это признанное заболевание. 
+                у трихотилломании есть свой официальный код <a href="https://icd.who.int/browse11/l-m/en#/http%3a%2f%2fid.who.int%2ficd%2fentity%2f1253999657" rel="nofollow" target="_blank">6B25.0</a>. Это подверждает, что ттм – это признанное заболевание. 
             </p>
             <div class="row mx-1">
                 <h3 class="custom-header">Основные проявления:</h3>

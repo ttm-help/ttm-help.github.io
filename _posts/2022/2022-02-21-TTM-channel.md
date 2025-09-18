@@ -8,7 +8,7 @@ image: /assets/img/2024/mariyan-rajesh-BICGzegcfWs-unsplash-1.webp
 
 {% include image-block.html %}
 
-Переходите в <a href="https://t.me/ttm_help_ru" rel="nofollow">телеграм канал</a>, если вы хотите
+Переходите в <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">телеграм канал</a>, если вы хотите
 
 - Получать актуальную информацию о трихотилломании
 - Растить в себе уверенность
