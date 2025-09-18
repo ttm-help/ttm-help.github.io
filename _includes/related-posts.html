@@ -3,9 +3,15 @@
     {% if sorted_posts and sorted_posts.size < 4 %}
     {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
     {% endif %}
+
+    {% for site_category in site.data.categories.list %}
+        {% if site_category.name == page.category %}
+        {% assign category_url = site_category.url %}
+        {% endif %}
+    {% endfor %}
     <div class="row col">
             <span class="weight-bold mb-1" style="font-size: x-large">
-                <a href="{% link posts.md %}">{{ page.category }}</a>
+                <a href="{{ category_url }}">{{ page.category }}</a>
             </span>
     </div>
     <div class="row">
