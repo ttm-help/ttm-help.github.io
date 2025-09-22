@@ -8,7 +8,7 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/AqT5VGvIx2g
   duration: PT6M58S
-image: /assets/img/2025/trichotillomania-and-ktp.jpg
+image: /assets/img/2025/trichotillomania-and-ktp.webp
 ---
 
 
