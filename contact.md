@@ -4,6 +4,7 @@ layout: default
 description: "Получите профессиональную поддержку при трихотилломании онлайн. Консультации, индивидуальная терапия и тренинги с психологом помогут справиться с привычкой выдёргивания волос."
 date: 2023-05-27
 permalink: /contact.html
+image: /assets/img/2024/contact-form.webp
 ---
 
 <div class="container">

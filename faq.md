@@ -3,7 +3,7 @@ title: Ответы на частые вопросы о трихотиллома
 layout: default
 description: "Ответы на самые важные вопросы о трихотилломании: причины, симптомы, лечение и советы специалиста. Узнайте ключевую информацию быстро и понятно."
 date: 2022-12-10
-image: /assets/img/2024/towfiqu-barbhuiya-oZuBNC-6E2s-unsplash-1.webp
+image: /assets/img/2024/questions-and-answers-on-trichotillomania.webp
 permalink: /faq.html
 ---
 
