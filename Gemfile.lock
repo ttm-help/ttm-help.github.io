@@ -14,6 +14,7 @@ GEM
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
     execjs (2.10.0)
+    fastimage (2.4.0)
     ffi (1.17.2-arm64-darwin)
     forwardable-extended (2.6.0)
     google-protobuf (4.32.0-arm64-darwin)
@@ -44,6 +45,9 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-image-size (1.2.1)
+      fastimage (>= 1.8)
+      jekyll (>= 3.7)
     jekyll-minifier (0.2.2)
       cssminify2 (~> 2.1.0)
       htmlcompressor (~> 0.4)
@@ -93,6 +97,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-feed
+  jekyll-image-size (~> 1.2)
   jekyll-minifier
   jekyll-sitemap
   liquid (~> 4.0.4)

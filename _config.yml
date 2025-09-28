@@ -35,6 +35,7 @@ plugins:
   - jekyll-sass-converter
   - jekyll-minifier
   - jekyll-sitemap
+  - jekyll-image-size
 
 exclude:
   - "*.iml"

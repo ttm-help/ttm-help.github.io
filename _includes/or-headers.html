@@ -9,36 +9,41 @@
 <meta property="og:site_name" content="TTM HELP - всё о трихотилломании">
 <meta property="og:url" content="{{ canonical_link }}" >
 <meta property="og:description" content="{{ page.description | default: site.description }}">
-<meta property="og:logo" content="{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg" />
 
-<meta property="article:author" content="{{ site.author.name }}">
-<meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-{% if page.category %}
-    <meta property="article:section" content="{{ page.category }}">
-{% endif %}
-
-{% if page.is_about == "true" %}
+{% if page.url == '/' %}
+    <meta property="og:type" content="website" />
+{% elsif page.is_about == "true" %}
     <meta property="og:type" content="profile">
     {% assign names = site.author.name | split: " " %}
     <meta property="profile:first_name" content="{{ names[0] }}">
     <meta property="profile:last_name" content="{{ names[1] }}">
     <meta property="profile:gender" content="female">
-{% elsif page.video and page.url != '/' %}
-    <meta property="og:type" content="video.other">
-    <meta property="og:video" content="{{ page.video.url }}">
-    <meta property="og:video:type" content="text/html">
-    <meta property="og:video:width" content="1280">
-    <meta property="og:video:height" content="720">
 {% else %}
     <meta property="og:type" content="article">
+    <meta property="article:author" content="{{ site.url }}{% link about.md %}">
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% if page.category %}
+        <meta property="article:section" content="{{ page.category }}">
+    {% endif %}
+    {% if page.keywords %}
+        <meta property="article:tag" content="{{ page.keywords }}">
+    {% endif %}
 {% endif %}
+
+{% if page.video %}
+    <meta property="og:video" content="{{ page.video.url }}">
+    <meta property="og:video:type" content="text/html" />
+    <meta property="og:video:width" content="1280" />
+    <meta property="og:video:height" content="720" />
+{% endif %}
+
 
 {% if page.image %}
     <meta property="og:image" content="{{site.url}}{{ page.image }}">
+    {% imagesize page.image:opengraph %}
 {% else %}
     <meta property="og:image" content="{{site.url}}{{ site.image }}">
-    <meta property=”og:image:width” content=”1280″/>
-    <meta property=”og:image:height” content=”741″/>
+    {% imagesize site.image:opengraph %}
 {% endif %}
 <meta property="og:image:alt" content="{{ page.description | default: site.description }}">
 <meta property="og:image:type" content="image/webp">
