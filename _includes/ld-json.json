@@ -12,7 +12,7 @@
       "author": {
           "@id": "{{ site.url }}/#/schema/author"
       },
-      "headline": "{{ page.title | default: site.title }}",
+      "headline": {{ page.title | default: site.title | jsonify }},
       "datePublished": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{{ site.time | date_to_xmlschema }}",
       "url":  "{{ canonical_link }}",
@@ -58,7 +58,7 @@
       "@type": "WebPage",
       "@id": "{{ page_path }}",
       "url": "{{ canonical_link }}",
-      "name": "{{ page.title | default: site.title }}",
+      "name": {{ page.title | default: site.title | jsonify }},
       "isPartOf": {
         "@id": "{{ site.url }}/#website"
       },
@@ -76,9 +76,9 @@
       "datePublished": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{{ site.time | date_to_xmlschema }}",
       {% if page.description %}
-          "description": "{{ page.description }}",
+          "description": {{ page.description | jsonify }},
       {% else %}
-          "description": "{{ site.description }}",
+          "description": {{ site.description | jsonify }},
       {% endif %}
       "breadcrumb": {
         "@id": "{{ page_path }}#breadcrumb"
@@ -120,7 +120,7 @@
         "width": {% imagesize logo_path:width %},
         "height": {% imagesize logo_path:height %},
       {% endif %}
-      "caption": "{{ page.description | default: site.description }}",
+      "caption": {{ page.description | default: site.description | jsonify }},
       "encodingFormat": "image/jpeg"
     },
     {
@@ -153,14 +153,14 @@
             {
                 "@type": "ListItem",
                 "position": 4,
-                "name": "{{ page.title }}",
+                "name": {{ page.title | jsonify }},
                 "item": "{{ canonical_link }}"
             }
             {% elsif page.url != "/" %}
             ,{
                 "@type": "ListItem",
                 "position": 2,
-                "name": "{{page.title}}",
+                "name": {{ page.title | jsonify }},
                 "item": "{{ canonical_link }}"
             }
             {% endif %}
@@ -170,8 +170,8 @@
       "@type": "WebSite",
       "@id": "{{ site.url }}/#website",
       "url": "{{ site.url }}",
-      "name": "{{ site.title }}",
-      "description": "{{ site.description }}",
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify  }},
       "publisher": {
         "@id": "{{ site.url }}/#organization"
       },
@@ -186,7 +186,7 @@
     "contentUrl": "{{ site.url }}{{ logo_path }}",
     "width": {% imagesize logo_path:width %},
     "height": {% imagesize logo_path:height %},
-    "caption": "{{ site.description }}",
+    "caption": {{ site.description | jsonify }},
     "encodingFormat": "image/jpeg"
     },
     {
@@ -224,7 +224,7 @@
       {% assign names = site.author.name | split: " " %}
       "givenName": "{{ names[0] }}",
       "familyName": "{{ names[1] }}",
-      "jobTitle": "{{ site.author.about }}",
+      "jobTitle": {{ site.author.about | jsonify }},
       "image": {
           "@type": "ImageObject",
           "inLanguage": "ru-RU",
@@ -255,12 +255,12 @@
     {
       "@type": "VideoObject",
       "@id": "{{ page_path }}#video",
-      "name": "{{ page.title | default: site.title }}",
+      "name": {{ page.title | default: site.title | jsonify }},
       "isPartOf": {
         "@id": "{{ page_path }}#article"
       },
       "thumbnailUrl": "{{site.url}}{{ page.video.image | default: page.image }}",
-      "description": "{{ page.description |default: site.description }}",
+      "description": {{ page.description | default: site.description | jsonify }},
       "uploadDate": "{{ page.date | date_to_xmlschema }}",
       "width": 1280,
       "height": 720,

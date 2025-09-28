@@ -50,17 +50,10 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% capture raw_json %}
+    {% capture ld_raw_json %}
       {% include ld-json.json canonical_link=canonical_link %}
     {% endcapture %}
-    <script type="application/ld+json">
-        {{ raw_json
-            | strip_newlines
-            | replace: "  ", ""
-            | replace: ": ", ":"
-            | replace: ", ", ","
-        }}
-    </script>
+    <script type="application/ld+json">{{ ld_raw_json | json_minify }}</script>
     {% include or-headers.html canonical_link=canonical_link %}
 
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{site.url}}/feed.xml">
