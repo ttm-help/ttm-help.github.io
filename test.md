@@ -5,7 +5,7 @@ description: |
   Онлайн тест на трихотилломанию (ТТМ) поможет самостоятельно оценить наличие признаков привычки выдёргивания волос. 
   Ответьте на вопросы и узнайте уровень проявлений, а также получите рекомендации по дальнейшей поддержке
 date: 2023-01-31
-image: /assets/img/2024/nguyen-dang-hoang-nhu-qDgTQOYk6B8-unsplash-1.webp
+image: /assets/img/2024/trichotillomania-online-test.webp
 permalink: /test.html
 ---
 
