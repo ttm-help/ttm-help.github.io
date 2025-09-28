@@ -11,7 +11,7 @@ keywords:
 video:
   url: /assets/videos/welcome-video.mp4
   duration: PT1M7S
-image: /assets/img/2024/main-page-image.webp
+image: /assets/images/illustrations/main-page-image.webp
 ---
 
 <div class="container mb-10">
