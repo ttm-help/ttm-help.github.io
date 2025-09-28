@@ -12,7 +12,7 @@
       "author": {
           "@id": "{{ site.url }}/#/schema/author"
       },
-      "headline": "{{ page.description | default: site.description }}",
+      "headline": "{{ page.title | default: site.title }}",
       "datePublished": "{{ page.date | date_to_xmlschema }}",
       "dateModified": "{{ site.time | date_to_xmlschema }}",
       "url":  "{{ canonical_link }}",
@@ -32,24 +32,33 @@
           "thumbnailUrl": "{{site.url}}{{ site.image }}",
       {% endif %}
       "inLanguage": "ru-RU",
-      "copyrightYear": "2022",
+      "copyrightYear": {{ page.date | date: "%Y" | }},
       "copyrightHolder": {
         "@id": "{{ site.url }}/#organization"
       }
       {% if page.video %}
-      ,
-      "video": [
-        {
-          "@id": "{{ page_path }}#video"
-        }
-      ]
+        ,
+        "video": [
+          {
+            "@id": "{{ page_path }}#video"
+          }
+        ]
+      {% endif %}
+      {% if page.keywords %}
+        ,
+        {% assign keywords_array = page.keywords | split: "," %}
+        "keywords": [
+          {% for keyword in keywords_array %}
+            "{{ keyword | strip }}"{% if forloop.last == false %},{% endif %}
+          {% endfor %}
+        ]
       {% endif %}
     },
     {
       "@type": "WebPage",
       "@id": "{{ page_path }}",
-      "url": "{{ cannonical_url }}",
-      "name": "{{ page.title }}",
+      "url": "{{ canonical_link }}",
+      "name": "{{ page.title | default: site.title }}",
       "isPartOf": {
         "@id": "{{ site.url }}/#website"
       },
@@ -102,13 +111,17 @@
       {% if page.image %}
         "url": "{{site.url}}{{ page.image }}",
         "contentUrl": "{{site.url}}{{ page.image }}",
+        "width": {% imagesize page.image:width %},
+        "height": {% imagesize page.image:height %},
       {% else %}
-        "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
-        "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
-        "width": 1200,
-        "height": 742,
+        {% assign logo_path = "/assets/images/logo/ttm-help-logo-1.jpg" %}
+        "url": "{{ site.url }}{{ logo_path }}",
+        "contentUrl": "{{ site.url }}{{ logo_path }}",
+        "width": {% imagesize logo_path:width %},
+        "height": {% imagesize logo_path:height %},
       {% endif %}
-      "caption": "{{ page.description | default: site.description }}"
+      "caption": "{{ page.description | default: site.description }}",
+      "encodingFormat": "image/jpeg"
     },
     {
       "@type": "BreadcrumbList",
@@ -168,11 +181,13 @@
     "@type": "ImageObject",
     "inLanguage": "ru-RU",
     "@id": "{{ site.url }}/#/schema/logo/image/",
-    "url": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
-    "contentUrl": "{{site.url}}/assets/images/logo/ttm-help-logo-1.jpg",
-    "width": 1200,
-    "height": 742,
-    "caption": "{{ site.description }}"
+    {% assign logo_path = '/assets/images/logo/ttm-help-logo-1.jpg' %}
+    "url": "{{ site.url }}{{ logo_path }}",
+    "contentUrl": "{{ site.url }}{{ logo_path }}",
+    "width": {% imagesize logo_path:width %},
+    "height": {% imagesize logo_path:height %},
+    "caption": "{{ site.description }}",
+    "encodingFormat": "image/jpeg"
     },
     {
       "@type": "Organization",
@@ -198,18 +213,28 @@
       "@type": "Person",
       "@id": "{{ site.url }}/#/schema/author",
       "name": "{{ site.author.name }}",
-      "knowsAbout": "{{ site.author.about }}",
+      {% if site.author.about %}
+        {% assign abouts = site.author.about | split: "," %}
+        "knowsAbout": [
+        {% for about in abouts %}
+          "{{ about | strip }}"{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+        ],
+      {% endif %}
       {% assign names = site.author.name | split: " " %}
       "givenName": "{{ names[0] }}",
       "familyName": "{{ names[1] }}",
-      "jobTitle": "Конгнитивно-поведенческий психотерапевт, клинический психолог",
+      "jobTitle": "{{ site.author.about }}",
       "image": {
           "@type": "ImageObject",
-          "url": "{{ site.url }}/assets/images/illustrations/about-photo-1.webp",
-          "contentUrl": "{{ site.url }}/assets/images/illustrations/about-photo-1.webp",
-          "width": 1200,
-          "height": 1524,
-          "caption": "{{ site.author.name }} - {{ site.author.about }}"
+          "inLanguage": "ru-RU",
+          {% assign about_image = '/assets/images/illustrations/about-photo-1.webp' %}
+          "url": "{{ site.url }}{{ about_image }}",
+          "width": {% imagesize about_image:width %},
+          "height": {% imagesize about_image:height %},
+          "contentUrl": "{{ site.url }}{{ about_image }}",
+          "caption": "{{ site.author.name }} - {{ site.author.about }}",
+          "encodingFormat": "image/webp"
       },
       "gender": "female",
       "alumniOf": {
@@ -239,7 +264,11 @@
       "uploadDate": "{{ page.date | date_to_xmlschema }}",
       "width": 1280,
       "height": 720,
-      "embedUrl": "{{ page.video.url }}",
+      {% if page.video.url | startswith: "/" %}
+        "embedUrl": "{{ site.url }}{{ page.video.url }}",
+      {% else %}
+        "embedUrl": "{{ page.video.url }}",
+      {% endif %}
       "duration": "{{ page.video.duration }}",
       "isFamilyFriendly": true,
       "inLanguage": "ru-RU"
