@@ -14,10 +14,13 @@
                         alt="{{ post.title }}">
 
             </figure>
-            <div class="row mt-3">
+            <div class="row mt-1">
                 <span>
-                    {%- assign arr = post.content | markdownify | | strip | split: "<p>" -%}
-                    {{ arr[1] | remove: "</p>" | strip_html | truncatewords: 50 }}
+                    {% assign post_content = post.content
+                        | strip_html_with_newlines
+                        | newline_to_br
+                    %}
+                    {{ post_content] | truncatewords: 100 }}
                 </span>
             </div>
         </a>
