@@ -6,7 +6,7 @@ description:
   Освещается принцип HRT и методы развязки как альтернативные подходы. Авторы подчеркивают важность индивидуализированного 
   подхода к лечению и потенциал структурированных программ самопомощи.
 category: "Советы и практики"
-image: /assets/img/2024/j-w-Ju-ITc1Cc0w-unsplash.webp
+image: /assets/img/2024/reject-habbits.webp
 ---
 
 {% include image-block.html %}
