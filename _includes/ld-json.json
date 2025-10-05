@@ -264,10 +264,10 @@
       "uploadDate": "{{ page.date | date_to_xmlschema }}",
       "width": 1280,
       "height": 720,
-      {% if page.video.url | startswith: "/" %}
-        "embedUrl": "{{ site.url }}{{ page.video.url }}",
-      {% else %}
+      {% if page.video.url contains "youtube" %}
         "embedUrl": "{{ page.video.url }}",
+      {% else %}
+        "url": "{{ site.url }}{{ page.video.url }}",
       {% endif %}
       "duration": "{{ page.video.duration }}",
       "isFamilyFriendly": true,
