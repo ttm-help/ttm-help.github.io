@@ -8,12 +8,11 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/hC0wmTI_BxI
   duration: PT10M17S
+  vk_url: https://vkvideo.ru/video-211245681_456239093
 image: /assets/img/2025/therapy-and-fear.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239093" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте! Я, Оксана Коновалова, психолог-психотерапевт, специализирующийся на работе с трихотилломанией. 
 Недавно в <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">моем Телеграм-канале</a> одна из подписчиц задала очень важный и честный вопрос:

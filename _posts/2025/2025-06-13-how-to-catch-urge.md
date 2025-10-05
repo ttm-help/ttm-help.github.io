@@ -6,13 +6,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/jsd6DMzDsM0
+  vk_url: https://vkvideo.ru/video-211245681_456239059
   duration: PT3M41S
 image: /assets/img/2025/how-to-catch-ttm-urge.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239059" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 В этом видео я отвечаю на вопросы участников телеграм канала <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">@ttm_help_ru</a>  
 

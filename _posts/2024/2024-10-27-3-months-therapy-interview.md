@@ -7,13 +7,12 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/cMthVAsASlQ
+  vk_url: https://vkvideo.ru/video-211245681_456239027
   duration: PT25M53S
 image: /assets/img/2024/3-months-therapy-interview.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239027" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Я продолжаю делиться с вами вдохновляющими историями моих клиентов. Сегодняшняя героиня — Наталья, которая на протяжении 27 лет жила с трихотилломанией. Её путь, как и у многих, начался в подростковом возрасте на фоне стресса, связанного с переходом в новую школу.
 

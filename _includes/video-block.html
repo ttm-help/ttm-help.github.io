@@ -1,23 +1,54 @@
-<div class="mb-3">
+<div>
     {% if page.video.url contains "youtube" %}
-        <div class="plyr__video-embed"
-             id="player">
-            <iframe
-                    src="{{ page.video.url }}?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
-                    allowfullscreen
-                    allowtransparency
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            ></iframe>
+        <div class="mb-3">
+            <!-- Content -->
+            <div class="tab-content mt-1" id="videoTabsContent">
+                <div class="tab-pane fade show active" id="video1" role="tabpanel" aria-labelledby="video1-tab">
+                    <div class="ratio ratio-16x9">
+                        {% assign params = page.video.vk_url | split: "-" %}
+                        {% assign tokens = params[1] | split: "_" %}
+                        <iframe src="https://vk.com/video_ext.php?oid=-{{ tokens[0] }}&id={{ tokens[1] }}&hd=3" width="1280" height="720"
+                                style="background-color: #000"
+                                allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;"
+                                frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="video2" role="tabpanel" aria-labelledby="video2-tab">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="{{ page.video.url }}" width="1280" height="720"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tabs -->
+            <ul class="nav nav-pills mt-1 mb-0 px-1 justify-content-end" style="list-style: none" id="videoTabs" role="tablist">
+                <li class="nav-item mb-0" role="presentation">
+                    <button class="nav-link active" id="video1-tab" data-bs-toggle="tab" data-bs-target="#video1" type="button" role="tab" aria-controls="video1" aria-selected="true">
+                        ВК видео
+                    </button>
+                </li>
+                <li class="nav-item mb-0" role="presentation">
+                    <button class="nav-link" id="video2-tab" data-bs-toggle="tab" data-bs-target="#video2" type="button" role="tab" aria-controls="video2" aria-selected="false">
+                        Youtube
+                    </button>
+                </li>
+            </ul>
         </div>
     {% else %}
-        <video id="player" playsinline controls >
-            <source src="{{ page.video.url }}" type="video/mp4" />
-        </video>
+        <div class="mb-3">
+            <video id="player" playsinline controls >
+                <source src="{{ page.video.url }}" type="video/mp4" />
+            </video>
+            <script defer>
+                document.addEventListener('DOMContentLoaded', () => {
+                   const player = new Plyr('#player');
+                 });
+            </script>
+        </div>
     {% endif %}
 </div>
-
-<script defer>
-    document.addEventListener('DOMContentLoaded', () => {
-       const player = new Plyr('#player');
-     });
-</script>

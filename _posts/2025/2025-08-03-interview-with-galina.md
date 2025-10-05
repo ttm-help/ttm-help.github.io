@@ -6,13 +6,12 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/nK84f8l7wMI
+  vk_url: https://vkvideo.ru/video-211245681_456239071
   duration: PT5M38S
 image: /assets/img/2025/interview-with-galina.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239071" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте! Я — Оксана Коновалова, психолог и психотерапевт.
 

@@ -8,6 +8,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
     url: https://www.youtube.com/embed/w_UiW3XO_KY
+    vk_url: https://vkvideo.ru/video-211245681_456239023
     duration: PT29M56S
 image: /assets/img/2024/interview-about-fear.webp
 ---
@@ -19,8 +20,6 @@ image: /assets/img/2024/interview-about-fear.webp
 Сегодня своей историей делится Мария. Она страдала трихотилломанией с подросткового возраста и прошла 6-месячный курс терапии. В этом интервью она откровенно рассказывает о своем пути, о давлении со стороны окружающих и о том, как она научилась справляться со страхом возвращения болезни.
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239023" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Ключевые моменты интервью с Марией
 

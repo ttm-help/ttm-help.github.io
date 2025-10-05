@@ -7,6 +7,7 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/AqT5VGvIx2g
+  vk_url: https://vkvideo.ru/video-211245681_456239090
   duration: PT6M58S
 image: /assets/img/2025/trichotillomania-and-ktp.webp
 ---
@@ -43,7 +44,5 @@ image: /assets/img/2025/trichotillomania-and-ktp.webp
 Надеюсь, эта статья была для вас полезной. Для более подробного разбора темы приглашаю вас посмотреть мое полное видео: 
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239090" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 И, конечно, подписывайтесь на <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank"> мой Telegram-канал</a>, чтобы не пропустить новые полезные материалы!

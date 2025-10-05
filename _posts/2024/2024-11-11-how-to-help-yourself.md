@@ -7,13 +7,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/Gbai5lqNoRQ
+  vk_url: https://vkvideo.ru/video-211245681_456239030
   duration: PT25M26S
 image: /assets/img/2024/how-to-help-yourself.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239030" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте!
 

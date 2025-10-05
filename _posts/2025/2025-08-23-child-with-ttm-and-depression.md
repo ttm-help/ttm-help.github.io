@@ -7,13 +7,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/we2DH8FpTwU
+  vk_url: https://vkvideo.ru/video-211245681_456239076
   duration: PT4M08S
 image: /assets/img/2025/child-ttm-depression.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239076" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 В этом видео я, Оксана Коновалова, психолог, специализирующийся на трихотилломании, отвечаю на вопросы участников моего <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">Telegram-канала</a>, а именно родителей детей с трихотилломанией. 
 Это видео является продолжением моего предыдущего видео о [трихотилломании у подростков]({% link _posts/2025/2025-08-19-therapy-for-parents.md %}).

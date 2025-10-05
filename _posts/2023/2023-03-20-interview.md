@@ -6,6 +6,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
     url: https://www.youtube.com/embed/HUt5DaaKcj4
+    vk_url: https://vkvideo.ru/video-211245681_456239020
     duration: PT47M8S
 image: /assets/img/2024/interview-thumbnail-1.webp
 ---
@@ -15,8 +16,6 @@ image: /assets/img/2024/interview-thumbnail-1.webp
 В этом интервью Виктория откровенно рассказывает, что ей помогло, а что оказалось пустой тратой времени.
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239020" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Поиски решения: от гипноза до гештальт-терапии
 

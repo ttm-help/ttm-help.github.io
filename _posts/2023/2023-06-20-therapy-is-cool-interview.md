@@ -6,6 +6,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
     url: https://www.youtube.com/embed/_hKjbcJTpJQ
+    vk_url: https://vkvideo.ru/video-211245681_456239021
     duration: PT32M15S
 image: /assets/img/2024/interview-thumbnail-3.webp
 ---
@@ -15,8 +16,6 @@ image: /assets/img/2024/interview-thumbnail-3.webp
 Это вдохновляющее интервью — для всех, кто ищет работающий метод лечения.
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239021" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Почему обычная психотерапия не помогала?
 

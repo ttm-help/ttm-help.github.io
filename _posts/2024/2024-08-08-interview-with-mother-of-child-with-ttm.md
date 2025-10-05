@@ -6,6 +6,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/roqILlDYMTM
+  vk_url: https://vkvideo.ru/video-211245681_456239024
   duration: PT1H3M
 image: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.webp
 ---
@@ -15,8 +16,6 @@ image: /assets/img/2024/interview-thumbnail-mother-with-ttm-child.webp
 Сегодня мы беседуем с Екатериной — мамой, которая столкнулась с этой проблемой и нашла нестандартное, но очень эффективное решение.
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239024" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### От отчаяния к действию: история Екатерины
 

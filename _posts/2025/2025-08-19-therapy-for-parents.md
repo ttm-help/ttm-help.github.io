@@ -7,13 +7,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/Dwu58xzGLAQ
+  vk_url: https://vkvideo.ru/video-211245681_456239075
   duration: PT5M22S
 image: /assets/img/2025/therapy-for-parents.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239075" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Приветствую всех!
 

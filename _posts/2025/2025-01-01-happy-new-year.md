@@ -6,13 +6,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/4ylPTUyyMy4
+  vk_url: https://vkvideo.ru/video-211245681_456239031
   duration: PT20M55S
 image: /assets/img/2025/happy-new-year-2025.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239031" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 2:02 - ваша история с ТТМ  
 3:30 - уровень окружения: как трихотилломания выражается в реальном мире материально  

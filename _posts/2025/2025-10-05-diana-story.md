@@ -7,6 +7,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/GEbesyLcoxY
+  vk_url: https://vkvideo.ru/video-211245681_456239094
   duration: PT17M07S
 image: /assets/img/2025/diana-story.webp
 ---
@@ -17,8 +18,6 @@ image: /assets/img/2025/diana-story.webp
 и ее опыт может стать поддержкой для многих, кто сталкивается с похожими трудностями.
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239094" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ## С чего все началось?
 

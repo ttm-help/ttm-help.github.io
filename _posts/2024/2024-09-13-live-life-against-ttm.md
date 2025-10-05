@@ -6,6 +6,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/ZJiY19sTVo4
+  vk_url: https://vkvideo.ru/video-211245681_456239025
   duration: PT25M15S
 image: /assets/img/2024/interview-anastasia-ufa.webp
 ---
@@ -18,7 +19,6 @@ image: /assets/img/2024/interview-anastasia-ufa.webp
 Это не просто интервью, это источник вдохновения для каждого, кто столкнулся с ТТМ.
 
 {% include video-block.html %}
-<a href="https://vkvideo.ru/video-211245681_456239025" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Главные выводы из истории Анастасии
 

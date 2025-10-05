@@ -7,13 +7,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/0DSO_fjSrhY
+  vk_url: https://vkvideo.ru/video-211245681_456239077
   duration: PT5M22S
 image: /assets/img/2025/child-rejects-therapy.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239077" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 В этом видео я, Оксана Коновалова, психолог и психотерапевт, специализирующийся на трихотилломании, отвечаю на вопросы о помощи подросткам с трихотилломанией, которые неохотно обращаются к терапии из-за скептицизма.
 

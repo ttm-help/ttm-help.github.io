@@ -8,12 +8,11 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/JmdO8Aol3YM
   duration: PT40M7S
+  vk_url: https://vkvideo.ru/video-211245681_456239055
 image: /assets/img/2025/what-parents-should-do.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239055" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 **Таймкоды**:   
 1:15 - базовая информация о подростковом возрасте  

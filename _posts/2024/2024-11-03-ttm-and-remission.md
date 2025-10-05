@@ -6,13 +6,12 @@ category: "Что такое трихотилломания?"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/6uUeNdpgwT8
+  vk_url: https://vkvideo.ru/video-211245681_456239028
   duration: PT26M58S
 image: /assets/img/2024/ttm-and-remission.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239028" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Здравствуйте! Я — Коновалова Оксана, психолог и психотерапевт, специализирующийся на трихотилломании. В этом видео я расскажу, почему я не использую концепцию ремиссии в отношении трихотилломании.
 

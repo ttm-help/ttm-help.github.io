@@ -8,13 +8,11 @@ tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/kBi6U0QK7lY
   duration: PT5M22S
+  vk_url: https://vkvideo.ru/video-211245681_456239078
 image: /assets/img/2025/child-rejects-therapy-2.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239078" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
-
 
 Здравствуйте! В этом видео я, Оксана Коновалова, психолог, специализирующийся на трихотилломании, отвечаю на вопросы моих подписчиков из <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">Telegram-канала</a>, 
 и сегодня мы уделим особое внимание подросткам с этим состоянием.

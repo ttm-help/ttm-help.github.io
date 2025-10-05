@@ -6,13 +6,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
     url: https://www.youtube.com/embed/EyZ2PkcPY8w
+    vk_url: https://vkvideo.ru/video-211245681_456239019
     duration: PT10M23S
 image: /assets/img/2024/duration-of-ttm.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239019" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Пожалуй, самый популярный вопрос на диагностических консультациях - вопрос о сроках терапии.
 В связи с этим я решила осветить его достаточно подробно.  

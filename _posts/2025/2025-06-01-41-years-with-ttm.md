@@ -6,13 +6,12 @@ category: "Советы и практики"
 tags: ["youtube"]
 video:
   url: https://www.youtube.com/embed/LsOSdVA13oA
+  vk_url: https://vkvideo.ru/video-211245681_456239060
   duration: PT4M42S
 image: /assets/img/2025/41-years-with-ttm.webp
 ---
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239060" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 Отвечаю на вопросы участников <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">телеграм канала</a>: разбираю деструктивную мысль, 
 которая мешает нам работать с трихотилломанией, 

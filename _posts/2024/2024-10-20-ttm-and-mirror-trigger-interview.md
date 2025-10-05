@@ -6,6 +6,7 @@ category: "Истории выздоровления"
 tags: ["youtube", "interview"]
 video:
   url: https://www.youtube.com/embed/-A0E9MVgIug
+  vk_url: https://vkvideo.ru/video-211245681_456239026
   duration: PT34M3S
 image: /assets/img/2024/ttm-and-mirror-interview.webp
 ---
@@ -16,8 +17,6 @@ image: /assets/img/2024/ttm-and-mirror-interview.webp
 В интервью она рассказывает, как простой взгляд на свое отражение превращался в многочасовые эпизоды ТТМ и что помогло ей изменить эту реакцию.
 
 {% include video-block.html %}
-
-<a href="https://vkvideo.ru/video-211245681_456239026" rel="nofollow" target="_blank">Ссылка на ВК Видео</a>
 
 ### Как зеркало становится врагом?
 
