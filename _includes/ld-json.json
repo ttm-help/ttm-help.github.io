@@ -114,7 +114,7 @@
         "width": {% imagesize page.image:width %},
         "height": {% imagesize page.image:height %},
       {% else %}
-        {% assign logo_path = "/assets/images/logo/ttm-help-logo-1.jpg" %}
+        {% assign logo_path = "/assets/images/logo/ttm-help-logo.jpg" %}
         "url": "{{ site.url }}{{ logo_path }}",
         "contentUrl": "{{ site.url }}{{ logo_path }}",
         "width": {% imagesize logo_path:width %},
@@ -181,7 +181,7 @@
     "@type": "ImageObject",
     "inLanguage": "ru-RU",
     "@id": "{{ site.url }}/#/schema/logo/image/",
-    {% assign logo_path = '/assets/images/logo/ttm-help-logo-1.jpg' %}
+    {% assign logo_path = '/assets/images/logo/ttm-help-logo.jpg' %}
     "url": "{{ site.url }}{{ logo_path }}",
     "contentUrl": "{{ site.url }}{{ logo_path }}",
     "width": {% imagesize logo_path:width %},
