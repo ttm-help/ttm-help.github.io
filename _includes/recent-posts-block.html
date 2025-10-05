@@ -16,11 +16,7 @@
             </figure>
             <div class="row mt-1">
                 <span>
-                    {% assign post_content = post.content
-                        | strip_html_with_newlines
-                        | newline_to_br
-                    %}
-                    {{ post_content] | truncatewords: 100 }}
+                    {{ post.description }}
                 </span>
             </div>
         </a>
