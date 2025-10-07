@@ -10,7 +10,7 @@ permalink: /feedback.html
 <div class="container pb-2 pt-md-5 pt-1 pb-md-4">
     <div class="content mb-5">
         <div class="row">
-            <h1>
+            <h1 class="mb-0">
                 Отзывы людей, кто вылечился от трихотилломании
             </h1>
         </div>

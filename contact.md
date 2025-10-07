@@ -15,7 +15,9 @@ image: /assets/img/2024/contact-form.webp
             Ниже вы можете ознакомиться с моими услугами и их стоимостью, а также выбрать подходящий формат работы.</p>
         </div>
 
-        {% include author-info.html %}
+        <div class="mb-3">
+            {% include author-info.html %}
+        </div>        
 
         <div class="card mb-4 bg-white">
             {% include prices.html %}

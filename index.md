@@ -54,7 +54,7 @@ image: /assets/img/2024/main-page-image.webp
                        rel="nofollow"
                        target="_blank"
                        class="button btn-primary button-shadow rounded-3"
-                       style="background-color: #56bcec">
+                       style="background-color: #189edc">
                         <img alt="Телеграм канал при трихотилломании (ТТМ)"
                              title="Телеграм канал посвященный трихотилломании и о том, как с нею бороться"
                              width="21"

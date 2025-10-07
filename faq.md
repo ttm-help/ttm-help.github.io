@@ -149,6 +149,8 @@ permalink: /faq.html
                 </div>
             </div>
         </div>
-        {% include author-info.html %}
+        <div class="mb-5">
+            {% include author-info.html %}
+        </div>
     </div>
 </div>
