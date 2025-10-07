@@ -267,7 +267,7 @@
       {% if page.video.url contains "youtube" %}
         "embedUrl": "{{ page.video.url }}",
       {% else %}
-        "url": "{{ site.url }}{{ page.video.url }}",
+        "contentUrl": "{{ site.url }}{{ page.video.url }}",
       {% endif %}
       "duration": "{{ page.video.duration }}",
       "isFamilyFriendly": true,
