@@ -22,8 +22,8 @@
             {% for post in sorted_posts limit:4 %}
                 <div class="col-md-3">
                    <a href="{{ post.url }}" class="text-reset">
-                       <img src="{{ post.image }}" title="{{post.title}}" alt="{{post.description}}">
-                       <h5>{{ post.title | smartify }}</h5>
+                       <img src="{{ post.image }}" title="{{post.title}}" alt="{{ post.description | smartify }}">
+                       <span class="h5">{{ post.title | smartify }}</span>
                    </a>
                 </div>
             {% endfor %}
