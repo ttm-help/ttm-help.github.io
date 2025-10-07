@@ -3,11 +3,13 @@
         <div class="d-flex gap-2">
             <div class="logo-mobile d-block">
                 <a href="{{ site.url | relative_url }}">
-                    <img width="40"
-                         height="40"
+                    <img style="aspect-ratio:1/1; height:100%"
                          alt="{{ site.title }}"
                          title="Сайт о лечении трихотилломании"
-                         src="{{ site.logo.mobile | relative_url }}"></a>
+                         src="{{ site.logo.mobile | relative_url }}"
+                         fetchpriority="high"
+                         loading="eager"
+                    ></a>
             </div>
             <div class="logo pr-1 pl-2 desktop-mode">
                 <a href="{{ site.url | relative_url }}">
