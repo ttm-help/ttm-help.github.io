@@ -18,7 +18,7 @@ layout: default
                       {% endfor %}
                   </ol>
               </nav>
-              <h1 class="title mb-1">{{page.title}}</h1>
+              <h1 class="title mb-1">{{page.title | smartify }}</h1>
               <span class="badge text-bg-info text-white mb-1">
                 {% include article-info.html %}
               </span>

@@ -259,7 +259,7 @@
       "isPartOf": {
         "@id": "{{ page_path }}#article"
       },
-      "thumbnailUrl": "{{site.url}}{{ page.video.image | default: page.image }}",
+      "thumbnailUrl": "{{site.url}}{{ page.image }}",
       "description": {{ page.description | default: site.description | jsonify }},
       "uploadDate": "{{ page.date | date_to_xmlschema }}",
       "width": 1280,

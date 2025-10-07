@@ -15,8 +15,8 @@
             {% assign youtube_thumbnail = page.video.url | split: "/" | last | split: "." | last %}
             <link rel="preload" as="image" href="https://i.ytimg.com/vi/{{ youtube_thumbnail }}/maxresdefault.jpg" fetchpriority="high">
         {% endif %}
-        {% if page.video.image %}
-            <link rel="preload" href="{{ page.video.image | default: page.image }}" fetchpriority="high">
+        {% if page.image %}
+            <link rel="preload" href="{{ page.image }}" fetchpriority="high">
         {% endif %}
         {% if page.url == "/" %}
             <link rel="preconnect" href="https://cdn.plyr.io">
