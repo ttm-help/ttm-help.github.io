@@ -1,20 +1,19 @@
 .mobile-footer-menu {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    padding-bottom: env(safe-area-inset-bottom);
 
-  position: sticky;
-  bottom: 0;
+    height: 55px;
+    background: $white;
 
-  height: 50px;
-  background: $white;
-
-  @include media-breakpoint-up(xl) {
-    display: none;
-    height: auto;
-    img {
-      display: none;
+    @include media-breakpoint-up(xl) {
+        display: none;
+        height: auto;
+        img {
+          display: none;
+        }
     }
-  }
-
-  .selected-item {
-    border-bottom: 5px solid $primary;
-  }
 }

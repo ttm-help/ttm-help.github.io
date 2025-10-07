@@ -60,10 +60,8 @@
                     </div>
                 </div>
             </div>
-
-            <div class="row mb-1" style="font-size: smaller;
-                                border-color: white;
-                                border-top: solid 1px">
+            <hr class="border-white border-3 opacity-75">
+            <div class="row mb-1">
                 <div class="col-sm-4 py-3">
                     © 2022 - {{ site.time | date: '%Y' }} TTM HELP
                 </div>
@@ -83,49 +81,76 @@
 </div>
 
 <div class="mobile-footer-menu d-flex justify-content-around align-items-center mb-1 mb-md-0">
-    <a href="/" aria-label="сайт о лечении трихотилломании">
-        <img src="/assets/images/menu/index.svg"
-             width="30" height="30"
-             class="mb-1 mt-1"
-             title="Вернуться на сайт о трихотилломании"
-             alt="Сайт лечение трихотилломании">
+    <a href="{% link about.md %}" aria-label="Коновалова Оксана - психолог, психотерапевт">
+        <div class="col">
+            <div class="row">
+                <img src="/assets/images/menu/index.svg"
+                     width="30" height="30"
+                     class="mb-1 mt-1"
+                     title="Вернуться на сайт о трихотилломании"
+                     alt="Сайт лечение трихотилломании">
+            </div>
 
-        {% if page.url == '/' %}
-            <div class="selected-item"></div>
-        {% endif %}
+            <div class="row">
+                <span class="font-monospace text-black" style="font-size: 0.75rem;">
+                    обо мне
+                </span>
+            </div>
+        </div>
     </a>
     <a href="https://t.me/ttm_help_ru"
        aria-label="группа помощи в телеграм"
        target="_blank"
        rel="noopener noreferrer nofollow">
-        <img src="/assets/images/menu/telegram.svg"
-             width="30" height="30"
-             class="mb-1 mt-1"
-             title="Перейти в группа помощи при трихотилломании в телеграм"
-             alt="Группа помощи при трихотилломании в телеграм">
+        <div class="col">
+            <div class="row">
+                <img src="/assets/images/menu/telegram.svg"
+                     width="30" height="30"
+                     class="mb-1 mt-1"
+                     title="Перейти в группа помощи при трихотилломании в телеграм"
+                     alt="Группа помощи при трихотилломании в телеграм">
+            </div>
+
+            <div class="row">
+                <span class="font-monospace text-black" style="font-size: 0.75rem;">
+                    телеграм
+                </span>
+            </div>
+        </div>
     </a>
     <a href="{% link contact.md %}"
        aria-label="страница с контактами">
-        <img src="/assets/images/menu/write.svg"
-             width="30" height="30"
-             class="mb-1 mt-1"
-             title="Посмотреть информацию о психологе"
-             alt="Записаться на консультацию при трихотилломании">
+        <div class="col">
+            <div class="row">
+                <img src="/assets/images/menu/write.svg"
+                     width="30" height="30"
+                     class="mb-1 mt-1"
+                     title="Посмотреть информацию о психологе"
+                     alt="Записаться на консультацию при трихотилломании">
+            </div>
 
-        {% if page.url == '/contact.html' %}
-            <div class="selected-item"></div>
-        {% endif %}
+            <div class="row">
+                    <span class="font-monospace text-black" style="font-size: 0.75rem;">
+                        написать
+                    </span>
+            </div>
+        </div>
     </a>
     <a href="{% link faq.md %}"
        aria-label="страница с часто задаваемыми вопросами и ответы на них">
-        <img src="/assets/images/menu/question.svg"
-             width="30" height="30"
-             class="mb-1 mt-1"
-             title="Ответа на ваши вопросы о трихотилломании"
-             alt="Часто задаваемые вопросы о трихотилломании">
-
-        {% if page.url == '/faq.html' %}
-            <div class="selected-item"></div>
-        {% endif %}
+        <div class="col">
+            <div class="row">
+                <img src="/assets/images/menu/question.svg"
+                     width="30" height="30"
+                     class="mb-1 mt-1"
+                     title="Ответа на ваши вопросы о трихотилломании"
+                     alt="Часто задаваемые вопросы о трихотилломании">
+            </div>
+            <div class="row">
+                <span class="font-monospace text-black" style="font-size: 0.75rem;">
+                    вопросы
+                </span>
+            </div>
+        </div>
     </a>
 </div>
