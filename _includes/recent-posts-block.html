@@ -5,13 +5,13 @@
     <div class="row mb-3">
         <a href="{{ post.url }}" class="text-reset">
             <div class="row">
-                <span class="h4">{{ post.title }}</span>
+                <span class="h4">{{ post.title | smartify }}</span>
             </div>
             <figure class="figure mt-1">
                 <img
                         src="{{ post.image }}"
                         class="rounded m-0"
-                        alt="{{ post.title }}">
+                        alt="{{ post.title | smartify }}">
 
             </figure>
             <div class="row mt-1">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="row">
                     <a href="{{ post.url }}" class="text-reset">
-                        <p class="h6">{{ post.title }}</p>
+                        <p class="h6">{{ post.title | smartify }}</p>
                     </a>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         <img
                                 src="{{ post.image }}"
                                 class="rounded m-0"
-                                alt="{{ post.title }}">
+                                alt="{{ post.title | smartify }}">
                     </figure>
                 </a>
             </div>
