@@ -105,10 +105,8 @@
             });
         </script>
     {% else %}
-        <div class="mb-3">
-            <video id="player" playsinline controls
-                   style="max-width:100%; aspect-ratio: 16/9;"
-                   width="1920" height="1080">
+        <div class="mb-3" style="aspect-ratio:16/9;">
+            <video id="player" playsinline controls>
                 <source src="{{ page.video.url }}" type="video/mp4" />
             </video>
             <script defer>
