@@ -228,7 +228,7 @@
       "image": {
           "@type": "ImageObject",
           "inLanguage": "ru-RU",
-          {% assign about_image = '/assets/images/illustrations/about-photo-1.webp' %}
+          {% assign about_image = site.author.image %}
           "url": "{{ site.url }}{{ about_image }}",
           "width": {% imagesize about_image:width %},
           "height": {% imagesize about_image:height %},

@@ -5,13 +5,35 @@ description: Помогаю при трихотилломании, тревож�
 is_about: "true"
 permalink: /about.html
 date: 2022-12-10
-image: /assets/images/illustrations/about-photo-1.webp
+image: /assets/images/illustrations/about-photo.webp
+
+certificates:
+  - key: assets/images/certificates/0.webp
+    value: диплом о профессиональной переподготовке по программе когнитивно-поведенческая терапия
+  - key: assets/images/certificates/1.webp
+    value: диплом юридического психолога
+  - key: assets/images/certificates/2.webp
+    value: удостоверение о повышении квалификации по психологическому консультированию родителей
+  - key: assets/images/certificates/3.webp
+    value: удостоверение о повышении квалификации по библиотерапии в работе в детьми
+  - key: assets/images/certificates/4.webp
+    value: сертификат по коучингу ICF
+  - key: assets/images/certificates/5.webp
+    value: сертификат о прохождении программы Ирвин Ялом и искусство психотерапии
+  - key: assets/images/certificates/6.webp
+    value: техника эмоциональной свободы
+  - key: assets/images/certificates/7.webp
+    value: сертификат о прохождении программы ACT in action
+  - key: assets/images/certificates/8.webp
+    value: сертификат о прохождении программы групповая терапия
+  - key: assets/images/certificates/9.webp
+    value: сертификат о прохождении программы типы организации личности
 ---
 
 <picture class="ml-sm-3 mb-sm-3 mt-sm-0">
     <source media="(min-width:720px)"
             width="1200" height="1524"
-            srcset="/assets/images/illustrations/about-photo-1.webp">
+            srcset="/assets/images/illustrations/about-photo.webp">
     <img src="/assets/images/illustrations/about-photo-mobile.webp"
          alt=">" width="1000" height="739"
          title="{{ site.description }}"
@@ -85,54 +107,14 @@ image: /assets/images/illustrations/about-photo-1.webp
 - ACT in Action by Steven C.Hayes (Newpsy education)  
 
 <div class="row">
-    <div class="col-md-3">
-        <a href="assets/images/certificates/0.webp">
-            <img src="assets/images/certificates/0.webp" alt="когнитивно-поведенческая терапия" width="1280" height="960">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/1.webp">
-            <img src="assets/images/certificates/1.webp" alt="диплом юридический психолог" height="1294" width="1796">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/2.webp">
-            <img src="assets/images/certificates/2.webp" alt="психологическое консультирование родителей" width="1734" height="1206">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/3.webp">
-            <img src="assets/images/certificates/3.webp" alt="библиотерапия в работе в детьми" height="1258" width="1744">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/4.webp">
-            <img src="assets/images/certificates/4.webp" alt="сертификат по коучингу" width="1280" height="960">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/5.webp">
-            <img src="assets/images/certificates/5.webp" alt="сертификат искусство психотерапии" width="905" height="1280">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/6.webp">
-                <img src="assets/images/certificates/6.webp" alt="техника эмоциональной свободы" width="1972" height="1406">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/7.webp">
-            <img src="assets/images/certificates/7.webp" alt="сертификат ACT" height="1280" width="905">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/8.webp">
-            <img src="assets/images/certificates/8.webp" alt="сертификат групповая терапия" height="1280" width="905">
-        </a>
-    </div>
-    <div class="col-md-3">
-        <a href="assets/images/certificates/9.webp">
-            <img src="assets/images/certificates/9.webp" alt="сертификат типы организации личности" height="1522" width="1070">
-        </a>
-    </div>
+    {% for item in page.certificates %}
+        <div class="col-md-3">
+            <a href="{{ item.key }}">
+                <img src="{{ item.key }}" loading="lazy"
+                     alt="{{ item.value }}"
+                     width="{% imagesize item.key:width %}"
+                     height="{% imagesize item.key:height %}">
+            </a>
+        </div>
+    {% endfor %}
 </div>
