@@ -43,7 +43,7 @@ permalink: /test.html
             </p>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn m-2" style="background-color: #f36a5d; color: white"  data-bs-dismiss="modal">Понятно</button>
+            <button type="button" class="btn" style="background-color: #f36a5d; color: white"  data-bs-dismiss="modal">Понятно</button>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ permalink: /test.html
     </div>
     
     <div id='quiz' class="mb-1"></div>
-    <div class="pt-1" id='next'>
+    <div class="py-5" id='next'>
         <a href="#" class="button button-shadow button-post d-block rounded-3">
             Далее
         </a>

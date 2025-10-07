@@ -38,7 +38,7 @@ image: /assets/img/2024/main-page-image.webp
             </p>
         </div>
         <div class="row my-3 justify-content-center">
-            <div class="col-12 col-md-6 mb-2 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
                 <a href="{% link contact.md %}"
                         class="button btn-primary button-shadow rounded-3">
                         <img alt="Онлайн помощь при трихотилломании"
@@ -49,7 +49,7 @@ image: /assets/img/2024/main-page-image.webp
                         <span>Записаться на консультацию</span>
                 </a>
             </div>
-            <div class="col-12 col-md-6 mb-2 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
                 <a href="https://t.me/ttm_help_ru"
                        rel="nofollow"
                        target="_blank"
@@ -66,7 +66,7 @@ image: /assets/img/2024/main-page-image.webp
         </div>
     </div>
 
-    <div class="stripe content mt-5">
+    <div class="stripe content mt-3">
         <div class="row">
             <h2 class="custom-header">Что такое трихотилломания и как она проявляется?</h2>
             <p>
@@ -241,7 +241,7 @@ image: /assets/img/2024/main-page-image.webp
             </div>
         </div>
         <div class="row my-3 justify-content-center">
-            <div class="col-12 col-md-6 mb-2 d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-6 mb-5 d-flex justify-content-center align-items-center">
                 <a href="{% link contact.md %}"
                         class="button btn-primary button-shadow rounded-3">
                         <img alt="Онлайн помощь при трихотилломании"

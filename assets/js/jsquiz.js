@@ -250,7 +250,7 @@ function questionFunction() {
             id: 'question'
         });
 
-        const header = $(`<h4>${QUESTIONS[index].title}</h4>`);
+        const header = $(`<h3>${QUESTIONS[index].title}</h3>`);
         qElement.append(header);
 
         const question = $('<p>').append(QUESTIONS[index].question);
@@ -263,11 +263,11 @@ function questionFunction() {
     }
 
     function createRadios(index) {
-        const radioList = $('<ul>');
+        const radioList = $('<div>');
         let item;
         let input = '';
         for (let i = 0; i < QUESTIONS[index].choices.length; i++) {
-            item = $('<li class="list-unstyled mt-1">');
+            item = $('<div class="py-2">');
             radioList.append(item);
             nestedBlock = $('<div class="form-check">');
             item.append(nestedBlock);

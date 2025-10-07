@@ -4,7 +4,7 @@
             <div class="row mb-1">
                 <div class="col-12 col-md-4 mb-1">
                     <div class="row align-items-center">
-                        <div class="col-auto mt-1">
+                        <div class="col-auto mt-3">
                             <a href="/" aria-label="Лечении трихотилломании">
                                 <img width="60"
                                      height="60"
@@ -13,8 +13,8 @@
                                      src="{{ site.logo.mobile | relative_url }}">
                             </a>
                         </div>
-                        <div class="col-auto mt-1">
-                            <div class="row mb-1">
+                        <div class="col-auto mt-3">
+                            <div class="row mb-3">
                                 <span class="d-block">КОНОВАЛОВА ОКСАНА</span>
                                 <span class="d-block">Когнитивно-поведенческий психотерапевт, клинический психолог</span>
                             </div>
@@ -26,11 +26,11 @@
                 </div>
                 <div class="col-12 col-md-3 social">
                     <div class="row">
-                        <div class="col mt-1">
+                        <div class="col mt-4">
                             {% assign categories = site.data.categories.list %}
                             <ul style="padding-left: 1.3rem">
                                 {% for category in categories %}
-                                    <li class="pb-1">
+                                    <li class="pb-3">
                                         <a href="{{ category.url | relative_url }}">{{ category.name }}</a>
                                     </li>
                                 {% endfor %}
@@ -39,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-5 social">
-                    <div class="row mt-1">
+                    <div class="row mt-3 mb-3">
                         {% for item in site.data.social %}
                         <div class="col">
                             <a href="{{ item.link }}"
@@ -51,7 +51,7 @@
                                      height="20"
                                      width="20"
                                      src="{{ item.image | relative_url }}"
-                                     title="{{ item.description }}"
+                                     alt="{{ item.description }}"
                                 >
                                 <span class="d-inline-block">{{ item.name }}</span>
                             </a>
@@ -64,16 +64,16 @@
             <div class="row mb-1" style="font-size: smaller;
                                 border-color: white;
                                 border-top: solid 1px">
-                <div class="col-sm-4 pt-2 pt-sm-1">
+                <div class="col-sm-4 py-3">
                     © 2022 - {{ site.time | date: '%Y' }} TTM HELP
                 </div>
-                <div class="col-sm-4 pt-2 pt-sm-1 text-md-center">
-                    <a class="d-inline mr-1" href="/assets/docs/privacy-policy.pdf" rel="nofollow" target="_blank">
+                <div class="col-sm-4 py-3 text-md-center">
+                    <a class="d-inline mr-1 text-decoration-none" href="/assets/docs/privacy-policy.pdf" rel="nofollow" target="_blank">
                         Политика конфиденциальности
                     </a>
                 </div>
-                <div class="col-sm-4 pt-2 pt-sm-1 text-md-end">
-                    <a class="d-inline" href="/assets/docs/user-agreement.pdf" rel="nofollow" target="_blank">
+                <div class="col-sm-4 py-3 text-md-end">
+                    <a class="d-inline text-decoration-none" href="/assets/docs/user-agreement.pdf" rel="nofollow" target="_blank">
                         Пользовательское соглашение
                     </a>
                 </div>

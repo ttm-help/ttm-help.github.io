@@ -15,15 +15,15 @@
 
             </figure>
             <div class="row mt-1">
-                <span>
+                <p class="content">
                     {{ post.description }}
-                </span>
+                </p>
             </div>
         </a>
     </div>
 </div>
 <div class="col">
-    <div class="row mb-1">
+    <div class="row mb-3">
         <span class="fs-5 fw-bold">Последние записи:</span>
     </div>
 
@@ -32,7 +32,7 @@
     {% for post in posts limit:5 offset:1 %}
         <div class="row mb-2">
             <div class="col-8">
-                <div class="row mb-1">
+                <div class="row mb-2">
                     {% assign post_category = post.category %}
                     {% for site_category in site.data.categories.list %}
                         {% if site_category.name == post_category %}
