@@ -8,151 +8,147 @@ permalink: /faq.html
 ---
 
 <div class="container pb-2 pt-md-5 pt-1 pb-md-4">
-    <div class="col-12 content">
-        <div class="row">
-            <div class="faq" itemscope itemtype="https://schema.org/FAQPage">
-                <div class="row">
-                    <h1 itemprop="name" itemtype="https://schema.org/FAQPage">Ответы на вопросы связанные с лечением трихотилломании.</h1>
-                    <p>
-                        Чувство растерянности при столкновении с трихотилломанией — это нормально. Эта страница создана, чтобы внести ясность. 
-                        Здесь в формате «вопрос-ответ» собрана ключевая информация о заболевании, современных методах его лечения и о том, 
-                        как на практике организована терапевтическая работа.
+    <div class="col-12 col-md-8 content">
+        <div class="faq" itemscope itemtype="https://schema.org/FAQPage">
+            <div class="row">
+                <h1>Ответы на вопросы связанные с лечением трихотилломании.</h1>
+                <p>
+                    Чувство растерянности при столкновении с трихотилломанией — это нормально. Эта страница создана, чтобы внести ясность. 
+                    Здесь в формате «вопрос-ответ» собрана ключевая информация о заболевании, современных методах его лечения и о том, 
+                    как на практике организована терапевтическая работа.
+                </p>
+            </div>
+
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Что такое трихотилломания?
+                </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        <strong>Трихотилломания</strong> — это повторяющееся навязчивое действие, при котором человек выдёргивает свои волосы. Это может негативно влиять на качество жизни в социальной, профессиональной и личной сферах, и часто сопровождается безуспешными попытками подавить эти импульсы.<br>
+                        Трихотилломания включена в <strong>МКБ-11</strong> (Одиннадцатый пересмотр Международной классификации болезней), разработанную Всемирной организацией здравоохранения (ВОЗ).<br>
+                        На моем сайте есть подробная статья о <a href="{% link _posts/2022/2022-12-21-trichotillomania.md %}">трихотилломании</a>, где вы можете узнать больше о симптомах, причинах и подходах к терапии.
                     </p>
                 </div>
-
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Что такое трихотилломания?
-                    </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            <strong>Трихотилломания</strong> — это повторяющееся навязчивое действие, при котором человек выдёргивает свои волосы. Это может негативно влиять на качество жизни в социальной, профессиональной и личной сферах, и часто сопровождается безуспешными попытками подавить эти импульсы.<br/>
-                            Трихотилломания включена в <strong>МКБ-11</strong> (Одиннадцатый пересмотр Международной классификации болезней), разработанную Всемирной организацией здравоохранения (ВОЗ).<br/>
-                            На моем сайте есть подробная статья о <a href="{% link _posts/2022/2022-12-21-trichotillomania.md %}">трихотилломании</a>, где вы можете узнать больше о симптомах, причинах и подходах к терапии.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Возможно ли вылечиться от трихотилломании?
+                </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Справиться с трихотилломанией <strong>возможно</strong>.<br>
+                        Если у вас есть сопутствующие психические расстройства, их лечение обычно становится приоритетным в терапии. После этого, при регулярной и последовательной работе с психотерапевтом, можно значительно снизить проявления привычки выдёргивания волос и улучшить качество жизни. Результаты зависят от индивидуальных особенностей и мотивации.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Возможно ли вылечиться от трихотилломании?
-                    </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Справиться с трихотилломанией <strong>возможно</strong>.<br/>
-                            Если у вас есть сопутствующие психические расстройства, их лечение обычно становится приоритетным в терапии. После этого, при регулярной и последовательной работе с психотерапевтом, можно значительно снизить проявления привычки выдёргивания волос и улучшить качество жизни. Результаты зависят от индивидуальных особенностей и мотивации.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Как вылечить трихотилломанию?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Основной способ лечения трихотилломании – психотерапия, в частности когнитивно-поведенческая терапия (КПТ), которая помогает контролировать привычку выдёргивания волос. В сложных ситуациях может назначаться медикаментозная поддержка у психиатра.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Как вылечить трихотилломанию?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Основной способ лечения трихотилломании – психотерапия, в частности когнитивно-поведенческая терапия (КПТ), которая помогает контролировать привычку выдёргивания волос. В сложных ситуациях может назначаться медикаментозная поддержка у психиатра.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Сколько времени занимает терапия при трихотилломании?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Продолжительность терапии индивидуальна и зависит от ряда факторов: уровня организации психики, опыта предыдущей психотерапии, выраженности симптомов ТТМ, наличия сопутствующих проблем и вопросов, которые необходимо проработать. 
+                        В среднем терапия длится от 6 до 12 месяцев. 
+                        <br>
+                        <a href="{% link _posts/2023/2023-10-12-duration-of-therapy.md %}">Смотрите видео</a>, где я подробно рассказываю о сроках психотерапии и этапах работы.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Сколько времени занимает терапия при трихотилломании?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Продолжительность терапии индивидуальна и зависит от ряда факторов: уровня организации психики, опыта предыдущей психотерапии, выраженности симптомов ТТМ, наличия сопутствующих проблем и вопросов, которые необходимо проработать. 
-                            В среднем терапия длится от 6 до 12 месяцев. 
-                            <br/>
-                            <a href="{% link _posts/2023/2023-10-12-duration-of-therapy.md %}">Смотрите видео</a>, где я подробно рассказываю о сроках психотерапии и этапах работы.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Какой у вас опыт/образование?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Подробная информация обо мне, моем образовании и опыте работы доступна на странице <a href="{{'/about.html' | relative_url }}">«Обо мне»</a>.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Какой у вас опыт/образование?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Подробная информация обо мне, моем образовании и опыте работы доступна на странице <a href="{{'/about.html' | relative_url }}">«Обо мне»</a>.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Сколько стоит диагностическая консультация?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Подробную информацию о стоимости диагностической консультации и других услуг вы можете найти на странице <a href="/contact.html">«Стоимость услуг»</a>.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Сколько стоит диагностическая консультация?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Подробную информацию о стоимости диагностической консультации и других услуг вы можете найти на странице <a href="/contact.html">«Стоимость услуг»</a>.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Сколько стоит терапия?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Подробную информацию о стоимости терапии и других услуг вы можете найти на странице <a href="/contact.html">«Стоимость услуг»</a>.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Сколько стоит терапия?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Подробную информацию о стоимости терапии и других услуг вы можете найти на странице <a href="/contact.html">«Стоимость услуг»</a>.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Где проходит терапия?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Я работаю онлайн по всему миру в видео формате, сессии в основном проходят в ZOOM, Google Meet и т.д.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Где проходит терапия?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Я работаю онлайн по всему миру в видео формате, сессии в основном проходят в ZOOM, Google Meet и т.д.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Что необходимо на сессию?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Хороший интернет. Также мне необходимо будет видеть вас желательно до пояса/груди.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Что необходимо на сессию?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Хороший интернет. Также мне необходимо будет видеть вас желательно до пояса/груди.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Как подготовиться к диагностической консультации?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Заполнить анкету и, если понадобится, пройти тесты.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Как подготовиться к диагностической консультации?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Заполнить анкету и, если понадобится, пройти тесты.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Были ли успешные случаи лечения трихотилломании?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Конечно! <br>
+                        Для начала, мой случай является успешным - более 10 лет без возвращения к трихотилломании.<br>
+                        Также есть истории моих клиентов, которые прошли полный курс терапии. Время, необходимое для достижения результата, у каждого разное, но главное — это возможно. <br>
+                        Вы можете посмотреть <a href="/feedback.html">видео-интервью моих пациентов</a> или почитать их отзывы.
+                    </p>
                 </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Были ли успешные случаи лечения трихотилломании?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Конечно! <br/>
-                            Для начала, мой случай является успешным - более 10 лет без возвращения к трихотилломании.<br/>
-                            Также есть истории моих клиентов, которые прошли полный курс терапии. Время, необходимое для достижения результата, у каждого разное, но главное — это возможно. <br/>
-                            Вы можете посмотреть <a href="/feedback.html">видео-интервью моих пациентов</a> или почитать их отзывы.
-                        </div>
-                    </div>
-                </div>
-                <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                    <h2 itemprop="name">
-                        Как с вами связаться?
-                   </h2>
-                    <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                        <div itemprop="text">
-                            Связаться со мной вы можете при помощи контактов на <a href="{{'/contact.html' | relative_url }}">этой странице</a>.
-                        </div>
-                    </div>
+            </div>
+            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
+                <h2 itemprop="name">
+                    Как с вами связаться?
+               </h2>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">
+                        Связаться со мной вы можете при помощи контактов на <a href="{{'/contact.html' | relative_url }}">этой странице</a>.
+                    </p>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="w-100 w-md-75">
         {% include author-info.html %}
     </div>
 </div>

@@ -269,11 +269,11 @@ function questionFunction() {
         for (let i = 0; i < QUESTIONS[index].choices.length; i++) {
             item = $('<div class="py-2">');
             radioList.append(item);
-            nestedBlock = $('<div class="form-check">');
+            nestedBlock = $('<div class="form-check" style="display:flex;align-items:center;">');
             item.append(nestedBlock);
 
-            input = `<input class="form-check-input" type="radio" id="input-${i}" name="answer" value="${QUESTIONS[index].choices[i].score}" >`;
-            input += `<label class="form-check-label" for="input-${i}" class="d-inline pl-1">${QUESTIONS[index].choices[i].text}</label>`;
+            input = `<input class="form-check-input" style="margin-top:0;margin-right:.5rem;" type="radio" id="input-${i}" name="answer" value="${QUESTIONS[index].choices[i].score}" >`;
+            input += `<label class="form-check-label" style="margin-bottom:0;" for="input-${i}" class="d-inline pl-1">${QUESTIONS[index].choices[i].text}</label>`;
             nestedBlock.append(input);
         }
         return radioList;

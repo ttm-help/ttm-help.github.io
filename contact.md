@@ -7,24 +7,22 @@ permalink: /contact.html
 image: /assets/img/2024/contact-form.webp
 ---
 
-<div class="container">
-    <div class="row justify-content-start">
-        <div class="col-12 col-md-8  mb-5">
-            <div class="row mt-4 mb-0">
-                <h1>Онлайн помощь при трихотилломании</h1>
-                <p>Я оказываю поддержку людям с трихотилломанией онлайн, помогая контролировать привычку выдёргивания волос и справляться с сопутствующей тревожностью. 
-                Ниже вы можете ознакомиться с моими услугами и их стоимостью, а также выбрать подходящий формат работы.</p>
-            </div>
+<div class="container pb-2 pt-md-5 pt-1 pb-md-4">
+    <div class="col-12 col-md-8 content">
+        <div class="row mb-0">
+            <h1>Онлайн помощь при трихотилломании</h1>
+            <p>Я оказываю поддержку людям с трихотилломанией онлайн, помогая контролировать привычку выдёргивания волос и справляться с сопутствующей тревожностью. 
+            Ниже вы можете ознакомиться с моими услугами и их стоимостью, а также выбрать подходящий формат работы.</p>
+        </div>
 
-            {% include author-info.html %}
+        {% include author-info.html %}
 
-            <div class="card mb-4 bg-white">
-                {% include prices.html %}
-            </div>
+        <div class="card mb-4 bg-white">
+            {% include prices.html %}
+        </div>
 
-            <div class="card">
-                {% include call.html %}
-            </div>
+        <div class="card mb-5">
+            {% include call.html %}
         </div>
     </div>
 </div>
