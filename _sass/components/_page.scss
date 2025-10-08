@@ -5,6 +5,11 @@
   .wrapper {
     flex: 1 0 0;
   }
+}
 
-  padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
+
+@media (max-width: 575.98px) {
+  .page {
+      padding-bottom: calc(env(safe-area-inset-bottom) + 60px);
+  }
 }
