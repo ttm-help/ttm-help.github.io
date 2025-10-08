@@ -37,7 +37,7 @@ image: /assets/img/2024/main-page-image.webp
                 Если пока не готовы к терапии, вы можете подписаться на мой телеграм канал и получить бесплатные видео и советы о работе с ТТМ.
             </p>
         </div>
-        <div class="row my-3 justify-content-center">
+        <div class="row my-1 my-lg-5 justify-content-center">
             <div class="col-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
                 {% include consultation-button.html %}
             </div>
@@ -214,7 +214,7 @@ image: /assets/img/2024/main-page-image.webp
                 </p>
             </div>
     
-            <div class="mt-3 mb-5 content container">
+            <div class="mt-3 mb-3 content container">
                 <p style="font-size: larger" class="mb-1">Терапия включает в себя:</p>
                 <div class="row mx-1">
                     <ul>
@@ -232,7 +232,7 @@ image: /assets/img/2024/main-page-image.webp
                 </p>
             </div>
         </div>
-        <div class="row my-3 justify-content-center">
+        <div class="row my-1 my-lg-5 justify-content-center">
             <div class="col-12 col-md-6 mb-5 d-flex justify-content-center align-items-center">
                 {% include consultation-button.html %}
             </div>
