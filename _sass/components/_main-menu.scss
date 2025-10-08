@@ -76,7 +76,7 @@
     flex-direction: column;
 
     &.open {
-      opacity: 0.9;
+      opacity: 0.95;
       visibility: visible;
       height: 100%;
       z-index: 20;
@@ -136,7 +136,7 @@
 
         &:last-child {
           background-color: $primary;
-          border-radius: 4px;
+          border-radius: 9px;
         }
       }
     }

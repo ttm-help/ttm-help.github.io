@@ -41,19 +41,17 @@
                 <div class="col-12 col-md-5 social">
                     <div class="row mt-3 mb-3">
                         {% for item in site.data.social %}
-                        <div class="col">
+                        <div class="col text-center text-md-start">
                             <a href="{{ item.link }}"
-                               class="d-inline-block"
+                               class="d-inline-flex align-items-center justify-content-center justify-content-md-start"
                                rel="nofollow"
                                target="_blank">
-                                <img class="messenger-icon d-inline-block"
-                                     style="margin-bottom: 0.2rem"
-                                     height="20"
-                                     width="20"
+                                <img class="messenger-icon"
                                      src="{{ item.image | relative_url }}"
-                                     alt="{{ item.description }}"
-                                >
-                                <span class="d-inline-block" style="font-size: clamp(8px, 2vw, 14px);">{{ item.name }}</span>
+                                     alt="{{ item.description }}">
+                                <span class="d-none d-lg-inline-block ms-2" style="font-size: clamp(8px, 2vw, 14px);">
+                                  {{ item.name }}
+                                </span>
                             </a>
                         </div>
                         {% endfor %}
@@ -81,7 +79,9 @@
 </div>
 
 <div class="mobile-footer-menu d-flex justify-content-around align-items-center mb-1 mb-md-0">
-    <a href="{% link about.md %}" aria-label="Коновалова Оксана - психолог, психотерапевт">
+    <a href="{% link about.md %}"
+       class="text-decoration-none"
+       aria-label="Коновалова Оксана - психолог, психотерапевт">
         <div class="col">
             <div class="row">
                 <img src="/assets/images/menu/index.svg"
@@ -99,6 +99,7 @@
         </div>
     </a>
     <a href="https://t.me/ttm_help_ru"
+       class="text-decoration-none"
        aria-label="группа помощи в телеграм"
        target="_blank"
        rel="noopener noreferrer nofollow">
@@ -119,6 +120,7 @@
         </div>
     </a>
     <a href="{% link contact.md %}"
+       class="text-decoration-none"
        aria-label="страница с контактами">
         <div class="col">
             <div class="row">
@@ -137,6 +139,7 @@
         </div>
     </a>
     <a href="{% link faq.md %}"
+       class="text-decoration-none"
        aria-label="страница с часто задаваемыми вопросами и ответы на них">
         <div class="col">
             <div class="row">
