@@ -34,16 +34,12 @@ layout: default
                 {% include author-info.html %}
               </div>
 
-              <div class="pt-3 mb-5">
-                  <a href="{% link contact.md %}"
-                     class="button btn-primary button-shadow rounded-3">
-                      <img alt="Онлайн помощь при трихотилломании"
-                           title="Кнопка записи на терапию трихотилломании"
-                           width="21"
-                           height="21"
-                           class="messenger-icon mr-1 d-inline" src="/assets/images/menu/message-icon.svg">
-                      <span>Записаться на консультацию</span>
-                  </a>
+              <div class="row justify-content-center justify-content-lg-end">
+                  <div class="col-auto">
+                      <div class="pt-3 mb-5">
+                          {% include consultation-button.html %}
+                      </div>
+                  </div>
               </div>
           </div>
         </div>

@@ -39,15 +39,7 @@ image: /assets/img/2024/main-page-image.webp
         </div>
         <div class="row my-3 justify-content-center">
             <div class="col-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
-                <a href="{% link contact.md %}"
-                        class="button btn-primary button-shadow rounded-3">
-                        <img alt="Онлайн помощь при трихотилломании"
-                             title="Кнопка записи на терапию трихотилломании"
-                             width="21"
-                             height="21"
-                             class="messenger-icon mr-1" src="/assets/images/menu/message-icon.svg">
-                        <span>Записаться на консультацию</span>
-                </a>
+                {% include consultation-button.html %}
             </div>
             <div class="col-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
                 <a href="https://t.me/ttm_help_ru"
@@ -60,7 +52,7 @@ image: /assets/img/2024/main-page-image.webp
                              width="21"
                              height="21"
                              class="messenger-icon mr-1" src="/assets/images/social/telegram.svg">
-                        <span>Подписаться на телеграм канал</span>
+                        <span style="font-size: clamp(14px, 2vw, 20px);">Подписаться на телеграм канал</span>
                     </a>
             </div>
         </div>
@@ -242,15 +234,7 @@ image: /assets/img/2024/main-page-image.webp
         </div>
         <div class="row my-3 justify-content-center">
             <div class="col-12 col-md-6 mb-5 d-flex justify-content-center align-items-center">
-                <a href="{% link contact.md %}"
-                        class="button btn-primary button-shadow rounded-3">
-                        <img alt="Онлайн помощь при трихотилломании"
-                             title="Кнопка записи на терапию трихотилломании"
-                             width="21"
-                             height="21"
-                             class="messenger-icon mr-1 d-inline" src="/assets/images/menu/message-icon.svg">
-                        <span>Записаться на консультацию</span>
-                </a>
+                {% include consultation-button.html %}
             </div>
         </div>
     </div>
