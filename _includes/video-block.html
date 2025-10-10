@@ -104,6 +104,34 @@
               if (ytBtn) ytBtn.addEventListener('click', loadYT);
             });
         </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              const nav = document.getElementById('videoTabs');
+              const tabs = nav.querySelectorAll('.nav-link');
+
+              // создаем "фон-подсветку"
+              const activeBg = document.createElement('div');
+              activeBg.classList.add('active-bg');
+              nav.appendChild(activeBg);
+
+              function moveBg(target) {
+                const rect = target.getBoundingClientRect();
+                const navRect = nav.getBoundingClientRect();
+                activeBg.style.width = rect.width + 'px';
+                activeBg.style.left = (rect.left - navRect.left) + 'px';
+              }
+
+              // начальная позиция
+              const active = nav.querySelector('.nav-link.active');
+              if (active) moveBg(active);
+
+              // двигаем фон при переключении табов
+              tabs.forEach(tab => {
+                tab.addEventListener('shown.bs.tab', e => moveBg(e.target));
+              });
+            });
+        </script>
+
     {% else %}
         <div class="mb-3" style="aspect-ratio:16/9;">
             <video id="player" playsinline controls>

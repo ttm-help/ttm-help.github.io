@@ -1,0 +1,29 @@
+.nav-pills {
+  position: relative;
+  border-radius: 12px;
+  padding: 4px;
+  overflow: hidden;
+}
+
+.nav-pills .nav-link.active {
+  --bs-nav-pills-link-active-color: inherit;
+  --bs-nav-pills-link-active-bg: transparent;
+}
+
+.active-bg {
+  position: absolute;
+  left: 4px;
+  height: calc(100% - 31px);
+  background-color: $primary;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  z-index: 1;
+}
+
+.nav-pills .nav-link {
+  position: relative;
+  z-index: 2;
+  border: none;
+  border-radius: 10px;
+  transition: color 0.3s ease;
+}
