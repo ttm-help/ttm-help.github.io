@@ -1,4 +1,4 @@
-<div class="row col mt-4">
+<div class="col mt-4">
     {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
     {% if sorted_posts and sorted_posts.size < 4 %}
     {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
