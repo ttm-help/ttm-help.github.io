@@ -112,7 +112,6 @@
               // создаем "фон-подсветку"
               const activeBg = document.createElement('div');
               activeBg.classList.add('active-bg');
-              nav.appendChild(activeBg);
 
               function moveBg(target) {
                 const rect = target.getBoundingClientRect();
@@ -124,6 +123,7 @@
               // начальная позиция
               const active = nav.querySelector('.nav-link.active');
               if (active) moveBg(active);
+              nav.appendChild(activeBg);
 
               // двигаем фон при переключении табов
               tabs.forEach(tab => {
