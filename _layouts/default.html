@@ -5,6 +5,7 @@
               article: https://ogp.me/ns/article#
               profile: https://ogp.me/ns/profile#">
 <head>
+    {% include tag-manager-p1.html %}
     <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
 
     {% if page.video %}
@@ -72,6 +73,8 @@
 </head>
 
   <body class='page {{layout.bodyClass}}'>
+    {% include tag-manager-p2.html %}
+
     <div id="wrapper" class="wrapper">
         {% include header.html %}
         {{content}}
