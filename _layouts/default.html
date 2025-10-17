@@ -69,11 +69,12 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/apple-touch-icon.png">
 
     {% include analytics-counters.html %}
-    {% include tag-manager.html %}
+    {% include tag-manager-p1.html %}
 </head>
 
   <body class='page {{layout.bodyClass}}'>
-    <div id="wrapper" class="wrapper">
+  {% include tag-manager-p2.html %}
+  <div id="wrapper" class="wrapper">
         {% include header.html %}
         {{content}}
     </div>
