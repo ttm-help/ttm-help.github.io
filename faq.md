@@ -26,7 +26,7 @@ permalink: /faq.html
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
                         <strong>Трихотилломания</strong> — это повторяющееся навязчивое действие, при котором человек выдёргивает свои волосы. Это может негативно влиять на качество жизни в социальной, профессиональной и личной сферах, и часто сопровождается безуспешными попытками подавить эти импульсы.<br>
-                        Трихотилломания включена в <strong>МКБ-11</strong> (Одиннадцатый пересмотр Международной классификации болезней), разработанную Всемирной организацией здравоохранения (ВОЗ).<br>
+                        Трихотилломания включена в <strong>МКБ-10</strong>, <strong>МКБ-11</strong> (Одиннадцатый пересмотр Международной классификации болезней), разработанную Всемирной организацией здравоохранения (ВОЗ).<br>
                         На моем сайте есть подробная статья о <a href="{% link _posts/2022/2022-12-21-trichotillomania.md %}">трихотилломании</a>, где вы можете узнать больше о симптомах, причинах и подходах к терапии.
                     </p>
                 </div>
@@ -38,7 +38,7 @@ permalink: /faq.html
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
                         Справиться с трихотилломанией <strong>возможно</strong>.<br>
-                        Если у вас есть сопутствующие психические расстройства, их лечение обычно становится приоритетным в терапии. После этого, при регулярной и последовательной работе с психотерапевтом, можно значительно снизить проявления привычки выдёргивания волос и улучшить качество жизни. Результаты зависят от индивидуальных особенностей и мотивации.
+                        Если у вас есть сопутствующие психические расстройства, их лечение обычно становится приоритетным в терапии. После этого, при регулярной и последовательной работе с психотерапевтом, можно значительно снизить симптомы трихотилломании и улучшить качество жизни. Результаты зависят от индивидуальных особенностей и мотивации.
                     </p>
                 </div>
             </div>
@@ -77,7 +77,7 @@ permalink: /faq.html
             </div>
             <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
                 <h2 itemprop="name">
-                    Сколько стоит диагностическая консультация?
+                    Какая стоимость услуг?
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
@@ -87,21 +87,11 @@ permalink: /faq.html
             </div>
             <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
                 <h2 itemprop="name">
-                    Сколько стоит терапия?
-               </h2>
-                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-                    <p itemprop="text">
-                        Подробную информацию о стоимости терапии и других услуг вы можете найти на странице <a href="/contact.html">«Стоимость услуг»</a>.
-                    </p>
-                </div>
-            </div>
-            <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
-                <h2 itemprop="name">
                     Где проходит терапия?
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Я работаю онлайн по всему миру в видео формате, сессии в основном проходят в ZOOM, Google Meet и т.д.
+                        Я работаю онлайн
                     </p>
                 </div>
             </div>
