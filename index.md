@@ -118,7 +118,7 @@ image: /assets/img/2024/main-page-image.webp
                                  class="messenger-icon mr-1" src="/assets/images/social/telegram.svg">
                             <span 
                                 class="ms-3"
-                                style="font-size: clamp(14px, 2vw, 20px);">Подписаться на телеграм канал</span>
+                                style="font-size: clamp(14px, 2vw, 20px);">Телеграм канал</span>
                         </a>
                 </div>
             </div>
