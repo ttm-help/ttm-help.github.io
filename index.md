@@ -57,7 +57,7 @@ image: /assets/img/2024/main-page-image.webp
             <p class="mb-1">
                 Тренинг включает 5 шагов:
             </p>
-            <ol class="ms-3">
+            <ol class="ps-4">
                 <li>
                     <span class="fw-lighter">Тренировка осознанности и самонаблюдение</span> — обучение замечать импульсы и ситуации, в которых происходит приступ 
                 </li>
