@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col" style="color: white !important;">
             <div class="row mb-1">
-                <div class="col-12 col-md-4 mb-1">
+                <div class="col-12 col-md-4 mb-1 ms-3 ms-lg-0">
                     <div class="row align-items-center">
                         <div class="col-auto mt-3">
                             <a href="/" aria-label="Лечении трихотилломании">
@@ -14,21 +14,22 @@
                             </a>
                         </div>
                         <div class="col-auto mt-3">
-                            <div class="row mb-3">
+                            <div class="row mb-2">
                                 <span class="d-block">КОНОВАЛОВА ОКСАНА</span>
                                 <span class="d-block">Клинический психолог</span>
+                                <span class="d-block">Помощь в лечении трихотилломании</span>
                             </div>
                             <div class="row">
-                                <span class="d-block">Помощь в лечении трихотилломании</span>
+                                <span class="d-block">ИНН 645293010504</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-3 social">
+                <div class="col-12 col-md-3 social ms-4 ms-lg-0">
                     <div class="row">
                         <div class="col mt-4">
                             {% assign categories = site.data.categories.list %}
-                            <ul style="padding-left: 1.3rem">
+                            <ul>
                                 {% for category in categories %}
                                     <li class="pb-3">
                                         <a href="{{ category.url | relative_url }}">{{ category.name }}</a>

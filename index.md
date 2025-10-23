@@ -101,7 +101,7 @@ image: /assets/img/2024/main-page-image.webp
                     Вы также можете подписаться на мой телеграм канал и получить бесплатные видео и советы о работе с трихотилломанией.
                 </p>
             </div>
-            <div class="row my-1 my-lg-5 justify-content-center">
+            <div class="row my-5 justify-content-center">
                 <div class="col-12 col-md-6 mb-4 d-flex justify-content-center align-items-center">
                     {% include consultation-button.html %}
                 </div>
