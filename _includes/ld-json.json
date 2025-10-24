@@ -1,59 +1,136 @@
-{% assign page_path = canonical_link | remove: ".html" | stripe %}
+{% assign page_path = canonical_link | stripe %}
 
 {
   "@context": "https://schema.org",
   "@graph": [
-    {
-      "@type": "Article",
-      "@id": "{{ page_path }}#article",
-      "isPartOf": {
-          "@id": "{{ page_path }}"
-      },
-      "author": {
-          "@id": "{{ site.url }}/#/schema/author"
-      },
-      "headline": {{ page.title | default: site.title | jsonify }},
-      "datePublished": "{{ page.date | date_to_xmlschema }}",
-      "dateModified": "{{ site.time | date_to_xmlschema }}",
-      "url":  "{{ canonical_link }}",
-      "mainEntityOfPage": {
-          "@id": "{{ page_path }}"
-      },
-      "wordCount": {{ page.content | number_of_words }},
-      "publisher": {
+        {
+            "@type": "Person",
+            "@id": "{{ site.url }}/#/schema/author",
+            "name": "{{ site.author.name }}",
+            {% if site.author.about %}
+              {% assign expertises = site.author.expertises | split: "," %}
+              "knowsAbout": [
+                {% for expertise in expertises %}
+                  "{{ expertise | strip }}"{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+              ],
+            {% endif %}
+
+            {% assign names = site.author.name | split: " " %}
+            "givenName": "{{ names[0] }}",
+            "familyName": "{{ names[1] }}",
+            "jobTitle": {{ site.author.about | jsonify }},
+            "image": {
+                "@type": "ImageObject",
+                "inLanguage": "ru-RU",
+                {% assign about_image = site.author.image %}
+                "url": "{{ site.url }}{{ about_image }}",
+                "width": {% imagesize about_image:width %},
+                "height": {% imagesize about_image:height %},
+                "contentUrl": "{{ site.url }}{{ about_image }}",
+                "caption": "{{ site.author.name }} - {{ site.author.about }}",
+                "encodingFormat": "image/webp"
+            },
+            "gender": "female",
+            "alumniOf": {
+                "@type": "EducationalOrganization",
+                "name": "Саратовская государственная юридическая академия",
+                "sameAs": "https://ru.wikipedia.org/wiki/Саратовская_государственная_юридическая_академия"
+            },
+            "url": "{{ site.url }}{% link about.md %}",
+            {% assign contacts = site.data.contact %}
+            "sameAs": [
+                "{{ site.url }}",
+                "{{ contacts.whatsapp }}",
+                "{{ contacts.telegram }}"
+            ],
+            "hasCredential": [
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Юридический психолог",
+                    "educationalLevel": "Высшее образование"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Клинический психолог",
+                    "educationalLevel": "Высшее образование"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Когнитивно-поведенческая психотерапия",
+                    "educationalLevel": "Высшее образование"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Тренер навыков ДБТ",
+                    "educationalLevel": "Высшее образование"
+                }
+            ],
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "Консультации и запись",
+                "email": "{{site.data.contact.email}}",
+                "availableLanguage": ["ru"]
+            }
+       },
+    {% if page.is_about != "true" %}
+      {
+        "@type": "Article",
+        "@id": "{{ page_path }}#article",
+        "isPartOf": {
+            "@id": "{{ page_path }}"
+        },
+        "author": {
+            "@id": "{{ site.url }}/#/schema/author"
+        },
+        {% if page.description %}
+            "description": {{ page.description | jsonify }},
+        {% else %}
+            "description": {{ site.description | jsonify }},
+        {% endif %}
+        "headline": {{ page.title | default: site.title | jsonify }},
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ site.time | date_to_xmlschema }}",
+        "url":  "{{ canonical_link }}",
+        "mainEntityOfPage": {
+            "@id": "{{ page_path }}"
+        },
+        "wordCount": {{ page.content | number_of_words }},
+        "publisher": {
+            "@id": "{{ site.url }}/#organization"
+        },
+        "image": {
+            "@id": "{{ page_path }}#primaryimage"
+        },
+        {% if page.image %}
+            "thumbnailUrl": "{{site.url}}{{ page.image }}",
+        {% else %}
+            "thumbnailUrl": "{{site.url}}{{ site.image }}",
+        {% endif %}
+        "inLanguage": "ru-RU",
+        "copyrightYear": {{ page.date | date: "%Y" | }},
+        "copyrightHolder": {
           "@id": "{{ site.url }}/#organization"
+        }
+        {% if page.video %}
+          ,
+          "video": [
+            {
+              "@id": "{{ page_path }}#video"
+            }
+          ]
+        {% endif %}
+        {% if page.keywords %}
+          ,
+          {% assign keywords_array = page.keywords | split: "," %}
+          "keywords": [
+            {% for keyword in keywords_array %}
+              "{{ keyword | strip }}"{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+          ]
+        {% endif %}
       },
-      "image": {
-          "@id": "{{ page_path }}#primaryimage"
-      },
-      {% if page.image %}
-          "thumbnailUrl": "{{site.url}}{{ page.image }}",
-      {% else %}
-          "thumbnailUrl": "{{site.url}}{{ site.image }}",
-      {% endif %}
-      "inLanguage": "ru-RU",
-      "copyrightYear": {{ page.date | date: "%Y" | }},
-      "copyrightHolder": {
-        "@id": "{{ site.url }}/#organization"
-      }
-      {% if page.video %}
-        ,
-        "video": [
-          {
-            "@id": "{{ page_path }}#video"
-          }
-        ]
-      {% endif %}
-      {% if page.keywords %}
-        ,
-        {% assign keywords_array = page.keywords | split: "," %}
-        "keywords": [
-          {% for keyword in keywords_array %}
-            "{{ keyword | strip }}"{% if forloop.last == false %},{% endif %}
-          {% endfor %}
-        ]
-      {% endif %}
-    },
+    {% endif %}
     {
       "@type": "WebPage",
       "@id": "{{ page_path }}",
@@ -113,15 +190,16 @@
         "contentUrl": "{{site.url}}{{ page.image }}",
         "width": {% imagesize page.image:width %},
         "height": {% imagesize page.image:height %},
+        "encodingFormat": "image/webp",
       {% else %}
         {% assign logo_path = "/assets/images/logo/ttm-help-logo.jpg" %}
         "url": "{{ site.url }}{{ logo_path }}",
         "contentUrl": "{{ site.url }}{{ logo_path }}",
         "width": {% imagesize logo_path:width %},
         "height": {% imagesize logo_path:height %},
+        "encodingFormat": "image/jpeg",
       {% endif %}
-      "caption": {{ page.description | default: site.description | jsonify }},
-      "encodingFormat": "image/jpeg"
+      "caption": {{ page.description | default: site.description | jsonify }}
     },
     {
       "@type": "BreadcrumbList",
@@ -195,7 +273,7 @@
       "name": "Проект TTM HELP",
       "url": "{{ site.url }}",
       "logo": {
-        "@id": "{{ site.url }}/#/schema/logo/image/"
+        "@id": "{{ site.url }}/#/schema/logo/image"
       },
       "sameAs": [
           {% for item in site.data.social %}
@@ -208,47 +286,6 @@
       "image": {
         "@id": "{{ site.url }}/#/schema/logo/image/"
       }
-    },
-    {
-      "@type": "Person",
-      "@id": "{{ site.url }}/#/schema/author",
-      "name": "{{ site.author.name }}",
-      {% if site.author.about %}
-        {% assign abouts = site.author.about | split: "," %}
-        "knowsAbout": [
-        {% for about in abouts %}
-          "{{ about | strip }}"{% if forloop.last == false %},{% endif %}
-        {% endfor %}
-        ],
-      {% endif %}
-      {% assign names = site.author.name | split: " " %}
-      "givenName": "{{ names[0] }}",
-      "familyName": "{{ names[1] }}",
-      "jobTitle": {{ site.author.about | jsonify }},
-      "image": {
-          "@type": "ImageObject",
-          "inLanguage": "ru-RU",
-          {% assign about_image = site.author.image %}
-          "url": "{{ site.url }}{{ about_image }}",
-          "width": {% imagesize about_image:width %},
-          "height": {% imagesize about_image:height %},
-          "contentUrl": "{{ site.url }}{{ about_image }}",
-          "caption": "{{ site.author.name }} - {{ site.author.about }}",
-          "encodingFormat": "image/webp"
-      },
-      "gender": "female",
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Саратовская государственная юридическая академия",
-        "sameAs": "https://ru.wikipedia.org/wiki/Саратовская_государственная_юридическая_академия"
-      },
-      "url": "{{ site.url }}{% link about.md %}",
-      "email": "{{site.data.contact.email}}",
-      {% assign contacts = site.data.contact %}
-      "sameAs": [
-          "{{ contacts.whatsapp }}",
-          "{{ contacts.telegram }}"
-      ]
     }
     {% if page.video %}
     ,

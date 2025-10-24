@@ -9,11 +9,11 @@ image: /assets/images/illustrations/about-photo.webp
 
 certificates:
   - key: assets/images/certificates/0.webp
-    value: диплом о профессиональной переподготовке по программе когнитивно-поведенческая терапия
+    value: диплом Оксаны Коноваловой о профессиональной переподготовке по программе когнитивно-поведенческая терапия
   - key: assets/images/certificates/1.webp
-    value: диплом юридического психолога
+    value: диплом юридического психолога Оксаны Коноваловой
   - key: assets/images/certificates/2.webp
-    value: диплом клинического психолога
+    value: диплом клинического психолога Оксаны Коноваловой
 ---
 
 {% assign age = 'now' | date: "%Y" | minus:1987 %}
