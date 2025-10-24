@@ -32,7 +32,11 @@
 
 {% if page.video %}
     <meta property="og:video" content="{{ page.video.url }}">
-    <meta property="og:video:type" content="text/html" />
+    {% if page.video.url contains "youtube" %}
+        <meta property="og:video:type" content="text/html" />
+    {% else %}
+        <meta property="og:video:type" content="video/mp4" />
+    {% endif %}
     <meta property="og:video:width" content="1280" />
     <meta property="og:video:height" content="720" />
 {% endif %}

@@ -16,7 +16,7 @@
             <link rel="preload" as="image" href="https://i.ytimg.com/vi/{{ youtube_thumbnail }}/maxresdefault.jpg" fetchpriority="high">
         {% endif %}
         {% if page.image %}
-            <link rel="preload" href="{{ page.image }}" fetchpriority="high">
+            <link rel="preload" as="image" href="{{ page.image }}" fetchpriority="high">
         {% endif %}
         {% if page.url == "/" %}
             <link rel="preconnect" href="https://cdn.plyr.io">
