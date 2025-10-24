@@ -1,7 +1,7 @@
 <div class="col mt-4">
     {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
     {% if sorted_posts and sorted_posts.size < 4 %}
-    {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
+        {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
     {% endif %}
 
     {% for site_category in site.data.categories.list %}
@@ -10,13 +10,13 @@
         {% endif %}
     {% endfor %}
     <div class="row col">
-            <span class="weight-bold mb-1" style="font-size: x-large">
+            <h2 class="weight-bold mb-1" style="font-size: x-large">
                  {% if category_url %}
                     <a href="{{ category_url }}">{{ page.category }}</a>
                 {% else %}
                     <a href="{% link posts.md %}">{{ page.category }}</a>
                 {% endif %}
-            </span>
+            </h2>
     </div>
     <div class="row">
         {% for post in sorted_posts %}
@@ -24,9 +24,10 @@
             <a href="{{ post.url }}">
                 <img src="{{post.image}}"
                      loading="lazy"
+                     decoding="async"
                      alt="{{ post.description | smartify }}"
                      class="rounded">
-                <p class="pt-1">{{ post.title | smartify }}</p>
+                <h3 class="pt-1" style="font-size: large">{{ post.title | smartify }}</h3>
             </a>
         </div>
         {% endfor %}

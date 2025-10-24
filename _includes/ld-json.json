@@ -245,70 +245,98 @@
       ]
     },
     {
-      "@type": "WebSite",
-      "@id": "{{ site.url }}/#website",
-      "url": "{{ site.url }}",
-      "name": {{ site.title | jsonify }},
-      "description": {{ site.description | jsonify  }},
-      "publisher": {
-        "@id": "{{ site.url }}/#organization"
-      },
-      "inLanguage": "ru-RU"
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}",
+        "name": {{ site.title | jsonify }},
+        "description": {{ site.description | jsonify  }},
+        "publisher": {
+          "@id": "{{ site.url }}/#organization"
+        },
+        "inLanguage": "ru-RU"
     },
     {
-    "@type": "ImageObject",
-    "inLanguage": "ru-RU",
-    "@id": "{{ site.url }}/#/schema/logo/image",
-    {% assign logo_path = '/assets/images/logo/ttm-help-logo.jpg' %}
-    "url": "{{ site.url }}{{ logo_path }}",
-    "contentUrl": "{{ site.url }}{{ logo_path }}",
-    "width": {% imagesize logo_path:width %},
-    "height": {% imagesize logo_path:height %},
-    "caption": {{ site.description | jsonify }},
-    "encodingFormat": "image/jpeg"
+        "@type": "ImageObject",
+        "inLanguage": "ru-RU",
+        "@id": "{{ site.url }}/#/schema/logo/image",
+        {% assign logo_path = '/assets/images/logo/ttm-help-logo.jpg' %}
+        "url": "{{ site.url }}{{ logo_path }}",
+        "contentUrl": "{{ site.url }}{{ logo_path }}",
+        "width": {% imagesize logo_path:width %},
+        "height": {% imagesize logo_path:height %},
+        "caption": {{ site.description | jsonify }},
+        "encodingFormat": "image/jpeg"
     },
     {
-      "@type": "Organization",
-      "@id": "{{ site.url }}/#organization",
-      "name": "Проект TTM HELP",
-      "url": "{{ site.url }}",
-      "logo": {
-        "@id": "{{ site.url }}/#/schema/logo/image"
-      },
-      "sameAs": [
-          {% for item in site.data.social %}
-              "{{ item.link }}"
-              {% if forloop.last == false %}
-                ,
-              {% endif %}
-          {% endfor %}
-      ],
-      "image": {
-        "@id": "{{ site.url }}/#/schema/logo/image"
-      }
+        "@type": "Organization",
+        "@id": "{{ site.url }}/#organization",
+        "name": "Проект TTM HELP",
+        "url": "{{ site.url }}",
+        "logo": {
+          "@id": "{{ site.url }}/#/schema/logo/image"
+        },
+        "sameAs": [
+            {% for item in site.data.social %}
+                "{{ item.link }}"
+                {% if forloop.last == false %}
+                  ,
+                {% endif %}
+            {% endfor %}
+        ],
+        "image": {
+          "@id": "{{ site.url }}/#/schema/logo/image"
+        }
     }
     {% if page.video %}
     ,
     {
-      "@type": "VideoObject",
-      "@id": "{{ page_path }}#video",
-      "name": {{ page.title | default: site.title | jsonify }},
-      "isPartOf": {
-        "@id": "{{ page_path }}#article"
-      },
-      "thumbnailUrl": "{{site.url}}{{ page.image }}",
-      "description": {{ page.description | default: site.description | jsonify }},
-      "uploadDate": "{{ page.date | date_to_xmlschema }}",
-      "width": 1280,
-      "height": 720,
-      {% if page.video.url contains "youtube" %}
-        "embedUrl": "{{ page.video.url }}",
-      {% else %}
-        "contentUrl": "{{ site.url }}{{ page.video.url }}",
-      {% endif %}
-      "duration": "{{ page.video.duration }}",
-      "isFamilyFriendly": true,
-      "inLanguage": "ru-RU"
+        "@type": "VideoObject",
+        "@id": "{{ page_path }}#video",
+        "name": {{ page.title | default: site.title | jsonify }},
+        "isPartOf": {
+          "@id": "{{ page_path }}#article"
+        },
+        "thumbnailUrl": "{{site.url}}{{ page.image }}",
+        "description": {{ page.description | default: site.description | jsonify }},
+        "uploadDate": "{{ page.date | date_to_xmlschema }}",
+        "width": 1280,
+        "height": 720,
+        {% if page.video.url contains "youtube" %}
+          "embedUrl": "{{ page.video.url }}",
+        {% else %}
+          "contentUrl": "{{ site.url }}{{ page.video.url }}",
+        {% endif %}
+        "duration": "{{ page.video.duration }}",
+        "isFamilyFriendly": true,
+        "inLanguage": "ru-RU"
+    }
+    {% endif %}
+
+    {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
+    {% if sorted_posts and sorted_posts.size < 4 %}
+        {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
+    {% endif %}
+    {% if sorted_posts.size > 0 %}
+    ,
+    {
+        "@type": "ItemList",
+        "@id": "{{ page_path }}#related",
+        "isPartOf": {
+            "@id": "{{ page_path }}#article"
+        },
+        "name": "Похожие статьи о {{ page.category | smartify }}",
+        "itemListElement": [
+        {% for item in sorted_posts %}
+            {
+                "@type": "ListItem",
+                "position": {{ forloop.index }},
+                "url": "{{ site.url }}{{ item.url }}"
+            }
+            {% if forloop.last == false %}
+                ,
+            {% endif %}
+        {% endfor %}
+        ]
     }
     {% endif %}
   ]
