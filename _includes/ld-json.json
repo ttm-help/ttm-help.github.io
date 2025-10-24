@@ -258,7 +258,7 @@
     {
     "@type": "ImageObject",
     "inLanguage": "ru-RU",
-    "@id": "{{ site.url }}/#/schema/logo/image/",
+    "@id": "{{ site.url }}/#/schema/logo/image",
     {% assign logo_path = '/assets/images/logo/ttm-help-logo.jpg' %}
     "url": "{{ site.url }}{{ logo_path }}",
     "contentUrl": "{{ site.url }}{{ logo_path }}",
@@ -284,7 +284,7 @@
           {% endfor %}
       ],
       "image": {
-        "@id": "{{ site.url }}/#/schema/logo/image/"
+        "@id": "{{ site.url }}/#/schema/logo/image"
       }
     }
     {% if page.video %}
