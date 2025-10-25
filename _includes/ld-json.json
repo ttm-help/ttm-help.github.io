@@ -119,7 +119,7 @@
         }
         {% if sorted_posts.size > 0 %}
           ,
-          "hasPart": { "@id": "{{ page_path }}#related" }
+          "mentions": { "@id": "{{ page_path }}#related" }
         {% endif %}
         {% if page.video %}
           ,
@@ -326,9 +326,6 @@
     {
         "@type": "ItemList",
         "@id": "{{ page_path }}#related",
-        "about": {
-            "@id": "{{ page_path }}#article"
-        },
         "name": "Похожие статьи о {{ page.category | smartify }}",
         "itemListElement": [
         {% for item in sorted_posts %}
