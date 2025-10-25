@@ -1,5 +1,10 @@
 {% assign page_path = canonical_link | stripe %}
 
+{% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
+{% if sorted_posts and sorted_posts.size < 4 %}
+{% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
+{% endif %}
+
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -112,6 +117,10 @@
         "copyrightHolder": {
           "@id": "{{ site.url }}/#organization"
         }
+        {% if sorted_posts.size > 0 %}
+          ,
+          "hasPart": { "@id": "{{ page_path }}#related" }
+        {% endif %}
         {% if page.video %}
           ,
           "video": [
@@ -312,16 +321,12 @@
     }
     {% endif %}
 
-    {% assign sorted_posts = site.categories[page.category] | where_exp: "post", "post.title != page.title" | sample:4 %}
-    {% if sorted_posts and sorted_posts.size < 4 %}
-        {% assign sorted_posts = site.posts | where_exp: "item", "item.title!= page.title" | sample:4 %}
-    {% endif %}
     {% if sorted_posts.size > 0 %}
     ,
     {
         "@type": "ItemList",
         "@id": "{{ page_path }}#related",
-        "isPartOf": {
+        "about": {
             "@id": "{{ page_path }}#article"
         },
         "name": "Похожие статьи о {{ page.category | smartify }}",
