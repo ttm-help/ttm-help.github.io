@@ -46,7 +46,7 @@ image: /assets/img/2024/main-page-image.webp
         </div>
         <div class="row content">
             <p>
-                Я провожу <span class="fw-semibold">тренинги</span> и <span class="fw-semibold">индивидуальную терапию</span> для людей страдающих трихотилломанией. 
+                Я провожу <a href="{% link _posts/2025/2025-10-24-training.md %}">тренинги</a> и <span class="fw-semibold">индивидуальную терапию</span> для людей страдающих трихотилломанией. 
             </p>
         </div>
         <div class="row content">
