@@ -1,1 +1,59 @@
-<!DOCTYPE html> <html lang="ru"> <head> <meta charset="UTF-8"> <title>Переход в Telegram...</title> <script>function getQueryParams(){const t={},e=window.location.search.substring(1).split("&");for(const a of e){const[e,n]=a.split("=");e&&n&&(t[e]=decodeURIComponent(n))}return t}const utm=getQueryParams(),baseEvent={event:"telegram_redirect",event_category:"redirect",event_label:"to_telegram"},keys=["utm_source","utm_medium","utm_campaign","utm_content","utm_term"],utmParams={};for(const t of keys)utm[t]&&(utmParams[t]=utm[t]);window.dataLayer=window.dataLayer||[],window.dataLayer.push({...baseEvent,...utmParams}),setTimeout(function(){window.location.href="https://t.me/ttm_help_ru"},800);</script> </head> <body> <div style=" display: flex; justify-content: center; align-items: center; height: 100vh"> <figure style="text-align: center;"> <img src="/assets/images/social/telegram-duck-thinking.webp" alt="Telegram Duck Thinking" style="width: 100%;"> <figcaption> <h1> Перенаправляем в Telegram... </h1> <h2> Если этого не произошло — <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">нажмите сюда</a>. </h2> </figcaption> </figure> </div> </body> </html>
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Переход в Telegram...</title>
+        <script>
+            function getQueryParams() {
+              const params = {};
+              const search = window.location.search.substring(1).split("&");
+              for (const pair of search) {
+                const [key, value] = pair.split("=");
+                if (key && value) params[key] = decodeURIComponent(value);
+              }
+              return params;
+            }
+
+            const utm = getQueryParams();
+            const baseEvent = {
+              event: 'telegram_redirect',
+              event_category: 'redirect',
+              event_label: 'to_telegram'
+            };
+
+            const keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'];
+            const utmParams = {};
+
+            for (const key of keys) {
+              if (utm[key]) utmParams[key] = utm[key];
+            }
+
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ ...baseEvent, ...utmParams });
+
+            setTimeout(function() {
+              window.location.href = 'https://t.me/ttm_help_ru';
+            }, 800);
+        </script>
+    </head>
+    <body>
+        <div style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh">
+            <figure style="text-align: center;">
+                <img src="/assets/images/social/telegram-duck-thinking.webp" alt="Telegram Duck Thinking" style="width: 100%;">
+                <figcaption>
+                    <h1>
+                        Перенаправляем в Telegram...
+                    </h1>
+                    <h2>
+                        Если этого не произошло — <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">нажмите сюда</a>.
+                    </h2>
+                </figcaption>
+            </figure>
+        </div>
+    </body>
+</html>
+
