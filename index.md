@@ -34,7 +34,7 @@ image: /assets/img/2024/main-page-image.webp
             </span>
         </div>
         
-        <div class="col-12 col-md-4 d-flex align-items-center justify-content-md-start justify-content-center text-md-start">
+        <div class="col-12 col-md-4 d-flex align-items-center justify-content-md-start justify-content-center text-center text-md-start">
             <span class="fs-5 px-4">
                 <a href="#call" class="text-dark text-decoration-none">
                     Книжный психотерапевтический клуб
