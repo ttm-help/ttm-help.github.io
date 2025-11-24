@@ -1,16 +1,21 @@
 <div class="slider-container">
 
     <div class="slider-track">
-        <div class="slide"><img src="https://picsum.photos/400/400?1"><p>Слайд 1</p></div>
-        <div class="slide"><img src="https://picsum.photos/400/400?2"><p>Слайд 2</p></div>
-        <div class="slide"><img src="https://picsum.photos/400/400?3"><p>Слайд 3</p></div>
-        <div class="slide"><img src="https://picsum.photos/400/400?4"><p>Слайд 4</p></div>
-        <div class="slide"><img src="https://picsum.photos/400/400?5"><p>Слайд 5</p></div>
+        {% assign videos = site.tags['interview'] %}
+        {% for video in videos %}
+            <a href="{{ video.url }}">
+                <div class="slide">
+                    <img src="{{video.image}}"
+                         alt="{{video.description}}"
+                         title="{{video.title}}">
+                </div>
+            </a>
+        {% endfor %}
     </div>
 
     <div class="slider-buttons text-center mt-4">
-        <button class="slider-prev">&larr;</button>
-        <button class="slider-next">&rarr;</button>
+        <button class="slider-prev">←</button>
+        <button class="slider-next">→</button>
     </div>
 
 </div>

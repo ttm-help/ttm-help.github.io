@@ -17,20 +17,30 @@ image: /assets/img/2024/main-page-image.webp
 <div class="container">
 
     <div class="row mt-5 align-items-center">
-    
-      <div class="col-12 col-md-4 text-md-end d-flex align-items-center justify-content-md-end justify-content-center mb-3 mb-md-0">
-        <span class="fs-5 px-4">Индивидуальная терапия</span>
-      </div>
-    
-      <div class="col-12 col-md-auto text-center px-4 border-start-md border-end-md 
-                  d-flex align-items-center justify-content-center mb-3 mb-md-0">
-        <span class="fs-5">Тренинг замещения привычки</span>
-      </div>
-    
-      <div class="col-12 col-md-4 d-flex align-items-center justify-content-md-start justify-content-center text-md-start">
-        <span class="fs-5 px-4">Книжный психотерапевтический клуб</span>
-      </div>
-    
+
+        <div class="col-12 col-md-4 text-md-end d-flex align-items-center justify-content-md-end justify-content-center mb-3 mb-md-0">
+            <span class="fs-5 px-4">
+                <a href="#individual-therapy" class="text-dark text-decoration-none">
+                    Индивидуальная терапия
+                </a>
+            </span>
+        </div>
+        
+        <div class="col-12 col-md-auto text-center px-4 border-start-md border-end-md d-flex align-items-center justify-content-center mb-3 mb-md-0">
+            <span class="fs-5">
+                <a href="#training" class="text-dark text-decoration-none">
+                    Тренинг замещения привычки
+                </a>
+            </span>
+        </div>
+        
+        <div class="col-12 col-md-4 d-flex align-items-center justify-content-md-start justify-content-center text-md-start">
+            <span class="fs-5 px-4">
+                <a href="#call" class="text-dark text-decoration-none">
+                    Книжный психотерапевтический клуб
+                </a>
+            </span>
+        </div>
     </div>
 
 
@@ -97,7 +107,7 @@ image: /assets/img/2024/main-page-image.webp
 
 
 
-    <div class="row mt-5 mx-auto responsive-padding">
+    <div id="training" class="row mt-5 mx-auto responsive-padding">
         <span class="display-6 text-center">
             Тренинг замещения привычки
         </span>
@@ -258,7 +268,7 @@ image: /assets/img/2024/main-page-image.webp
     </div>
 
 
-    <div class="row mt-5 mx-auto responsive-padding">
+    <div id="individual-therapy" class="row mt-5 mx-auto responsive-padding">
         <span class="display-6 text-center">
             Индивидуальная терапия
         </span>
@@ -292,7 +302,7 @@ image: /assets/img/2024/main-page-image.webp
     </div>
 
 
-    <div class="row mt-5 mx-auto responsive-padding">
+    <div id="call" class="row mt-5 mx-auto responsive-padding">
         <span class="display-6 text-center">
             Записаться
         </span>
