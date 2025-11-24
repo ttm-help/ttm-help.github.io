@@ -25,10 +25,7 @@ permalink: /faq.html
                 </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        <strong>Трихотилломания</strong> — это повторяющееся навязчивое действие, при котором человек выдёргивает свои волосы. Это может негативно влиять на качество жизни в социальной, профессиональной и личной сферах, и часто сопровождается безуспешными попытками подавить эти импульсы.<br>
-                        Трихотилломания включена в <strong>МКБ-10</strong>, <strong>МКБ-11</strong> (Одиннадцатый пересмотр Международной классификации болезней), разработанную Всемирной организацией здравоохранения (ВОЗ).<br>
-                        На моем сайте есть подробная статья о <a href="{% link _posts/2022/2022-12-21-trichotillomania.md %}">трихотилломании</a>, где вы можете узнать больше о симптомах, причинах и подходах к терапии.
-                    </p>
+                                           </p>
                 </div>
             </div>
             <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
@@ -37,9 +34,7 @@ permalink: /faq.html
                 </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Справиться с трихотилломанией <strong>возможно</strong>.<br>
-                        Если у вас есть сопутствующие психические расстройства, их лечение обычно становится приоритетным в терапии. После этого, при регулярной и последовательной работе с психотерапевтом, можно значительно снизить симптомы трихотилломании и улучшить качество жизни. Результаты зависят от индивидуальных особенностей и мотивации.
-                    </p>
+                                          </p>
                 </div>
             </div>
             <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
@@ -48,7 +43,6 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Основной способ лечения трихотилломании – психотерапия, в частности когнитивно-поведенческая терапия (КПТ), которая помогает контролировать привычку выдёргивания волос. В сложных ситуациях может назначаться медикаментозная поддержка у психиатра.
                     </p>
                 </div>
             </div>
@@ -58,11 +52,7 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Продолжительность терапии индивидуальна и зависит от ряда факторов: уровня организации психики, опыта предыдущей психотерапии, выраженности симптомов ТТМ, наличия сопутствующих проблем и вопросов, которые необходимо проработать. 
-                        В среднем терапия длится от 6 до 12 месяцев. 
-                        <br>
-                        <a href="{% link _posts/2023/2023-10-12-duration-of-therapy.md %}">Смотрите видео</a>, где я подробно рассказываю о сроках психотерапии и этапах работы.
-                    </p>
+                                          </p>
                 </div>
             </div>
             <div class="row" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question" class="mb-4">
@@ -71,7 +61,6 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Подробная информация обо мне, моем образовании и опыте работы доступна на странице <a href="{{'/about.html' | relative_url }}">«Обо мне»</a>.
                     </p>
                 </div>
             </div>
@@ -81,7 +70,6 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Подробную информацию о стоимости диагностической консультации и других услуг вы можете найти на странице <a href="/contact.html">«Стоимость услуг»</a>.
                     </p>
                 </div>
             </div>
@@ -101,7 +89,6 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Хороший интернет. Также мне необходимо будет видеть вас желательно до пояса/груди.
                     </p>
                 </div>
             </div>
@@ -111,7 +98,6 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Заполнить анкету и, если понадобится, пройти тесты.
                     </p>
                 </div>
             </div>
@@ -121,10 +107,7 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Конечно! <br>
-                        Для начала, мой случай является успешным - более 10 лет без возвращения к трихотилломании.<br>
-                        Также есть истории моих клиентов, которые прошли полный курс терапии. Время, необходимое для достижения результата, у каждого разное, но главное — это возможно. <br>
-                        Вы можете посмотреть <a href="/feedback.html">видео-интервью моих пациентов</a> или почитать их отзывы.
+                       
                     </p>
                 </div>
             </div>
@@ -134,7 +117,6 @@ permalink: /faq.html
                </h2>
                 <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                     <p itemprop="text">
-                        Связаться со мной вы можете при помощи контактов на <a href="{{'/contact.html' | relative_url }}">этой странице</a>.
                     </p>
                 </div>
             </div>

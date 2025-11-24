@@ -5,3 +5,52 @@ html {
 span {
   font-family: $font-family-base;
 }
+
+
+.step-line {
+    border-left: 1px solid #000;
+    height: 60px;
+    opacity: 0.4;
+
+    margin-left: 75px;
+}
+
+
+.responsive-padding {
+    padding-top: 150px;
+
+    @media (max-width: 767px) {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+}
+
+
+.display-7 {
+  font-size: 1.75rem;
+  font-weight: 300;
+  line-height: 1.75rem;
+
+  @media (min-width: 768px) {
+    font-size: 1.75rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {  /* md */
+  .border-start-md {
+    border-left: 1px solid #000 !important;
+  }
+
+  .border-end-md {
+    border-right: 1px solid #000 !important;
+  }
+}

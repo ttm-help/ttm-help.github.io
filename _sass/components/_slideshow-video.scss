@@ -1,0 +1,40 @@
+.slider-container {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-track {
+    display: flex;
+    gap: 20px;
+    transition: transform .4s ease;
+}
+
+.slide {
+    flex: 0 0 250px;
+    text-align: center;
+    transform: scale(.85);
+    opacity: .6;
+    transition: transform .3s, opacity .3s;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+}
+
+.slide.active {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.slider-buttons button {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 15%;
+    cursor: pointer;
+    font-size: 18px;
+}
