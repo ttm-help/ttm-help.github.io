@@ -16,5 +16,11 @@
     "description": "VK группа о трихотилломании с видео и другими материалами",
     "link": "https://vk.com/ttm.help",
     "image": "assets/images/social/vk.svg"
+  },
+  {
+    "name": "Дзен канал",
+    "description": "Дзен канал с информацией о трихотилломании",
+    "link": "https://dzen.ru/ttm_help",
+    "image": "assets/images/social/dzen.svg"
   }
 ]

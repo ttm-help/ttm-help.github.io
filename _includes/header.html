@@ -1,23 +1,35 @@
-<div class='header' id="navbar">
-    <div class="container">
-        <div class="d-flex gap-2">
-            <div class="logo-mobile d-block">
-                <a href="{{ site.url | relative_url }}">
-                    <img style="aspect-ratio:1/1; height:100%"
-                         alt="Логотип TTM Help"
-                         title="Сайт о лечении трихотилломании"
-                         src="{{ site.logo.mobile | relative_url }}"
-                         fetchpriority="high"
-                         loading="eager"
-                    ></a>
-            </div>
-            <div class="logo pr-1 pl-2 desktop-mode">
-                <a href="{{ site.url | relative_url }}">
-                    <span class="custom-title custom-title-disable ml-0">ttm help</span>
+<nav class="border-bottom border-1" style="height: 75">
+    <div class="container h-100">
+        <div class="d-flex align-items-center py-2 h-100">
+
+            <div class="d-flex align-items-center me-5">
+                <a href="/">
+                    <img
+                            src="/assets/images/logo/ttm-logo-main.svg"
+                            alt="Логотип TTM Help"
+                            title="Сайт о лечении трихотилломании"
+                            fetchpriority="high"
+                            loading="eager"
+                            style="height:40px; width:auto; object-fit:contain;"
+                    >
                 </a>
             </div>
+
+            <ul class="nav align-items-center fs-5">
+                {% assign mainmenu = site.data.menus.main %}
+                {% for item in mainmenu %}
+                <li class="nav-item me-4">
+                    <a href="{{ item.url | relative_url }}" title="{{ item.long_name }}" class="nav-link px-2">{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <div class="ms-auto">
+                <a class="btn btn-primary fs-5 px-5 menu-button"
+                   href="https://t.me/Konovalova_Oksana"
+                   target="_blank"
+                   title="{{ item.long_name }}">Написать</a>
+            </div>
         </div>
-        {% include main-menu.html %}
-        {% include hamburger.html %}
     </div>
-</div>
+</nav>
