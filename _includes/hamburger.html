@@ -1,10 +1,14 @@
-<button id="toggle-main-menu-mobile"
-        class="hamburger hamburger--elastic mobile-mode"
-        tabindex="0"
-        type="button"
-        aria-label="Mobile Menu">
-  <span class="hamburger-box">
-    <span class="hamburger-inner"></span>
-  </span>
-</button>
+<nav class="main-nav d-lg-none" id="main-nav" aria-label="Мобильное меню">
+  <ul>
+    {% assign mainmenu = site.data.menus.main %}
+    {% for item in mainmenu %}
+    <li>
+      <a href="{{ item.url | relative_url }}" title="{{ item.long_name }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
 
+    <li class="mt-4">
+      <a href="https://t.me/Konovalova_Oksana" target="_blank" rel="noopener">Написать</a>
+    </li>
+  </ul>
+</nav>

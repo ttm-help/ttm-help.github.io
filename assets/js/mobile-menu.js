@@ -1,13 +1,10 @@
-const XL_WIDTH = 1300;
-if (window.innerWidth < XL_WIDTH) {
-    window.addEventListener('load', () => {
-        const menuTrigger = document.querySelector('#toggle-main-menu-mobile');
-        const menuContainer = document.querySelector('#main-menu');
+window.addEventListener('load', () => {
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('main-nav');
 
-        menuTrigger.onclick = function () {
-            menuContainer.classList.toggle('open');
-            menuTrigger.classList.toggle('is-active')
-        }
-    })
-}
+    burger.addEventListener('click', () => {
+        burger.classList.toggle('is-open');
+        nav.classList.toggle('is-open');
+    });
+})
 

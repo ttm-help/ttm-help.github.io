@@ -1,10 +1,40 @@
-<div id="main-menu" class="main-menu main-menu-mobile">
-    <ul>
-        {% assign mainmenu = site.data.menus.main %}
-        {% for item in mainmenu %}
-            <li class="{% if item.url == page.url %}active{% endif %}">
-                <a href="{{ item.url | relative_url }}" title="{{ item.long_name }}" class="text-decoration-none">{{ item.name }}</a>
-            </li>
-        {% endfor %}
-    </ul>
-</div>
+<nav class="border-bottom border-1" style="height: 75px;">
+    <div class="container h-100">
+        <div class="d-flex align-items-center py-2 h-100">
+
+            <div class="d-flex align-items-center me-5">
+                <a href="/">
+                    <img
+                            src="/assets/images/logo/ttm-logo-main.svg"
+                            alt="Логотип TTM Help"
+                            title="Сайт о лечении трихотилломании"
+                            fetchpriority="high"
+                            loading="eager"
+                            class="site-logo"
+                    />
+                </a>
+            </div>
+
+            <ul class="nav align-items-center fs-5 d-none d-lg-flex">
+                {% assign mainmenu = site.data.menus.main %}
+                {% for item in mainmenu %}
+                <li class="nav-item me-4">
+                    <a href="{{ item.url | relative_url }}" title="{{ item.long_name }}" class="nav-link px-2">{{ item.name }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <div class="ms-auto d-none d-lg-block">
+                <a class="btn btn-primary fs-5 px-5 menu-button"
+                   href="https://t.me/Konovalova_Oksana"
+                   target="_blank"
+                   rel="noopener"
+                   title="Написать">Написать</a>
+            </div>
+
+            <button id="burger" class="open-main-nav d-lg-none ms-auto" type="button" aria-label="Открыть меню">
+                <span class="burger"></span>
+            </button>
+        </div>
+    </div>
+</nav>

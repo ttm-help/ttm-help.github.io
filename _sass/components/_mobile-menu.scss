@@ -1,0 +1,128 @@
+@include media-breakpoint-down(lg) {
+
+    .main-nav {
+        position: fixed;
+        inset: 0;
+        text-align: center;
+        background: transparent;
+        opacity: 0;
+        z-index: -1;
+        visibility: hidden;
+        transition: opacity .375s;
+        pointer-events: none;
+    }
+
+    .main-nav.is-open {
+        opacity: 1;
+        z-index: 2000;
+        visibility: visible;
+        pointer-events: auto;
+    }
+
+    .main-nav::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: $red-color;
+        transform-origin: 0 0;
+        transform: skew(-14deg) translateX(-120%);
+        transition: transform .275s .1s;
+    }
+
+    .main-nav.is-open::before {
+        transform: skew(-14deg) translateX(0);
+    }
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: flex-end;
+        justify-content: center;
+        padding-right: 10vw;
+        transform: translateX(-18%) skew(-16deg);
+    }
+
+    .main-nav li {
+        margin: .5rem 0;
+        text-align: right;
+        transform: skew(16deg);
+        list-style: none;
+    }
+
+    .main-nav a {
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: all .275s;
+        color: white;
+        font-size: 1.4em;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 12px 0;
+        display: block;
+    }
+
+    .main-nav.is-open a {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .main-nav li:nth-child(1) a { transition-delay: 175ms }
+    .main-nav li:nth-child(2) a { transition-delay: 225ms }
+    .main-nav li:nth-child(3) a { transition-delay: 275ms }
+    .main-nav li:nth-child(4) a { transition-delay: 325ms }
+    .main-nav li:nth-child(5) a { transition-delay: 375ms }
+
+    .open-main-nav {
+        position: relative;
+        z-index: 3000;
+        background: none;
+        border: 0;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+    }
+
+    .burger {
+        width: 28px;
+        height: 4px;
+        background: black;
+        position: relative;
+        display: block;
+        transition: all .275s;
+    }
+
+    .burger::before,
+    .burger::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        transition: all .275s;
+    }
+
+    .burger::before {
+        top: -8px;
+        transform: skew(-10deg);
+    }
+
+    .burger::after {
+        top: 8px;
+        transform: skew(-20deg);
+    }
+
+    .is-open .burger {
+        transform: rotate(-37deg);
+    }
+
+    .is-open .burger::before {
+        transform: rotate(75deg);
+        top: 0;
+    }
+
+    .is-open .burger::after {
+        opacity: 0;
+    }
+}
