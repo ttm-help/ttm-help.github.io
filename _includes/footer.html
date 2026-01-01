@@ -5,18 +5,18 @@
             <div class="col-12 col-lg-3">
                 <div class="fw-bold fs-3">TTM HELP</div>
 
-                <p class="text-muted mt-3 mb-0" style="max-width: 320px;">
+                <p class="text-muted mt-3 mb-0">
                     КОНОВАЛОВА ОКСАНА
                 </p>
-                <p class="text-muted mb-0" style="max-width: 320px;">
+                <p class="text-muted mb-2" >
                     Клинический психолог
                 </p>
 
-                <p class="text-muted mb-0" style="max-width: 320px;">
+                <p class="text-muted mb-0">
                     Помощь в лечении трихотилломании
                 </p>
 
-                <p class="text-muted mt-2">
+                <p class="text-muted mt-3">
                     ИНН 645293010504
                 </p>
 
@@ -29,33 +29,34 @@
                 <div class="row gy-4">
 
                     <div class="col-6 col-md-3">
-                        <div class="fw-semibold mb-3">Материалы</div>
-                        <ul class="list-unstyled text-muted">
-                            {% assign categories = site.data.categories.list %}
-                            {% for category in categories %}
-                                <li class="mb-3"><a href="{{ category.url | relative_url }}" class="text-decoration-none text-muted">{{ category.name }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-
-                    <div class="col-6 col-md-3">
                         <div class="fw-semibold mb-3">Разделы сайта</div>
                         <ul class="list-unstyled text-muted">
                             {% assign mainmenu = site.data.menus.main %}
                             {% for item in mainmenu %}
-                            <li class="mb-2">
+                            <li class="mb-3">
                                 <a href="{{ item.url | relative_url }}" class="text-decoration-none text-muted">{{ item.name }}</a>
                             </li>
                             {% endfor %}
                         </ul>
                     </div>
 
+                    <div class="col-6 col-md-3">
+                        <div class="fw-semibold mb-3">Материалы</div>
+                        <ul class="list-unstyled text-muted">
+                            {% assign categories = site.data.categories.list %}
+                            {% for category in categories %}
+                                <li class="mb-3">
+                                    <a href="{{ category.url | relative_url }}" class="text-decoration-none text-muted">{{ category.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
 
                     <div class="col-6 col-md-3">
                         <div class="fw-semibold mb-3">Социальные сети</div>
                         <ul class="list-unstyled text-muted">
                             {% for item in site.data.social %}
-                            <li class="mb-2">
+                            <li class="mb-3">
                                 <a href="{{ item.link }}"
                                    rel="nofollow"
                                    target="_blank"
@@ -68,12 +69,11 @@
                         </ul>
                     </div>
 
-
                     <div class="col-6 col-md-3">
                         <div class="fw-semibold mb-3">Документы</div>
                         <ul class="list-unstyled text-muted">
-                            <li class="mb-2"><a href="/assets/docs/privacy-policy.pdf" rel="nofollow" target="_blank" class="text-decoration-none text-muted">Политика конфиденциальности</a></li>
-                            <li class="mb-2"><a href="/assets/docs/user-agreement.pdf" rel="nofollow" target="_blank" class="text-decoration-none text-muted">Пользовательское соглашение</a></li>
+                            <li class="mb-2"><a href="/assets/docs/privacy-policy.pdf" target="_blank" class="text-decoration-none text-muted">Политика конфиденциальности</a></li>
+                            <li class="mb-2"><a href="/assets/docs/user-agreement.pdf" target="_blank" class="text-decoration-none text-muted">Пользовательское соглашение</a></li>
                         </ul>
                     </div>
                 </div>
