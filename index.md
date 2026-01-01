@@ -40,6 +40,35 @@ image: /assets/img/2024/main-page-image.webp
 
 </div>
 
+<div class="adaptive-video-padding">
+    <section class="video-scroll">
+        <div class="video-sticky">
+            <div class="video-card" id="welcomeVideo">
+                <video class="video" playsinline muted loop preload="metadata" poster="/assets/img/2024/kasia-serbin-UxcRjTtzLXw-unsplash-1.webp">
+                    <source src="/assets/videos/welcome-video.mp4" type="video/mp4"/>
+                </video>
+
+                <button class="play-pill fs-6" type="button" aria-label="Смотреть видео">
+                    ▶︎ Смотреть
+                </button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container adaptive-video-padding">
+        <div class="fs-4 mb-4">
+            <p>
+                Меня зовут Оксана Коновалова, я клинический психолог, специализируюсь на лечении трихотилломании. Сама страдала ТТМ с 3 летнего возраста, поэтому понимаю проблему изнутри. Практикую более 10 лет.
+            </p>
+        </div>
+        <div class="fs-4">
+            <p>
+                В работе использую научно-доказанные методы: когнитивно-поведенческая терапия (КПТ), диалектико-поведенческая терапия (ДБТ), терапия принятия и ответственности (АСТ). 
+            </p>
+        </div>
+    </section>
+</div>
+
 
 <script>
 (function () {
