@@ -3,14 +3,14 @@ const QUESTIONS = [
             text: ``
         },
         {
-            text: `<p>
+            text: `<p class="fs-4 mt-4">
             Для каждого вопроса выберите одно утверждение из группы,
             которое лучше всего описывает ваше поведение и/или чувства на прошлой неделе.
             </p>
-            <p>
+            <p class="fs-5">
             Если у вас были спады и усиления симптомов, попробуйте оценить среднее значение за последнюю неделю.
             </p>
-            <p>
+            <p class="fs-5">
             <u>Обязательно</u> прочитайте все утверждения в каждой группе, прежде чем сделать свой выбор.
             </p>
             `
@@ -250,10 +250,10 @@ function questionFunction() {
             id: 'question'
         });
 
-        const header = $(`<h3>${QUESTIONS[index].title}</h3>`);
+        const header = $(`<p class="fs-3 fw-bold mt-3">${QUESTIONS[index].title}</h3>`);
         qElement.append(header);
 
-        const question = $('<p>').append(QUESTIONS[index].question);
+        const question = $('<p class="fs-4">').append(QUESTIONS[index].question);
         qElement.append(question);
 
         const radioButtons = createRadios(index);
@@ -267,7 +267,7 @@ function questionFunction() {
         let item;
         let input = '';
         for (let i = 0; i < QUESTIONS[index].choices.length; i++) {
-            item = $('<div class="py-2">');
+            item = $('<div class="py-2 fs-5">');
             radioList.append(item);
             nestedBlock = $('<div class="form-check" style="display:flex;align-items:center;">');
             item.append(nestedBlock);
@@ -304,14 +304,19 @@ function questionFunction() {
     }
 
     function getQuestionTip(textTip) {
-        const score = $('<p>', {id: 'question'});
+        const score = $('<p>', {
+            id: 'question',
+            class: "fs-4 mt-4"
+        });
         score.append(textTip);
         return score;
     }
 
     function showScore() {
 
-        const score = $('<p>', {id: 'question'});
+        const score = $('<div>', {
+            id: 'question'
+        });
         let totalScore = 0;
         for (let i = 0; i < SELECTIONS.length; i++) {
             if (Number.isInteger(SELECTIONS[i]))
@@ -319,9 +324,9 @@ function questionFunction() {
         }
         const percentage = getPercentage(totalScore);
 
-        score.append($(`<p>У вас <strong>${totalScore}</strong> баллов.</p>`));
-        score.append($(`<p>${getTipText(percentage)}</p>`));
-        score.append($(`<p>Пройдите этот тест через какой-то промежуток 
+        score.append($(`<p class="fs-3">У вас <strong>${totalScore}</strong> баллов.</p>`));
+        score.append($(`<p class="fs-4">${getTipText(percentage)}</p>`));
+        score.append($(`<p class="fs-4">Пройдите этот тест через какой-то промежуток
                     времени для того, чтобы определить улучшение или ухудшение своего состояния.</p>`));
 
         quiz.append(score).fadeIn();
@@ -329,7 +334,7 @@ function questionFunction() {
 
         const progressBarDiv = $('#progress-bar');
         progressBarDiv.append(`
-            <div class="progress mb-1">
+            <div class="progress mb-1 mt-3">
                 <div class="progress-bar ${getBarColour(percentage)}" 
                      role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0"
                      aria-valuemax="100"></div>
