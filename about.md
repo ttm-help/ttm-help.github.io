@@ -67,12 +67,14 @@ certificates:
 - Когнитивно-поведенческая психотерапия (Академия профессиональных стандартов)
 - Тренер навыков ДБТ (Международная академия научной психологии)
 
-<div class="row">
+<div class="row justify-content-center">
     {% for item in page.certificates %}
-        <div class="col-md-3">
-            <a href="{{ item.key }}">
-                <img src="{{ item.key }}" loading="lazy"
+        <div class="col-12 col-md-3 d-flex justify-content-center mb-4">
+            <a href="{{ item.key }}" class="d-block w-100 text-center">
+                <img src="{{ item.key }}"
+                     loading="lazy"
                      alt="{{ item.value }}"
+                     class="img-fluid mx-auto d-block"
                      width="{% imagesize item.key:width %}"
                      height="{% imagesize item.key:height %}">
             </a>

@@ -1,66 +1,58 @@
-<div class="row mx-auto my-auto justify-content-center">
-    <div id="feedbackCarousel" class="carousel slide">
-        <div class="carousel-inner">
-            {% assign images = site.data.feedback.image %}
-            {% for item in images %}
+<div id="feedbackSlider" class="image-slider-container">
 
-
-            <div class="carousel-item {% if forloop.index == 1 %} active {% endif %}">
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img class="d-block"
-                             loading="lazy"
-                             src="{{ item.url | relative_url }}" alt="{{ item.alt }}">
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
+    <div class="image-slider-track">
+        {% assign images = site.data.feedback.image %}
+        {% for item in images %}
+        <div class="image-slide">
+            <img
+                    src="{{ item.url | relative_url }}"
+                    alt="{{ item.alt }}"
+                    title="{{ item.alt }}"
+                    loading="lazy"
+            >
         </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        {% endfor %}
     </div>
+
+    <div class="image-slider-buttons text-center mt-0 mt-md-4">
+        <button class="image-slider-prev" type="button">←</button>
+        <button class="image-slider-next" type="button">→</button>
+    </div>
+
 </div>
 
 <script>
-    window.addEventListener('load', () => {
-        var multipleCardCarousel = document.querySelector("#feedbackCarousel");
+    (function () {
+      const root = document.getElementById("feedbackSlider");
+      if (!root) return;
 
-        if (window.matchMedia("(min-width: 768px)").matches) {
-            var carousel = new bootstrap.Carousel(multipleCardCarousel, {
-                interval: false,
-            });
-            var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-            var cardWidth = $(".carousel-item").width();
-            var scrollPosition = 0;
-            $("#feedbackCarousel .carousel-control-next").on("click", function() {
-                if (scrollPosition < carouselWidth - cardWidth * 4) {
-                    scrollPosition += cardWidth;
-                    $("#feedbackCarousel .carousel-inner").animate({
-                            scrollLeft: scrollPosition
-                        },
-                        600
-                    );
-                }
-            });
-            $("#feedbackCarousel .carousel-control-prev").on("click", function() {
-                if (scrollPosition > 0) {
-                    scrollPosition -= cardWidth;
-                    $("#feedbackCarousel .carousel-inner").animate({
-                            scrollLeft: scrollPosition
-                        },
-                        600
-                    );
-                }
-            });
-        } else {
-            $(multipleCardCarousel).addClass("slide");
-        }
-    });
+      const track = root.querySelector(".image-slider-track");
+      const slides = Array.from(root.querySelectorAll(".image-slide"));
+      const prevBtn = root.querySelector(".image-slider-prev");
+      const nextBtn = root.querySelector(".image-slider-next");
+
+      let current = 0;
+
+      function getGap() {
+        return parseFloat(getComputedStyle(track).gap) || 0;
+      }
+
+      function update() {
+        const slideW = slides[0].offsetWidth + getGap();
+        track.style.transform = `translateX(-${slideW * current}px)`;
+      }
+
+      nextBtn.addEventListener("click", () => {
+        current = (current + 1) % slides.length;
+        update();
+      });
+
+      prevBtn.addEventListener("click", () => {
+        current = (current - 1 + slides.length) % slides.length;
+        update();
+      });
+
+      window.addEventListener("resize", update);
+      update();
+    })();
 </script>
