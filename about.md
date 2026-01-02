@@ -20,7 +20,8 @@ certificates:
 
 <div class="row align-items-start">
     <div class="col-md-6">
-      <img src="/assets/images/illustrations/about-photo.webp" class="img-fluid" alt="Оксана Коновалова – клинический психолог, психотерапевт">
+      <img src="/assets/images/illustrations/about-photo.webp" 
+          class="img-fluid rounded-3 shadow" alt="Оксана Коновалова – клинический психолог, психотерапевт">
     </div>
     <div class="col-md-6 mt-3">
       <p>Меня зовут <strong>Оксана</strong>, мне {{ age }} лет. Работаю с 2012 года в направлениях КПТ, ДБТ и ACT терапии.</p>
@@ -69,12 +70,12 @@ certificates:
 
 <div class="row justify-content-center">
     {% for item in page.certificates %}
-        <div class="col-12 col-md-3 d-flex justify-content-center mb-4">
+        <div class="col-12 col-md-4 d-flex justify-content-center mb-4">
             <a href="{{ item.key }}" class="d-block w-100 text-center">
                 <img src="{{ item.key }}"
                      loading="lazy"
                      alt="{{ item.value }}"
-                     class="img-fluid mx-auto d-block"
+                     class="img-fluid mx-auto d-block shadow"
                      width="{% imagesize item.key:width %}"
                      height="{% imagesize item.key:height %}">
             </a>
@@ -82,12 +83,11 @@ certificates:
     {% endfor %}
 </div>
 
+
 ## Мои публикации:
 - Коновалова О.В. Трихотилломания: // Вестник Трихологии - интернет журнал союза трихологов. 2023.
   URL: <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" rel="nofollow" target="_blank">http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php</a>.
 
-## Контакты
-
-<div class="mb-4">
+<div class="mb-4 mt-5">
     {% include call.html %}
 </div>>
