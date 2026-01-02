@@ -1,32 +1,37 @@
 {% for category in site.categories %}
-    <div class="mb-1">
-        <div class="row">
-            {% assign category_name = category | first %}
-            {% for site_category in site.data.categories.list %}
-                {% if site_category.name == category_name %}
-                    <h2>
-                        <a href="{{ site_category.url }}" class="icon-link icon-link-hover">
-                            {{ category_name }}
-                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor"
-                                 class="bi bi-arrow-bar-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd"
-                                      d="M6 8a.5.5 0 0 0 .5.5h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L12.293 7.5H6.5A.5.5 0 0 0 6 8m-2.5 7a.5.5 0 0 1-.5-.5v-13a.5.5 0 0 1 1 0v13a.5.5 0 0 1-.5.5"/>
-                            </svg>
-                        </a>
-                    </h2>
-                {% endif %}
-            {% endfor %}
-        </div>
-        <div class="row">
-            {% assign sorted_posts = category.last | sort: "date" | reverse %}
-            {% for post in sorted_posts limit:4 %}
-                <div class="col-md-3">
-                   <a href="{{ post.url }}" class="text-reset">
-                       <img src="{{ post.image }}" title="{{post.title}}" alt="{{ post.description | smartify }}">
-                       <span class="h5">{{ post.title | smartify }}</span>
-                   </a>
-                </div>
-            {% endfor %}
-        </div>
+<div class="mb-5">
+    <div class="row">
+        {% assign category_name = category | first %}
+        {% for site_category in site.data.categories.list %}
+            {% if site_category.name == category_name %}
+                <a href="{{ site_category.url }}"
+                   class="hover-slide text-decoration-none d-flex align-items-center gap-2 align-self-center align-self-sm-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-bookmark-star" viewBox="0 0 16 16">
+                        <path d="M7.84 4.1a.178.178 0 0 1 .32 0l.634 1.285a.18.18 0 0 0 .134.098l1.42.206c.145.021.204.2.098.303L9.42 6.993a.18.18 0 0 0-.051.158l.242 1.414a.178.178 0 0 1-.258.187l-1.27-.668a.18.18 0 0 0-.165 0l-1.27.668a.178.178 0 0 1-.257-.187l.242-1.414a.18.18 0 0 0-.05-.158l-1.03-1.001a.178.178 0 0 1 .098-.303l1.42-.206a.18.18 0 0 0 .134-.098z"/>
+                        <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                    </svg>
+                    <span class="text-black fs-3"> {{ category_name }}</span>
+                </a>
+            {% endif %}
+        {% endfor %}
     </div>
+    <div class="row g-3">
+        {% assign sorted_posts = category.last | sort: "date" | reverse %}
+        {% for post in sorted_posts limit:4 %}
+        <div class="col-12 col-md-3">
+            <a href="{{ post.url }}" class="text-decoration-none d-block">
+
+                <div class="ratio ratio-16x9 rounded overflow-hidden mb-2">
+                    <img src="{{ post.image }}"
+                         class="w-100 h-100 object-fit-cover"
+                         alt="{{ post.description | smartify }}"
+                         title="{{ post.title }}">
+                </div>
+
+                <p class="fs-6">{{ post.title | smartify }}</p>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endfor %}

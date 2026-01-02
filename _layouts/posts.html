@@ -2,13 +2,12 @@
 layout: default
 ---
 
-<div class="container pb-2 pt-md-5 pt-1 pb-5">
+<div class="container mt-5">
     <div class="content">
-        <h1>{{ page.title }}</h1>
-        <div class="row content">
-            <p class="mb-0">{{ page.text }}</p>
+        <p class="fs-1">{{ page.title }}</p>
+        <div class="row content border-bottom pb-3 mb-3">
+            <p class="mb-0 fs-5">{{ page.text }}</p>
         </div>
-        <hr class="border-black border-1 opacity-75">
         <div class="row mb-5">
             {% include categories-menu.html %}
         </div>

@@ -3,10 +3,10 @@ layout: default
 ---
 <div class="container pt-2 pb-5">
     <div class="content">
-        <h1>{{ page.title }}</h1>
+        <p class="fs-1 mt-5">{{ page.title }}</p>
         {% if page.text %}
             <div class="row">
-                <p>
+                <p class="fs-5">
                     {{page.text}}
                 </p>
             </div>
@@ -18,13 +18,18 @@ layout: default
                 {% assign page_category = page.category_name %}
 
                 {% if page_category == site_category %}
-                    <div class="row">
+                    <div class="row g-3">
                         {% assign sorted_posts = category | last | sort: "date" | reverse %}
                         {% for post in sorted_posts %}
-                        <div class="col-md-3">
-                            <a href="{{ post.url }}" class="text-reset">
-                                <img src="{{ post.image }}" title="{{post.title}}" alt="{{ post.description | smartify}}">
-                                <h6>{{ post.title | smartify }}</h6>
+                        <div class="col-12 col-md-3">
+                            <a href="{{ post.url }}" class="text-reset text-decoration-none d-block">
+                                <div class="ratio ratio-16x9 rounded overflow-hidden mb-2">
+                                    <img src="{{ post.image }}"
+                                         class="w-100 h-100 object-fit-cover"
+                                         title="{{ post.title }}"
+                                         alt="{{ post.description | smartify }}">
+                                </div>
+                                <p class="mb-0 fs-6">{{ post.title | smartify }}</p>
                             </a>
                         </div>
                         {% endfor %}
