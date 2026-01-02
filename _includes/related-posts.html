@@ -29,13 +29,13 @@
         {% endfor %}
     {% endif %}
 
-    <div class="row col">
-        <h2 class="weight-bold mb-1" style="font-size: x-large">
+    <div class="row col mb-3">
+        <h2 class="weight-bold mb-1">
             {% if page.category %}
                 {% if category_url %}
-                    <a href="{{ category_url }}">{{ page.category }}</a>
+                    <a href="{{ category_url }}" class="text-decoration-none text-black">{{ page.category }}</a>
                 {% else %}
-                    <a href="{% link posts.md %}">{{ page.category }}</a>
+                    <a href="{% link posts.md %}" class="text-decoration-none text-black">{{ page.category }}</a>
                 {% endif %}
             {% endif %}
         </h2>

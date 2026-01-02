@@ -9,12 +9,12 @@ layout: default
               <nav aria-label="breadcrumb">
                   <ol class="breadcrumb">
                       <li class="breadcrumb-item">
-                          <a href="{% link posts.md %}">Статьи</a>
+                          <a class="text-black" href="{% link posts.md %}">Статьи</a>
                       </li>
                       {% for site_category in site.data.categories.list %}
                             {% if site_category.name == page.category %}
                                 <li class="breadcrumb-item">
-                                    <a href="{{ site_category.url }}">{{ site_category.name }}</a>
+                                    <a class="text-black" href="{{ site_category.url }}">{{ site_category.name }}</a>
                                 </li>
                             {% endif %}
                       {% endfor %}
@@ -26,7 +26,8 @@ layout: default
               </span>
 
               <div class="content">
-                {% include toc.html html=content flat_toc=true %}
+                <p class="fs-3">Содержимое</p>
+                {% include toc.html html=content flat_toc=true anchor_class="text-decoration-none" item_class="mb-2" %}
               </div>
               <div class="content">{{content}}</div>
 
