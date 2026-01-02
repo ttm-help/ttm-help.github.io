@@ -6,24 +6,6 @@
 	overflow-wrap: break-word;
 }
 
-.cta-btn {
-	font-size: clamp(0.95rem, 2.8vw, 1.25rem);
-	padding: clamp(10px, 2.6vw, 14px) clamp(16px, 4.2vw, 48px);
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	gap: 10px;
-	line-height: 1.1;
-	white-space: normal;
-	text-align: center;
-}
-
-.cta-btn svg {
-	width: clamp(18px, 5vw, 30px);
-	height: clamp(18px, 5vw, 30px);
-	flex: 0 0 auto;
-}
-
 @keyframes maskReveal {
   from {
     clip-path: inset(0 100% 0 0);

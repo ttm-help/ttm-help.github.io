@@ -5,16 +5,19 @@
   overflow: hidden;
 }
 
-.nav-pills .nav-link.active {
-  --bs-nav-pills-link-active-color: inherit;
-  --bs-nav-pills-link-active-bg: transparent;
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.show,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover {
+  color: #fff !important;
+  background-color: $red-color;
 }
 
 .active-bg {
   position: absolute;
   left: 4px;
   height: calc(100% - 31px);
-  background-color: $primary;
+  background-color: $red-color;
   border-radius: 10px;
   transition: all 0.3s ease;
   z-index: 1;
