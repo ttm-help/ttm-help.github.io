@@ -39,7 +39,7 @@ certificates:
 
 ## Что я предлагаю:
 
-- <a href="https://t.me/ttm_help_ru" rel="nofollow" target="_blank">Канал ТТМ в телеграм</a>, где я размещаю статьи, переводы выступлений зарубежных коллег
+- <a href="https://t.me/ttm_help_ru" target="_blank" rel="nofollow noopener">Канал ТТМ в телеграм</a>, где я размещаю статьи, переводы выступлений зарубежных коллег
   в области ТТМ и разные полезные материалы,
 - [Диагностическая консультация](/contact.html), где вы заполняете подробную анкету о своем заболевании, мы общаемся более
   подробно на сессии, и я даю список рекомендаций по лечению ТТМ конкретно у вас,
@@ -86,7 +86,7 @@ certificates:
 
 ## Мои публикации:
 - Коновалова О.В. Трихотилломания: // Вестник Трихологии - интернет журнал союза трихологов. 2023.
-  URL: <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" rel="nofollow" target="_blank">http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php</a>.
+  URL: <a href="http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php" target="_blank" rel="nofollow noopener">http://www.trichology.pro/articles/vracham-spetsialistam/ttm.php</a>.
 
 <div class="mb-4 mt-5">
     {% include call.html %}
