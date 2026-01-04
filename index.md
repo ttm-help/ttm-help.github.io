@@ -31,7 +31,7 @@ image: /assets/img/2024/main-page-image.webp
             Обратиться за помощью
         </a>
     
-        <a href="https://vk.com/ttm.help"
+        <a href="https://t.me/ttm_help_ru"
             class="hover-slide text-decoration-none d-flex align-items-center gap-2 align-self-center align-self-sm-center"
             target="_blank" rel="nofollow noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="bi bi-telegram" viewBox="0 0 16 16" aria-hidden="true">
